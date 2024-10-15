@@ -1,0 +1,53 @@
+{
+	"name" : "Undead Sphinxes",
+	"description" : "Three new neutral creatures: Haunted Sphinx, Undead Sphinx and Mad Mummies",	
+	"author" : "witchking, fiorin, Trith, avatar, Andruids, fred79",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.05",
+	"modType" : "Creatures",	
+	
+	"creatures" :
+	[
+		"config/entombedSphinx",
+		"config/ashenSphinx",
+		"config/madMummy"
+	],
+	"objects" : 
+	[ 
+		"config/pestilentPyramid"
+	],
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	"changelog" :
+    {
+		"1.05"   : [ "Czech translation by George King" ],
+		"1.04"   : [ "Russian translation by Anton Sergeew" ],
+		"1.03"   : [ "Graphical fixes for Mad Mummy by Dalion" ],
+		"1.02"   : [ "Update for vcmi-1.2 format" ],
+		"1.01"   : [ "Small update for vcmi-1.2" ],
+		"1.00"   : [ "Initial release" ]
+    },
+	"chinese" : {
+		"name" : "不死斯芬克斯",
+		"description" : "两个新中立生物：灰烬斯芬克斯和陵墓斯芬克斯",
+		"translations" : [
+			"translation/undead-sphinxes/chinese.json"
+		]
+    },
+	"russian" : {
+		"name" : "Немертвые сфинксы",
+		"description" : "Два новых нейтральных существа: Пепельный Сфинкс и Погребальный Сфинкс.",
+		"translations" : [
+			"translation/undead-sphinxes/russian.json"
+		]
+	},
+	"czech" : {
+		"name" : "Nemrtvé sfingy",
+		"description" : "Tři nové neutrální jednotky s Morovou pyramidou",
+		"translations" : [
+			"translation/undead-sphinxes/czech.json"
+		]
+	}
+}

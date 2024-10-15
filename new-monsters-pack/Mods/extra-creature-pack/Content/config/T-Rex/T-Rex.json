@@ -1,0 +1,73 @@
+{
+	"expTRex":
+	{
+		"advMapAmount" :
+		{
+			"max" : 6,
+			"min" : 4
+		},
+		"faction": "neutral",
+		"aiValue" : 3500,
+		"fightValue" : 3200,
+		"attack" : 24,
+		"defense" : 27,
+		"cost" :
+		{
+			"gold" : 4000,
+			"mercury": 2
+		},
+		"damage" :
+		{
+			"min" : 32,
+			"max" : 45
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "battle/T-Rex.def",
+			"map" : "map/T-Rex.def",
+			"iconSmall" : "iconsSmall/T-Rex.bmp",
+			"iconLarge" : "iconsBig/T-Rex.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 250,
+		"doubleWide" : true,
+		"growth" : 1,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "TREXATTK.wav",
+			"defend": "TREXDFND.wav",
+			"killed": "TREXKILL.wav",
+			"move": "TREXMOVE.wav",
+			"wince": "TREXWNCE.wav"
+		},
+		"abilities" :
+		{
+			"reduceDefence":
+			{	
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val": 30
+			},
+			"fearless":
+			{
+				"type" : "FEARLESS" 					
+			},
+			"nomorale":
+			{
+				"type" : "NO_MORALE" 					
+			},	
+                  "spellImmunity" :
+                  {
+                "type" : "LEVEL_SPELL_IMMUNITY",
+                "val" : 2           				
+			}			
+		}
+	}
+}

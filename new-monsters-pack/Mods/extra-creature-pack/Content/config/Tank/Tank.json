@@ -1,0 +1,72 @@
+{
+	"expTank":
+	{
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"faction": "neutral",
+		"aiValue" : 1600,
+		"fightValue" : 1400,
+		"attack" : 17,
+		"defense" : 20,
+		"cost" :
+		{
+			"gold" : 1400
+		},
+		"damage" :
+		{
+			"min" : 20,
+			"max" : 25
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "battle/Tank.def",
+			"map" : "map/tank.def",
+			"iconSmall" : "iconsSmall/Tank.bmp",
+			"iconLarge" : "iconsBig/Tank.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 120,
+		"doubleWide" : true,
+		"growth" : 2,
+		"level" : 6,
+		"sound" :
+		{
+			"attack" : "TANKATTK.wav",
+			"defend" : "TANKDFND.wav",
+			"killed" : "TANKKILL.wav",
+			"move" : "TANKMOVE.wav",
+			"wince" : "TANKWNCE.wav"
+		},
+		"abilities" :
+		{
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"noLuck":
+			{
+				"type" : "NO_LUCK" 					
+			},
+			"noMorale":
+			{
+				"type" : "NO_MORALE" 					
+			},	
+			"castWeakness":
+			{	
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness", 
+				"val" : 60
+			}
+		}
+	}
+}

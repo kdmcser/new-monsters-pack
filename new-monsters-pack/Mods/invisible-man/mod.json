@@ -1,0 +1,42 @@
+{
+	"name" : "Invisible Man",
+	"description" : "New unit - Invisible Man",
+	"author": "Graphics and mod: avatar",
+	"contact": "https://www.forum.acidcave.net/topic.php?TID=2961",
+	"version" : "1.2",
+	"modType" : "Creatures",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ],
+		"1.1"   : [ "Update to vcmi-1.4 format" ],
+		"1.2"   : [ "Czech translation by George King" ]
+	},
+	"chinese" : {
+		"name" : "隐形人",
+		"description" : "新单位：隐形人",
+		"translations" : [
+			"translation/invisible man/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Neviditelný člověk",
+		"description" : "Nová jednotka: Neviditelný člověk",
+		"translations" : [
+			"translation/invisible man/czech.json"
+		]
+	},
+	"creatures" :
+	[
+		"config/invisibleMan.json"
+	],
+	"objects" :
+    [ 
+		"config/quarkPalace"
+    ]
+}

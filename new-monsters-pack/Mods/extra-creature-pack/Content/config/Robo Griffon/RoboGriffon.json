@@ -1,0 +1,73 @@
+{
+	"expRoboGriffon":
+	{
+		"name" :
+		{
+			"plural" : "Robo Griffons",
+			"singular" : "Robo Griffon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "neutral",
+		"aiValue" : 675,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 675,
+		"graphics" :
+		{
+			"animation" : "battle/RoboGriffon.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "map/RoboGriffon.def",
+			"iconSmall" : "iconsSmall/RoboGriffon.bmp",
+			"iconLarge" : "iconsBig/RoboGriffon.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"upgrades":
+		[
+			"expRoboGriffAssu"
+		],
+		"sound" :
+		{
+			"attack" : "RBGFATTK.wav",
+			"defend" : "RBGFDFND.wav",
+			"killed" : "RBGFKILL.wav",
+			"move" : "RBGFMOVE.wav",
+			"wince" : "RBGFWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"flying" :
+			{
+				"type" : "FLYING"
+			},
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+
+		}
+	}
+}

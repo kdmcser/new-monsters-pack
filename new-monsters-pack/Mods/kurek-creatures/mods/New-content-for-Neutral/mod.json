@@ -1,0 +1,12 @@
+{
+	"author" : "Kurek",
+	"contact" : "",
+	"description" : "Adds new neutral creatures",
+	"modType" : "Creatures",
+	"name" : "New Neutral Content",
+	"version" : "2.1",
+	"czech" : {
+		"name" : "Nové neutrální jednotky",
+		"description" : "Přidává nové neutrální jednotky"
+	}
+}

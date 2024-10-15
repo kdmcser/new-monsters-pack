@@ -1,0 +1,65 @@
+{
+  "raDwarfGuard": {
+    "name": {
+      "plural": "Dwarfs Guards",
+      "singular": "Dwarfs Guard"
+    },
+    "advMapAmount": {
+      "max": 18,
+      "min": 8
+    },
+    "faction": "rampart",
+    "aiValue" : 308,
+    "attack": 9,
+    "cost": {
+      "gold": 250
+    },
+    "damage": {
+      "max": 5,
+      "min": 4
+    },
+    "defense": 10,
+    "fightValue" : 365,
+    "graphics": {
+      "animation" : "dwarf/battle/guard.def",		
+      "map" : "dwarf/map/guardmap.def",
+      "iconSmall" : "dwarf/iconsSmall/guard.bmp",
+      "iconLarge" : "dwarf/iconsBig/guard.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.20,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "hasDoubleWeek": true,
+    "growth": 7,
+    "hitPoints": 30,
+    "level": 3,
+    "sound": {
+      "attack": "BDRFATTK.wav",
+      "defend": "BDRFDFND.wav",
+      "killed": "BDRFKILL.wav",
+      "move": "BDRFMOVE.wav",
+      "wince": "BDRFWNCE.wav"
+    },
+    "speed": 6,
+     "abilities" :
+		{
+			"resistance":
+			{
+				"type" : "MAGIC_RESISTANCE", 
+				"val" : 20 	
+			},
+			"immuneToArrow" : 
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 30
+			}	
+		}
+	}
+}
+
+
+	

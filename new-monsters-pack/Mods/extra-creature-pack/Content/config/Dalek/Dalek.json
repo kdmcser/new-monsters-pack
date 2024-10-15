@@ -1,0 +1,94 @@
+{
+	"expDalek":
+	{
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"faction": "neutral",
+		"aiValue" : 1200,
+		"fightValue" : 1200,
+		"attack" : 14,
+		"defense" : 16,
+		"cost" :
+		{
+			"gold" : 850
+		},
+		"damage" :
+		{
+			"min" : 16,
+			"max" : 20
+		},
+		"speed" : 6,
+		"graphics" :
+		{
+			"animation" : "battle/Dalek.def",
+			"map" : "map/Dalek.def",
+			"iconSmall" : "iconsSmall/Dalek.bmp",
+			"iconLarge" : "iconsBig/Dalek.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			},
+            	"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 75,
+		"doubleWide" : true,
+		"upgrades":
+		[
+			"expGroundDalek"
+		],				
+		"growth" : 2,
+		"level" : 6,
+		"shots" : 18,		
+		"sound" :
+		{
+			"attack": "DALKATTK.wav",
+			"defend": "DALKDFND.wav",
+			"killed": "DALKKILL.wav",
+			"move": "DALKMOVE.wav",	
+			"shoot": "DALKSHOT.wav",			
+			"wince": "DALKWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"fly":
+			{
+				"type" : "FLYING" 					
+			},
+			"drainsLife" : 
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 80
+			}				
+		}
+	}
+}
+
+

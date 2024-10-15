@@ -1,0 +1,78 @@
+{
+	"expMonstrousMimic":
+	{
+		"advMapAmount" :
+		{
+			"max" : 15,
+			"min" : 12
+		},
+		"faction": "neutral",
+		"aiValue" : 840,
+		"fightValue" : 765,
+		"attack" : 13,
+		"defense" : 15,
+		"cost" :
+		{
+			"gold" : 540
+		},
+		"damage" :
+		{
+			"min" : 12,
+			"max" : 16
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "battle/Mimic.def",
+			"map" : "map/Mimic.def",
+			"iconSmall" : "iconsSmall/Mimic.bmp",
+			"iconLarge" : "iconsBig/Mimic.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 45,
+		"doubleWide" : true,
+		"growth" : 3,
+		"level" : 5,
+		"sound" :
+		{
+			"attack": "MIMCATTK.wav",
+			"defend": "MIMCDFND.wav",
+			"killed": "MIMCKILL.wav",
+			"move": "MIMCMOVE.wav",
+			"wince": "MIMCWNCE.wav"
+		},
+		"abilities" :
+		{
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"fearless":
+			{
+				"type" : "FEARLESS" 					
+			},
+			"nomorale":
+			{
+				"type" : "NO_MORALE" 					
+			},	
+			"magicResistance":
+			{	
+				"type" : "MAGIC_RESISTANCE",
+				"val": 25
+			},	
+			"spellImmunity" :
+            {
+                "type" : "LEVEL_SPELL_IMMUNITY",
+                "val" : 2           				
+			}		
+		}
+	}
+}
+
+

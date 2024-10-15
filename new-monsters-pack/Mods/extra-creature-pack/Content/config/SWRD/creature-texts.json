@@ -1,0 +1,19 @@
+{
+	"expSword1":
+	{
+		"name" :
+		{
+			"plural" : "Mystical Swords",
+			"singular" : "Mystic Sword"
+		},
+	},
+	"expSword2":
+	{
+		"name" :
+		{
+			"plural" : "Legendary Swords",
+			"singular" : "Legendary Sword"
+		}
+	}
+
+}

@@ -1,0 +1,63 @@
+{
+	"expNecroticBeast":
+	{
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction": "neutral",
+		"aiValue" : 305,
+		"fightValue" : 280,
+		"attack" : 5,
+		"defense" : 8,
+		"cost" :
+		{
+			"gold" : 235
+		},
+		"damage" :
+		{
+			"min" : 4,
+			"max" : 6
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "battle/Necrotic Beast.def",
+			"map" : "map/Necrotic Beast.def",
+			"iconSmall" : "iconsSmall/NecroticBeast.bmp",
+			"iconLarge" : "iconsBig/NecroticBeast.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 25,
+		"doubleWide" : true,
+		"growth" : 7,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "DTHHATTK.wav",
+			"defend": "DTHHDFND.wav",
+			"killed": "DTHHKILL.wav",
+			"move": "DTHHMOVE.wav",
+			"wince": "DTHHWNCE.wav"
+		},
+		"abilities" :
+		{
+			"undead":
+			{	
+				"type" : "UNDEAD"
+			},
+			"regenerate":
+			{
+				"type" : "HP_REGENERATION",
+                "val": 100000								       				
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name" : "New monsters pack",
+	"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS",
+	"author" : "Various",
+	"version" : "1.0.0",
+	"contact" : "https://vcmi.eu/",
+	"modType" : "Creatures",
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	"changelog" :
+    {
+		"1.0.0"   : [ "Initial release" ]
+    }
+}
