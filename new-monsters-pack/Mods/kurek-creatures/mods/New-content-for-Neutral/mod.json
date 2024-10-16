@@ -20,5 +20,9 @@
 	"compatibility" :
 	{
 		"min" : "1.4.0"
+	},
+	"czech" : {
+		"name" : "Nové neutrální jednotky",
+		"description" : "Přidává nové neutrální jednotky"
 	}
 }
