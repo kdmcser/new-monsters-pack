@@ -14,7 +14,7 @@
 					}
 				},
 				"sounds": {
-					"ambient": ["LOOPMON2"]
+					"ambient": ["man/die.wav"]
 				},
 				"rmg" : {
 					"value"		: 10000,

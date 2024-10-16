@@ -45,11 +45,11 @@
 		"level" : 6,
 		"sound" :
 		{
-			"attack": "MUMYATTK.wav",
-			"defend": "MUMYDFND.wav",
-			"killed": "MUMYKILL.wav",
-			"move": "MUMYMOVE.wav",
-			"wince": "MUMYWNCE.wav"
+			"attack": "man/attack.wav",
+			"defend": "man/defend.wav",
+			"killed": "man/die.wav",
+			"move": "man/walk.wav",
+			"wince": "man/hit.wav"
 		},
 		"speed" : 7,
 		"abilities" :
