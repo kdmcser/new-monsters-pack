@@ -26,7 +26,7 @@
 			"biography" : "",
 			"name" : "Bha",
 			"specialty" : {
-				"description" : "{Loxodon}\n\nIncreases Speed of any Loxodon by 1 and their Attack and Defense skills by 5% for every 6 level.",
+				"description" : "Increases Speed of any Loxodon by 1 and their Attack and Defense skills by 5% for every 6 level.",
 				"name" : "Loxodon",
 				"tooltip": "Creature bonus: Loxodon"
 			}

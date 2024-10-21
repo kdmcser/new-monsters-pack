@@ -39,8 +39,8 @@
 			"bonuses" : {
 				"noFleeing": {
 					"type": "BATTLE_NO_FLEEING",
-					"duration": "PERMANENT",
-					"propagator": "HERO",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters": ["OPPOSITE_SIDE"]
 				}
 			}
@@ -49,7 +49,7 @@
 			"biography": "",
 			"name": "Boudicca",
 			"specialty": {
-				"description": "{No Fleeing}\r\nEnemy cannot flee a battle.",
+				"description": "Enemy cannot flee a battle.",
 				"name": "No Fleeing",
 				"tooltip": "Enemy cannot flee a battle."
 			}

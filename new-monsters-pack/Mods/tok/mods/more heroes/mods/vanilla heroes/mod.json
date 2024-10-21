@@ -3,11 +3,11 @@
 	"description" : "Add more heroes with no further dependencies",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0,0",
-	"modType" : "Heroes",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
 	"keepDisabled" : false,
 	"depends" : [
-		"tok.more heroes.neutral classes"
+		"new-monsters-pack.tok.more heroes.neutral classes"
 	],
 	"heroes" : [
 		"config/heroes/castle/agatha.json",
@@ -21,7 +21,6 @@
 		"config/heroes/conflux/liana.json",
 
 		"config/heroes/neutral/gre.json",
-		// "config/heroes/neutral/hernandez.json",
 		"config/heroes/neutral/third.json"
 	]
 }

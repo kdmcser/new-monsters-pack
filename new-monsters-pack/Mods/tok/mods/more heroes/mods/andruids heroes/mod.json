@@ -3,14 +3,14 @@
 	"description" : "Add more heroes with Andruids mods dependency",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0,0",
-	"modType" : "Heroes",
-	"keepDisabled" : true,
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"keepDisabled" : false,
 		"depends" : [ 
 		"andruids-expansion.initiative",
-		"tok.more secondary"
+		"new-monsters-pack.tok.more secondary"
 	],
 	"heroes" : [
-		"config/heroes/rampart/nora.json" // elf
+		"config/heroes/rampart/nora.json"
 	]
 }

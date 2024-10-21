@@ -17,7 +17,7 @@
 		"0.8" : ["Orangutan added"]
 	}, 
 	"creatures" : [
-		// "config/creatures/wendigo",
+		"config/creatures/wendigo",
 		"config/creatures/shaman",
 		"config/creatures/gnome",
 		"config/creatures/plaguedoctor",
