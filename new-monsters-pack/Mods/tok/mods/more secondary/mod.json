@@ -1,0 +1,23 @@
+{
+	"name": "More Skills",
+	"description": "New secondary skills",
+	"author": "Fiorin",
+	"contact": "https://fior.in",
+	"version": "1.0.0",
+	"modType": "Skills",
+	"compatibility": {
+		"min": "1.4.0"
+	},
+	"changelog": {
+		"1.0.0": [
+			"Initial release",
+			"Warding Skill"
+		]
+	},
+	"spells" : [],
+	"skills" : [
+		"config/skills/warding.json",
+		"config/skills/endurance.json",
+		"config/skills/fame.json"
+	]
+}

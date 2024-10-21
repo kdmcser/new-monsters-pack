@@ -2,7 +2,7 @@
 	"name" : "New monsters pack",
 	"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS",
 	"author" : "Various",
-	"version" : "1.0.1",
+	"version" : "1.1.0",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
     {
+		"1.1.0"   : [ "Added axolotl-creatures-pack and ToK submods" ],
 		"1.0.1"   : [ "Czech translation by George King" ],
 		"1.0.0"   : [ "Initial release" ]
     },
