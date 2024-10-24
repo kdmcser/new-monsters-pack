@@ -21,24 +21,15 @@
 	}, 
 	"chinese" : {
 		"name" : "Tok",
-		"description" : "Tok",
-		"translations" : [
-			"translation/tok/chinese.json"
-		]
+		"description" : "Tok"
 	},
 	"russian" : {
 		"name" : "tok | Extras",
-		"description" : "Новые классы, герои и графические улучшения",
-		"translations" : [
-			"translation/tok/russian.json"
-		]
+		"description" : "Новые классы, герои и графические улучшения"
 	},
 	"czech" : {
 		"name" : "Tok",
-		"description" : "Nové neutrální jednotky, nové třídy, hrdinové a grafická vylepšení vytvořená Fiorinem.",
-		"translations" : [
-			"translation/tok/czech.json"
-		]
+		"description" : "Nové neutrální jednotky, nové třídy, hrdinové a grafická vylepšení vytvořená Fiorinem."
 	},
 	"compatibility":
 	{

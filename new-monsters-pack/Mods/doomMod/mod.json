@@ -19,10 +19,7 @@
     },
 	"chinese" : {
 		"name" : "失落之魂",
-		"description" : "这个Mod添加一种中立生物：失落之魂",
-		"translations" : [
-			"translation/lost-souls/chinese.json"
-		]
+		"description" : "这个Mod添加一种中立生物：失落之魂"
 	},
 	"czech" : {
 		"name" : "Ztracené duše",

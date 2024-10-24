@@ -20,10 +20,7 @@
 	},
 	"chinese" : {
 		"name" : "隐形人",
-		"description" : "新单位：隐形人",
-		"translations" : [
-			"translation/invisible man/chinese.json"
-		]
+		"description" : "新单位：隐形人"
 	},
 	"czech" : {
 		"name" : "Neviditelní",
@@ -31,10 +28,7 @@
 	},
 	"polish" : {
 		"name" : "Niewidzialny Człowiek",
-		"description" : "Nowa Jednostka: Niewidzialny Człowiek",
-		"translations" : [
-			"translation/invisible man/polish.json"
-		]
+		"description" : "Nowa Jednostka: Niewidzialny Człowiek"
 	},
 	"creatures" :
 	[

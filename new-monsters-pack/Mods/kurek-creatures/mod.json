@@ -20,10 +20,7 @@
     },
 	"chinese" : {
 		"name" : "生物模组包（Kurek）",
-		"description" : "Kurek的生物模组包，包括了新的中立生物和巢穴。",
-		"translations" : [
-			"translation/kurek-creatures/chinese.json"
-		]
+		"description" : "Kurek的生物模组包，包括了新的中立生物和巢穴。"
 	},
 	"czech" : {
 		"name" : "Balíček jednotek (Kurek)",
