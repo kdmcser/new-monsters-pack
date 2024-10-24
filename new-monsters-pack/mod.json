@@ -11,7 +11,7 @@
 	},
 	"changelog" :
     {
-		"1.1.2"   : [ "Remove translation files from submods" ],
+		"1.1.2"   : [ "Remove translation files from submods", "Correction of broken axolotl-creatures-pack folder name" ],
 		"1.1.1"   : [ "Fixed existing translations to new mod directories" ],
 		"1.1.0"   : [ "Added axolotl-creatures-pack and ToK submods" ],
 		"1.0.1"   : [ "Czech translation by George King" ],
