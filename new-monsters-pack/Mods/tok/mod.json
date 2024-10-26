@@ -3,7 +3,7 @@
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0.6",
+	"version" : "1.0.7",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -17,7 +17,8 @@
 		"1.0.3" : ["Fixed Agatha's Griffins bug"],
 		"1.0.4" : ["Update chinese translation"],
 		"1.0.5" : ["Czech translation by George King"],
-		"1.0.6" : ["Fix for compatibility dependiences"]
+		"1.0.6" : ["Fix for compatibility dependiences"],
+		"1.0.7" : ["New creatures added"]
 	}, 
 	"chinese" : {
 		"name" : "Tok",
@@ -33,6 +34,6 @@
 	},
 	"compatibility":
 	{
-	"min" : "1.4.0"
+	"min" : "1.6.0"
 	}
 }
