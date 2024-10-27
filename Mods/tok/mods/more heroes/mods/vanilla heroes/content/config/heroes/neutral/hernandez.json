@@ -1,0 +1,41 @@
+{
+	"h_hernandez" : {
+		"army" : [
+			{ "creature" : "halfling", "max" : 20, "min" : 10 },
+			{ "creature" : "rogue", "max" : 7, "min" : 5 },
+			{ "creature" : "ammoCart", "max" : 1, "min" : 1 }
+		],
+		"class" : "hc_mystic",
+		"spellbook": [
+			"fortune"
+		],
+		"images" : {
+			"large" : "heroes/neutral/hernandez_l.bmp",
+			"small" : "heroes/neutral/hernandez_s.bmp",
+			"specialtyLarge" : "heroes/neutral/hernandez_sl.bmp",
+			"specialtySmall" : "heroes/neutral/hernandez_ss.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "diplomacy" },
+			{ "level" : "basic", "skill" : "luck" }
+		],
+		"specialty": {
+			"bonuses": {
+				"fortune": {
+					"addInfo": 3,
+					"subtype": "spell.fortune",
+					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Hernandez",
+			"specialty" : {
+				"description" : "{}\n",
+				"name" : "",
+				"tooltip" : ""
+			}
+		}
+	}
+}

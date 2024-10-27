@@ -1,0 +1,169 @@
+{
+    "basepath" : "frames/",
+ 
+    // List of sequiences / groups in animation
+    // This will replace original group with specified list of files
+    // even if original animation is longer
+    "sequences" :
+    [
+        {
+            "group" : 0,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },
+        {
+            "group" : 1,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        }, 
+        {
+            "group" : 2,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },
+        {
+            "group" : 3,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png"
+            ]
+        },	
+        {
+            "group" : 4,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png"
+            ]
+        },
+        {
+            "group" : 5,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },
+        {
+            "group" : 7,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        },
+        {
+            "group" : 8,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        },
+        {
+            "group" : 9,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        },
+        {
+            "group" : 10,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        },	
+        {
+            "group" : 11,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },
+        {
+            "group" : 12,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },	
+        {
+            "group" : 13,
+            "frames" :
+            [
+                "frame.png",
+                "frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png",
+				"frame.png"
+            ]
+        },	
+        {
+            "group" : 20,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        },
+        {
+            "group" : 21,
+            "frames" :
+            [
+                "frame.png"
+            ]
+        }		
+    ],
+ 
+    // Allow overriding individual frames in file
+//    "images" :
+//    [
+//        {
+//            // Group of this image. Optional, default = 0
+//            "group" : 0,
+// 
+//            // Imdex of the image in group
+//            "frame" : 0,
+// 
+//           // Filename for this frame
+//           "file" : "BlacksmithNG.png"
+//        },    
+//    ]
+}

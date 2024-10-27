@@ -1,0 +1,85 @@
+{
+  "raDwarfsaboteur": {
+    "name": {
+      "plural": "Dwarf Saboteurs",
+      "singular": "Dwarf Saboteur"
+    },
+    "advMapAmount": {
+      "max": 20,
+      "min": 10
+    },
+    "faction": "rampart",
+    "aiValue": 308,
+    "attack": 9,
+    "cost": {
+      "gold": 250
+    },
+    "damage": {
+      "max": 6,
+      "min": 3
+    },
+    "defense": 6,
+    "fightValue": 318,
+    "graphics": {
+      
+"animation" : "dwarf/battle/saboteur.DEF",
+"map" : "dwarf/map/saboteurmap.def",
+"iconSmall" : "dwarf/iconsSmall/saboteur.bmp",
+"iconLarge" : "dwarf/iconsBig/saboteur.bmp",
+"timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile" :
+			{
+				"projectile" : "dwarf/battle/projectile/Phalf.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+    },
+    "growth": 7,
+    "hitPoints": 15,
+    "horde": 8,
+    "level": 3,
+    "shots" : 24,
+    "sound": {
+    "attack": "DWRFATTK.wav",
+    "defend": "DWRFDFND.wav",
+	"killed": "DWRFKILL.wav",
+	"move": "DWRFMOVE.wav",
+	"wince": "DWRFWNCE.wav"    },
+    "speed": 6,
+    "abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+            },
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+            },
+            "canShoot": 
+            {
+                "type": "SHOOTER"
+            },
+            "fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireball"
+			}
+		}
+	}
+}

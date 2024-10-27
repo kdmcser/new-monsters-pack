@@ -1,0 +1,57 @@
+{
+	"name" : "Extra Creature Pack",
+	"description" : "Twenty-three new neutral creatures!",
+	
+	"version" : "1.13",
+	"author" : "Kuririn and Witchking def authors, Hobbit Cyber Zombie author, Trith old forge creature author, Axolotl Tank author, Avatar support and MK",
+	"contact" : "",
+	"modType" : "Creatures",
+	"changelog" :
+    {
+        "1.13"   : [ "Czech translation by George King" ],
+        "1.12"   : [ "Some new big portraits" ],
+		"1.11"   : [ "More compatibility with other mods" ],
+		"1.1"    : [ "Bugfixes" ],
+		"1.0"    : [ "Initial release" ]
+    },
+
+	"czech" : {
+		"name" : "Balíček extra jednotek",
+		"description" : "Tato modifikace přidává 23 nových jednotek!"
+	},
+	
+	"creatures" :
+	[
+        "config/Monstrous Mimic/MonstrousMimic.json",
+        "config/T-Rex/T-Rex.json",	
+        "config/Dalek/Dalek.json",
+        "config/Ground Dalek/GroundDalek.json",		
+        "config/Monstrous Mimic/creature-texts.json",
+        "config/T-Rex/creature-texts.json",	
+        "config/Dalek/creature-texts.json",
+        "config/Ground Dalek/creature-texts.json",     	
+        "config/Tank/creature-texts.json",
+        "config/Tank/Tank.json",
+        "config/SWRD/SWRD1.json",
+        "config/SWRD/SWRD2.json",
+        "config/SWRD/creature-texts.json", 
+        "config/Cyber Dead/CyberDead.json",
+        "config/Cyber Zombie/CyberZombie.json",
+        "config/Robo Griffon/RoboGriffon.json",
+        "config/Robo GriffAssu/RoboGriffAssu.json",
+        "config/Robo Dragon/RoboDragon.json",
+        "config/Mech Dragon/MechDragon.json",
+        "config/Banshee/Banshee.json",
+        "config/Swamp Gorynych/SwampGorynych.json",
+        "config/Necrotic Beast/NecroticBeast.json",
+        "config/Necrotic Beast/creature-texts.json",
+        "config/Jade Dragon/JadeDragon.json",
+        "config/Fanatic Guardian/FanaticGuardian.json",
+        "config/Giant Dragon/GiantDragon.json",
+        "config/Yao Guai/YaoGuai.json",
+        "config/Big Spider/BigSpider.json",
+        "config/Dwarf Technic/DwarfTechnic.json",
+        "config/Enormous Crab/EnormCrab.json"
+	],
+      	"objects" : [ "config/dwellings.json" ]
+}

@@ -1,0 +1,35 @@
+{
+	"h_lorme" : {
+		"army" : [
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 },
+			{ "creature" : "cr_plaguedoctor", "max" : 10, "min" : 5 }
+		],
+		"class" : "necromancer",
+		"spellbook": [
+			"deathRipple"
+		],
+		"images" : {
+			"large" : "heroes/necropolis/lorme_l.bmp",
+			"small" : "heroes/necropolis/lorme_s.bmp",
+			"specialtyLarge" : "heroes/necropolis/lorme_sl.png",
+			"specialtySmall" : "heroes/necropolis/lorme_ss.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "firstAid" },
+			{ "level" : "basic", "skill" : "sorcery" }
+		],
+		"specialty": {
+			"creature": "cr_plaguedoctor"
+		},
+		"texts" : {
+			"biography" : "",
+			"name" : "Lorme", 
+			"specialty" : {
+				"description" : "Increases Speed of any Plague Doctor by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"name" : "Plague Doctor",
+				"tooltip": "Creature bonus: Plague Doctor"
+			}
+		}
+	}
+}
