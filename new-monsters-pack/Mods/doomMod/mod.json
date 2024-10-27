@@ -2,7 +2,7 @@
 	"name" : "LostSouls",
 	"description" : "Mod adds one new neutral creature - Lost Soul",
 	"author" : "speehgee",
-	"version" : "0.1.4",
+	"version" : "0.1.5",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
 	"modType" : "Creatures",
 	"creatures" :
@@ -15,7 +15,8 @@
 		"0.1.1" : ["fixed advAmount value", "new calculated AI/Fight values"],
 		"0.1.2" : ["small update for vcmi-1.2"],
 		"0.1.3" : ["small update for vcmi-1.4"],
-		"0.1.4" : ["Added Czech translation by George King"]
+		"0.1.4" : ["Added Czech translation by George King"],
+		"0.1.5" : ["Aded polish translation by FallainBlack"]
     },
 	"chinese" : {
 		"name" : "失落之魂",
@@ -24,6 +25,10 @@
 	"czech" : {
 		"name" : "Ztracené duše",
 		"description" : "Tato modifikace přidává neutrální jednotku: Ztracené duše"
+	},
+	"polish" : {
+		"name" : "Zagubione dusze",
+		"description" : "Mod wprowadza jedną jednostkę neutralną: Zagubioną duszę"
 	},
 	"compatibility" :
 	{
