@@ -1,0 +1,70 @@
+{
+	"expCyberZombie":
+	{
+		"name" :
+		{
+			"plural" : "Cyber Zombies",
+			"singular" : "Cyber Zombie"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 18
+		},
+		"faction" : "neutral",
+		"aiValue" : 215,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 175,
+		"graphics" :
+		{
+			"animation" : "battle/CyberZombie.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "map/CyberZombie.def",
+			"iconSmall" : "iconsSmall/CyberZombie.bmp",
+			"iconLarge" : "iconsBig/CyberZombie.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	      "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 20,	
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "CBZMATTK.wav",
+			"defend" : "CBZMDFND.wav",
+			"killed" : "CBZMKILL.wav",
+			"move" : "CBZMMOVE.wav",
+			"wince" : "CBZMWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+               	"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+     			"blinds":
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+                "val" : 20 	
+			},
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+
+		}
+	}
+}

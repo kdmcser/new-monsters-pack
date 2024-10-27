@@ -1,0 +1,23 @@
+{
+	"name" : "Dark elemental",
+	"description" : "made by Lord Hawk from def of metalpiss",
+	
+	"version" : "1.0",
+	"author" : "Lord Hawk",
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=890&page=29#71206",
+	"modType" : "Creatures",
+	
+	"creatures" :
+	[
+		
+		"config/Dark elemental/Dark elemental.json"
+	],
+	"objects" : 
+	[ 
+		"config/Dark elemental/dwellings" 
+	],
+	"czech" : {
+		"name": "Temní elementálové",
+		"description": "Temný elementál vytvořený Lordem Hawkem z podkladů od metalpisse"
+	}
+}

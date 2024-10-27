@@ -1,0 +1,21 @@
+{
+	"name" : "More ToW Heroes",
+	"description" : "Add more heroes with ToW dependency",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"keepDisabled" : false,
+	"depends" : [ 
+		"tides-of-war",
+		"tides-of-war.skills",
+		"ruins-town",
+		"new-monsters-pack.tok.more creatures",
+		"new-monsters-pack.tok.more heroes.neutral classes"
+	],
+	"heroes" : [
+		"config/heroes/neutral/larami.json",
+		"config/heroes/inferno/nana.json",
+		"config/heroes/inferno/rudi.json"
+	]
+}

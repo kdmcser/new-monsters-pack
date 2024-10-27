@@ -1,0 +1,69 @@
+{
+	"expCyberDead":
+	{
+		"name" :
+		{
+			"plural" : "Cyber Deads",
+			"singular" : "Cyber Dead"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 18
+		},
+		"faction" : "neutral",
+		"aiValue" : 175,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 135
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 145,
+		"graphics" :
+		{
+			"animation" : "battle/CyberDead.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "map/CyberDead.def",
+			"iconSmall" : "iconsSmall/CyberDead.bmp",
+			"iconLarge" : "iconsBig/CyberDead.bmp",
+			"timeBetweenFidgets" : 1
+		},
+            "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 20,	
+		"level" : 2,
+		"upgrades":
+		[
+			"expCyberZombie"
+		],
+		"sound" :
+		{
+			"attack" : "CBDEATTK.wav",
+			"defend" : "CBDEDFND.wav",
+			"killed" : "CBDEKILL.wav",
+			"move" : "CBDEMOVE.wav",
+			"wince" : "CBDEWNCE.wav"
+		},
+		"speed" : 4,
+ "abilities" :
+ {
+   	      "nonliving":
+		{	
+			"type" : "NON_LIVING"
+		},    
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+
+		}
+
+	}
+}

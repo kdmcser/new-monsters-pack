@@ -1,0 +1,60 @@
+{
+  "expFanaticGuardian": {
+    "name": {
+      "plural": "Fanatic Guardians",
+      "singular": "Fanatic Guardian"
+    },
+    "advMapAmount": {
+      "max": 40,
+      "min": 25
+    },
+    "faction": "neutral",
+    "aiValue": 175,
+    "attack": 6,
+    "cost": {
+      "gold": 110
+    },
+    "damage": {
+      "max": 4,
+      "min": 2
+    },
+    "defense": 7,
+    "fightValue": 175,
+    "graphics": {
+      "animation": "battle/Fanatic Guardian.def",
+      "map": "map/Fanatic Guardian.def",
+      "iconSmall": "iconsSmall/FanaticGuardian.bmp",
+      "iconLarge": "iconsBig/FanaticGuardian.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "hasDoubleWeek": true,
+    "growth": 10,
+    "hitPoints": 15,
+    "level": 2,
+    "sound": {
+      "attack": "FNGNATTK.wav",
+      "defend": "FNGNDFND.wav",
+      "killed": "FNGNKILL.wav",
+      "move": "FNGNMOVE.wav",
+      "wince": "FNGNWNCE.wav"
+    },
+    "speed": 6,
+    "abilities": 
+        {
+            "cavalryChargeImmunity":
+        {
+              "type": "CHARGE_IMMUNITY"
+      },
+      "noRetalitation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}
+	

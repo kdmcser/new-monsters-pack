@@ -1,0 +1,24 @@
+{
+	"name" : "Dwarf Pack",
+	"description" : "Dwarf Pac. Mods adds 5 new creatures",
+	"author": "ported zeryss",
+	"version" : "0.1",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Creatures",
+    "creatures" :
+    [
+    "config/dwarf/creatures/dwarfberserk.json",
+	"config/dwarf/creatures/dwarfcrossbowman.json",
+	"config/dwarf/creatures/dwarfguard.json",
+	"config/dwarf/creatures/dwarfsaboteur.json",
+	"config/dwarf/creatures/dwarfshaman.json"
+    ],
+    "objects" :
+    [
+    "config/dwarf/dwellings.json"
+    ],
+	"czech" : {
+		"name" : "Balíček trpaslíků",
+		"description" : "Tato modifikace přidává 5 nových trpaslíků"
+	}
+}

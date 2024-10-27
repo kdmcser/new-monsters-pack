@@ -1,0 +1,63 @@
+{
+  "expDwarfTechnic": {
+    "name": {
+      "plural": "Dwarf Technicians",
+      "singular": "Dwarf Technic"
+    },
+    "advMapAmount": {
+      "max": 25,
+      "min": 18
+    },
+    "faction": "neutral",
+    "aiValue": 265,
+    "attack": 7,
+    "cost": {
+      "gold": 200
+    },
+    "damage": {
+      "max": 5,
+      "min": 2
+    },
+    "defense": 8,
+    "fightValue": 265,
+    "graphics": {
+      "animation": "battle/DwTechnic.def",
+      "map": "map/DwarfTechnic.def",
+      "iconSmall": "iconsSmall/DwTechnic.bmp",
+      "iconLarge": "iconsBig/DwTechnic.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.20,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "hasDoubleWeek": true,
+    "growth": 8,
+    "hitPoints": 20,
+    "level": 2,
+    "sound": {
+      "attack": "FRDWATTK.wav",
+      "defend": "FRDWDFND.wav",
+      "killed": "FRDWKILL.wav",
+      "move": "FRDWMOVE.wav",
+      "wince": "FRDWWNCE.wav"
+    },
+    "speed": 5,
+    "abilities": {
+      "resistance": {
+        "type": "MAGIC_RESISTANCE",
+        "val": 30
+      },
+      "flamethrower" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+                  },
+                  "noRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}
+	

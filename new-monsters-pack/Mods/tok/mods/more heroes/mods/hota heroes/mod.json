@@ -1,0 +1,20 @@
+{
+	"name" : "More Hota Heroes",
+	"description" : "Add more heroes with HOTA dependency",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"keepDisabled" : false,
+	"depends" : [ 
+		"hota.cove",
+		"hota.interference",
+		"ruins-town",
+		"new-monsters-pack.tok.more secondary",
+		"new-monsters-pack.tok.more creatures"
+	],
+	"heroes" : [
+		"config/heroes/necropolis/cintia.json",
+		"config/heroes/tower/marlon.json"
+	]
+}
