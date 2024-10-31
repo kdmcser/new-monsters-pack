@@ -1,9 +1,9 @@
 {
 	"name" : "Undead Sphinxes",
 	"description" : "Three new neutral creatures: Haunted Sphinx, Undead Sphinx and Mad Mummies",	
-	"author" : "witchking, fiorin, Trith, avatar, Andruids, fred79",
+	"author" : "witchking, fiorin, Trith, avatar, Andruids, fred79, Cursed Mummy def by Dalion",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.06",
+	"version" : "1.07",
 	"modType" : "Creatures",	
 	
 	"creatures" :
@@ -22,10 +22,11 @@
 	},
 	"changelog" :
     {
+	        "1.07"   : [ "Teleportation added to the mummy due to its author's request. Mummy name changed to Cursed Mummy to avoid confusion." ],
 		"1.06"   : [ "Polish translation by FallainBlack" ],	
 		"1.05"   : [ "Czech translation by George King" ],
 		"1.04"   : [ "Russian translation by Anton Sergeew" ],
-		"1.03"   : [ "Graphical fixes for Mad Mummy by Dalion" ],
+		"1.03"   : [ the"Graphical fixes for Mad Mummy by Dalion" ],
 		"1.02"   : [ "Update for vcmi-1.2 format" ],
 		"1.01"   : [ "Small update for vcmi-1.2" ],
 		"1.00"   : [ "Initial release" ]
