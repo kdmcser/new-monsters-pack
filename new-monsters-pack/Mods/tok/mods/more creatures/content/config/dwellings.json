@@ -2,8 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"base" : {
 			"base" : {
-				"visitableFrom" : [ "---", "+++", "+++" ],
-				"mask" : [ "VVV", "VBB", "VAA" ]
+				"visitableFrom" : [ "---", "+++", "+++" ]
 			},
 			"sounds" : {
 				"ambient" : ["LOOPSWOR"],
@@ -11,21 +10,23 @@
 			}
 		},
 		"types" : {
-			// "cr_wendigo_dwelling": {
-			// 	"name" : "Cavern of Sorrow",
-			// 	"creatures": [["cr_wendigo"]],
-			// 	"templates" : {
-			// 		"default" : {
-			// 			"animation" : "map/wendigo"
-			// 		}
-			// 	}
-			// },
+			 "cr_wendigo_dwelling": {
+			 	"name" : "Cavern of Sorrow",
+			 	"creatures": [["cr_wendigo"]],
+			 	"templates" : {
+			 		"default" : {
+			 			"animation" : "map/wendigo",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+			 		}
+			 	}
+			 },
 			"cr_shaman_dwelling": {
 				"name" : "Corroboree Spot",
 				"creatures": [["cr_shaman"]],
 				"templates" : {
 					"default" : {
-						"animation" : "map/shaman"
+						"animation" : "map/shaman",
+						"mask" : [ "VB", "AB" ]
 					}
 				}
 			},
@@ -34,7 +35,8 @@
 				"creatures": [["cr_gnome"]],
 				"templates" : {
 					"default" : {
-						"animation" : "map/gnome"
+						"animation" : "map/gnome",
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -43,7 +45,8 @@
 				"creatures": [["cr_plaguedoctor"]],
 				"templates" : {
 					"default" : {
-						"animation" : "map/plaguedoctor"
+						"animation" : "map/plaguedoctor",
+						"mask" : [ "VVV", "VVB", "VVA" ]
 					}
 				}
 			}

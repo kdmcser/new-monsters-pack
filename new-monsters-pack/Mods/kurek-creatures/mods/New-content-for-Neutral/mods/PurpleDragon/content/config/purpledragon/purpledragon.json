@@ -66,9 +66,9 @@
                 "type": "SPELL_AFTER_ATTACK",
                 "subtype": "spell.bluefire",
                 "val": 100
-            },
+            }
 		},
-"stackExperience" :
+		"stackExperience" :
 		[
 			{
 				"bonus" :

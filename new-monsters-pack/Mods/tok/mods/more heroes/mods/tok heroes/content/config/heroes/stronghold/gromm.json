@@ -39,7 +39,11 @@
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
-					"limiters" : { "parameters" : [ "cr_bugbear", true ] },
+					"limiters" : [ 
+					{ 
+						"parameters" : [ "cr_bugbear", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					} ],
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"parameters" : [ 18, 4 ]
@@ -48,7 +52,11 @@
 				"speed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 2,
-					"limiters" : { "parameters" : [ "cr_bugbear", true ] }
+					"limiters" : [ 
+					{ 
+						"parameters" : [ "cr_bugbear", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					} ]
 				}
 			}
 		},

@@ -1,5 +1,5 @@
 {
-	"sphinx" : {
+	"acpsphinx" : {
 		"abilities" : {
 			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
 			"petrify" :

@@ -18,7 +18,7 @@
 		"0.9" : ["Bugbear and Bugbear Warlord added"]
 	}, 
 	"creatures" : [
-		// "config/creatures/wendigo",
+		"config/creatures/wendigo",
 		"config/creatures/shaman",
 		"config/creatures/gnome",
 		"config/creatures/plaguedoctor",

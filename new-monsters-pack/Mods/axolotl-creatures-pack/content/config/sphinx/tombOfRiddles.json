@@ -3,7 +3,7 @@
 		"types" : {
 			"acpTombOfRiddles" : {
 				"name" : "Tomb of Riddles",
-				"creatures" : [[ "sphinx" ]],
+				"creatures" : [[ "acpsphinx" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
