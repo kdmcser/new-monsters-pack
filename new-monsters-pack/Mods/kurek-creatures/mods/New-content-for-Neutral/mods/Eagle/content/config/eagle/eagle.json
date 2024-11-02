@@ -8,6 +8,7 @@
 			"max": 18,
 			"min": 11
 		},
+		"description" : "This 3 level neutral unit can fly and cast expert mirth once per battle. New-born eagles can be found in eagle nests.",
 		"hasDoubleWeek": true,
 		"faction": "neutral",
 		"aiValue": 322,

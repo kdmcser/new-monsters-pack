@@ -2,7 +2,7 @@
 	"name" : "New monsters pack",
 	"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS",
 	"author" : "Various",
-	"version" : "1.1.5",
+	"version" : "1.1.6",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
     {
+		"1.1.6"   : [ "Fixed problem with broken map generation" ],
 		"1.1.5"   : [ "Vendigo creature unlocked", "Fixed console warnings" ],
 		"1.1.4"   : [ "Mummy updated" ],
 		"1.1.3"   : [ "Partial polish translation by FallainBlack" ],
