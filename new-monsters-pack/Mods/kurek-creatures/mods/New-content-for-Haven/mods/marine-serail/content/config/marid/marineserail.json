@@ -41,7 +41,7 @@
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
 				"coastVisitable": true,
-				"levels": [
+				"rewards": [
 					{
 						"message" : 34,
 						"removeObject": false,
