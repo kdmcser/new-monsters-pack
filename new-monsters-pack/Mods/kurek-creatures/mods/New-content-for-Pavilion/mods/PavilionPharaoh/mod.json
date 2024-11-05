@@ -11,6 +11,10 @@
 	"Undead-Sphinxes",
 	"new-pavilion"
 	],
+	"chinese" : {
+		"name" : "沙堡新英雄",
+		"description" : "新增沙煲英雄职业：法老。为沙煲增加8个额外单位。基于堡垒新城镇团队的作品堡垒制作。该模组还增加了一些维西尔英雄。特别感谢：Nephretes、J. M. Sower、Hobbit、Kuririn、Witchking、Trith、Mitlandy，以及所有Acid Cave社区的成员。"
+	},
     	"heroClasses" :
 	[
 		"config/bastion/classes/Pharaoh.json"

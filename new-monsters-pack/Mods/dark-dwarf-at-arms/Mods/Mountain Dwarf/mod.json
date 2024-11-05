@@ -12,6 +12,10 @@
 		"config/Mountain Dwarf/Mountain Dwarf.json",
 		"config/Mountain Dwarf/creature-texts.json"
 	],
+	"chinese" : {
+		"name" : "山丘矮人",
+		"description" : "由Lord Hawk基于Alex-ander（Hota团队）的def文件制作。"
+	},
 	"czech" : {
 		"name": "Horští trpaslíci",
 		"description": "Horský trpaslík vytvořený Lordem Hawkem z podkladů od Alex-andera z HotA týmu"

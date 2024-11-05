@@ -12,6 +12,10 @@
 		"config/Man at Arms/Man at Arms.json",
 		"config/Man at Arms/creature-texts.json"
 	],
+	"chinese" : {
+		"name" : "步兵",
+		"description" : "由Lord Hawk基于Alex-ander（Hota团队）的def文件制作。"
+	},
 	"czech" : {
 		"name": "Zbrojnoši",
 		"description": "Zbrojnoš vytvořený Lordem Hawkem z podkladů od Alex-andera z HotA týmu"

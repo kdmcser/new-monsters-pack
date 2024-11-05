@@ -37,8 +37,8 @@
 		]
 	},
 	"chinese" : {
-		"name" : "New monsters pack",
-		"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS.",
+		"name" : "新生物包",
+		"description" : "这个小模组包含有许多新增的中立生物。请卸载启动器中的重复模组以避免出现BUG。",
 		"translations" : [
 			"translation/new-monsters-pack/chinese.json"
 		]

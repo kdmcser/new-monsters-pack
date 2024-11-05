@@ -21,8 +21,8 @@
 		"1.0.7" : ["New creatures added"]
 	}, 
 	"chinese" : {
-		"name" : "Tok",
-		"description" : "Tok"
+		"name" : "Tok扩展",
+		"description" : "新类型，英雄和图像改进。"
 	},
 	"russian" : {
 		"name" : "tok | Extras",

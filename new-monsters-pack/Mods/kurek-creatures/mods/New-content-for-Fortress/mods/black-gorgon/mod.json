@@ -5,6 +5,10 @@
 	"contact": "http://www.forum.acidcave.net/profile.php?UID=1361",
 	"version": "2.0",
 	"modType": "Creatures",
+	"chinese" : {
+		"name" : "黑野牛",
+		"description" : "新单位——黑野牛。"
+	},
 	"czech" : {
 		"name" : "Černé Gorgony",
 		"description" : "Nová jednotka – Černé Gorgony"

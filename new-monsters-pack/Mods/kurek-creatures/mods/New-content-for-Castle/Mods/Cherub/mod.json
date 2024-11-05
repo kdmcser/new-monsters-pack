@@ -5,6 +5,10 @@
 	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121",
 	"version" : "1.03",
 	"modType" : "Creatures",
+	"chinese" : {
+		"name" : "基路伯",
+		"description" : "新单位——基路伯。基路伯是天使阶层中仅次于炽天使的第二高等级。传统天使学中，基路伯被视为九重天界层级中第二高等级的天使。"
+	},
 	"czech" : {
 		"name" : "Cherubíní",
 		"description" : "Nová jednotka – Cherubíni. Cherubíní jsou druhou nejvyšší hodností v andělské hierarchii, následují po Serafínech. V tradiční angelologii jsou cherubové považováni za anděly druhého nejvyššího řádu z devítinásobné nebeské hierarchie."

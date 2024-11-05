@@ -21,6 +21,10 @@
 	{
 		"min" : "1.4.0"
 	},
+	"chinese" : {
+		"name" : "Kurek生物",
+		"description" : "添加新的生物和野外巢穴。"
+	},
 	"czech" : {
 		"name" : "Nové neutrální jednotky",
 		"description" : "Přidává nové neutrální jednotky"

@@ -19,7 +19,6 @@
 			"affect": ["spells/bluefire2.def"]
 		},
 		"flags": {
-			"offensive": true,
 			"damage": true,
 			"negative": true,
 			"special": true

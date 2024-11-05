@@ -12,6 +12,10 @@
 	[
 		"new-pavilion"
 	],
+	"chinese" : {
+		"name" : "沙堡的新内容",
+		"description" : "添加新的沙堡内容。"
+	},
 	"czech" : {
 		"name" : "Nový obsah pro Pavilión",
 		"description" : "Přidává nové jednotky pro Pavilión a novou rasu Faraon"

@@ -14,6 +14,10 @@
 			"Warding Skill"
 		]
 	},
+	"chinese" : {
+		"name" : "更多的技能",
+		"description" : "添加新技能。"
+	},
 	"spells" : [],
 	"skills" : [
 		"config/skills/warding.json",
