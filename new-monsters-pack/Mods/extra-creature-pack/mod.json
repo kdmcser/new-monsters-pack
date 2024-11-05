@@ -15,6 +15,10 @@
 		"1.0"    : [ "Initial release" ]
     },
 
+	"chinese" : {
+		"name" : "额外生物包",
+		"description" : "23个新中立生物！"
+	},
 	"czech" : {
 		"name" : "Balíček extra jednotek",
 		"description" : "Tato modifikace přidává 23 nových jednotek!"

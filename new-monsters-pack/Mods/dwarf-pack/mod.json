@@ -17,6 +17,10 @@
     [
     "config/dwarf/dwellings.json"
     ],
+	"chinese" : {
+		"name" : "矮人整合包",
+		"description" : "矮人整合包，这个模组添加5个新生物。"
+	},
 	"czech" : {
 		"name" : "Balíček trpaslíků",
 		"description" : "Tato modifikace přidává 5 nových trpaslíků"

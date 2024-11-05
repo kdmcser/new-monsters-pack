@@ -13,6 +13,10 @@
 		"1.1"     : [ "Update to vcmi-1.2 format" ],
 		"1.0"     : [ "Initial release" ]
     },
+	"chinese" : {
+		"name" : "暗元素、山丘矮人和步兵",
+		"description" : "由Lord Hawk基于metalpiss的def文件制作的三个生物，集成在一个模组中。"
+	},
 	"czech" : {
 		"name" : "Ozbrojení temní trpaslíci",
 		"description" : "Tři bytosti vytvořené Lordem Hawkem",

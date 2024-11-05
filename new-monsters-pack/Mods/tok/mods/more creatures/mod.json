@@ -5,6 +5,13 @@
 	"contact" : "http://fior.in",
 	"version" : "0.9",
 	"modType" : "Creatures",	
+	"chinese" : {
+		"name" : "更多的生物",
+		"description" : "这些生物将被加入游戏之中。",
+		"translations" : [
+			"translation/tok more creatures/chinese.json"
+		]
+	},
 	"changelog" :
 	{
 		"0.1" : ["Initial release"],

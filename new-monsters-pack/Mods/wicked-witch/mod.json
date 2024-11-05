@@ -16,6 +16,10 @@
 		"1.0"   : [ "Initial release" ],
 		"1.1"   : [ "Conversion to vcmi-1.2 format" ]
     },
+	"chinese" : {
+		"name" : "邪恶女巫",
+		"description" : "新要塞生物：邪恶女巫，这些生物仅能在野外巢穴里购买。"
+	},
 	"objects" :
     [ 
 		"config/louryEstate"

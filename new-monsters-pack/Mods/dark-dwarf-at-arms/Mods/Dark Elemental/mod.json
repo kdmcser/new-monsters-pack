@@ -16,6 +16,10 @@
 	[ 
 		"config/Dark elemental/dwellings" 
 	],
+	"chinese" : {
+		"name" : "暗元素",
+		"description" : "由Lord Hawk基于metalpiss的def文件制作。"
+	},
 	"czech" : {
 		"name": "Temní elementálové",
 		"description": "Temný elementál vytvořený Lordem Hawkem z podkladů od metalpisse"
