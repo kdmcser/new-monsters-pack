@@ -53,7 +53,7 @@
             },
             "bonuses": {
                 "anubis2anubiswarrior" : { "subtype" : "new-pavilion:anubis" },
-				"anubisupg2anubiswarrior" : { "subtype" : "new-pavilion:anubiswarrior" },
+				"anubisupg2anubiswarrior" : { "subtype" : "new-pavilion:anubisWarrior" },
                 }
         }
     }
