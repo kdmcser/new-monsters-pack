@@ -4,7 +4,7 @@
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.0.0",
-	"modType" : "Heroes",
+	"modType" : "Compatibility",
 	"keepDisabled" : false,
 	"depends" : [ 
 		"hota.cove",

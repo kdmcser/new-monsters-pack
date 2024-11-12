@@ -4,7 +4,7 @@
 	"author": "Fiorin",
 	"contact": "https://fior.in",
 	"version": "1.0.1",
-	"modType": "Heroes",
+	"modType": "Compatibility",
 	"chinese" : {
 		"name" : "更多的英雄",
 		"description" : "添加新英雄。"
