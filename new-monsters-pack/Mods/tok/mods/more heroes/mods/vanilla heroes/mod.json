@@ -4,11 +4,15 @@
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.0.0",
-	"modType" : "Compatibility",
+	"modType" : "Heroes",
 	"keepDisabled" : false,
 	"depends" : [
 		"new-monsters-pack.tok.more heroes.neutral classes"
 	],
+	"czech" : {
+		"name" : "Neutrální hrdinové",
+		"description" : "Noví hrdinové Agatha, Eordan, Birog, Gre a další."
+	},
 	"heroes" : [
 		"config/heroes/castle/agatha.json",
 		"config/heroes/castle/elena.json",

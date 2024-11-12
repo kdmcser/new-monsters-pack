@@ -4,16 +4,19 @@
 	"author" : "Kurek, edeksumo, Bastion New Town Group, Maestro",
 	"version" : "1.0",
 	"contact" : "Kurek",
-	"modType" : "Compatibility",
-	"depends" :
-    [
-	"Axolotl-Creatures-Pack",
-	"Undead-Sphinxes",
-	"new-pavilion"
+	"modType" : "Creatures",
+	"depends" : [
+		"new-monsters-pack.axolotl-creatures-pack",
+		"new-monsters-pack.undeadSphinxes",
+		"new-pavilion"
 	],
 	"chinese" : {
 		"name" : "沙堡新英雄",
 		"description" : "新增沙煲英雄职业：法老。为沙煲增加8个额外单位。基于堡垒新城镇团队的作品堡垒制作。该模组还增加了一些维西尔英雄。特别感谢：Nephretes、J. M. Sower、Hobbit、Kuririn、Witchking、Trith、Mitlandy，以及所有Acid Cave社区的成员。"
+	},
+	"czech" : {
+	    "description" : "Přidává novou rasu hrdinů - Faraon. 8 dalších jednotek pro Pavilon. Vychází z Bastionu od Bastion New Town Group, Pavilion. Tento mod také přidává několik hrdinů typu Vezír. Speciální poděkování: Nephretes, J. M. Sower, Hobbit, Kuririn, Witchking, Trith, Mitlandy a celé komunitě Acid Cave",
+	    "name" : "Hrdinové pro Pavilon"
 	},
     	"heroClasses" :
 	[
@@ -24,13 +27,13 @@
 		"config/bastion/heroes/Ama'ka.json",
 		"config/bastion/heroes/Ankh-Amon.json",
 		"config/bastion/heroes/Basha.json",
-        "config/bastion/heroes/Mentuhotep.json",
-        "config/bastion/heroes/Kemi.json",
-        "config/bastion/heroes/Inpu.json",
+		"config/bastion/heroes/Mentuhotep.json",
+		"config/bastion/heroes/Kemi.json",
+		"config/bastion/heroes/Inpu.json",
 		"config/bastion/heroes/Isham.json",
-        "config/bastion/heroes/TaKem.json",
-        "config/bastion/heroes/Bianor.json",
-        "config/bastion/heroes/Honsuneb.json",
+		"config/bastion/heroes/TaKem.json",
+		"config/bastion/heroes/Bianor.json",
+		"config/bastion/heroes/Honsuneb.json",
 		"config/bastion/heroes/Ja'Bak.json",
 		"config/bastion/heroes/Uzziah.json",
 		"config/bastion/heroes/Netsutset.json",
@@ -48,10 +51,12 @@
 		"config/bastion/creatures/Horus.json",
 		"config/bastion/creatures/DivineHorus.json",
 		"config/bastion/creatures/GuardianSphinx.json",
-		"config/bastion/creatures/Greatersphinx.json"
+		"config/bastion/creatures/Greatersphinx.json",
+		"config/bastion/creatures/stackExp.json"
 	],
-    "objects" :
-    [   "config/bastion/dwellings.json" ],
+    "objects" : [
+		"config/bastion/dwellings.json"
+	],
 	"battlefields" :
 	[
 		"config/bastion/ancientcenotaphbattlefield.json", "config/bastion/sphinxtemplebattlefield.json", "config/bastion/shrineoffalconsbattlefield.json" 

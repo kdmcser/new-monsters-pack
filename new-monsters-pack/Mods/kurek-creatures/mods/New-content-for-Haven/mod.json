@@ -2,7 +2,7 @@
 	"author" : "Kurek",
 	"contact" : "",
 	"description" : "Adds new Haven content",
-	"modType" : "Compatibility",
+	"modType" : "Creatures",
 	"name" : "New Content for Haven",
 	"version" : "2.0",
 	"depends" :
@@ -14,7 +14,7 @@
 		"description" : "添加新的峡湾内容。"
 	},
 	"czech" : {
-		"name" : "Nový obsah pro Útočiště",
-		"description" : "Přidává nové jednotky pro Útočiště"
+		"name" : "Obsah pro Přístav",
+		"description" : "Přidává nové jednotky pro Přístav"
 	}
 }

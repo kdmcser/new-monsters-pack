@@ -4,7 +4,7 @@
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.1",
-	"modType" : "Compatibility",
+	"modType" : "Heroes",
 	"keepDisabled" : false,
 	"depends" : [
 		"ruins-town",
@@ -16,7 +16,11 @@
 	{
 		"1.0" : ["Initial release"],
 		"1.1" : ["Bugbear adjust"]
-	}, 
+	},
+	"czech" : {
+		"name" : "Hrdinové pro The other Kingdom",
+		"description" : "Noví hrdinové Melaunchalot, Gromm, Birog a další."
+	},
 	"heroes" : [
 		"config/heroes/castle/melaunchalot.json",
 

@@ -7,10 +7,11 @@
 	"modType" : "Creatures",	
 	"chinese" : {
 		"name" : "更多的生物",
-		"description" : "这些生物将被加入游戏之中。",
-		"translations" : [
-			"translation/tok more creatures/chinese.json"
-		]
+		"description" : "这些生物将被加入游戏之中。"
+	},
+	"czech" : {
+		"name" : "Nové jednotky",
+		"description" : "Balíček nových jednotek jako jsou Wendingové, Koboldi, Orangutani a další."
 	},
 	"changelog" :
 	{

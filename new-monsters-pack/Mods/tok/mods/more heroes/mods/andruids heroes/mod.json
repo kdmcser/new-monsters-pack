@@ -4,7 +4,7 @@
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
 	"version" : "1.0.0",
-	"modType" : "Compatibility",
+	"modType" : "Heroes",
 	"keepDisabled" : false,
 		"depends" : [ 
 		"andruids-expansion.initiative",
@@ -12,5 +12,9 @@
 	],
 	"heroes" : [
 		"config/heroes/rampart/nora.json"
-	]
+	],
+	"czech" : {
+		"name" : "Obsah pro Baštu",
+		"description" : "Nová hrdinka Nora pro Baštu"
+	}
 }
