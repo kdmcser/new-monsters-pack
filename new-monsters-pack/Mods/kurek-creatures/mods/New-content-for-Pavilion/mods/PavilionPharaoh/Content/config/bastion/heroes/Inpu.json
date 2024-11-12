@@ -63,7 +63,7 @@
 			"bonuses" : {
 				"sphinx2guardiansphinx" : { "subtype" : "new-pavilion:sphinx" },
 				"sphinxoracles2guardiansphinx" : { "subtype" : "new-pavilion:elderSphinx" },
-				"Lamia2guardiansphinx" : { "subtype" : "axolotl-creatures-pack:sphinx" },
+				"Lamia2guardiansphinx" : { "subtype" : "new-monsters-pack.axolotl-creatures-pack:acpsphinx" },
 				"ashensphinx2guardiansphinx" : { "subtype" : "creature.ashenSphinx" },
 				"entombedsphinx2guardiansphinx" : { "subtype" : "creature.entombedSphinx" },
 				"manticore2guardiansphinx" : { "subtype" : "creature.manticore" },
