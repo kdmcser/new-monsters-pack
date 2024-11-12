@@ -17,5 +17,9 @@
 		"config/heroes/neutral/larami.json",
 		"config/heroes/inferno/nana.json",
 		"config/heroes/inferno/rudi.json"
-	]
+	],
+	"czech" : {
+		"name" : "Hrdinové pro Tides of War",
+		"description" : "Noví hrdinové Larami, Nana a Rudi."
+	}
 }

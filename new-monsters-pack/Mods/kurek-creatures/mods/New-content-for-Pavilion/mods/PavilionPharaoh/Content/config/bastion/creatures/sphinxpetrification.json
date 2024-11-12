@@ -186,7 +186,7 @@
                 "new-pavilion:elderSphinx": "absolute",
                 "creature.guardiansphinx": "absolute",
                 "creature.greatersphinx": "absolute",
-                "axolotl-creatures-pack:creature.sphinx": "absolute",
+                "new-monsters-pack.axolotl-creatures-pack:creature.acpsphinx": "absolute",
                 "creature.ashenSphinx": "absolute",
                 "creature.entombedSphinx": "absolute"
             },

@@ -1,7 +1,7 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"acpMurkyChasm," : {
+			"acpMurkyChasm" : {
 				"name" : "Murky Chasm",
 				"guards" : true,
 				"creatures" : [[ "wyrmFish" ]],

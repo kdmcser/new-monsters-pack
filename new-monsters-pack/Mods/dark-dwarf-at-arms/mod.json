@@ -18,8 +18,8 @@
 		"description" : "由Lord Hawk基于metalpiss的def文件制作的三个生物，集成在一个模组中。"
 	},
 	"czech" : {
-		"name" : "Ozbrojení temní trpaslíci",
-		"description" : "Tři bytosti vytvořené Lordem Hawkem",
+		"name" : "Balíček jednotek (Lord Hawk)",
+		"description" : "Přidává nové jednotky - Zbrojnoše, Horské trpaslíky a Temné elementály vytvořené Lordem Hawkem",
 	},
 	"compatibility" :
 	{

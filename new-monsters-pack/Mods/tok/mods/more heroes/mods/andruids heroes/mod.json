@@ -12,5 +12,9 @@
 	],
 	"heroes" : [
 		"config/heroes/rampart/nora.json"
-	]
+	],
+	"czech" : {
+		"name" : "Obsah pro Baštu",
+		"description" : "Nová hrdinka Nora pro Baštu"
+	}
 }
