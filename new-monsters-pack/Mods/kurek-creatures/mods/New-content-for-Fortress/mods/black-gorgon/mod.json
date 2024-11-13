@@ -10,8 +10,8 @@
 		"description" : "新单位——黑野牛。"
 	},
 	"czech" : {
-		"name" : "Černé Gorgony",
-		"description" : "Nová jednotka – Černé Gorgony"
+		"name" : "Černé gorgony",
+		"description" : "Nová jednotka – Černé gorgony"
 	},
 	"creatures": [
 		"config/blackgorgon/blackgorgon.json"

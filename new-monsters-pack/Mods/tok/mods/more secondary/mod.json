@@ -18,7 +18,10 @@
 		"name" : "更多的技能",
 		"description" : "添加新技能。"
 	},
-	"spells" : [],
+	"czech" : {
+		"name" : "Nové schopnosti",
+		"description" : "Nové schopnosti jako je Sláva, Runová ochrana a Vytrvalost"
+	},
 	"skills" : [
 		"config/skills/warding.json",
 		"config/skills/endurance.json",

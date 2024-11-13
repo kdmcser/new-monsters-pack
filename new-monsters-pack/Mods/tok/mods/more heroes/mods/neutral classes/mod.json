@@ -8,6 +8,10 @@
 	"compatibility": {
 		"min": "1.4.0"
 	},
+	"czech" : {
+		"name" : "Neutrální rasy",
+		"description" : "Nové rasy pro neutrální hrdiny - Mystik a Průzkumník"
+	},
 	"changelog": {
 		"1.0.0": [
 			"added explorer class",

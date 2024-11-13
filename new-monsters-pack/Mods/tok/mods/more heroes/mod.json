@@ -9,6 +9,10 @@
 		"name" : "更多的英雄",
 		"description" : "添加新英雄。"
 	},
+	"czech" : {
+		"name" : "Noví hrdinové",
+		"description" : "Noví hrdinové"
+	},
 	"compatibility": {
 		"min": "1.4.0"
 	},

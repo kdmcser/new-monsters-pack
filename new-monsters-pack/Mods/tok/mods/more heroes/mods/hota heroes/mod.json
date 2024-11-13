@@ -16,5 +16,9 @@
 	"heroes" : [
 		"config/heroes/necropolis/cintia.json",
 		"config/heroes/tower/marlon.json"
-	]
+	],
+	"czech" : {
+		"name" : "Hrdinové pro Horn of the Abyss",
+		"description" : "Noví hrdinové Cintia a Marlon"
+	}
 }
