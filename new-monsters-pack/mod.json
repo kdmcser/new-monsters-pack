@@ -2,7 +2,7 @@
 	"name" : "New monsters pack",
 	"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS",
 	"author" : "Various",
-	"version" : "1.1.8",
+	"version" : "1.1.9",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
     {
+		"1.1.9"   : [ "Updated polish translation"  ],
 		"1.1.8"   : [ "Fix for Marine Serail bank", "Changed wendigo name", "Loxodon is now double wide creature"  ],
 		"1.1.7"   : [ "Fixed problem with broken map generation" ],
 		"1.1.5"   : [ "Vendigo creature unlocked", "Fixed console warnings" ],
