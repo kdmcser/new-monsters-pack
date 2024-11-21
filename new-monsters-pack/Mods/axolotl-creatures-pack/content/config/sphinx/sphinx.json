@@ -1,5 +1,5 @@
 {
-	"sphinx" : {
+	"acpsphinx" : {
 		"abilities" : {
 			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
 			"petrify" :
@@ -69,7 +69,7 @@
 			{
 				"bonus" : 
 				{ 
-					"type" : "DEATH_STARE
+					"type" : "DEATH_STARE",
 					"subtype" : "deathStareGorgon" 
 				},
 				"values" : [ 20, 30, 40, 50, 60, 70, 80, 85, 90, 95 ]
@@ -109,7 +109,7 @@
 		"hitPoints" : 55,
         "doubleWide" : true,
 		"level" : 5,
-		"name" : { "plural" : "Lamias", "singular" : "Lamia" },
+		"name" : { "plural" : "Sphinxes", "singular" : "Sphinx" },
 		"sound" : {
 			"attack" : "sphinx/sphattk",
 			"defend" : "sphinx/sphdfnd",

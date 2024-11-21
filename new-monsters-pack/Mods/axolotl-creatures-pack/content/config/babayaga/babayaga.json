@@ -139,7 +139,7 @@
 				"bonus" :
 				{
 					"type" : "SUMMON_GUARDIANS",
-					"subtype" : 136 // "creature.enchanter"
+					"subtype" : "creature.enchanter"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
