@@ -1,6 +1,6 @@
 {
     "redparalyze": {
-        "type": "combat",
+        "type": "ability",
         "name": "Red Paralysis",
         "targetType": "NO_TARGET",
         "school": {
