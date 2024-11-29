@@ -488,10 +488,6 @@
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon.bluefire.name" : "蓝焰",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon.bluefiredamageeffect.name" : "蓝焰",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.fieryeye.name" : "烈焰之眼",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.advanced" : "中级血色麻痹能力。",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.basic" : "初级血色麻痹能力。",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.expert" : "高级血色麻痹能力。",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.none" : "这个等级没有特殊效果。",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.name" : "血色麻痹",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.cyclops_warrior.crushingblow.name" : "毁灭重击"
 }
