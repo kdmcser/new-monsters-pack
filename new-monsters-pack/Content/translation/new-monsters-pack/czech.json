@@ -486,7 +486,7 @@
 	"skill.new-monsters-pack.tok.more secondary.warding.description.advanced" : "{Lepší runová ochrana}\n\nVšechny jednotky získají magii magického zrcadla s pravděpodobností odrazu 50%.",
 	"skill.new-monsters-pack.tok.more secondary.warding.description.basic" : "{Základní runová ochrana}\n\nVšechny jednotky získají magii magického zrcadla s pravděpodobností odrazu 25%.",
 	"skill.new-monsters-pack.tok.more secondary.warding.description.expert" : "{Expert runová ochrana}\n\nVšechny jednotky získají magii magického zrcadla s pravděpodobností odrazu 75%.",
-	"skill.new-monsters-pack.tok.more secondary.warding.name" : "Ochrana",
+	"skill.new-monsters-pack.tok.more secondary.warding.name" : "Runová ochrana",
 	"spell.new-monsters-pack.axolotl-creatures-pack.acpDepletion.name" : "Vyčerpání",
 	"spell.new-monsters-pack.axolotl-creatures-pack.degradation.name" : "Degradace",
 	"spell.new-monsters-pack.axolotl-creatures-pack.fungus.name" : "Houbová infekce",
@@ -500,10 +500,6 @@
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon.bluefire.name" : "Modrý oheň",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon.bluefiredamageeffect.name" : "Modrý oheň",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.fieryeye.name" : "Ohnivé oko",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.advanced" : "Lepší červená paralýza.",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.basic" : "Základní červená paralýza.",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.expert" : "Expert červená paralýza.",
-	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.description.none" : "Na této úrovni nejsou žádné speciální dovednosti.",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.bloodeyed_cyclops.redparalyze.name" : "Červená paralýza",
 	"spell.new-monsters-pack.kurek-creatures.new-content-for-stronghold.cyclops_warrior.crushingblow.name" : "Zničující úder"
 }
