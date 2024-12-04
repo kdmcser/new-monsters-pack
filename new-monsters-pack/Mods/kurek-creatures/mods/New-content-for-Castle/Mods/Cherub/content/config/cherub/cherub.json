@@ -1,0 +1,509 @@
+{
+	"kurekCherub":
+	{
+		"name" :
+		{
+			"plural" : "Cherubim",
+			"singular" : "Cherub"
+		},
+		"description" : "Cherubim in the are high in the hierarchy celestial beings who serve as guardians and protectors of divine holiness. Described as having many wings and great power and speed, they often appear in the visions of prophets, symbolizing glory and holy presence. With their great offensive and defensive power and flying ability, Cherubs are among the mightiest and fastest creatures among celestials. They do 150% damage when attacking devils and strengthen morale of allied units. Cherubim can 3 times resurrect allied units fallen on the battlefield, provided they were not undead in life.",
+		
+		"advMapAmount" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"hasDoubleWeek": true,
+		"faction": "castle",
+		"aiValue" : 12000,
+		"attack" : 30,
+		"cost" :
+		{
+			"gold" : 8000,
+			"gems" : 3
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 50
+		},
+		"defense" : 35,
+		"fightValue" : 12000,
+		"graphics" :
+		{
+			"animation" : "battle/cherub.def",
+			"map" : "map/cherub_on_map.def",
+			"iconSmall" : "iconssmall/cherubavatarsmall.png",
+			"iconLarge" : "iconsbig/cherubavatarbig.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 1,
+		"doubleWide" : true,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "battle1/AAGLMOVE1.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"speed" : 21,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"resurrection100hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 100
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			},
+			"const_raises_morale" : {
+			
+			"propagator" : "HERO",
+			 
+			"stacking" : "Angels",
+
+			"type" : "MORALE",
+			 
+			"val" : 1
+			},
+			"KING_2" : {
+			"type" : "KING",
+			"val" : 2
+			},
+			"powerAttack" : {
+			
+			"subtype" : "spell.holyBlade",
+			
+			"type" : "SPELL_LIKE_ATTACK",
+			
+			"val" : 0
+			}
+			
+		},
+	"stackExperience" : [
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "primarySkill.attack",
+
+				"type" : "PRIMARY_SKILL"
+			},
+
+			"values" : [
+
+				1,
+
+				2,
+
+				3,
+
+				4,
+
+				5,
+
+				6,
+
+				7,
+
+				8,
+
+				9,
+
+				10
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "primarySkill.defence",
+
+				"type" : "PRIMARY_SKILL"
+			},
+
+			"values" : [
+
+				1,
+
+				2,
+
+				3,
+
+				4,
+
+				5,
+
+				6,
+
+				7,
+
+				8,
+
+				9,
+
+				10
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "creatureDamageMax",
+
+				"type" : "CREATURE_DAMAGE"
+			},
+
+			"values" : [
+
+				1,
+
+				2,
+
+				3,
+
+				4,
+
+				5,
+
+				6,
+
+				7,
+
+				8,
+
+				9,
+
+				10
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "creatureDamageMin",
+
+				"type" : "CREATURE_DAMAGE"
+			},
+
+			"values" : [
+
+				1,
+
+				2,
+
+				3,
+
+				4,
+
+				5,
+
+				6,
+
+				7,
+
+				8,
+
+				9,
+
+				10
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "STACK_HEALTH",
+
+				"valueType" : "PERCENT_TO_BASE"
+			},
+
+			"values" : [
+
+				5,
+
+				10,
+
+				15,
+
+				20,
+
+				25,
+
+				30,
+
+				35,
+
+				40,
+
+				45,
+
+				50
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "STACKS_SPEED"
+			},
+
+			"values" : [
+
+				0,
+
+				0,
+
+				0,
+
+				1,
+
+				1,
+
+				2,
+
+				2,
+
+				2,
+
+				2,
+
+				3
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "FEARLESS"
+			},
+
+			"values" : [
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "MIND_IMMUNITY"
+			},
+
+			"values" : [
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				true,
+
+				true,
+
+				true
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "spell.armageddon",
+
+				"type" : "SPELL_IMMUNITY"
+			},
+
+			"values" : [
+
+				false,
+
+				false,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true,
+
+				true
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "CASTS"
+			},
+
+			"values" : [
+
+				0,
+
+				0,
+
+				0,
+
+				0,
+
+				0,
+
+				0,
+
+				1,
+
+				1,
+
+				1,
+
+				1
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "MAGIC_RESISTANCE"
+			},
+
+			"values" : [
+
+				0,
+
+				0,
+
+				0,
+
+				0,
+
+				0,
+
+				10,
+
+				20,
+
+				30,
+
+				40,
+
+				50
+			]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "spellSchool.water",
+
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
+			},
+
+			"values" : [
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				false,
+
+				true,
+
+				true,
+
+				true,
+
+				true
+			]
+		}
+	]
+	}
+}
+
+

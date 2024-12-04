@@ -1,0 +1,24 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : 
+		{
+			"blackLair" : 
+			{
+				"battleground": "blacklairbattlefield",
+				"name" : "Black Lair",
+				"guards" : true,
+				"creatures" : [[ "blackgorgon" ]],
+				"sounds": {	"ambient": ["LOOPBEHE"],
+				"visit": ["battlegorgon/blackgorgonvisit"]},
+	"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "dwelling/BlackGorgonLair.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}	

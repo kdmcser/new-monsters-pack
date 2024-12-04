@@ -1,0 +1,7 @@
+{
+    "creatures.cherub.kurekCherub.name.plural" : "Cherubini",
+    "creatures.cherub.kurekCherub.name.singular" : "Cherubin",
+	"creatures.cherub.kurekCherub.description" : "Cherubini są wysoko w hierarchii istot niebiańskich, służąc jako strażnicy i obrońcy boskiej świętości. Opisywani jako posiadający wiele skrzydeł oraz wielką moc i szybkość, często pojawiają się w wizjach proroków, symbolizując chwałę i świętą obecność. Dzięki swojej potężnej sile ofensywnej i defensywnej oraz zdolności latania, Cherubini należą do najpotężniejszych i najszybszych stworzeń pośród istot niebiańskich. Zadają 150% obrażeń, gdy atakują diabły, i wzmacniają morale sojuszniczych jednostek. Cherubini mogą trzykrotnie wskrzesić poległe na polu bitwy sojusznicze jednostki, pod warunkiem, że za życia nie były one nieumarłe.",
+    "mapObject.cherub.creatureGeneratorCommon.kurekAltarOfProphecies.name" : "Ołtarz Proroctw",
+	"spell.cherub.holyBlade.name": "Ostrze Wysokich Niebios"
+}
