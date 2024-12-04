@@ -26,9 +26,6 @@
 	],
 	"polish" : {
 		"name" : "Cherubin",
-		"description" : "Nowa jednostka - Cherub. Cherubini zajmują drugie miejsce w hierarchii anielskiej, zaraz po Serafinach. W tradycyjnej angelologii cherubini są uważani za anioły drugiego najwyższego rzędu w dziewięciostopniowej hierarchii niebiańskiej.",
-		"translations" : [
-			"translation/cherub/polish.json"
-		]
+		"description" : "Nowa jednostka - Cherub. Cherubini zajmują drugie miejsce w hierarchii anielskiej, zaraz po Serafinach. W tradycyjnej angelologii cherubini są uważani za anioły drugiego najwyższego rzędu w dziewięciostopniowej hierarchii niebiańskiej."
 	}
 }
