@@ -1,7 +1,0 @@
-{
-	"creatures.blackgorgon.blackgorgon.name.plural" : "Czarne Gorgony",
-    "creatures.blackgorgon.blackgorgon.name.singular" : "Czarna Gorgona",
-	"creatures.blackgorgon.blackgorgon.description" : "Potężne czarne gorgony atakują swoim kwasowym oddechem. Czarna Gorgona posiada śmiertelne spojrzenie, które ma 10% szans na natychmiastowe zabicie 1 jednostki w oddziale na każde 10 Czarnych Gorgon. Może także zamieniać wrogów w kamień swoim przeklętym spojrzeniem i jest odporna na truciznę oraz obrażenia od kwasu.",
-    "mapObject.blackgorgon.creatureGeneratorCommon.blackLair.name" : "Czarne Leże",
-	"spell.blackgorgon.powerbondblackgorgonsBreath.name": "Zionięcie Gorgony"
-}
