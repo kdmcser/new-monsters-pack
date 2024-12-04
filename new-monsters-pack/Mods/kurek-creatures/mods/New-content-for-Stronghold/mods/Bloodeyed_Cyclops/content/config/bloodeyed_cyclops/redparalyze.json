@@ -13,10 +13,6 @@
         "power": 1,
         "defaultGainChance": 0,
         "gainChance": {
-            "none": 0,
-            "basic": 5,
-            "advanced": 10,
-            "expert": 15
         },
         "animation": {
             "affect": ["spell/paralysisred"]

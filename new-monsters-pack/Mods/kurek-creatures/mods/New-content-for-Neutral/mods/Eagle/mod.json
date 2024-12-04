@@ -8,17 +8,24 @@
 	"changelog" :
 	{
 		"1.0"   : [ "Initial release" ],
-		"1.1"   : [ "description and polish language added" ]
+		"1.1"   : [ "Description and polish language added" ]
+	},
+	"chinese" : {
+		"name" : "鹰",
+		"description" : "新单位——鹰。它是一个3级中立单位，能够飞行并在每场战斗中施放一次高级的欢欣鼓舞。野外巢穴——鹰巢。"
+	},
+	"czech" : {
+		"name" : "Orli",
+		"description" : "Nová jednotka – Orel. Je to neutrální jednotka 3. úrovně, která může létat a jednou za bitvu seslat kouzlo expertní Radost. Obydlí – Orlí hnízdo."
+	},
+	"polish" : {
+		"name" : "Orzeł",
+		"description" : "Nowa jednostka – Orzeł. Jest to neutralna jednostka 3. poziomu, która potrafi latać i może rzucić zaklęcie ekspercka radość raz na bitwę. Siedziba – Gniazdo Orłów."
 	},
 	"creatures" :
 	[
 	"config/eagle/eagle"
 	],
 	"objects" : 
-	[  "config/eagle/dwellings"],
-	"polish" : {
-		"name" : "Orzeł",
-		"description" : "Nowa jednostka – Orzeł. Jest to neutralna jednostka 3. poziomu, która potrafi latać i może rzucić zaklęcie ekspercka radość raz na bitwę. Siedziba – Gniazdo Orłów."
-	}
-	
+	[  "config/eagle/dwellings"]
 }

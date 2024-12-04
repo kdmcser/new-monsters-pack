@@ -1,19 +1,33 @@
 {
 	"description": "Adds new Pavilion hero class: Pharaoh. 8 additional units for Pavilion. Based on Bastion from Bastion New Town Group, Pavilion. This mod also adds a few Vizier and Embalmer heroes. Special thanks to: Nephretes, J. M. Sower, Hobbit, Kuririn, Witchking, Trith, Mitlandy, and all Acid Cave community. This version also adds the 'Turn to Stone' effect.",
 	"name": "New Heroes, Units, and Turn to Stone Effect for Pavilion",
-	"author": "Kurek, edeksumo, Bastion New Town Group, Maestro",
-	"version": "1.3",
-	"contact": "Kurek",
-	"modType": "Expansion",
-	"depends": [
-		"new-pavilion",
+	"author" : "Kurek, edeksumo, Bastion New Town Group, Maestro",
+	"version" : "1.3",
+	"contact" : "Kurek",
+	"modType" : "Compatibility",
+	"depends" : [
 		"new-monsters-pack.axolotl-creatures-pack",
-		"new-monsters-pack.undeadsphinxes"
+		"new-monsters-pack.undeadSphinxes",
+		"new-pavilion"
 	],
-	"heroClasses": [
+	"chinese" : {
+		"name" : "沙堡新英雄",
+		"description" : "新增沙煲英雄职业：法老。为沙煲增加8个额外单位。基于堡垒新城镇团队的作品堡垒制作。该模组还增加了一些维西尔英雄。特别感谢：Nephretes、J. M. Sower、Hobbit、Kuririn、Witchking、Trith、Mitlandy，以及所有Acid Cave社区的成员。"
+	},
+	"czech" : {
+	    "description" : "Přidává novou rasu hrdinů - Faraon. 8 dalších jednotek pro Pavilon. Vychází z Bastionu od Bastion New Town Group, Pavilion. Tento mod také přidává několik hrdinů typu Vezír. Speciální poděkování: Nephretes, J. M. Sower, Hobbit, Kuririn, Witchking, Trith, Mitlandy a celé komunitě Acid Cave",
+	    "name" : "Hrdinové pro Pavilon"
+	},
+	"polish": {
+		"name": "Nowi bohaterowie, jednostki i efekt Turn to Stone dla Pawilonu",
+		"description": "Dodaje nową klasę bohatera Pawilonu: Faraon. 8 dodatkowych jednostek dla Pawilonu. Bazowane na Bastionie z Bastion New Town Group, Pawilon. Mod dodaje także kilku bohaterów Wezyrów i Balsamistów. Dodatkowo wprowadza efekt 'Turn to Stone'. Specjalne podziękowania dla: Nephretesa, J. M. Sowera, Hobbita, Kuririna, Witchkinga, Tritha, Mitlandy'ego i całej społeczności Acid Cave."
+	},
+    	"heroClasses" :
+	[
 		"config/bastion/classes/Pharaoh.json"
 	],
-	"heroes": [
+    	"heroes" :
+	[
 		"config/bastion/heroes/Ama'ka.json",
 		"config/bastion/heroes/Ankh-Amon.json",
 		"config/bastion/heroes/Basha.json",
@@ -32,34 +46,24 @@
 		"config/bastion/heroes/Mantis.json",
 		"config/bastion/heroes/Amshah.json"
 	],
-	"spells": [
-		"config/bastion/spells/stonetoflesh.json",
-		"config/bastion/spells/turntostone.json",
-		
-	],
-	"creatures": [
+	"creatures" :
+	[ 
 		"config/bastion/creatures/Overseer.json",
-		"config/bastion/creatures/Anubis.json",
+		"config/bastion/creatures/Anubis.json", 
 		"config/bastion/creatures/AnubisWarrior.json",
 		"config/bastion/creatures/SacredScarab.json",
 		"config/bastion/creatures/Horus.json",
 		"config/bastion/creatures/DivineHorus.json",
 		"config/bastion/creatures/GuardianSphinx.json",
-		"config/bastion/creatures/Greatersphinx.json"
+		"config/bastion/creatures/Greatersphinx.json",
+		"config/bastion/creatures/stackExp.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/bastion/dwellings.json"
 	],
 	"battlefields": [
 		"config/bastion/ancientcenotaphbattlefield.json",
 		"config/bastion/sphinxtemplebattlefield.json",
 		"config/bastion/shrineoffalconsbattlefield.json"
-	],
-
-
-	"polish": {
-		"name": "Nowi bohaterowie, jednostki i efekt Turn to Stone dla Pawilonu",
-		"description": "Dodaje nową klasę bohatera Pawilonu: Faraon. 8 dodatkowych jednostek dla Pawilonu. Bazowane na Bastionie z Bastion New Town Group, Pawilon. Mod dodaje także kilku bohaterów Wezyrów i Balsamistów. Dodatkowo wprowadza efekt 'Turn to Stone'. Specjalne podziękowania dla: Nephretesa, J. M. Sowera, Hobbita, Kuririna, Witchkinga, Tritha, Mitlandy'ego i całej społeczności Acid Cave."
-	}
-
+	]
 }

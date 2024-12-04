@@ -3,7 +3,7 @@
         "types": {
             "marineSerail": {
                 "name": "Marine Serail",
-                "battleground": "marineserailbattlefield",
+                "battleground": "new-monsters-pack.kurek-creatures.new-content-for-haven.marine-serail:marineserailbattlefield",
                 "blockedVisitable": false,
                 "onGuardedMessage": "You approach the the infamous Marine Serail. Lewd, lascivious sounds and lights emanate from within. Do you wish to come inside?",
                 "onVisitedMessage": "This Marine Serail is filled with water and no longer holds any treasures.",

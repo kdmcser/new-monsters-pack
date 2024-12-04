@@ -26,8 +26,8 @@
 				},
 				"sounds": 
 				{
-					"ambient": ["wildgriffin/griffinnest_loop.wav"],
-					"visit": ["wildgriffin/griffinnest_visit.wav"]
+					"ambient": ["wildgriffin/loop.mp3"],
+					"visit": ["wildgriffin/visit.wav"]
 				},
 				"rmg": 
 				{
