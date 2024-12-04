@@ -1,0 +1,24 @@
+{
+	"name" : "Eagle",
+	"description" : "New unit - Eagle. It is a 3 level neutral unit, that can fly and cast expert mirth once per battle. Dwelling- Eagle Nest." ,
+	"author": "Kurek",
+	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121",
+	"modType" : "Creatures",
+	"version" : "1.1",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ],
+		"1.1"   : [ "description and polish language added" ]
+	},
+	"creatures" :
+	[
+	"config/eagle/eagle"
+	],
+	"objects" : 
+	[  "config/eagle/dwellings"],
+	"polish" : {
+		"name" : "Orzeł",
+		"description" : "Nowa jednostka – Orzeł. Jest to neutralna jednostka 3. poziomu, która potrafi latać i może rzucić zaklęcie ekspercka radość raz na bitwę. Siedziba – Gniazdo Orłów."
+	}
+	
+}
