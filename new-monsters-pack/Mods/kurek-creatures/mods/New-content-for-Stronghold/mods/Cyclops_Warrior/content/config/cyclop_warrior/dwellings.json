@@ -1,11 +1,10 @@
 {
-	"core:creatureGeneratorCommon" : 
-	{
+	"core:creatureGeneratorCommon" : {
 		"types" : 
 		{
 			"kurekCyclopsLarder" : 
 			{
-				"battleground": "cyclopslarderbattlefield",
+				"battleground": "new-monsters-pack.kurek-creatures.new-content-for-stronghold.cyclops_warrior:cyclopslarderbattlefield",
 				"name" : "Cyclops Larder",
 				"guards" : true,
 				"creatures" : [[ "kurekCyclopsWarrior" ]],

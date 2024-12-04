@@ -2,9 +2,9 @@
     "kurekBloodeyedCyclops": {
         "name": {
             "plural": "Bloodeyed Cyclopes",
-            "singular": "Bloodeyed Cyclops"
+            "singular": "Bloodeyed Cyclop"
         },
-		"description" : "Bloodeyed Cyclopes are fearsome shamanic warriors who channel fiery energy through their glowing red eyes. Their deadly eye beams incinerate enemies, dealing fire damage, and magically paralyze them with crimson energy, immobilizing them for a turn. Uniquely, they can use this beam effectively in close combat, where it can strike two units standing in a line. This makes them exceptionally versatile, both at range and in melee. As spiritual leaders of the cyclopes, they also possess the ability to cast the Misfortune spell, cursing their enemies with dreadful luck.",
+	"description" : "Bloodeyed Cyclopes are fearsome shamanic warriors who channel fiery energy through their glowing red eyes. Their deadly eye beams incinerate enemies, dealing fire damage, and magically paralyze them with crimson energy, immobilizing them for a turn. Uniquely, they can use this beam effectively in close combat, where it can strike two units standing in a line. This makes them exceptionally versatile, both at range and in melee. As spiritual leaders of the cyclopes, they also possess the ability to cast the Misfortune spell, cursing their enemies with dreadful luck.",
 	
         "advMapAmount": {
             "max": 9,
