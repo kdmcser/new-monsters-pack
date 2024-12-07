@@ -19,7 +19,7 @@
 		"config/wildgriffin/griffinnestbattlefield.json"
 	],
 	"czech" : {
-		"name": "Divoký gryf",
+		"name": "Divocí gryfové",
 		"description": "Neutrální jednotka 3. úrovně, která umí létat a dokáže dvakrát opětovat útok. Ve srovnání s běžným gryfem je více zaměřen na útok. Přidává nové obydlí gryfí útesy a hnízdo gryfů jako zásobárnu."
 	},
 	"polish" : {
