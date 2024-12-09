@@ -18,9 +18,12 @@
 	[
 		"config/wildgriffin/griffinnestbattlefield.json"
 	],
-		"polish" : 
-		{
+	"czech" : {
+		"name": "Divocí gryfové",
+		"description": "Neutrální jednotka 3. úrovně, která umí létat a dokáže dvakrát opětovat útok. Ve srovnání s běžným gryfem je více zaměřen na útok. Přidává nové obydlí gryfí útesy a hnízdo gryfů jako zásobárnu."
+	},
+	"polish" : {
 		"name" : "Dziki Gryf",
 		"description" : "Nowa jednostka - Dziki Gryf. Jest to neutralna jednostka poziomu 3, zdolna do latania i kontratakowania dwa razy. Ma nieco większe ukierunkowanie na atak w porównaniu do zwykłego Gryfa. Siedlisko – Gryfie Skały. Bank stworzeń – Gniazdo Gryfów."
-		}
+	}
 }

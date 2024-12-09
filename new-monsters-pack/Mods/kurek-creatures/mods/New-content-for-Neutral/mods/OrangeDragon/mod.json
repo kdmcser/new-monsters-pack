@@ -21,9 +21,12 @@
 	[
 	"config/orangedragon/enchantedforestbattlefield.json"
 	],
-		"polish" : 
-		{
+	"czech" : {
+		"name": "Oranžoví draci",
+		"description": "Oranžoví draci jsou zcela imunní vůči magickým útokům a odrážejí kouzla zpět na sesílatele (podobně jako kouzlo magické zrcadlo). Umí také sesílat kouzla jako Zmatení, Ohnivý kruh, Ohnivá koule, Blesk, Ledový šíp, Mrazící kruh, Peklo, Pád meteoritů, Kulový blesk a Magický šíp. Každý les pod ochranou oranžového draka je klidné a magické místo, které je moudré nechat na pokoji."
+	},
+	"polish" : {
 		"name" : "Pomarańczowy Smok",
 		"description" : "„Nowa jednostka – Pomarańczowy Smok. Pomarańczowe smoki są całkowicie odporne na magiczne ataki, odbijając zaklęcia w kierunku rzucającego (podobnie jak w przypadku zaklęcia Magiczne lustro). Potrafią również rzucać zaklęcia: Zamęt, Ognisty krąg, Kula ognia, Błyskawica,  Lodowy Pocisk, Krąg Zimna, Inferno, Deszcz Meteorytów, Łańcuch Błyskawic i Magiczna Strzała. Każdy las pod ochroną pomarańczowego smoka jest spokojnym i magicznym miejscem, które najlepiej zostawić w spokoju, jeśli jesteś mądry. Podobnie jak rusałka, to stworzenie rodzi się w sposób magiczny, powstałe z sił natury z czystej sadzawki wody."
-		}
+	}
 }

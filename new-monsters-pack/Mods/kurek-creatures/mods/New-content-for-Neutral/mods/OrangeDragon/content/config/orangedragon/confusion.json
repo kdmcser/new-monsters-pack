@@ -1,14 +1,14 @@
 {
 	"confusiondragon":
 	{
-		"type": "combat", 
+		"type": "ability", 
 		"name": "Confusion",
 		"school":
 		{
 			"air": false,
 			"earth": false,
 			"fire": false,
-			"water": true
+			"water": false
 		},
 		"level": 3,
 		"power": 10,
