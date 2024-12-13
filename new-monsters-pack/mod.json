@@ -37,8 +37,8 @@
 		]
 	},
 	"russian" : {
-		"name" : "New monsters pack",
-		"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS.",
+		"name" : "Новый пак монстров",
+		"description" : "Пакет минимодов содержит новых, в основном нейтральных существ. ПОЖАЛУЙСТА, УДАЛИТЕ ДУБЛИРОВАННЫЕ МОДЫ ИЗ ЛАУНЧЕРА, ЧТОБЫ ИЗБЕЖАТЬ ОШИБОК.",
 		"translations" : [
 			"translation/new-monsters-pack/russian.json"
 		]
