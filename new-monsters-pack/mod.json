@@ -2,7 +2,7 @@
 	"name" : "New monsters pack",
 	"description" : "<h1 style='color:#002366; font-size:28px; font-weight:bold;'>New Monsters Pack</h1><p style='font-size:16px; color:#333333; font-style:italic;'> Explore the expanded horizons of the <i>New Monsters Pack</i>, an addition to <i>Heroes of Might and Magic III</i> that enriches gameplay with powerful new creatures, abilities, and heroes. </p><p style='font-size:18px; color:#002366; font-weight:bold;'>An Array of Powerful Units</p><p style='font-size:16px; color:#333333;'> Unleash a lineup of formidable units, including the corrosive <span style='color:#002366; font-weight:bold;'>Acidic Roper</span>, the stealthy <span style='color:#002366; font-weight:bold;'>Dragonfish</span>, and the mighty <span style='color:#002366; font-weight:bold;'>Forest Dragon</span> and <span style='color:#002366; font-weight:bold;'>T-Rex</span>. Each creature brings unique skills and enhances the strategic depth of battles. </p><p style='font-size:18px; color:#002366; font-weight:bold;'>New Heroes and Enhanced Abilities</p><p style='font-size:16px; color:#333333;'> Meet the latest heroes to join the ranks, such as <span style='color:#002366; font-weight:bold;'>Cintia</span>, a master of interference, <span style='color:#002366; font-weight:bold;'>Marlon</span>, who enhances sorcery, and <span style='color:#002366; font-weight:bold;'>Boudicca</span>, known for preventing enemy retreats. These heroes, with their special abilities, provide new strategic options for the battlefield. </p><p style='font-size:18px; color:#002366; font-weight:bold;'>Unique Spells and Skills</p><p style='font-size:16px; color:#333333;'> Harness the powers of spells like <span style='color:#002366; font-weight:bold;'>Magic Carpet</span> for tactical mobility, <span style='color:#002366; font-weight:bold;'>Red Paralysis</span> to immobilize foes, and <span style='color:#002366; font-weight:bold;'>Fame</span>, which boosts creature growth rates. These additions empower players with new ways to dominate the battlefield. </p><p style='color:#333333; font-size:15px;'> Created to expand and deepen the <i>Heroes of Might and Magic III</i> experience, the <i>New Monsters Pack</i> offers rich content for strategists and adventurers alike. Embark on quests with these new units and spells, and conquer the battlefield in style. </p>",
 	"author" : "Various",
-	"version" : "1.2.6",
+	"version" : "1.2.7",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,7 +11,8 @@
 	},
 	"changelog" :
     {
-                "1.2.6"   : [ "Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extrass)"  ],
+		"1.2.7"   : [ "Fix for Quark Palace"  ],
+		"1.2.6"   : [ "Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extrass)"  ],
 		"1.2.5"   : [ "Kurek creatures pack update"  ],
 		"1.2.4"   : [ "Added Ettin creature in Fiorin's tok submod"  ],
 		"1.2.3"   : [ "Fixed bugs in Sphinx, Baba-Yaga and Will-o-wisp configs"  ],
