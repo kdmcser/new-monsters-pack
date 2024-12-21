@@ -1,0 +1,33 @@
+{
+	"name" : "Mountain Dwarf",
+	"description" : "Mod which adds a new unit mountain dwarve, along with its dwelling.",
+	"author" : "Mod: Lord Hawk. Graphics: Alex-ander, Astaroth, Lord Hawk",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=3579",
+	"version" : "1.2.1",
+	"changelog" :
+    {
+			"1.2.1" : [ "21/12/2024", "Code fixes" ],
+			"1.2"   : [ "20/12/2024", "Update for vcmi-1.6", "Graphic changes and animation speeds", "Dwelling sound adding" ],
+			"1.1"   : [ "Added dwellings", "Added breathing stance", "Changing abilities" ],
+        	"1.0"   : [ "First release"]
+    },
+	"modType" : "Creatures",
+	
+	"creatures" :
+	[
+		"config/Mountain Dwarf/Creatures/Mountain Dwarf.json"
+	],
+	"objects" : 
+	[ 
+		"config/Mountain Dwarf/dwellings"   
+	],
+	"chinese" : {
+		"name" : "山丘矮人",
+		"description" : "由Lord Hawk基于Alex-ander（Hota团队）的def文件制作。"
+	},
+	"czech" : {
+		"name": "Horští trpaslíci",
+		"description": "Horský trpaslík vytvořený Lordem Hawkem z podkladů od Alex-andera z HotA týmu"
+	}
+
+}

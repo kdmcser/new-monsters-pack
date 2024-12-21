@@ -1,0 +1,83 @@
+{
+	"darkElemental":
+	{
+		"name" :
+		{
+			"plural" : "Dark Elementals",
+			"singular" : "Dark Elemental"
+		},
+		"advMapAmount" :
+		{
+
+			"max" : 8,
+			"min" : 4
+		},
+		"faction" : "neutral",
+		"aiValue" : 2150,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1450
+		},
+		"damage" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"defense" : 12,
+		"fightValue" : 1850,
+		"graphics" :
+		{
+			"animation" : "Dark elemental/battle/Dark elemental.def",
+			"map" : "Dark elemental/map/Dark elemental.def",
+			"iconSmall" : "Dark elemental/iconsSmall/Dark elemental.bmp",
+			"iconLarge" : "Dark elemental/iconsBig/Dark elemental.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 5,
+				"attack" : 1
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+
+
+		"sound" :
+		{
+			"attack": "EFRTATTK.wav",
+			"defend": "EFRTDFND.wav",
+			"killed": "EFRTKILL.wav",
+			"move": "EFRTMOVE.wav",
+			"wince": "EFRTWNCE.wav"
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"non-living":
+			{
+				"type" : "NON_LIVING", 	
+			},
+			"mindImmunity":
+			{
+				"type" : "MIND_IMMUNITY", 	
+			},
+			"flying":
+			{
+				"type" : "FLYING", 	
+			},
+			"fear":
+			{
+				"type" : "FEAR", 	
+			},
+			"noRetaliation":
+			{
+				"type" : "BLOCKS_RETALIATION", 	
+			}
+		}
+	}
+}
+
+

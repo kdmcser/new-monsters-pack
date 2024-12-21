@@ -1,0 +1,100 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"royalTreasury" : 
+			{
+				"name" : "Royal Treasury",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "Man at Arms/dwelling/royalTreasury.def", 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VBA"]						
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPMAGI"]
+				},
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 60,
+					"zoneLimit" : 2
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankRuins",
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 10, "type" : "caSquire" },
+							{ "amount": 10, "type" : "manAtArms" },
+							{ "amount": 10, "type" : "caSquire"},
+							{ "amount": 10, "type" : "manAtArms" },
+							{ "amount": 8, "type" : "crusader" }
+						],
+						"resources" : {
+							"gold" : 4000
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 15, "type" : "caSquire" },
+							{ "amount": 15, "type" : "manAtArms" },
+							{ "amount": 15, "type" : "caSquire" },
+							{ "amount": 15, "type" : "manAtArms" },
+							{ "amount": 12, "type" : "crusader" }
+						],
+						"resources": 
+						{
+							"gold" : 6000		
+						},
+						"artifacts": [ "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 20, "type" : "caSquire" },
+							{ "amount": 20, "type" : "manAtArms" },
+							{ "amount": 20, "type" : "caSquire" },
+							{ "amount": 20, "type" : "manAtArms" },
+							{ "amount": 16, "type" : "crusader" }
+						],
+						"resources": 
+						{
+							"gold" : 8000		
+						},
+						"artifacts": [ "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 30, "type" : "caSquire" },
+							{ "amount": 30, "type" : "manAtArms" },
+							{ "amount": 30, "type" : "caSquire" },
+							{ "amount": 30, "type" : "manAtArms" },
+							{ "amount": 24, "type" : "crusader" }
+						],
+						"resources": 
+						{
+							"gold" : 12000		
+						},
+						"artifacts": [ "endlessSackOfGold" ]
+					}
+				]
+			}
+		}
+	}
+}

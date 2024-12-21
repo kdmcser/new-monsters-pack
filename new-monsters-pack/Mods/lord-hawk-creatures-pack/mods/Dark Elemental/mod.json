@@ -1,0 +1,39 @@
+{
+	"name" : "Dark Pact",
+	"description" : "Mod which adds 2 new units, Dark elemental and Derodyme, their dwellings and a creature bank.",
+	"author" : "Mod: Lord Hawk. Graphics: metalpiss, Alex-ander, Astaroth, Fred79, Lord Hawk.",
+	"contact" : "https://www.forum.acidcave.net/topic.php?TID=3579",
+	"version" : "1.3.1",
+	"changelog" :
+    {
+			"1.3.1" : [ "21/12/2024", "Code fixes" ],
+			"1.3"   : [ "20/12/2024", "Update do vcmi-1.6 format", "graphic changes and animation speeds", "Change to the creature bank", "Adding sounds to the bank and dwellings" ],
+			"1.2"   : [ "Added Derodyme", "Added creature bank" ],
+			"1.1"   : [ "Added dwellings", "Added breathing stance" ],
+        	"1.0"   : [ "First release" ]
+    },
+	"modType" : "Creatures",	
+	"compatibility":
+	{
+		"min" : "1.6.0"
+	},
+
+	"creatures" :
+	[
+		"config/Dark elemental/Creatures/Dark elemental.json",
+		"config/Dark elemental/Creatures/Derodyme.json"
+	],
+	"objects" : 
+	[ 
+		"config/Dark elemental/dwellings",
+		"config/Dark elemental/Hall of fear.json"   
+	],
+	"chinese" : {
+		"name" : "Dark Pact",
+		"description" : "Mod which adds 2 new units, Dark elemental and Derodyme, their dwellings and a creature bank."
+	},
+	"czech" : {
+		"name" : "Temný pakt",
+		"description" : "Tato modifikace přidává 2 nové jednotky, temné elementály a derodymy včetně jejich obydlí a zásobárnen."
+	}
+}

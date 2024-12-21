@@ -1,0 +1,91 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"halloffear" : 
+			{
+				"name" : "Hall of fear",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "Dark Elemental/dwelling/Hall of fear.def", 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABV"],
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"]
+					}
+				},
+				"sounds" : {
+					"ambient" : ["LOOPGATE"]
+				},
+				"rmg" : {
+					"value"		: 7500,
+					"rarity"	: 50,
+					"zoneLimit" : 2
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 2, "type" : "darkElemental" },
+							{ "amount": 2, "type" : "darkElemental" },
+							{ "amount": 2, "type" : "darkElemental" },
+							{ "amount": 2, "type" : "darkElemental" },
+							{ "amount": 2, "type" : "darkElemental" },
+							{ "amount": 2, "type" : "darkElemental" }
+						],
+						"creatures": [ { "amount": 1, "type": "aaDerodyme" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 4, "type" : "darkElemental" },
+							{ "amount": 4, "type" : "darkElemental" },
+							{ "amount": 4, "type" : "darkElemental" },
+							{ "amount": 4, "type" : "darkElemental" },
+							{ "amount": 4, "type" : "darkElemental" },
+							{ "amount": 4, "type" : "darkElemental" }
+						],
+						"creatures": [ { "amount": 2, "type": "aaDerodyme" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 6, "type" : "darkElemental" },
+							{ "amount": 6, "type" : "darkElemental" },
+							{ "amount": 6, "type" : "darkElemental" },
+							{ "amount": 6, "type" : "darkElemental" },
+							{ "amount": 6, "type" : "darkElemental" },
+							{ "amount": 6, "type" : "darkElemental" }
+						],
+						"creatures": [ { "amount": 3, "type": "aaDerodyme" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 8, "type" : "darkElemental" },
+							{ "amount": 8, "type" : "darkElemental" },
+							{ "amount": 8, "type" : "darkElemental" },
+							{ "amount": 8, "type" : "darkElemental" },
+							{ "amount": 8, "type" : "darkElemental" },
+							{ "amount": 8, "type" : "darkElemental" }
+						],
+						"creatures": [ { "amount": 4, "type": "aaDerodyme" } ]
+					}
+				]
+			}
+		}
+	}
+}
