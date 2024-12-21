@@ -1,0 +1,21 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mountainMines" : {
+				"name" : "Mountain Mines",
+				"creatures" : [ "mountainDwarf" ],
+				"sounds" : {
+					"ambient" : ["LOOPCRYS"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "Mountain Dwarf/dwelling/123.def",
+                        
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VABV"]
+                    
+					}
+				}
+			}
+		}	
+	}
+}

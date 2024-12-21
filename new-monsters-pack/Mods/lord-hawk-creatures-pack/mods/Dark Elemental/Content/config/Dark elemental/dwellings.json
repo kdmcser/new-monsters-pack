@@ -1,0 +1,37 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"towerofDarkness" : {
+				"name" : "Tower of Darkness",
+				"creatures" : [ "darkElemental" ],
+				"sounds" : {
+					"ambient" : ["LOOPMON1"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "Dark Elemental/dwelling/Tower of Darkness.def",
+                        
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVAV"]
+                    
+					}
+                
+				}
+			},
+			"laboratory" : {
+				"name" : "Laboratory",
+				"creatures" : [ "aaDerodyme" ],
+				"sounds" : {
+					"ambient" : ["LOOPSTAR"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "Dark Elemental/dwelling/Laboratory.def",
+                        
+						"mask" : [ "VVVV", "VVVV", "VBAV"]
+
+					}
+				}
+			}
+		}		
+	}
+}

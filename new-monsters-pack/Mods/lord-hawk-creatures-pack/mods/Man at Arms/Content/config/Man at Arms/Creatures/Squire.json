@@ -1,0 +1,74 @@
+{
+	"caSquire":
+	{
+		"name" :
+		{
+			"plural" : "Squires",
+			"singular" : "Squire"
+		},
+		"advMapAmount" :
+		{
+
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "neutral",
+		"upgrades":
+		[
+			"manAtArms"
+		],
+        "aiValue" : 335,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 210
+		},
+		"damage" :
+		{
+			 "max" : 7,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 310,
+		"graphics" :
+		{
+			"animation" : "Man at Arms/battle/Squire.def",
+			"map" : "Man at Arms/map/Squire.def",
+			"iconSmall" : "Man at Arms/iconsSmall/Squire.bmp",
+			"iconLarge" : "Man at Arms/iconsBig/Squire.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"attack" : 1,
+				"idle" : 2,
+				"walk" : 1
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+
+
+		"sound" :
+		{
+			"attack": "MAGEATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"stun":
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stun",
+                		"val" : 10 	
+			
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,97 @@
+{
+	"aaDerodyme":
+	{
+		"name" :
+		{
+			"plural" : "Derodymes",
+			"singular" : "Derodyme"
+		},
+		"doubleWide" : true,
+		"advMapAmount" :
+		{
+
+			"max" : 8,
+			"min" : 4
+		},
+		"faction" : "neutral",
+		"aiValue" : 4650,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 2250, 
+			"mercury" : 1
+		},
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 35
+		},
+		"defense" : 16,
+		"fightValue" : 3750,
+		"graphics" :
+		{
+			"animation" : "Dark elemental/battle/Derodyme.def",
+			"map" : "Dark elemental/map/Derodyme.def",
+			"iconSmall" : "Dark elemental/iconsSmall/Derodyme.bmp",
+			"iconLarge" : "Dark elemental/iconsBig/Derodyme.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 15,
+				"attack" : 1
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 175,
+		"level" : 7,
+
+
+		"sound" :
+		{
+			"attack": "WALLMISS.wav",
+			"defend": "WELFDFND.wav",
+			"killed": "WGHTKILL.wav",
+			"move": "ZOMBDFND.wav",
+			"wince": "RGRFDFND.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"UNDEAD":
+			{
+				"type" : "UNDEAD", 	
+			},
+			"KING_3" : // Will be affected by Expert Slayer only
+			{
+				"type" : "KING",
+				"val" : 3
+			},
+			"castsforgetfulness" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.forgetfulness",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},					 	 
+			"Depresion":
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.sorrow",
+                		"val" : 50,
+				"addInfo" : 2 	
+			}
+		}
+	}
+}
+
+								

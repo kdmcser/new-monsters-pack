@@ -1,0 +1,23 @@
+{
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"militaryacademy" : {
+				"name" : "Military Academy",
+				"creatures" : [ // 2 separate "levels" to give them separate growth
+					[ "caSquire" ],
+					[ "manAtArms" ]
+				],
+				"sounds": {
+					"ambient": ["LOOPPIKE"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "Man at Arms/dwelling/military academy.def",
+                        
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VBAV"]
+                    }
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,142 @@
+{
+	"stun" : {
+		"type" : "combat", 
+		"name" : "Stun",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 4,
+		"power" : 10,
+		"defaultGainChance" : 10, 
+		"gainChance" : {
+			"castle" : 10,
+			"tower" : 10,
+			"necropolis" : 10,
+			"conflux" : 10
+		},
+		"animation" : {
+			"affect" : ["Man at Arms/spell/stun"]
+		},
+ 
+		"flags" : {
+			"negative" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},			
+			"noneOf" : {
+				"core:bonus.MIND_IMMUNITY" : "normal",
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.UNDEAD" : "normal",
+				"core:bonus.MECHANICAL" : "normal"
+
+			}
+		}, 
+	
+		"graphics" : {
+			"iconBook" : "Man at Arms/spell/stun_iconBook.bmp",
+			"iconScroll" : "Man at Arms/spell/stun_iconScroll.bmp",
+			"iconScenarioBonus" : "Man at Arms/spell/stun_iconScenarioBonus.png",
+			"iconEffect" : "Man at Arms/spell/stun_iconEffect.png",
+			"iconImmune" :"Man at Arms/spell/Stunimmune.bmp"
+		},
+
+		"sounds" : {
+			"cast" : "CNTRSTRK"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels" : {
+			"base" : {
+				"description" : "{Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn.",
+				"power" : 10,
+				"aiValue" : 17,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "{Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn.",
+				"cost" : 16,
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						// "subtype" : "spell.blind",
+						"duration" : "N_TURNS",
+						"turns" : 1										
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS",
+						"turns" : 1
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn",
+				"cost" : 12,
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						// "subtype" : "spell.blind",
+						"duration" : "N_TURNS",
+						"turns" : 1										
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS",
+						"turns" : 1
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 2 turns.",
+				"cost" : 12,
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						// "subtype" : "spell.blind",
+						"duration" : "N_TURNS",
+						"turns" : 2										
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS",
+						"turns" : 2
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 3 turns.",
+				"cost" : 12,
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						// "subtype" : "spell.blind",
+						"duration" : "N_TURNS",
+						"turns" : 3										
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS",
+						"turns" : 3
+					}
+				}
+			}
+		}
+	}
+ 
+}
