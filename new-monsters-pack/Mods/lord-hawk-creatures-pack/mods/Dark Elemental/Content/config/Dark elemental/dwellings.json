@@ -3,7 +3,7 @@
 		"types" : {
 			"towerofDarkness" : {
 				"name" : "Tower of Darkness",
-				"creatures" : [ "darkElemental" ],
+				"creatures" : [[ "darkElemental" ]],
 				"sounds" : {
 					"ambient" : ["LOOPMON1"]
 				},
@@ -19,7 +19,7 @@
 			},
 			"laboratory" : {
 				"name" : "Laboratory",
-				"creatures" : [ "aaDerodyme" ],
+				"creatures" : [[ "aaDerodyme" ]],
 				"sounds" : {
 					"ambient" : ["LOOPSTAR"]
 				},
