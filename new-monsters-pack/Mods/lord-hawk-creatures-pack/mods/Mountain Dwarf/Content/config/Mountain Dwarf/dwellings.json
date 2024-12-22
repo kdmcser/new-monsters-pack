@@ -3,7 +3,7 @@
 		"types" : {
 			"mountainMines" : {
 				"name" : "Mountain Mines",
-				"creatures" : [ "mountainDwarf" ],
+				"creatures" : [[ "mountainDwarf" ]],
 				"sounds" : {
 					"ambient" : ["LOOPCRYS"]
 				},
