@@ -48,7 +48,7 @@
 			},
 			"tooHard": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.morale"
+				"subtype" : "spell.sorrow"
 			},
 			"tooSoft": {
 				"type" : "SPELL_IMMUNITY",
