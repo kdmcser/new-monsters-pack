@@ -3,25 +3,18 @@
 	"description": "New heroes",
 	"author": "Fiorin",
 	"contact": "https://fior.in",
-	"version": "1.0.1",
-	"modType": "Compatibility",
-	"chinese" : {
-		"name" : "更多的英雄",
-		"description" : "添加新英雄。"
-	},
-	"czech" : {
-		"name" : "Noví hrdinové",
-		"description" : "Noví hrdinové"
-	},
+	"version": "1.0.0",
+	"modType": "Heroes",
 	"compatibility": {
 		"min": "1.4.0"
 	},
 	"depends" : [ 
 		"ruins-town",
-		"new-monsters-pack.tok.more creatures"
+		"tok.more creatures"
 	],
 	"changelog": {
-		"1.0.0": ["Initial release"],
-		"1.0.1": ["Small fixes"]
+		"1.0.0": [
+			"Initial release"
+		]
 	}
 }

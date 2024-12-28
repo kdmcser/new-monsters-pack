@@ -33,7 +33,7 @@
 		],
 		"specialty": {
 			"bonuses": {
-				"maxAntimagic": {
+				"maxWeakness": {
 					"addInfo": 3,
 					"subtype": "spell.antiMagic",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
@@ -44,7 +44,7 @@
 			"biography" : "",
 			"name" : "Veles", 
 			"specialty" : {
-				"description" : "{Anty Magic}",
+				"description" : "{Weakness}\n\n",
 				"name" : "Weakness",
 				"tooltip": "Weakness"
 			}

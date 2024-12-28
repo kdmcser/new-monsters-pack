@@ -34,7 +34,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Archery",
 				"name": "Archery",
-				"description": "Receives a 5% per level bonus to Archery skill percentage."
+				"description": "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage."
 			}
 		}
 	}

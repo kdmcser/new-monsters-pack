@@ -21,7 +21,7 @@
 			"biography" : "",
 			"name" : "Larami",
 			"specialty" : {
-				"description" : "Increases Speed of any Dinossaur by 2 and their Attack and Defense skills by 5% for every 7 level.",
+				"description" : "{Dinossaur}\n\nIncreases Speed of any Dinossaur by 2 and their Attack and Defense skills by 5% for every 7 level.",
 				"name" : "Dinossaur",
 				"tooltip": "Creature bonus: Dinossaur"
 			}

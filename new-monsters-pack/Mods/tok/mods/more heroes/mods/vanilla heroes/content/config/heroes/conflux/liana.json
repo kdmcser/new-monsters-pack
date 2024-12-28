@@ -42,7 +42,7 @@
 			"biography": "",
 			"name": "Liana",
 			"specialty": {
-				"description": "Increases Speed of any Pixie and Sprites by 1 and their Attack and Defense skills by 5% for every level.",
+				"description": "{Pixie}\r\n\r\nIncreases Speed of any Pixie and Sprites by 1 and their Attack and Defense skills by 5% for every level.",
 				"name": "Pixie",
 				"tooltip": "Creature bonus: Pixie"
 			}

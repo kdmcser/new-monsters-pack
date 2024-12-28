@@ -14,14 +14,7 @@
 			"Warding Skill"
 		]
 	},
-	"chinese" : {
-		"name" : "更多的技能",
-		"description" : "添加新技能。"
-	},
-	"czech" : {
-		"name" : "Nové schopnosti",
-		"description" : "Nové schopnosti jako je Sláva, Runová ochrana a Vytrvalost"
-	},
+	"spells" : [],
 	"skills" : [
 		"config/skills/warding.json",
 		"config/skills/endurance.json",

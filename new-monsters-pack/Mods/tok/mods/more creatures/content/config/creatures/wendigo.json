@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"singular" : "Malevolent Wendigo",
-			"plural" : "Malevolent Wendigos"
+			"singular" : "Wendigo",
+			"plural" : "Wendigos"
 		},
 		"level" : 5,
 		"special" : false,
