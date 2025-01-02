@@ -1,49 +1,63 @@
 {
 	"core:creatureGeneratorCommon" : {
-		"base" : {
-			"base" : {
-				"visitableFrom" : [ "---", "+++", "+++" ],
-				"mask" : [ "VVV", "VBB", "VAA" ]
-			},
-			"sounds" : {
-				"ambient" : ["LOOPSWOR"],
-				"visit" : ["MILITARY"]
-			}
-		},
 		"types" : {
-			// "cr_wendigo_dwelling": {
-			// 	"name" : "Cavern of Sorrow",
-			// 	"creatures": [["cr_wendigo"]],
-			// 	"templates" : {
-			// 		"default" : {
-			// 			"animation" : "map/wendigo"
-			// 		}
-			// 	}
-			// },
+			//"cr_wendigo_dwelling": {
+			//	"name" : "Cavern of Sorrow",
+			//	"creatures": [["cr_wendigo"]],
+			//	"sounds" : {
+			//		"ambient" : ["LOOPSWOR"],
+			//		"visit" : ["MILITARY"]
+			//	},
+			//	"templates" : {
+			//		"default" : {
+			//			"animation" : "map/wendigo",
+			//			"visitableFrom" : [ "---", "+++", "+++" ],
+			//			"mask" : [ "VVV", "VBB", "VAB" ]
+			//		}
+			//	}
+			//,
 			"cr_shaman_dwelling": {
 				"name" : "Corroboree Spot",
 				"creatures": [["cr_shaman"]],
+				"sounds" : {
+					"ambient" : ["LOOPSWOR"],
+					"visit" : ["MILITARY"]
+				},
 				"templates" : {
 					"default" : {
-						"animation" : "map/shaman"
+						"animation" : "map/shaman",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
 			"cr_gnome_dwelling": {
 				"name" : "Grass Cabin",
 				"creatures": [["cr_gnome"]],
+				"sounds" : {
+					"ambient" : ["LOOPSWOR"],
+					"visit" : ["MILITARY"]
+				},
 				"templates" : {
 					"default" : {
-						"animation" : "map/gnome"
+						"animation" : "map/gnome",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
 			"cr_plaguedoctor_dwelling": {
 				"name" : "Blight Lab",
 				"creatures": [["cr_plaguedoctor"]],
+				"sounds" : {
+					"ambient" : ["LOOPSWOR"],
+					"visit" : ["MILITARY"]
+				},
 				"templates" : {
 					"default" : {
-						"animation" : "map/plaguedoctor"
+						"animation" : "map/plaguedoctor",
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			}
