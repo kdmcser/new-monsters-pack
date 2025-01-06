@@ -10,8 +10,8 @@
     "tides-of-war",
     "tides-of-war.skills",
     "ruins-town",
-    "tok.more creatures",
-    "tok.more heroes.neutral classes"
+    "new-monsters-pack.tok.more creatures",
+    "new-monsters-pack.tok.more heroes.neutral classes"
   ],
   "changelog": {
     "1.0": ["Initial release"],

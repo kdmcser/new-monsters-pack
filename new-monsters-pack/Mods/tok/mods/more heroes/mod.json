@@ -10,7 +10,7 @@
 	},
 	"depends" : [ 
 		"ruins-town",
-		"tok.more creatures"
+		"new-monsters-pack.tok.more creatures"
 	],
 	"changelog": {
 		"1.0.0": [

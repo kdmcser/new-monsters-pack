@@ -6,7 +6,7 @@
   "version": "1.1",
   "modType": "Heroes",
   "keepDisabled": false,
-  "depends": ["tok.more heroes.neutral classes"],
+  "depends": ["new-monsters-pack.tok.more heroes.neutral classes"],
   "changelog": {
     "1.0": ["Initial release"],
     "1.1": ["Cleaning"]

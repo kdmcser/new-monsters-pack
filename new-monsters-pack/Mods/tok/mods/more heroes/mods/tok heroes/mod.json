@@ -8,9 +8,9 @@
   "keepDisabled": true,
   "depends": [
     "ruins-town",
-    "tok.more creatures",
-    "tok.more secondary",
-    "tok.more heroes.neutral classes"
+    "new-monsters-pack.tok.more creatures",
+    "new-monsters-pack.tok.more secondary",
+    "new-monsters-pack.tok.more heroes.neutral classes"
   ],
   "changelog": {
     "1.0": ["Initial release"],

@@ -3,7 +3,7 @@
 	"description" : "New classes, heroes & graphics improvements",
 	"author" : "Fiorin",
 	"contact" : "http://fior.in",
-	"version" : "1.0.8",
+	"version" : "1.0.9",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -19,7 +19,8 @@
 		"1.0.5" : ["Czech translation by George King"],
 		"1.0.6" : ["Fix for compatibility dependiences"],
 		"1.0.7" : ["New creatures added"],
-		"1.0.8" : ["Added Chimera creature", "Clean some old heroes"]
+		"1.0.8" : ["Added Chimera creature", "Clean some old heroes"],
+		"1.0.9" : ["Fixes dependiences"]
 		
 	}, 
 	"chinese" : {
