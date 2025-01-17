@@ -44,9 +44,9 @@
 			"biography" : "",
 			"name" : "Veles", 
 			"specialty" : {
-				"description" : "{Weakness}\n\n",
-				"name" : "Weakness",
-				"tooltip": "Weakness"
+				"description" : "Maxed Anti-magic effect",
+				"name" : "Anti-magic",
+				"tooltip": "Anti-magic"
 			}
 		}
 	}

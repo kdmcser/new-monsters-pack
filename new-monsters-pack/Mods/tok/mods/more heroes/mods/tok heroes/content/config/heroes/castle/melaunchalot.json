@@ -32,7 +32,7 @@
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Endurance",
 				"name": "Endurance",
-				"description": "{Endurance}\r\n\r\nAll your creatures from Ruins get a permanent 5% health bonus."
+				"description": "All your creatures from Ruins get a permanent 5% health bonus."
 			}
 		}
 	}
