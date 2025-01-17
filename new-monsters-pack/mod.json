@@ -1,7 +1,7 @@
 {
 	"name" : "New monsters pack",
 	"author" : "Various",
-	"version" : "1.3.1",
+	"version" : "1.3.2",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -10,12 +10,13 @@
 	},
 	"changelog" :
     {
+		"1.3.2"   : [ "Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon." ],
 		"1.3.1"   : [ "Fixed dependiencies in tok extras submod" ],
 		"1.3.0"   : [ "Added Chimera creature into tok submod", "Cleaned some old heroes from tok submod" ],
 		"1.2.9"   : [ "Fix for new dwellings"  ],
 		"1.2.8"   : [ "Changed dark-dwarf-at-arms to lord-hawk-creatures-pack", "Added Derodyme, Squire and their dwellings including banks", "Added new spell Stun" ],
 		"1.2.7"   : [ "Fix for Quark Palace"  ],
-		"1.2.6"   : [ "Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extrass)"  ],
+		"1.2.6"   : [ "Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extras)"  ],
 		"1.2.5"   : [ "Kurek creatures pack update"  ],
 		"1.2.4"   : [ "Added Ettin creature in Fiorin's tok submod"  ],
 		"1.2.3"   : [ "Fixed bugs in Sphinx, Baba-Yaga and Will-o-wisp configs"  ],

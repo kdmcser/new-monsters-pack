@@ -5,7 +5,7 @@
 	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "2.4",
+	"version" : "2.5",
 	"modType" : "Creatures",
 	"changelog" :
 	{
@@ -18,7 +18,8 @@
 		"2.2"  : ["Czech translation by George King"],
 		"2.21" : ["Some syntax fixes"],
 		"2.3"  : ["Added Neutral creature, dwelling and bank: Wild Griffin, Griffin Cliffs, Griffin Nest."],
-		"2.4"  : ["Added Neutral creature, dwelling and spell: Orange Dragon, Enchanted Forest, Fire ring."]
+		"2.4"  : ["Added Neutral creature, dwelling and spell: Orange Dragon, Enchanted Forest, Fire ring."],
+		"2.5"  : ["Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon."]
 	},
 	"chinese" : {
 		"name" : "生物模组包（Kurek）",

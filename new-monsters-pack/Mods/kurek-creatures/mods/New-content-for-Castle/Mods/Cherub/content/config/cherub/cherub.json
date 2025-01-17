@@ -91,32 +91,25 @@
 				"subtype" : "creature.archDevil",
 				"val" : 50
 			},
-			"const_raises_morale" : {
-			
-			"propagator" : "HERO",
-			 
-			"stacking" : "Angels",
-
-			"type" : "MORALE",
-			 
-			"val" : 1
+			"const_raises_morale" : 
+			{
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"type" : "MORALE",
+				"val" : 1
 			},
-			"KING_2" : {
-			"type" : "KING",
-			"val" : 2
+			"KING_2" : 
+			{
+				"type" : "KING",
+				"val" : 2
 			},
 			"powerAttack" : {
-			
-			"subtype" : "spell.holyBlade",
-			
-			"type" : "SPELL_LIKE_ATTACK",
-			
-			"val" : 0
+				"subtype" : "spell.holyBlade",
+				"type" : "SPELL_LIKE_ATTACK",
+				"val" : 0
 			}
-			
 		},
-	"stackExperience" : [
-
+		"stackExperience" : [
 		{
 
 			"bonus" : {
@@ -125,29 +118,7 @@
 
 				"type" : "PRIMARY_SKILL"
 			},
-
-			"values" : [
-
-				1,
-
-				2,
-
-				3,
-
-				4,
-
-				5,
-
-				6,
-
-				7,
-
-				8,
-
-				9,
-
-				10
-			]
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 		},
 
 		{
@@ -158,29 +129,7 @@
 
 				"type" : "PRIMARY_SKILL"
 			},
-
-			"values" : [
-
-				1,
-
-				2,
-
-				3,
-
-				4,
-
-				5,
-
-				6,
-
-				7,
-
-				8,
-
-				9,
-
-				10
-			]
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 		},
 
 		{
@@ -188,32 +137,9 @@
 			"bonus" : {
 
 				"subtype" : "creatureDamageMax",
-
 				"type" : "CREATURE_DAMAGE"
 			},
-
-			"values" : [
-
-				1,
-
-				2,
-
-				3,
-
-				4,
-
-				5,
-
-				6,
-
-				7,
-
-				8,
-
-				9,
-
-				10
-			]
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 		},
 
 		{
@@ -221,191 +147,52 @@
 			"bonus" : {
 
 				"subtype" : "creatureDamageMin",
-
 				"type" : "CREATURE_DAMAGE"
 			},
-
-			"values" : [
-
-				1,
-
-				2,
-
-				3,
-
-				4,
-
-				5,
-
-				6,
-
-				7,
-
-				8,
-
-				9,
-
-				10
-			]
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 		},
 
 		{
-
 			"bonus" : {
 
 				"type" : "STACK_HEALTH",
-
 				"valueType" : "PERCENT_TO_BASE"
 			},
-
-			"values" : [
-
-				5,
-
-				10,
-
-				15,
-
-				20,
-
-				25,
-
-				30,
-
-				35,
-
-				40,
-
-				45,
-
-				50
-			]
+			"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 		},
 
 		{
-
 			"bonus" : {
 
 				"type" : "STACKS_SPEED"
 			},
-
-			"values" : [
-
-				0,
-
-				0,
-
-				0,
-
-				1,
-
-				1,
-
-				2,
-
-				2,
-
-				2,
-
-				2,
-
-				3
-			]
+			"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 		},
 
 		{
-
 			"bonus" : {
-
+				
 				"type" : "FEARLESS"
 			},
-
-			"values" : [
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true
+			"values" : [ false, false, false, false, true, true, true, true, true, true
 			]
 		},
 
 		{
-
 			"bonus" : {
 
 				"type" : "MIND_IMMUNITY"
 			},
-
-			"values" : [
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				true,
-
-				true,
-
-				true
-			]
+			"values" : [ false, false, false, false, false, false, false, true, true, true ]
 		},
 
 		{
 
 			"bonus" : {
-
 				"subtype" : "spell.armageddon",
-
 				"type" : "SPELL_IMMUNITY"
 			},
-
-			"values" : [
-
-				false,
-
-				false,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true,
-
-				true
-			]
+			"values" : [ false, false, true, true, true, true, true, true, true, true ]
 		},
 
 		{
@@ -414,29 +201,7 @@
 
 				"type" : "CASTS"
 			},
-
-			"values" : [
-
-				0,
-
-				0,
-
-				0,
-
-				0,
-
-				0,
-
-				0,
-
-				1,
-
-				1,
-
-				1,
-
-				1
-			]
+			"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
 		},
 
 		{
@@ -446,28 +211,7 @@
 				"type" : "MAGIC_RESISTANCE"
 			},
 
-			"values" : [
-
-				0,
-
-				0,
-
-				0,
-
-				0,
-
-				0,
-
-				10,
-
-				20,
-
-				30,
-
-				40,
-
-				50
-			]
+			"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
 		},
 
 		{
@@ -475,32 +219,9 @@
 			"bonus" : {
 
 				"subtype" : "spellSchool.water",
-
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
 			},
-
-			"values" : [
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				false,
-
-				true,
-
-				true,
-
-				true,
-
-				true
-			]
+			"values" : [ false, false, false, false, false, false, true, true, true, true ]
 		}
 	]
 	}
