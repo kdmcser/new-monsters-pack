@@ -16,7 +16,7 @@
     "1.0": ["Initial release"],
     "1.1": ["Bugbear adjust"],
     "1.2": ["Chimera added"],
-	"1.2": ["Fixed some specialy code"]
+	"1.3": ["Fixed some specialy code"]
   },
   "heroes": [
     "config/heroes/castle/melaunchalot.json",
