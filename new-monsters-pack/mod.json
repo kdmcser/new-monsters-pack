@@ -1,7 +1,7 @@
 {
-	"name" : "New monsters pack",
+	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.3.3",
+	"version" : "1.3.4",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -10,6 +10,7 @@
 	},
 	"changelog" :
     {
+		"1.3.4"   : [ "Updated Czech translation with Wasp addon." ],
 		"1.3.3"   : [ "Fixed some specialty code in tok heroes submod." ],
 		"1.3.2"   : [ "Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon." ],
 		"1.3.1"   : [ "Fixed dependiencies in tok extras submod" ],
