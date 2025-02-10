@@ -3,7 +3,7 @@
   "description": "Add more heroes based on TOK additions",
   "author": "Fiorin",
   "contact": "http://fior.in",
-  "version": "1.3",
+  "version": "1.4",
   "modType": "Heroes",
   "keepDisabled": true,
   "depends": [
@@ -16,7 +16,8 @@
     "1.0": ["Initial release"],
     "1.1": ["Bugbear adjust"],
     "1.2": ["Chimera added"],
-	"1.3": ["Fixed some specialy code"]
+	"1.3": ["Fixed some specialy code"],
+	"1.4": ["Fix for melaunchalot hero"]
   },
   "heroes": [
     "config/heroes/castle/melaunchalot.json",
