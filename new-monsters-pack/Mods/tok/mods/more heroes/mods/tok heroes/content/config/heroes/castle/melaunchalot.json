@@ -22,17 +22,22 @@
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE",
 					"propagator" : "BATTLE_WIDE",
-					"val" : 5
+					"val" : 5,
+					"limiters" : [
+					{
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"parameters" : [ "castle" ]
+					}
 				}
 			}
 		},
 		"texts" : {
-			"biography" : "",
+			"biography" : "to do",
 			"name" : "Melaunchalot",
 			"specialty": {
 				"tooltip": "Secondary Skill Bonus: Endurance",
 				"name": "Endurance",
-				"description": "All your creatures from Ruins get a permanent 5% health bonus."
+				"description": "All your creatures from Castle get a permanent 5% health bonus."
 			}
 		}
 	}
