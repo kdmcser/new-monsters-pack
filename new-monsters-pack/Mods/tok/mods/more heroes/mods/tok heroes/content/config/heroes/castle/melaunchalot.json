@@ -27,7 +27,7 @@
 					{
 						"type" : "CREATURE_ALIGNMENT_LIMITER",
 						"parameters" : [ "castle" ]
-					}
+					}]
 				}
 			}
 		},
