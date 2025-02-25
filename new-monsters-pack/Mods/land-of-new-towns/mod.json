@@ -1,0 +1,24 @@
+{
+	"name" : "Land Of New Town Creatures",
+	"description" : "Neutral unit. Beware! The stats may be completely different from Land Of New Towns!",
+	"author" : "Land Of New Town Team",
+	"version" : "1.0.0",
+	"changelog" :
+	{
+		"1.0.0"   : [ "Port by Fabrice TIERCELIN" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"modType" : "Creatures",
+	"creatures" :
+	[
+		"config/creatures/cheyenne"
+	],
+		
+    "objects" :
+    [ 
+		"config/objects/cheyenneHut.json"
+    ]
+}

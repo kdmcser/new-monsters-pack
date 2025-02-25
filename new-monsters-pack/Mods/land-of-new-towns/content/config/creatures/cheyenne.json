@@ -1,0 +1,117 @@
+{
+	"cheyenne" : {
+		"abilities" : {	
+			"shoter" : 
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},	
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 2, 3, 4 ]
+			}
+		],	
+		"advMapAmount" : {"max" : 15, "min" : 10},
+		"aiValue" : 620,
+		"attack" : 12,
+		"cost" : { "gold" : 450 },
+		"damage" : {"max" : 10, "min" : 9},
+		"shots" : 4,
+		"defense" : 6,
+		"faction" : "neutral",
+		"fightValue" : 501,
+		"graphics" : {
+			"animation" : "creatures/battle/cheyenne.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "creatures/big/cheyenneBig.bmp",
+			"iconSmall" : "creatures/small/cheyenneSmall.bmp",
+			"map" : "creatures/map/cheyenneMap.def",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "creatures/battle/projectile/ball.def",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"lowerX" : -37,
+					"lowerY" : -84,
+					"middleX" : -23,
+					"middleY" : -73,
+					"upperX" : -26,
+					"upperY" : -94
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"growth" : 3,
+		"hitPoints" : 35,
+        "doubleWide" : false,
+		"level" : 5,
+		"name" : { "plural" : "Cheyennes", "singular" : "Cheyenne" },
+		"sound" : {
+			"attack" : "creatures/cheyAtt.wav",
+			"defend" : "creatures/cheyDef.wav",
+			"killed" : "creatures/cheyDead.wav",
+			"move" : "creatures/cheyMove.wav",
+			"wince" : "creatures/cheyHit.wav",
+			"shoot" : "creatures/cheyShot.wav"
+		},
+		"speed" : 9
+	}
+}

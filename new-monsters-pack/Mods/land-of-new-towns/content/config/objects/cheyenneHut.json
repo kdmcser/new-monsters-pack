@@ -1,0 +1,22 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"cheyenneHut" :
+             {
+				"name" : "Cheyenne Hut",
+				"creatures" : [[ "cheyenne" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation": "objects/cheyenneHut",
+						"mask" : [ "VVV", "VAV" ],
+					}
+				},
+				"sounds": {
+					"ambient": ["objects/cheyenneHut"]
+				}								
+            }
+		}
+	}
+}
