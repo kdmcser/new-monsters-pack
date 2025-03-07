@@ -2,7 +2,7 @@
 	"description": "Adds new Pavilion hero class: Pharaoh. 8 additional units for Pavilion. Based on Bastion from Bastion New Town Group, Pavilion. This mod also adds a few Vizier and Embalmer heroes. Special thanks to: Nephretes, J. M. Sower, Hobbit, Kuririn, Witchking, Trith, Mitlandy, and all Acid Cave community. This version also adds the 'Turn to Stone' effect.",
 	"name": "New Heroes, Units, and Turn to Stone Effect for Pavilion",
 	"author" : "Kurek, edeksumo, Bastion New Town Group, Maestro",
-	"version" : "1.3",
+	"version" : "1.4",
 	"contact" : "Kurek",
 	"modType" : "Compatibility",
 	"depends" : [
@@ -60,6 +60,10 @@
 	],
 	"objects" : [
 		"config/bastion/dwellings.json"
+	],
+	"spells" : [
+		"config/bastion/spells/stonetoflesh.json",
+		"config/bastion/spells/turntostone.json"
 	],
 	"battlefields": [
 		"config/bastion/ancientcenotaphbattlefield.json",

@@ -45,7 +45,9 @@
 		 
 		"iconScenarioBonus" : "wasps/jumpbonus",
 		 
-		"iconScroll" : "wasps/jumpscroll"
+		"iconScroll" : "wasps/jumpscroll",
+		
+		"iconImmune": "wasps/jumpimmune"
 	},
 	 
 	"level" : 4,

@@ -1,7 +1,7 @@
 {
 	"blackgorgon":
 	{
-		"description" : "The sturdy black gorgons attack with their acidic breath. The Black Gorgon has a death stare with a 10% chance per attack of killing 1 creature in a troop outright per 10 Black Gorgons. It can also change its enemies to stone with their cursed gaze and is immune to poison and acid damage.",
+		"description" : "{#ff0000|Black Gorgon}\r\n\r\nThe sturdy Black Demigorgons attack with their acidic breath.\r\n\r\n{gold|Special Ability : The Black Gorgon has a death stare with a 10% chance per attack of killing 1 creature in a troop outright per 10 Black Gorgons.\r\n\r\nIt can also change its enemies to stone with their cursed gaze and is immune to poison and acid damage.}",
 		"name" :
 		{
 			"plural" : "Black Gorgons",
@@ -143,11 +143,13 @@
 		],
 		"sound" :
 		{
-			"attack": "BGORATTK.wav",
-			"defend": "BGORDFND.wav",
-			"killed": "BGORKILL.wav",
-			"move": "BGORMOVE.wav",
-			"wince": "BGORWNCE.wav"
+			"attack": "battlegorgon/BGORATTK1.wav",
+			"defend": "battlegorgon/BGORDFND1.wav",
+			"killed": "battlegorgon/BGORKILL1.wav",
+			"move": "battlegorgon/BGORMOVE1.wav",
+			"wince": "battlegorgon/BGORWNCE1.wav",
+			"startMoving" : "battlegorgon/BGORSTARTMOVE1.wav",
+            "endMoving" : "battlegorgon/BGORENDMOVE1.wav"
 		}
 	}
 }		

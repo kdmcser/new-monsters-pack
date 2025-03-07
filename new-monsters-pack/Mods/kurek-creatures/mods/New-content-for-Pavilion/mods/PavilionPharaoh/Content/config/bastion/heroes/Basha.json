@@ -10,7 +10,7 @@
 			"biography" : "Basha loves trinkets, in particular affection has for crystals. She can find even the smallest crystal hidden in desert sands, which makes her one of the most respected nobles of the desert.",
 			"specialty" :
 			{
-				"description" : "{Crystals}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"description" : "Increases kingdom's income by 1 crystal per day",
 				"tooltip" : "+1 Crystal each day",
 				"name" : "Crystals"
 			}

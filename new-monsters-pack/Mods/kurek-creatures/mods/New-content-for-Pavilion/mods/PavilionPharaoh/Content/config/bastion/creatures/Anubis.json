@@ -6,7 +6,7 @@
 			"plural" : "Anubian Warriors",
 			"singular" : "Anubian Warrior"
 		},
-		"description" : "The most powerful warriors of the Pavilions. Members of a powerful warrior caste among the Anubians. When they engage in battle, no one stands a chance of emerging unscathed from a clash with them. Their spiritual contact with the afterlife realm allows them to regenerate and teleport.",		
+		"description" : "{#ff0000|Anubian Warrior}\r\n\r\nThe most powerful warriors of the Pavilions. Members of a powerful warrior caste among the Anubians. When they engage in battle, no one stands a chance of emerging unscathed from a clash with them. \r\n\r\n{gold|Special Ability : Their spiritual contact with the afterlife realm allows them to regenerate and teleport.}",		
 		"advMapAmount" :
 		{
 			"max" : 10,

@@ -10,7 +10,7 @@
 			"biography" : "They say that it was Netsutset who brought the ammuts to the cities. The first ammuts were summoned from some kind of terrifying realm via a dark ritual ordered by Netsutset and performed by crocodile priests. Despite their wild nature, he managed to tame and train these otherworldly beings.",
 			"specialty" :
 			{
-				"description" : "{Ammuts and Sun Ammuts}\r\n\r\nIncreases the Attack and Defence of any Ammuts or Sun Ammuts for each level attained after 5th level.",
+				"description" : "Increases the Attack and Defence of any Ammuts or Sun Ammuts for each level attained after 5th level.",
 				"tooltip" : "Creature Bonus: Ammuts",
 				"name" : "Ammuts"
 			}

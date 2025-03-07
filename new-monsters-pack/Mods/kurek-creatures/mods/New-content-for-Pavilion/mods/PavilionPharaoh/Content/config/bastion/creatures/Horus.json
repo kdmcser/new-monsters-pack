@@ -4,7 +4,7 @@
 			"plural": "Horuses",
 			"singular": "Horus"
 		},
-		"description" : "The Horus from the Falcon Clan are desert-dwelling, winged humanoids with falcon heads, perfectly adapted to survive in harsh conditions. Resistant to magical damage, they can deliver lethal strikes with their magical gaze, which can fatally injure their enemies. In battle, they wield battle picks, using their agility and speed to overcome their foes.",
+		"description" : "{#ff0000|Horus}\r\n\r\nThe Horus from the Falcon Clan are desert-dwelling, winged humanoids with falcon heads, perfectly adapted to survive in harsh conditions.\r\n\r\n{gold|Special Ability : Resistant to magical damage, they can deliver lethal strikes with their magical gaze, which can fatally injure their enemies.\r\n\r\n In battle, they wield battle picks, using their agility and speed to overcome their foes.}",
 		"advMapAmount": {
 			"max": 16,
 			"min": 8

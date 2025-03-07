@@ -6,7 +6,7 @@
 			"plural" : "Divine Horuses",
 			"singular" : "Divine Horus"
 		},
-		"description" : "Divine Horus from the higher caste are powerful beings who surpass their ordinary kin not only in physical strength but also in mastery of magic. Gifted with exceptional abilities, they can cast spells that enhance their attacks and control the battlefield, making them even more formidable opponents. Their divine nature allows them to be not only magnificent warriors wielding knopeshes but also sages capable of predicting enemy movements and invoking powerful forces that shape the fate of battles.",
+		"description" : "{#ff0000|Divine Horus}\r\n\r\nDivine Horus from the higher caste are powerful beings who surpass their ordinary kin not only in physical strength but also in mastery of magic. \r\n\r\n{gold|Special Ability : Gifted with exceptional abilities, they can cast spells that enhance their attacks and control the battlefield, making them even more formidable opponents.}\r\n\r\n Their divine nature allows them to be not only magnificent warriors wielding knopeshes but also sages capable of predicting enemy movements and invoking powerful forces that shape the fate of battles.",
 		"advMapAmount" :
 		{
 			"max" : 16,

@@ -10,7 +10,7 @@
 			"biography" : "She has a great talent for finding an oases in the desert. She once even accidentally found a desert geyser called the Holy Source of Life. Nowadays she often goes there with her army, which makes her troops more vital than other troops found in the desert.",
 			"specialty" :
 			{
-				"description" : "{Aura of Life}\r\n\r\nIncreases hit points of all units in the army by 2.",
+				"description" : "Increases hit points of all units in the army by 2.",
 				"tooltip" : "Hit points + 2",
 				"name" : "Aura of Life"
 			}

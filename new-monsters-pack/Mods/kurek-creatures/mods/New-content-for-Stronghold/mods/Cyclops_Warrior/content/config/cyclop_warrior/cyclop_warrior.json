@@ -6,7 +6,7 @@
 			"plural" : "Cyclops Warriors",
 			"singular" : "Cyclops Warrior"
 		},
-		"description" : "Fearless combatants who have abandoned throwing boulders in favor of melee combat with massive clubs. Each of their strikes not only deals tremendous damage but also has a chance to stun the enemy, immobilizing them for one turn. Although they lack ranged attacks, they make up for it with exceptional resilience and devastating strength, making them unmatched in close-quarters battles. Their sheer brutality makes them a key unit for breaking through enemy lines.",
+		"description" : "{#ff0000|Cyclops Warrior}\r\n\r\nFearless combatants who have abandoned throwing boulders in favor of melee combat with massive clubs.\r\n\r\n{gold|Special Ability : Each of their strikes not only deals tremendous damage but also has a chance to stun the enemy, immobilizing them for one turn.}\r\n\r\n Although they lack ranged attacks, they make up for it with exceptional resilience and devastating strength, making them unmatched in close-quarters battles. Their sheer brutality makes them a key unit for breaking through enemy lines.",
 		"advMapAmount" :
 		{
 			"max" : 7,
@@ -53,7 +53,9 @@
 			"defend": "CYCLDFND.wav",
 			"killed": "CYCLKILL.wav",
 			"move": "CYCLMOVE.wav",
-			"wince": "CYCLWNCE.wav"
+			"wince": "CYCLWNCE.wav",
+			"startMoving" : "cyclopswarrior/CYCLSTARTMOVE2.wav",
+            "endMoving" : "cyclopswarrior/CYCLENDMOVE2.wav"
 		},
 		"speed" : 8,
 		"abilities" :

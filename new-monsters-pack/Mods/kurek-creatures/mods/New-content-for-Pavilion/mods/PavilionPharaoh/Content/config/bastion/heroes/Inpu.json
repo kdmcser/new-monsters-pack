@@ -10,7 +10,7 @@
 			"biography" : "Pharaoh Inpu is a legendary ruler known for his extraordinary magical abilities. Through mysterious rituals, he can transform sphinxes of various subspecies, including living and undead sphinxes, lamias, manticores, and scorpicores, into powerful guardian sphinxes. His reign is a time of great protection and stability, as the guardian sphinxes guard the borders of his kingdom against all threats.",
 			"specialty" :
 			{
-				"description" : "{Guardian Sphinxes}\r\n\r\nUpgrades various creatures into sphinxes. These creatures are: Sphinxes, Sphinx Oracles, Lamias, Ashen Sphinxes, Entombed Sphinxes, Manticores and Scorpicores.",
+				"description" : "pgrades various creatures into sphinxes. These creatures are: Sphinxes, Sphinx Oracles, Lamias, Ashen Sphinxes, Entombed Sphinxes, Manticores and Scorpicores.",
 				"tooltip" : "Creature Bonus: Can change various hybrids into Guardian Sphinxes",
 				"name" : "Master of Sphinxes"
 			}

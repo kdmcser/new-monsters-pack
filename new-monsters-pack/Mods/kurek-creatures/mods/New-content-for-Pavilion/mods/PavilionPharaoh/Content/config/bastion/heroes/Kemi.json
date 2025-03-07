@@ -10,7 +10,7 @@
 			"biography" : "Kemi hails from Tatalia. She was an apprentice blacksmith who learned everything from her master before moving south. The swampy areas never suited her, so she settled within the protective walls of Shazad, where she served as a blacksmith for the army. After becoming very popular, she overthrew a local pharaoh and took his place on the throne.",
 			"specialty" :
 			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}

@@ -6,7 +6,7 @@
 			"plural" : "Desert Guards",
 			"singular" : "Desert Guard"
 		},
-		"description" : "The most experienced among overseers and warriors are granted the honor of serving as the elite Desert Guards. Clad in light armor, they bear shields and long spears, allowing them to effectively repel counterattacks and form impenetrable defensive lines against cavalry.",
+		"description" : "{#ff0000|Desert Guard}\r\n\r\nThe most experienced among overseers and warriors are granted the honor of serving as the elite Desert Guards.\r\n\r\n{gold|Special Ability : Clad in light armor, they bear shields and long spears, allowing them to effectively repel counterattacks and form impenetrable defensive lines against cavalry.}",
 		"advMapAmount" :
 		{
 			"max" : 30,

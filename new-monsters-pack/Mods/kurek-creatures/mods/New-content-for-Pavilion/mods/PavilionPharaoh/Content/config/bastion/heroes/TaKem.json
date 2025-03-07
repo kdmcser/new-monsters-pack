@@ -10,7 +10,7 @@
 			"biography" : "Ta-Kem spent her whole life studying various scrolls about geology. When times have changed and he was sent to war, she learned to use the acquired knowledge in practice, so she can always find firmer ground to move quickly.",
 			"specialty" :
 			{
-				"description" : "{Pathfinding}\r\n\r\nReceives a 5% per level bonus to Pathfinding skill.",
+				"description" : "Receives a 5% per level bonus to Pathfinding skill.",
 				"tooltip" : "Secondary Skill Bonus: Pathfinding",
 				"name" : "Pathfinding"
 			}

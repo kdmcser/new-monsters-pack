@@ -6,7 +6,7 @@
 			"plural" : "Guardian Sphinxes",
 			"singular" : "Guardian Sphinx"
 		},
-		"description" : "A magical being with the body of a lion and the head of a pharaoh, guarding temples and ancient sites. It appears as a stone statue but is alive, capable of killing with a gaze. Resistant to earth magic, it is a strong and steadfast defender.",
+		"description" : "{#ff0000|Guardian Sphinx}\r\n\r\nA magical being with the body of a lion and the head of a pharaoh, guarding temples and ancient sites.\r\n\r\n{gold|Special Ability : It appears as a stone statue but is alive, capable of killing with a gaze. Resistant to earth magic, it is a strong and steadfast defender.}",
 		"advMapAmount" :
 		{
 			"max" : 12,

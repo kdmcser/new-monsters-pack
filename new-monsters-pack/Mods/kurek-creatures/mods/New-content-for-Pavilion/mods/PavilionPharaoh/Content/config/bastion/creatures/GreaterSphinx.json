@@ -6,7 +6,7 @@
 			"plural" : "Greater Sphinxes",
 			"singular" : "Greater Sphinx"
 		},
-		"description" : "The most powerful type of sphinx, capable of killing with its gaze and turning foes to stone with incantations. Even more resistant to earth magic, it surpasses other sphinxes in threat and might. It guards the most sacred and significant sites.",
+		"description" : "{#ff0000|Greater Sphinx}\r\n\r\nThe most powerful type of sphinx, capable of killing with its gaze and turning foes to stone with incantations.\r\n\r\n Even more resistant to earth magic, it surpasses other sphinxes in threat and might. It guards the most sacred and significant sites.",
 		"advMapAmount" :
 		{
 			"max" : 10,

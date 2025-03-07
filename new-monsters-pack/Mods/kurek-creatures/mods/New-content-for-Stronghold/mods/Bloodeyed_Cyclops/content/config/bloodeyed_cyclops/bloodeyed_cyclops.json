@@ -4,7 +4,7 @@
             "plural": "Bloodeyed Cyclopes",
             "singular": "Bloodeyed Cyclop"
         },
-	"description" : "Bloodeyed Cyclopes are fearsome shamanic warriors who channel fiery energy through their glowing red eyes. Their deadly eye beams incinerate enemies, dealing fire damage, and magically paralyze them with crimson energy, immobilizing them for a turn. Uniquely, they can use this beam effectively in close combat, where it can strike two units standing in a line. This makes them exceptionally versatile, both at range and in melee. As spiritual leaders of the cyclopes, they also possess the ability to cast the Misfortune spell, cursing their enemies with dreadful luck.",
+	"description" : "{#ff0000|Bloodeyed Cyclop}\r\n\r\nBloodeyed Cyclopes are fearsome shamanic warriors who channel fiery energy through their glowing red eyes.\r\n\r\n{gold|Special Ability : Their deadly eye beams incinerate enemies, dealing fire damage, and magically paralyze them with crimson energy, immobilizing them for a turn.\r\n\r\n Uniquely, they can use this beam effectively in close combat, where it can strike two units standing in a line. This makes them exceptionally versatile, both at range and in melee.\r\n\r\n As spiritual leaders of the cyclopes, they also possess the ability to cast the Misfortune spell, cursing their enemies with dreadful luck.}",
 	
         "advMapAmount": {
             "max": 9,
@@ -65,11 +65,13 @@
         "level": 6,
         "sound": {
             "attack": "cyclops/Bloodeyed_cyclops_beam.wav",
-            "defend": "CYCLDFND.wav",
-            "killed": "CYCLKILL.wav",
-            "move": "CYCLMOVE.wav",
+            "defend": "cyclops/CYCLDFND1.wav",
+            "killed": "cyclops/CYCLKILL1.wav",
+            "move": "cyclops/CYCLMOVE1.wav",
             "shoot": "cyclops/Bloodeyed_cyclops_beam.wav",
-            "wince": "CYCLWNCE.wav"
+            "wince": "cyclops/CYCLWNCE1.wav",
+			"startMoving" : "cyclops/CYCLSTARTMOVE1.wav",
+            "endMoving" : "cyclops/CYCLENDMOVE1.wav"
         },
         "speed": 8,
         "abilities": {

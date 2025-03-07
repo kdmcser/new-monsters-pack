@@ -10,7 +10,7 @@
 			"biography" : "In cities of wizards, there is little room for women, especially for women like Ankh-Amon, for whom expanding knowledge is less important than enhancing magical talent. After years of wandering, she found her place among the viziers in the Bracada desert.",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
