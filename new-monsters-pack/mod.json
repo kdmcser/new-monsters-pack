@@ -10,7 +10,7 @@
 	},
 	"changelog" :
     {
-		"1.3.5"   : [ "MAY BREAK SAVES: Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets to kurek-creatures submod" ]
+		"1.3.5"   : [ "MAY BREAK SAVES: Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets to kurek-creatures submod" ],
 		"1.3.4"   : [ "Updated Czech translation with Wasp addon." ],
 		"1.3.3"   : [ "Fixed some specialty code in tok heroes submod." ],
 		"1.3.2"   : [ "Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon." ],
