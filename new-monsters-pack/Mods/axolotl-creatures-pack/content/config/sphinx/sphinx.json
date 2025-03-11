@@ -109,7 +109,7 @@
 		"hitPoints" : 55,
         "doubleWide" : true,
 		"level" : 5,
-		"name" : { "plural" : "Sphinxes", "singular" : "Sphinx" },
+		"name" : { "plural" : "Royal Sphinxes", "singular" : "Royal Sphinx" },
 		"sound" : {
 			"attack" : "sphinx/sphattk",
 			"defend" : "sphinx/sphdfnd",
