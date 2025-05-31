@@ -1,7 +1,7 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.3.8",
+	"version" : "1.3.9",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -10,6 +10,7 @@
 	},
 	"changelog" :
     {
+		"1.3.9"   : [ "Minor fix for Lurkers' bank reward chances in Kurek creatures submod" ],
 		"1.3.8"   : [ "New graphics for Wasps buildings in Kurek creatures submod" ],
 		"1.3.7"   : [ "Updated polish translation", "Changed Sphinx name into Royal Sphinx" ],
 		"1.3.6"   : [ "Missing Dungeon content" ],
