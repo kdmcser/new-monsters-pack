@@ -50,7 +50,7 @@
                     },
                     {
                         "message": 34,
-                        "appearChance": { "min": 0, "max": 30 },
+                        "appearChance": { "min": 30, "max": 60 },
                         "guards": [
                             { "amount": 18, "type": "beholder" },
                             { "amount": 10, "type": "lurker" },
