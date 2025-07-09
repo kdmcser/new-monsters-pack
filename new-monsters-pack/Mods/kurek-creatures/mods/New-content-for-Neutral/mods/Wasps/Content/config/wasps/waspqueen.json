@@ -6,7 +6,7 @@
 			"singular" : "Wasp Queen",
 			"plural" : "Wasp Queen" //there can be only one!
 		},
-		"description": "{Wasp Queen}\r\n\r\nThe Wasp Queen is a rare and powerful entity, the heart and mind of the entire colony. Her unmatched abilities, including summoning wasps, laying eggs, and commanding her army, make her one of the most formidable foes in the realm.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} Like other wasps, the Queen can fly, evading most attacks, though her true strength lies in defense and summoning guardians.\r\n{gold|Two Additional Retaliations:} The Queen is able to bite and sting while defending herself.\r\n{gold|Strike and Return:} Even though she isn't the fastest type of wasp, her majesty is still able to return to the hive after every strike.\r\n{gold|Venomous Sting 30 percent chance after attack:} Her attacks have a high chance to poison enemies, causing damage over time.\r\n{gold|Armor Piercing 20 percent chance:} The Queen can bypass enemy defenses, dealing enhanced damage.\r\n{gold|Egg Laying:} She can summon Worker Wasps, Sentry Wasps, and Warrior Wasps to bolster the hive's forces.\r\n{gold|Summoning Guards Drones at Battle Start:} At the start of combat, the Queen is surrounded by drones acting as her personal guardians.\r\n{gold|Bloodlust, Swarm, and Berserk before attack:} The Queen can enhance herself or disrupt foes with these spells, ensuring her dominance in battle.\r\n{gold|Mind Spell Immunity:} The Queen is immune to all mind-affecting spells, ensuring her hivemind commands cannot be disrupted.\r\n",
+		"description": "{Wasp Queen}\r\n\r\nThe Wasp Queen is a rare and powerful entity, the heart and mind of the entire colony. Her unmatched abilities, including summoning wasps, laying eggs, and commanding her army, make her one of the most formidable foes in the realm.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} Like other wasps, the Queen can fly, evading most attacks, though her true strength lies in defense and summoning guardians.\r\n{gold|Two Additional Retaliations:} The Queen is able to bite and sting while defending herself.\r\n{gold|Strike and Return:} Even though she isn't the fastest type of wasp, her majesty is still able to return to the hive after every strike.\r\n{gold|Venomous Sting 30 percent chance after attack:} Her attacks have a high chance to poison enemies, causing damage over time.\r\n{gold|Armor Piercing 20 percent chance:} The Queen can bypass enemy defenses, dealing enhanced damage.\r\n{gold|Egg Laying:} She can summon Worker Wasps, Sentry Wasps, and Warrior Wasps to bolster the hive's forces.\r\n{gold|Summoning Guards Drones at Battle Start:} At the start of combat, the Queen is surrounded by drones acting as her personal guardians.\r\n{gold|Bloodlust, Swarm, and Berserk before attack:} The Queen can enhance herself or disrupt foes with these spells, ensuring her dominance in battle. \r\n{gold|Mind Spell Immunity:} The Queen is immune to all mind-affecting spells, ensuring her hivemind commands cannot be disrupted.\r\n{gold|Poison Immunity:} The Queen is immune to poison, it is her natural protection. \r\n{gold|Acid Immunity:} The Queen is immune to acid, her chitinous armor is fully resistant to that.\r\n",
 		"faction" : "neutral",
 		"level" : 99,
 		"cost" : { "gold" : 100000 },
@@ -81,6 +81,16 @@
 				"addInfo" : 30,
 				"subtype" : "spell.berserk",
 			},	
+			"poisonImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.poison"
+			},
+			"acidImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.acidBreathDamage",
+			},
 			"summonguardianswaspdrones" :			
 			{
 				"type" : "SUMMON_GUARDIANS",
