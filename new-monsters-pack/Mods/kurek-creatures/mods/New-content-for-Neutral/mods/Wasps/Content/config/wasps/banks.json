@@ -21,7 +21,7 @@
 						"VVVBBBV",
 						"VVVBBBB",
 						"VVVBBAB"
-						],
+						]
                     }
                 },
                 "sounds": {
@@ -31,7 +31,7 @@
                 "rmg": {
                     "value": 40000,
                     "rarity": 100,
-                    "zoneLimit": 1
+                    "mapLimit": 1
                 },
                 "coastVisitable": false,
                 "rewards": [
