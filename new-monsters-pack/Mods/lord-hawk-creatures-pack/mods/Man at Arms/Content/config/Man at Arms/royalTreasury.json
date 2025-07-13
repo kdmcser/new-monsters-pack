@@ -28,7 +28,7 @@
 				"onVisitedMessage" : 33,
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankRuins",
+				"guardsLayout" : "creatureBankRoyalTreasury",
 				"rewards":
 				[
 					{
