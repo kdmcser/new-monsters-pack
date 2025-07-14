@@ -3,7 +3,7 @@
 	"description" : "Creatures with dellings and banks made by Lord Hawk in one mod",
 	"author" : "Lord Hawk",
 	"contact" : "https://www.forum.acidcave.net/topic.php?TID=3579",
-	"version" : "2.1",
+	"version" : "2.1.1",
 	"modType" : "Creatures",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" : 
 	{
+		"2.1.1"     : [ "13/07/2025", "Fix in submod Man at Arms, guards layout in Royal Treasury" ],
 		"2.1"     : [ "21/12/2024", "Fixes in submod code"],
         "2.0"     : [ "20/12/2024", "Added new creature Derodyme and Squire", "Added new dwellings with sounds- Laboratory, Tower of Darkness, Military Academy and Mountain Mines", "Added new banks - Hall of fear, Royal Treasury", "Added new spell - Stun", "Graphic changes and animation speeds", "Updated Czech translation" ],
         "1.1.3"   : [ "Czech translation by George King" ],
