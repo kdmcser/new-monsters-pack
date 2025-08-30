@@ -59,7 +59,7 @@
 			{
 				"type": "SUMMON_GUARDIANS",
 				"val": 80,
-				"subtype": "creature.kraven"
+				"subtype": "kraven"
 			},
 			"casts" :
 			{
@@ -69,13 +69,13 @@
 			"magicarrowCaster" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.magicArrow",
+				"subtype" : "magicArrow",
 				"val" : 3
 			},
 			"spellStrengh" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.magicArrow",
+				"subtype" : "magicArrow",
 				"val" : 50
 			}
 		}

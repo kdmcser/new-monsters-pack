@@ -19,7 +19,7 @@
 			"spellCaster" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.earthquake",
+				"subtype" : "earthquake",
 				"val" : 3,
 				"addInfo" : 100
 			}
@@ -70,7 +70,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 54, 58, 62, 66, 70, 74, 78, 82, 86, 90 ]
 			},

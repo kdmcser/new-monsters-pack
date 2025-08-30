@@ -35,9 +35,28 @@
 		},
 		"doubleWide": true,
 		"abilities": {
-			"elephant":	
-			{	
-				"type" : "FEARLESS"
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
+			"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+				
 			},
 			"defensive":
 			{
@@ -48,11 +67,7 @@
 			   "type" : "KING",
 			   "val" : 3, 
 			   "valueType" : "ADDITIVE_VALUE"
-		   	},
-			"fear" :
-			{
-				"type" : "FEAR"
-			}
+		   	}
 		},
 		"stackExperience" :
 		[
@@ -60,7 +75,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -68,7 +83,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -76,15 +91,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},

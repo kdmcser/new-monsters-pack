@@ -70,7 +70,7 @@
 			"castsforgetfulness" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.forgetfulness",
+				"subtype" : "forgetfulness",
 				"val" : 2
 			},
 			"castsCount" :
@@ -86,7 +86,7 @@
 			"Depresion":
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"subtype" : "spell.sorrow",
+				"subtype" : "sorrow",
                 		"val" : 50,
 				"addInfo" : 2 	
 			}

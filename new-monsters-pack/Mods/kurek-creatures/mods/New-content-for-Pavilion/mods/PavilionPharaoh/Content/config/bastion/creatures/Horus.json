@@ -53,7 +53,7 @@
 		"abilities": {
 			"magicResistance": {
 				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype": "spellSchool.any",
+				"subtype": "any",
 				"val": 100
 			},
 			"deathStare": {

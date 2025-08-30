@@ -5,12 +5,15 @@
 			"petrify" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"val" : 75
 			},
 			"fearless" :
 			{
-				"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 			},
 			"sandWalker" :
 			{
@@ -77,7 +80,18 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEAR"
+					"type" : "FEARFUL",
+					"val" : 10,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"description" : "PLACEHOLDER",
+					"limiters" : [ 
+						"OPPOSITE_SIDE", 
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIVING"
+						}
+					]
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
 			},

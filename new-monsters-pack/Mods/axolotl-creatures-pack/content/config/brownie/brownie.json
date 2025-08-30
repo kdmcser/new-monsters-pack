@@ -68,7 +68,7 @@
 			"degradation" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.degradation",
+				"subtype" : "degradation",
 				"val" : 50
 			}			
 		},
@@ -132,7 +132,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
 			}

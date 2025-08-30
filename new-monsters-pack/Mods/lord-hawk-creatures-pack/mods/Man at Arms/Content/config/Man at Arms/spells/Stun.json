@@ -54,65 +54,43 @@
 			"base" : {
 				"description" : "{Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn.",
 				"power" : 10,
-				"aiValue" : 17,
+//				"aiValue" : 17,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				}
+				},
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						// "subtype" : "blind",
+						"duration" : "N_TURNS",
+						"turns" : 1										
+					},
+					"noRetaliation" : {
+						"val" : 0,
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS",
+						"turns" : 1
+					}
+				}				
 			},
 			"none" : {
 				"description" : "{Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn.",
-				"cost" : 16,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						// "subtype" : "spell.blind",
-						"duration" : "N_TURNS",
-						"turns" : 1										
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 1
-					}
-				}
+				"cost" : 16
 			},
 			"basic" : {
 				"description" : "{Basic Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn",
-				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						// "subtype" : "spell.blind",
-						"duration" : "N_TURNS",
-						"turns" : 1										
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 1
-					}
-				}
+				"cost" : 12
 			},
 			"advanced" : {
 				"description" : "{Advanced Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 2 turns.",
 				"cost" : 12,
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						// "subtype" : "spell.blind",
-						"duration" : "N_TURNS",
 						"turns" : 2										
 					},
 					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
 						"turns" : 2
 					}
 				}
@@ -122,16 +100,9 @@
 				"cost" : 12,
 				"effects" : {
 					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						// "subtype" : "spell.blind",
-						"duration" : "N_TURNS",
 						"turns" : 3										
 					},
 					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
 						"turns" : 3
 					}
 				}

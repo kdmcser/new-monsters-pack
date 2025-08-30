@@ -40,23 +40,23 @@
 			},
 			"twoHeads": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind"
+				"subtype" : "blind"
 			},
 			"halfControl": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.berserk"
+				"subtype" : "berserk"
 			},
 			"tooHard": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.sorrow"
+				"subtype" : "sorrow"
 			},
 			"tooSoft": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.mirth"
+				"subtype" : "mirth"
 			},
 			"hardToControl": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.hypnotize"
+				"subtype" : "hypnotize"
 			}
 		},
 		"hasDoubleWeek": false,

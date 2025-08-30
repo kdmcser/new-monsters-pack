@@ -4,14 +4,14 @@
 			"castPoison" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"val" : 30,
 				"addInfo" : [0,2]
 			},
 			"castWeakness" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.weakness",
+				"subtype" : "weakness",
 				"val" : 70,
 				"addInfo" : [0,2]
 			}
@@ -62,7 +62,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.poison",
+					"subtype" : "poison",
 					"addInfo" : [1, 0] 
 				},
 				"values" : [ 0, 0, 0, 10, 20, 30, 40, 50, 60, 70 ]				

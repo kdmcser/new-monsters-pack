@@ -100,7 +100,7 @@
             "deathCloud" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.deathCloud"
+				"subtype" : "deathCloud"
 			},
             "noPenalty" :
 			{

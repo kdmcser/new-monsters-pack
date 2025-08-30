@@ -5,7 +5,7 @@
 			"binds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",
+				"subtype" : "bind",
 				"val" : 90
 			},
 			"defensiveStance" :
@@ -79,7 +79,7 @@
 				"bonus" : 
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.magicArrow" 
+					"subtype" : "magicArrow" 
 				},
 				"values" : [ false, false, false, false, false, true, true, true, true, true ]
 			}

@@ -38,7 +38,6 @@
 			},
 		],
 		"specialty" : {
-		"base" : null,
 		"creature" : "waspworker"
 					},
 		"texts" : {

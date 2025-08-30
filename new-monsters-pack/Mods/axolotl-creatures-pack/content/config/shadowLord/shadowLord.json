@@ -9,7 +9,7 @@
 			"castsClone" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.clone",
+				"subtype" : "clone",
 				"val" : 3,
 				"addInfo" : 1
 			},
@@ -73,7 +73,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.fire"
+					"subtype" : "fire"
 				},
 				"values" : [ 0, 0, 100, 100, 100, 100, 100, 100, 100, 100 ]
 			},
@@ -81,7 +81,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 100, 100, 100, 100 ]
 			},
@@ -90,7 +90,7 @@
 				{
 					
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.misfortune", 
+					"subtype" : "misfortune", 
 					"addInfo" : [ 1,0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]

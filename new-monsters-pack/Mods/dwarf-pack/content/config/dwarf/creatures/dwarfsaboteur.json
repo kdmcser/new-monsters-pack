@@ -78,7 +78,7 @@
             "fireball" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireball"
+				"subtype" : "fireball"
 			}
 		}
 	}

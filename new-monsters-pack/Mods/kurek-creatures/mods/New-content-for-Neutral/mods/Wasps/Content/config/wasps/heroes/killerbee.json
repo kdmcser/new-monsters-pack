@@ -37,7 +37,7 @@
 			"bonuses" : {
 				"jump" : {
 					"val" : 2,
-					"subtype" : "spell.jump",
+					"subtype" : "jump",
 					"type" : "SPELL"
 				}
 			}

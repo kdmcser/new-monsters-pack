@@ -103,7 +103,7 @@
 			},
 			"powerAttack" : 
 			{
-				"subtype" : "spell.hexingGaze",
+				"subtype" : "hexingGaze",
 				"type" : "SPELL_LIKE_ATTACK",
 				"val" : 0
 			},
@@ -122,7 +122,7 @@
 				0
 					],
 			 
-			"subtype" : "spell.magicLeech",
+			"subtype" : "magicLeech",
 			 
 			"type" : "SPELL_BEFORE_ATTACK",
 			 
@@ -138,7 +138,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.curse",
+			"subtype" : "curse",
 			 
 			"turns" : 3,
 			 
@@ -157,7 +157,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.disruptingRay",
+			"subtype" : "disruptingRay",
 			 
 			"type" : "SPELL_AFTER_ATTACK",
 			 
@@ -173,7 +173,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.forgetfulness",
+			"subtype" : "forgetfulness",
 			 
 			"turns" : 3,
 			 
@@ -191,7 +191,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.cancellation",
+			"subtype" : "cancellation",
 			 
 			"turns" : 3,
 			 
@@ -209,7 +209,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.misfortune",
+			"subtype" : "misfortune",
 			 
 			"turns" : 3,
 			 
@@ -227,7 +227,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.cowardice",
+			"subtype" : "cowardice",
 			 
 			"turns" : 3,
 			 
@@ -245,7 +245,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.slow",
+			"subtype" : "slow",
 			 
 			"turns" : 3,
 			 
@@ -263,7 +263,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.sorrow",
+			"subtype" : "sorrow",
 			 
 			"turns" : 3,
 			 
@@ -281,7 +281,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.weakness",
+			"subtype" : "weakness",
 			 
 			"turns" : 3,
 			 
@@ -300,7 +300,7 @@
 		"stackExperience" : [
 		{			
 			"bonus" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL"
 			},			
 			"values" : [
@@ -331,7 +331,7 @@
 			 
 			"bonus" : {
 
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 
 				"type" : "PRIMARY_SKILL"
 			},

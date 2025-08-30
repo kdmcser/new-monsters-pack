@@ -72,7 +72,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.earthquake",
+					"subtype" : "earthquake",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 60, 60, 60, 60 ]

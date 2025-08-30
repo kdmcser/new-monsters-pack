@@ -47,27 +47,33 @@
         "limiters": [
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["waspworker", true]
+                "creature": "waspworker",
+				"includeUpgrades" : true				
             },
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["waspsentry", true]
+                "creature": "wasps/waspqueenspecsmall",
+				"includeUpgrades" : true	
             },
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["waspwarrior", true]
+                "creature": "waspwarrior",
+				"includeUpgrades" : true	
             },
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["waspdrone", true]
+                "creature": "waspdrone",
+				"includeUpgrades" : true	
             },
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["hornetdrone", true]
+                "creature": "hornetdrone",
+				"includeUpgrades" : true	
             },
             {
                 "type": "CREATURE_TYPE_LIMITER",
-                "parameters": ["waspqueen", true]
+                "creature": "waspqueen",
+				"includeUpgrades" : true	
             }
         ],
         "type" : "PRIMARY_SKILL",
@@ -78,30 +84,36 @@
             "limiters": [
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspworker", true]
+                    "creature": "waspworker",
+					"includeUpgrades" : true
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspsentry", true]
+					"creature": "waspsentry",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspwarrior", true]
+					"creature": "waspwarrior",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspdrone", true]
+					"creature": "waspdrone",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["hornetdrone", true]
+					"creature": "hornetdrone",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspqueen", true]
+					"creature": "waspqueen",
+					"includeUpgrades" : true	
                 }
             ],
-            "subtype" : "primarySkill.attack",
+            "subtype" : "attack",
             "type" : "PRIMARY_SKILL",
             "val" : 5
         },
@@ -109,30 +121,36 @@
             "limiters": [
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspworker", true]
+                    "creature": "waspworker",
+					"includeUpgrades" : true
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspsentry", true]
+					"creature": "waspsentry",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspwarrior", true]
+					"creature": "waspwarrior",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspdrone", true]
+					"creature": "waspdrone",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["hornetdrone", true]
+					"creature": "hornetdrone",
+					"includeUpgrades" : true	
                 },
                 {
                     "type": "CREATURE_TYPE_LIMITER",
-                    "parameters": ["waspqueen", true]
+					"creature": "waspqueen",
+					"includeUpgrades" : true	
                 }
             ],
-            "subtype" : "primarySkill.defence",
+            "subtype" : "defence",
             "type" : "PRIMARY_SKILL",
             "val" : 5
         }

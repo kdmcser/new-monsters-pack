@@ -44,7 +44,6 @@
 			},
 		],
 		"specialty" : {
-		"base" : null,
 		"creature" : "waspwarrior"
 					},
 		"texts" : {

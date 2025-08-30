@@ -57,16 +57,19 @@
                     "spellimmunityslow" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
+				"subtype" : "slow"
 			},
                      "spellimmunityquick" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.quicksand"
+				"subtype" : "quicksand"
 			},
                      "fearless" :
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
                      "nonliving" :
 			{

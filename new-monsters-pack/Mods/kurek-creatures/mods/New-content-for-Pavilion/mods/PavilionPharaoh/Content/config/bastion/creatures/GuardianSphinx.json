@@ -65,7 +65,7 @@
             "magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.earth",
+				"subtype" : "earth",
 				"val" : 20
 			},
 			"deathStare" : 

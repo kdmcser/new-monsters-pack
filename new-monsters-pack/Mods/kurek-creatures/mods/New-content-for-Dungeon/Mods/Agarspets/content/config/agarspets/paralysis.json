@@ -30,7 +30,7 @@
         "description": "{Paralysis}\nParalyzes the target, reducing its attack power and preventing movement.",
         "cost": 18,
         "power": 15,
-        "aiValue": 15,
+//        "aiValue": 15,
         "range": "0",
         "targetModifier": {
             "smart": true
@@ -40,7 +40,6 @@
         "description": "{Paralysis}\nThe target's attack power is reduced by 50% and it remains inactive until attacked.",
         "cost": 18,
         "power": 15,
-        "aiValue": 15,
         "effects": {
             "generalAttackReduction": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
@@ -49,7 +48,7 @@
             },
             "notActive": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
-                "subtype": "spell.paralysis",
+                "subtype": "paralysis",
                 "type": "NOT_ACTIVE",
                 "val": 0
             }
@@ -59,7 +58,6 @@
         "description": "{Basic Paralysis}\nThe target's attack power is reduced by 60% and it remains inactive until attacked.",
         "cost": 16,
         "power": 18,
-        "aiValue": 20,
         "effects": {
             "generalAttackReduction": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
@@ -68,7 +66,7 @@
             },
             "notActive": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
-                "subtype": "spell.paralysis",
+                "subtype": "paralysis",
                 "type": "NOT_ACTIVE",
                 "val": 0
             }
@@ -78,7 +76,6 @@
         "description": "{Advanced Paralysis}\nThe target's attack power is reduced by 75% and it remains inactive until attacked.",
         "cost": 14,
         "power": 22,
-        "aiValue": 30,
         "effects": {
             "generalAttackReduction": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
@@ -87,7 +84,7 @@
             },
             "notActive": {
                 "duration": ["UNTIL_BEING_ATTACKED", "N_TURNS"],
-                "subtype": "spell.paralysis",
+                "subtype": "paralysis",
                 "type": "NOT_ACTIVE",
                 "val": 0
             }
@@ -97,7 +94,6 @@
         "description": "{Expert Paralysis}\nThe target's attack power is reduced by 75% and it remains inactive indefinitely, regardless of being attacked.",
         "cost": 12,
         "power": 25,
-        "aiValue": 40,
         "effects": {
             "generalAttackReduction": {
                 "duration": ["N_TURNS"],
@@ -106,7 +102,7 @@
             },
             "notActive": {
                 "duration": ["N_TURNS"],
-                "subtype": "spell.paralysis",
+                "subtype": "paralysis",
                 "type": "NOT_ACTIVE",
                 "val": 0
             }

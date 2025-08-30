@@ -49,7 +49,7 @@
 			"paralize" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-                        "subtype" : "spell.paralyze",
+                        "subtype" : "paralyze",
 				"val" : 20
 			}	
 		},	

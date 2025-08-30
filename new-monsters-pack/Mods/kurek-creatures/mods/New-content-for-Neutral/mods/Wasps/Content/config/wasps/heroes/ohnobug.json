@@ -33,7 +33,7 @@
 			"bonuses": {
 				"maxwaspwarrior": {
 					"addInfo": 3,
-					"subtype": "spell.summonwaspwarrior",
+					"subtype": "summonwaspwarrior",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

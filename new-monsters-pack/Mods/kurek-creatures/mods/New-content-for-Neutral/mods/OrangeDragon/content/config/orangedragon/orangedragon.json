@@ -70,76 +70,76 @@
 			{
 				
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.enchantedStrike",
+				"subtype" : "enchantedStrike",
 				"val" : 0
 			},
 			"castsMagicArrow" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.magicArrow",
+				"subtype" : "magicArrow",
 				"addInfo" : 22,
 				"val" : 2
 			},
 			"castsIceBolt" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"addInfo" : 22,
 				"val" : 2
 			},
 			"castsLightningBolt" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.lightningBolt",
+				"subtype" : "lightningBolt",
 				"addInfo" : 22,
 				"val" : 2
 			},
 			"castsChainLightning" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.chainLightning",
+				"subtype" : "chainLightning",
 				"addInfo" : 5,
 				"val" : 2
 			},
 			"castsFrostRing" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.frostRing",
+				"subtype" : "frostRing",
 				"addInfo" : 10,
 				"val" : 2
 			},
 			"castsFireball" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.fireball",
+				"subtype" : "fireball",
 				"addInfo" : 21,
 				"val" : 2
 			},
 			"castsInferno" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"addInfo" : 5,
 				"val" : 2
 			},
 			"castsMeteorShower" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.meteorShower",
+				"subtype" : "meteorShower",
 				"addInfo" : 5,
 				"val" : 2
 			},
 			"castsConfusion" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.confusiondragon",
+				"subtype" : "confusiondragon",
 				"addInfo" : 21,
 				"val" : 2
 			},
 			"castsFireRing" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.fireRing",
+				"subtype" : "fireRing",
 				"addInfo" : 10,
 				"val" : 2
 			},
@@ -160,7 +160,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
@@ -168,7 +168,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -176,15 +176,7 @@
 				"bonus" :
 				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -207,7 +199,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.magicMirror"
+					"subtype" : "magicMirror"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
@@ -215,7 +207,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "spell.clone",
+					"subtype" : "clone",
 					"addInfo" : [3, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -223,7 +215,10 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}

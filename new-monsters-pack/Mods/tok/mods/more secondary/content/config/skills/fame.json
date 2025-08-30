@@ -1,6 +1,7 @@
 {
 	"fame" : {
 		"name" : "Fame",
+		"specialty" : [], // generic specialty not applicable
 		"gainChance" : {
 			"might" : 1,
 			"magic" : 1
@@ -9,7 +10,8 @@
 			"images": {
 				"small": "skills/fame/SmallBasic.png",
 				"medium": "skills/fame/MediumBasic.png",
-				"large": "skills/fame/LargeBasic.png"
+				"large": "skills/fame/LargeBasic.png",
+				"scenarioBonus" : "skills/fame/blank.png"
 			},
 			"description": "{Basic fame}\n\nIncreases the weekly creature growth by 2 for level 1 creatures and by 1 for level 2 creatures",
 			"effects": {
@@ -17,13 +19,13 @@
 					"type" : "CREATURE_GROWTH",
 					"val" : 2,
 					"subtype" : "creatureLevel1",
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				},
 				"growth2" : {
 					"type" : "CREATURE_GROWTH",
 					"val" : 1,
 					"subtype" : "creatureLevel2",
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				}
 			}
 		},
@@ -31,7 +33,8 @@
 			"images": {
 				"small": "skills/fame/SmallAdvanced.png",
 				"medium": "skills/fame/MediumAdvanced.png",
-				"large": "skills/fame/LargeAdvanced.png"
+				"large": "skills/fame/LargeAdvanced.png",
+				"scenarioBonus" : "skills/fame/blank.png"
 			},
 			"description": "{Advanced fame}\n\nIncreases the weekly creature growth by 4 for level 1 creatures, by 2 for level 2 creatures and by 1 for level 3 creatures",
 			"effects": {
@@ -39,19 +42,19 @@
 					"type" : "CREATURE_GROWTH",
 					"val" : 4,
 					"subtype" : "creatureLevel1",
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				},
 				"growth2" : {
 					"type" : "CREATURE_GROWTH",
 					"val" : 2,
 					"subtype" : "creatureLevel2",
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				},
 				"growth3" : {
 					"type" : "CREATURE_GROWTH",
 					"val" : 1,
 					"subtype" : "creatureLevel3",
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				}
 			}
 		},
@@ -59,14 +62,15 @@
 			"images": {
 				"small": "skills/fame/SmallExpert.png",
 				"medium": "skills/fame/MediumExpert.png",
-				"large": "skills/fame/LargeExpert.png"
+				"large": "skills/fame/LargeExpert.png",
+				"scenarioBonus" : "skills/fame/blank.png"
 			},
 			"description": "{Expert fame}\n\nIncreases the weekly creature growth by 25%",
 			"effects": {
 				"growth" : {
 					"type" : "CREATURE_GROWTH_PERCENT",
 					"val" : 25,
-					"propagator": "VISITED_TOWN_AND_VISITOR"
+					"propagator": "TOWN_AND_VISITOR"
 				}
 			}
 		}

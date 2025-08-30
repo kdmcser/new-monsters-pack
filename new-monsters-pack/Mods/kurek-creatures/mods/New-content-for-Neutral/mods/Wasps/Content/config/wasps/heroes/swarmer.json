@@ -40,7 +40,7 @@
 		"specialty": {
 			"bonuses": {
 				"waspSwarm" : {
-					"subtype": "spell.waspswarmability",
+					"subtype": "waspswarmability",
 					"type": "SPECIFIC_SPELL_DAMAGE",
 					"updater": "TIMES_HERO_LEVEL",
 					"val": 5,

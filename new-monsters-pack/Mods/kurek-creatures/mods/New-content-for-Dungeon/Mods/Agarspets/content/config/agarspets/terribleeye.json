@@ -245,7 +245,7 @@
 			},
 			"powerAttack" : 
 			{
-				"subtype" : "spell.terribleGaze",
+				"subtype" : "terribleGaze",
 				"type" : "SPELL_LIKE_ATTACK",
 				"val" : 0
 			},
@@ -270,7 +270,7 @@
 				0
 					],
 			 
-			"subtype" : "spell.charm",
+			"subtype" : "charm",
 			 
 			"type" : "SPELL_AFTER_ATTACK",
 			 "turns" : 3,
@@ -286,7 +286,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.fearnew",
+			"subtype" : "fearnew",
 			 
 			"turns" : 3,
 			 
@@ -305,7 +305,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.berserk",
+			"subtype" : "berserk",
 			 
 			"type" : "SPELL_AFTER_ATTACK",
 			 
@@ -321,7 +321,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.fireball",
+			"subtype" : "fireball",
 			 
 			 
 			"type" : "SPELL_AFTER_ATTACK",
@@ -338,7 +338,7 @@
 				0
 			],
 			 
-			"subtype" : "spell.dispel",
+			"subtype" : "dispel",
 			 
  
 			"type" : "SPELL_AFTER_ATTACK",
@@ -350,7 +350,7 @@
 		"stackExperience" : [
 		{			
 			"bonus" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL"
 			},			
 			"values" : [
@@ -381,7 +381,7 @@
 			 
 			"bonus" : {
 
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 
 				"type" : "PRIMARY_SKILL"
 			},

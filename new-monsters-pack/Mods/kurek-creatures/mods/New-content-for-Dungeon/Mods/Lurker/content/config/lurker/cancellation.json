@@ -24,7 +24,7 @@
         },
         "levels" : {
 		"advanced" : {
-			"aiValue" : 3,
+//			"aiValue" : 3,
 			"battleEffects" : {
 				"dispel" : {
 					"dispelNegative" : false,
@@ -80,7 +80,7 @@
 		 
 		"basic" : {
 			 
-			"aiValue" : 3,
+//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -119,7 +119,7 @@
 		 
 		"expert" : {
 			 
-			"aiValue" : 3,
+//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -158,7 +158,7 @@
 		 
 		"none" : {
 			 
-			"aiValue" : 3,
+//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 

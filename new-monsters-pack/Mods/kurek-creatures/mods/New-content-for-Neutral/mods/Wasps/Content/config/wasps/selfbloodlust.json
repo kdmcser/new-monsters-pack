@@ -58,7 +58,7 @@
 		 
 		"advanced" : {
 			 
-			"aiValue" : 70,
+			//			"aiValue" : 70,
 			 
 			"cost" : 4,
 			 
@@ -72,7 +72,7 @@
 					 
 					"effectRange" : "ONLY_MELEE_FIGHT",
 					 
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					 
 					"type" : "PRIMARY_SKILL",
 					 
@@ -100,7 +100,7 @@
 					 
 					"effectRange" : "ONLY_MELEE_FIGHT",
 					 
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					 
 					"type" : "PRIMARY_SKILL",
 					 
@@ -118,7 +118,7 @@
 		 
 		"basic" : {
 			 
-			"aiValue" : 70,
+			//			"aiValue" : 70,
 			 
 			"cost" : 4,
 			 
@@ -132,7 +132,7 @@
 					 
 					"effectRange" : "ONLY_MELEE_FIGHT",
 					 
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					 
 					"type" : "PRIMARY_SKILL",
 					 
@@ -152,7 +152,7 @@
 		 
 		"expert" : {
 			 
-			"aiValue" : 70,
+			//			"aiValue" : 70,
 			 
 			"cost" : 4,
 			 
@@ -166,7 +166,7 @@
 					 
 					"effectRange" : "ONLY_MELEE_FIGHT",
 					 
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					 
 					"type" : "PRIMARY_SKILL",
 					 
@@ -186,7 +186,7 @@
 		 
 		"none" : {
 			 
-			"aiValue" : 70,
+			//			"aiValue" : 70,
 			 
 			"cost" : 5,
 			 
@@ -200,7 +200,7 @@
 					 
 					"effectRange" : "ONLY_MELEE_FIGHT",
 					 
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					 
 					"type" : "PRIMARY_SKILL",
 					 

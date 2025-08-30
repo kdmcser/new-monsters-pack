@@ -6,7 +6,7 @@
 			"age" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.age",
+				"subtype" : "age",
 				"val" : 55
 			}
 		},
@@ -63,7 +63,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [2, 0]
 				},
 				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]	
@@ -72,7 +72,7 @@
 				"bonus" : 
 				{
 					"type" : "LEVEL_SPELL_IMMUNITY"
-					//"subtype" : 1, // except beneficial - TODO - Implement
+					//"subtype" : 1,
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			}

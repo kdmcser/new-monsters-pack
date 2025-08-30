@@ -35,12 +35,12 @@
 			"venom" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"val" : 30
 			},
 			"mindimmunity" :
 			{
-				"type" : "MIND_IMMUNITY",
+				"type" : "MIND_IMMUNITY"
 			},
 			"spellpower" :
 			{
@@ -72,68 +72,67 @@
 				"type" : "SPELLCASTER",
 				"val" : 3,
 				"addInfo" : 70,
-				"subtype" : "spell.selfbloodlust",
+				"subtype" : "selfbloodlust"
 			},	
 			"castsberserk" :
 			{
 				"type" : "SPELLCASTER",
 				"val" : 1,
 				"addInfo" : 30,
-				"subtype" : "spell.berserk",
+				"subtype" : "berserk"
 			},	
 			"poisonImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.poison"
+				"subtype" : "poison"
 			},
 			"acidImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreathDamage",
+				"subtype" : "acidBreathDamage"
 			},
 			"summonguardianswaspdrones" :			
 			{
 				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "creature.waspdrone",
-				"val" : 15000,
+				"subtype" : "waspdrone",
+				"val" : 15000
 			},		
 			"castswaspswarmability" :
 			{
 				"type" : "ENCHANTER",
 				"val" : 2,
 				"addInfo" : 3,
-				"subtype" : "spell.waspswarmability",
+				"subtype" : "waspswarmability"
 			},
 			"summonwasps1" :
 			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
-				"subtype" : "spell.summonwaspworker",
+				"subtype" : "summonwaspworker"
 			},
 			"summonwasps2" :
 			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
-				"subtype" : "spell.summonwaspsentry",
+				"subtype" : "summonwaspsentry"
 			},
 			"summonwasps3" :
 			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
-				"subtype" : "spell.summonwaspwarrior",
+				"subtype" : "summonwaspwarrior"
 			},
 			"returnafterstrike" :			
 			{
-				"type" : "RETURN_AFTER_STRIKE",
+				"type" : "RETURN_AFTER_STRIKE"
 			},
 			"additionalretaliation" :
 			{
 				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 2,
-
+				"val" : 2
 			}
 		},
 		"graphics" :
@@ -167,7 +166,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -175,7 +174,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},

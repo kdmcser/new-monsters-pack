@@ -4,13 +4,16 @@
 
 			"fearless" :
 			{
-				"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 			},
 			"king2": { "type" : "KING", "val" : 2, "valueType" : "ADDITIVE_VALUE" },
 			"swampWalker" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : "terrain.swamp",
+				"subtype" : "swamp",
 				"propagator" : "HERO"
 			},
 			"fireBreath" :
@@ -64,7 +67,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.implosion",
+					"subtype" : "implosion",
 					"addInfo" : 1000 
 				},
 				"values" : [ 10, 10, 10, 12, 12, 15, 15, 18, 18, 20 ]				

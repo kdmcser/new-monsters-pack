@@ -64,7 +64,7 @@
 				"bonus" : 
 				{ 
 					"addInfo" : 1000, 
-					"subtype" : "spell.weakness", 
+					"subtype" : "weakness", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]

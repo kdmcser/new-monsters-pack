@@ -16,17 +16,8 @@
 			{ "level" : "basic", "skill" : "evasion" },
 			{ "level" : "basic", "skill" : "archery" }
 		],
-		"specialty": {
-			"bonuses": {
-				"archery": {
-					"targetSourceType": "SECONDARY_SKILL",
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeRanged",
-					"val": 5,
-					"valueType": "PERCENT_TO_BASE",
-					"updater": "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "archery"
 		},
 		"texts" : {
 			"biography" : "",

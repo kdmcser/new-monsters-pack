@@ -62,13 +62,13 @@
 			"fungus" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.fungus",
+				"subtype" : "fungus",
 				"val" : 100
 			},
 			"paraFungus" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paraFungus",
+				"subtype" : "paraFungus",
 				"val" : 20
 			},			
 			"spellDuration" : 
@@ -79,7 +79,7 @@
 			"parafungusImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.paraFungus",
+				"subtype" : "paraFungus",
 				"addInfo" : 1
 			}		
 		},
@@ -136,7 +136,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bless" 
+					"subtype" : "bless" 
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]			
 			},
@@ -144,7 +144,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.water"
+					"subtype" : "water"
 				},
 				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},

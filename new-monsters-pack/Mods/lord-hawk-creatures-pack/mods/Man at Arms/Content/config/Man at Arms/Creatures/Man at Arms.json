@@ -59,14 +59,14 @@
 			"stun":
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stun",
+				"subtype" : "stun",
                 "val" : 20,
 				"addInfo" : 2	
 			},
 			"immuneToStun":	
 			{	
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stun"	
+				"subtype" : "stun"	
 			}
 		}
 	}

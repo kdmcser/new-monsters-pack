@@ -72,7 +72,7 @@
 				0
 					],
 			 
-			"subtype" : "spell.paralysis",
+			"subtype" : "paralysis",
 			 
 			"type" : "SPELL_AFTER_ATTACK",
 			 
@@ -81,7 +81,7 @@
 		 
 		"magicResistance" : {
 						 
-			"subtype" : "spellSchool.any",
+			"subtype" : "any",
 			 
 						 
 			"type" : "SPELL_DAMAGE_REDUCTION",
@@ -93,7 +93,7 @@
 		"stackExperience" : [
 		{			
 			"bonus" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL"
 			},			
 			"values" : [
@@ -124,7 +124,7 @@
 			 
 			"bonus" : {
 
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 
 				"type" : "PRIMARY_SKILL"
 			},

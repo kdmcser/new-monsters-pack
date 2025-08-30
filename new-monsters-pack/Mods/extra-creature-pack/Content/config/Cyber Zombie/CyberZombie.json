@@ -56,13 +56,13 @@
      			"blinds":
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
                 "val" : 20 	
 			},
 			"deathCloundImmunity"	:
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathCloud"
+				"subtype" : "deathCloud"
 			}
 
 		}

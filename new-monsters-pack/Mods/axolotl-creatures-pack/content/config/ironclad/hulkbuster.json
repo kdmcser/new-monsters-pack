@@ -9,120 +9,122 @@
 			"castsAirShield" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.airShield",
-				"val" : 3,
-				"addInfo" : 1
+				"subtype" : "airShield",
+				"val" : 3
 			},
 			"fearless" :
 			{
-				"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 			},
 			"directDamageImmunity" :
 			{
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
 			"hateGiants" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.giant",
+				"subtype" : "giant",
 				"val" : 50
 			},
 			"hateTitans" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.titan",
+				"subtype" : "titan",
 				"val" : 50
 			},
 			"hateDevils" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.devil",
+				"subtype" : "devil",
 				"val" : 50
 			},
 			"hateArchDevils" :
 			{
 				"type" : "HATE",
-				"subtype" : "creature.archDevil",
+				"subtype" : "archDevil",
 				"val" : 50
 			},
 			"hateAngels" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.angel",
+				"subtype" : "angel",
 				"val" : 50
 			},
 			"hateRedDragons" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.redDragon",
+				"subtype" : "redDragon",
 				"val" : 50
 			},	
 			"hateBlackDragons" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.blackDragon",
+				"subtype" : "blackDragon",
 				"val" : 50
 			},	
 			"hatefirebird" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.firebird",
+				"subtype" : "firebird",
 				"val" : 50
 			},	
 			"hatephoenix" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.phoenix",
+				"subtype" : "phoenix",
 				"val" : 50
 			},
 			"hatehydra" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.hydra",
+				"subtype" : "hydra",
 				"val" : 50
 			},	
 			"hatechaoshydra" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.chaosHydra",
+				"subtype" : "chaosHydra",
 				"val" : 50
 			},
 			"hatebonedragon" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.boneDragon",
+				"subtype" : "boneDragon",
 				"val" : 50
 			},	
 			"hateghostdragon" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.ghostDragon",
+				"subtype" : "ghostDragon",
 				"val" : 50
 			},
 			"hategreendragon" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.greenDragon",
+				"subtype" : "greenDragon",
 				"val" : 50
 			},	
 			"hategolddragon" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.goldDragon",
+				"subtype" : "goldDragon",
 				"val" : 50
 			},
 			"hatebehemoth" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.behemoth",
+				"subtype" : "behemoth",
 				"val" : 50
 			},	
 			"hateancientbehemoth" : 
 			{
 				"type" : "HATE",
-				"subtype" : "creature.ancientBehemoth",
+				"subtype" : "ancientBehemoth",
 				"val" : 50
 			}
 		},
@@ -172,7 +174,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},

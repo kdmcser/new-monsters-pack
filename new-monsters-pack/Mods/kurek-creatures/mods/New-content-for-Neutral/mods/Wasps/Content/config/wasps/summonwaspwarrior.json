@@ -38,7 +38,7 @@
 		 
 		"advanced" : {
 			 
-			"aiValue" : 15,
+			//			"aiValue" : 15,
 			 
 			"battleEffects" : {
 				 
@@ -64,7 +64,7 @@
 		},
 		"base" : {
 			 
-			"aiValue" : 11,
+			//			"aiValue" : 11,
 			 
 			"battleEffects" : {
 				"summon" : {
@@ -89,7 +89,7 @@
 		 
 		"basic" : {
 			 
-			"aiValue" : 13,
+			//			"aiValue" : 13,
 			 
 			"battleEffects" : {
 				 
@@ -115,7 +115,7 @@
 		 
 		"expert" : {
 			 
-			"aiValue" : 14,
+			//			"aiValue" : 14,
 			 
 			"battleEffects" : {
 				 
@@ -142,7 +142,7 @@
 		 
 		"none" : {
 			 
-			"aiValue" : 12,
+			//			"aiValue" : 12,
 			 
 			"battleEffects" : {
 				 

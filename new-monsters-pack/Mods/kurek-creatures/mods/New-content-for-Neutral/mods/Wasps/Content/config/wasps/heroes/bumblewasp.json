@@ -38,9 +38,7 @@
 				"level" : "basic"
 			}
 		],
-		"specialty" : {
-		"base" : null,
-		 
+		"specialty" : {		 
 		"bonuses" : {
 			 
 			"health1" : {

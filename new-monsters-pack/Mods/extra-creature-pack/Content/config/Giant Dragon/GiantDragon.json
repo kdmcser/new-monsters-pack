@@ -66,11 +66,25 @@
 			},
 			"fearless":
 			{
-				"type" : "FEARLESS" 					
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0					
 			},
 			"fear" :
 			{
-				"type" : "FEAR"
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
 			},	
 			"noMorale" :
 			{

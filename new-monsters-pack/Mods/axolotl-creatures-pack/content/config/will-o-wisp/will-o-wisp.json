@@ -57,18 +57,18 @@
 			"moveSwamp" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : "terrain.swamp"
+				"subtype" : "swamp"
 			},
 			"cloudAttack" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"val" : 1
 			},
 			"infernoImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"addInfo" : 1
 			}
 		},

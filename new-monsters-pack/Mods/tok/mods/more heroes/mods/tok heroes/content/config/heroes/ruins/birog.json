@@ -42,7 +42,7 @@
 			"bonuses": {
 				"maxHaste": {
 					"addInfo": 3,
-					"subtype": "spell.haste",
+					"subtype": "haste",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

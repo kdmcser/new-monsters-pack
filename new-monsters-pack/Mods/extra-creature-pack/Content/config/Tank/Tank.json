@@ -64,7 +64,7 @@
 			"castWeakness":
 			{	
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.weakness", 
+				"subtype" : "weakness", 
 				"val" : 60
 			}
 		}

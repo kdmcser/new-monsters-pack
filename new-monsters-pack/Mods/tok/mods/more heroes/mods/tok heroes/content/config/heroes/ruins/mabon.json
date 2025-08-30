@@ -38,7 +38,7 @@
 			"bonuses": {
 				"lumber": {
 					"type" : "GENERATE_RESOURCE", 
-					"subtype" : "resource.gems", 
+					"subtype" : "gems", 
 					"val" : 1 
 				}
 			}

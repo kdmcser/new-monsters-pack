@@ -1,29 +1,32 @@
 {
 	"waspjelly": {
-		"bonuses": [
+		"bonuses": {
+			"summonwaspsentry" :
 			{
-				"subtype": "spell.summonwaspsentry",
+				"subtype": "summonwaspsentry",
 				"type": "OPENING_BATTLE_SPELL",
 				"val": 50,
 				"valueType": "BASE_NUMBER"
 			},
+			"summonwaspworker" :
 			{
-				"subtype": "spell.summonwaspworker",
+				"subtype": "summonwaspworker",
 				"type": "OPENING_BATTLE_SPELL",
 				"val": 50,
 				"valueType": "BASE_NUMBER"
 			},
+			"summonwaspwarrior" :
 			{
-				"subtype": "spell.summonwaspwarrior",
+				"subtype": "summonwaspwarrior",
 				"type": "OPENING_BATTLE_SPELL",
 				"val": 50,
 				"valueType": "BASE_NUMBER"
 			}
-		],
+		},
 		"class": "RELIC",
 		"graphics": {
 			"image": "wasps/waspjelly",
-			"large": "wasps/waspjellybonus",
+			"scenarioBonus": "wasps/waspjellybonus",
 			"map": "wasps/waspjellymap.def"
 		},
 		"slot": [

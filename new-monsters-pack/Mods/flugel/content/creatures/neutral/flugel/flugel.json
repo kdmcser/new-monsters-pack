@@ -83,7 +83,7 @@
 			"castsLightningBolt" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.lightningBolt",
+				"subtype" : "lightningBolt",
 				"val" : 2
 			},
 			"spellpoints" :

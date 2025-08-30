@@ -16,7 +16,7 @@
 			"spellAfterAttack" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.magicCarpet",
+				"subtype" : "magicCarpet",
 				"val" : 1
 			}
 		},	

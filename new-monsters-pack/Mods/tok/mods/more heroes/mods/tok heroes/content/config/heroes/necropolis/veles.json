@@ -35,7 +35,7 @@
 			"bonuses": {
 				"maxWeakness": {
 					"addInfo": 3,
-					"subtype": "spell.antiMagic",
+					"subtype": "antiMagic",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

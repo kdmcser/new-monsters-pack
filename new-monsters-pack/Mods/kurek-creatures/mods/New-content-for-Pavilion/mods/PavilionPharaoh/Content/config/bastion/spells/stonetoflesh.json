@@ -50,7 +50,7 @@
 		 
 		"advanced" : {
 			 
-			"aiValue" : 3,
+			//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -114,7 +114,7 @@
 		 
 		"basic" : {
 			 
-			"aiValue" : 3,
+			//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -150,7 +150,7 @@
 		 
 		"expert" : {
 			 
-			"aiValue" : 3,
+			//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -186,7 +186,7 @@
 		 
 		"none" : {
 			 
-			"aiValue" : 3,
+			//			"aiValue" : 3,
 			 
 			"battleEffects" : {
 				 
@@ -240,17 +240,13 @@
 		"anyOf": [
         {
             "type": "HAS_ANOTHER_BONUS_LIMITER",
-            "parameters": [
-                "SPELL_EFFECT",
-                "spell.stonegaze"
-            ]
+            "bonusSourceType" : "SPELL_EFFECT",
+			"bonusSourceID" : "stonegaze" 
         },
         {
             "type": "HAS_ANOTHER_BONUS_LIMITER",
-            "parameters": [
-                "SPELL_EFFECT",
-                "spell.turntostone"
-            ]
+            "bonusSourceType" : "SPELL_EFFECT",
+			"bonusSourceID" : "turntostone" 			
         }
     ],
 		"noneOf": [

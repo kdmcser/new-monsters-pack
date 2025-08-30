@@ -63,67 +63,67 @@
 			"lightingVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.lightningBolt",
+				"subtype" : "lightningBolt",
 				"val" : 100
 			},
 			"chainLightingVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.chainLightning",
+				"subtype" : "chainLightning",
 				"val" : 100
 			},
 			"magicArrowVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.magicArrow",
+				"subtype" : "magicArrow",
 				"val" : 100
 			},
 			"meteorShowerVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.meteorShower",
+				"subtype" : "meteorShower",
 				"val" : 100
 			},
 			"frostRingVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.frostRing",
+				"subtype" : "frostRing",
 				"val" : 100
 			},
 			"iceBoltVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.iceBolt",
+				"subtype" : "iceBolt",
 				"val" : 100
 			},
 			"fireShieldVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireShield",
+				"subtype" : "fireShield",
 				"val" : 100
 			},
 			"infernoVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"val" : 100
 			},
 			"fireballVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireball",
+				"subtype" : "fireball",
 				"val" : 100
 			},
 			"fireWallVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.fireWall",
+				"subtype" : "fireWall",
 				"val" : 100
 			},
 			"armageddonVulnerablity" :
 			{
 				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.armageddon",
+				"subtype" : "armageddon",
 				"val" : 100
 			},
 		},	

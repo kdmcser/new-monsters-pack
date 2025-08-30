@@ -3,6 +3,7 @@
 	"description" : "Neutral unit. Beware! The stats may be completely different from Land Of New Towns!",
 	"author" : "Land Of New Town Team",
 	"version" : "1.0.0",
+	"contact" : "",
 	"changelog" :
 	{
 		"1.0.0"   : [ "Port by Fabrice TIERCELIN" ]

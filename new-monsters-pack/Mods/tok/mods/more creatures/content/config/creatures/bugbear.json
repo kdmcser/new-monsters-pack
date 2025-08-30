@@ -40,7 +40,7 @@
 		"abilities": {
 			"darkvision": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
 				"addInfo" : 1
 			}
 		},

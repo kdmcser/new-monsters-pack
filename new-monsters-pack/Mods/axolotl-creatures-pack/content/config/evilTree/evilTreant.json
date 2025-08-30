@@ -59,7 +59,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.earth"
+					"subtype" : "earth"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
 			},

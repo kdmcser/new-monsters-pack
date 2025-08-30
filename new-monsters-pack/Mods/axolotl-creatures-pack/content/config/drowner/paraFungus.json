@@ -34,7 +34,7 @@
 				"description": "Parasitic Fungus that spreads its spores.",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":false},
 				"battleEffects" : {
@@ -45,19 +45,19 @@
 						"bonus":{
 					"sporeHost" : {
 						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.fungus",
+						"subtype" : "fungus",
 						"val" : 100,
 						"addInfo" : [1,2]						
 					},
 					"sporeShooter" : {
 						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.fungus",
+						"subtype" : "fungus",
 						"val" : 100,
 						"addInfo" : [0,1]						
 					},					
 					"sporeBreeder" : {
 						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.paraFungus",
+						"subtype" : "paraFungus",
 						"val" : 20,
 						"addInfo" : [0,2]
 					},			

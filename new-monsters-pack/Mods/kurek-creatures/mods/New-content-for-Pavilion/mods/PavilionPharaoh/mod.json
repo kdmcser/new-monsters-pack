@@ -4,7 +4,7 @@
 	"author" : "Kurek, edeksumo, Bastion New Town Group, Maestro",
 	"version" : "1.4",
 	"contact" : "Kurek",
-	"modType" : "Compatibility",
+	"modType" : "Creatures",
 	"depends" : [
 		"new-monsters-pack.axolotl-creatures-pack",
 		"new-monsters-pack.undeadSphinxes",

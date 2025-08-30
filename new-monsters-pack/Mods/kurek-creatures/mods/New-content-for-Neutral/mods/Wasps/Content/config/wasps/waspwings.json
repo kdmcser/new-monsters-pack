@@ -1,18 +1,20 @@
 {
 	"waspwings": {
-		"bonuses": [
+		"bonuses": {
+			"speed" :
 			{
 				"type": "STACKS_SPEED",
 				"val": 1
 			},
+			"jump" :
 			{
 				"type": "SPELL",
-				"subtype": "spell.jump"
+				"subtype": "jump"
 			}
-		],
+		},
 		"graphics": {
 			"image": "wasps/waspwings",
-			"large": "wasps/waspwingsbonus",
+			"scenarioBonus": "wasps/waspwingsbonus",
 			"map": "wasps/waspwingsmap.def"
 		},
 		"class": "MAJOR",

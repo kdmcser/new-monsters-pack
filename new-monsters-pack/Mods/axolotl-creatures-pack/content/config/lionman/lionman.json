@@ -10,7 +10,7 @@
 			"castsQuicksand" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.quicksand",
+				"subtype" : "quicksand",
 				"val" : 3 //expert school
 			},
 			"castsCount" :

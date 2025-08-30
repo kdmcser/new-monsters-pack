@@ -83,12 +83,12 @@
             },
             "redparalyze": {
                 "type": "SPELL_AFTER_ATTACK",
-                "subtype": "spell.redparalyze",
+                "subtype": "redparalyze",
                 "val": 20
             },
             "Fiery Eye": {
                 "type": "SPELL_LIKE_ATTACK",
-                "subtype": "spell.fieryeye"
+                "subtype": "fieryeye"
             },
             "twohexattackcyclopseye": 
 			{
@@ -96,7 +96,7 @@
 			},
             "Casts misfortune": {
                 "type": "SPELLCASTER",
-                "subtype": "spell.misfortune",
+                "subtype": "misfortune",
                 "val": 3
             },
             "spellpoints": {
@@ -110,7 +110,7 @@
 			 
 			"bonus" : {
 				 
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				 
 				"type" : "PRIMARY_SKILL"
 			},
@@ -143,7 +143,7 @@
 			 
 			"bonus" : {
 				 
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				 
 				"type" : "PRIMARY_SKILL"
 			},
@@ -313,7 +313,7 @@
 					1
 				],
 				 
-				"subtype" : "spell.earthquake",
+				"subtype" : "earthquake",
 				 
 				"type" : "SPELL_BEFORE_ATTACK"
 			},

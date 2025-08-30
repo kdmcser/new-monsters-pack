@@ -9,17 +9,19 @@
 			"castsAirShield" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.airShield",
-				"val" : 2,
-				"addInfo" : 1
+				"subtype" : "airShield",
+				"val" : 2
 			},
 			"fearless" :
 			{
-				"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 			},
 			"directDamageImmunity" :
 			{
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			}
@@ -70,7 +72,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},

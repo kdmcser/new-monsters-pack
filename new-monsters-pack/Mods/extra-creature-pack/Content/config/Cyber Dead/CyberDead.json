@@ -60,7 +60,7 @@
 			"deathCloundImmunity"	:
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathCloud"
+				"subtype" : "deathCloud"
 			}
 
 		}

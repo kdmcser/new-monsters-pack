@@ -18,6 +18,10 @@
 			"min" : 6,
 			"max" : 12
 		},
+		"cost" :
+		{
+			"gold" : 1500
+		},	
 		"growth" : 9,
 		"aiValue" : 156,
 		"fightValue" : 130,
@@ -29,7 +33,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.bloodlust",
+				"subtype" : "bloodlust",
 				"val" : 1
 			},
 			"castsAmount" :
@@ -45,7 +49,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"enchant" :

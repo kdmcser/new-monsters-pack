@@ -58,23 +58,33 @@
 		{
 			"non-living":
 			{
-				"type" : "NON_LIVING", 	
+				"type" : "NON_LIVING"
 			},
 			"mindImmunity":
 			{
-				"type" : "MIND_IMMUNITY", 	
+				"type" : "MIND_IMMUNITY"	
 			},
 			"flying":
 			{
-				"type" : "FLYING", 	
+				"type" : "FLYING",
 			},
 			"fear":
 			{
-				"type" : "FEAR", 	
-			},
+					"type" : "FEARFUL",
+					"val" : 10,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"description" : "PLACEHOLDER",
+					"limiters" : [ 
+						"OPPOSITE_SIDE", 
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIVING"
+						}
+					]			},
 			"noRetaliation":
 			{
-				"type" : "BLOCKS_RETALIATION", 	
+				"type" : "BLOCKS_RETALIATION"
 			}
 		}
 	}

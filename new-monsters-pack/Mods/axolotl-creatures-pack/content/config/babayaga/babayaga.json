@@ -57,18 +57,18 @@
 			"moveSwamp" :
 			{
 				"type" : "NO_TERRAIN_PENALTY",
-				"subtype" : "terrain.swamp"
+				"subtype" : "swamp"
 			},
 			"infernoImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.inferno",
+				"subtype" : "inferno",
 				"addInfo" : 1
 			},
 			"castDepletion" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.acpDepletion",
+				"subtype" : "acpDepletion",
 				"val" : 3
 			},
 			"spellpoints" :
@@ -139,7 +139,7 @@
 				"bonus" :
 				{
 					"type" : "SUMMON_GUARDIANS",
-					"subtype" : "creature.enchanter"
+					"subtype" : "enchanter"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},

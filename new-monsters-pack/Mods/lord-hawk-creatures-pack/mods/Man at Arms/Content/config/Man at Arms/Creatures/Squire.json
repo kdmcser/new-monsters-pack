@@ -63,7 +63,7 @@
 			"stun":
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stun",
+				"subtype" : "stun",
                 		"val" : 10 	
 			
 			}

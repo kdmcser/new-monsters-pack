@@ -32,7 +32,7 @@
                 "description": "No special skills at this level.",
                 "cost": 0,
                 "power": 0,
-                "aiValue": 0,
+                //			"aiValue": 0,
                 "range": "0",
                 "targetModifier": {
                     "smart": true
@@ -41,7 +41,7 @@
                     "notActive": {
                         "val": 0,
                         "type": "NOT_ACTIVE",
-                        "subtype": "spell.stoneGaze",
+                        "subtype": "stoneGaze",
                         "duration": [
                             "UNTIL_BEING_ATTACKED",
                             "N_TURNS"
@@ -69,7 +69,7 @@
                 "description": "Basic level of Sphinx Petrification ability.",
                 "cost": 0,
                 "power": 5,
-                "aiValue": 10,
+                //			"aiValue": 10,
                 "range": "0",
                 "targetModifier": {
                     "smart": true
@@ -78,7 +78,7 @@
                     "notActive": {
                         "val": 0,
                         "type": "NOT_ACTIVE",
-                        "subtype": "spell.stoneGaze",
+                        "subtype": "stoneGaze",
                         "duration": [
                             "UNTIL_BEING_ATTACKED",
                             "N_TURNS"
@@ -106,7 +106,7 @@
                 "description": "Advanced level of Sphinx Petrification ability.",
                 "cost": 0,
                 "power": 10,
-                "aiValue": 20,
+                //			"aiValue": 20,
                 "range": "0",
                 "targetModifier": {
                     "smart": true
@@ -115,7 +115,7 @@
                     "notActive": {
                         "val": 0,
                         "type": "NOT_ACTIVE",
-                        "subtype": "spell.stoneGaze",
+                        "subtype": "stoneGaze",
                         "duration": [
                             "UNTIL_BEING_ATTACKED",
                             "N_TURNS"
@@ -143,7 +143,7 @@
                 "description": "Expert level of Sphinx Petrification ability.",
                 "cost": 0,
                 "power": 15,
-                "aiValue": 30,
+                //			"aiValue": 30,
                 "range": "0",
                 "targetModifier": {
                     "smart": true
@@ -152,7 +152,7 @@
                     "notActive": {
                         "val": 0,
                         "type": "NOT_ACTIVE",
-                        "subtype": "spell.stoneGaze",
+                        "subtype": "stoneGaze",
                         "duration": [
                             "UNTIL_BEING_ATTACKED",
                             "N_TURNS"

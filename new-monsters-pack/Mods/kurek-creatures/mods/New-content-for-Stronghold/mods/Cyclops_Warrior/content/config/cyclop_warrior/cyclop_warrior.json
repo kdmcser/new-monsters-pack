@@ -61,7 +61,7 @@
 		"abilities" :
 		{
 			"Crushing Blow" : {
-				"subtype" : "spell.crushingblow",
+				"subtype" : "crushingblow",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val": 27
 				//"range" : "ONLY_MELEE_FIGHT"
@@ -69,7 +69,7 @@
 			//"Crushing Blow2" :
 			//{
 			//	"type" : "SPELLCASTER",
-			//	"subtype" : "spell.crushingblow",
+			//	"subtype" : "crushingblow",
 			//	"val" : 1
 			//},
 
@@ -80,7 +80,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -88,7 +88,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]

@@ -39,7 +39,7 @@
 			"venom":
 			{
 			"type": "SPELL_AFTER_ATTACK",
-			"subtype": "spell.poison",
+			"subtype": "poison",
 			"val": 1,
 			"valueType": "ADDITIVE_VALUE",
 			"updater": "TIMES_HERO_LEVEL"

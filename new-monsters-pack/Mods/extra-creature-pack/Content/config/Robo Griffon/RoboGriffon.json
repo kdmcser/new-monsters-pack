@@ -60,12 +60,12 @@
 		"spellimmunityslow" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
+				"subtype" : "slow"
 			},
 		"spellimmunityquick" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.quicksand"
+				"subtype" : "quicksand"
 			}
 
 		}

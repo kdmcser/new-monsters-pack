@@ -69,7 +69,7 @@
 			"hasteImm":
 			{
 				"type": "SPELL_IMMUNITY",
-				"subtype": "spell.haste",
+				"subtype": "haste",
 				"addInfo": 1
 			}
 		}

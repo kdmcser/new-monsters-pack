@@ -37,7 +37,7 @@
 			"bonuses": {
 				"maxwaspsentry": {
 					"addInfo": 3,
-					"subtype": "spell.summonwaspsentry",
+					"subtype": "summonwaspsentry",
 					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

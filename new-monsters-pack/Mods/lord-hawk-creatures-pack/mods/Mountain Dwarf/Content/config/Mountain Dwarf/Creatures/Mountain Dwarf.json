@@ -64,7 +64,7 @@
 			"waterdamagereduction":
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.water",
+				"subtype" : "water",
 				
 				"val" : 50
 
