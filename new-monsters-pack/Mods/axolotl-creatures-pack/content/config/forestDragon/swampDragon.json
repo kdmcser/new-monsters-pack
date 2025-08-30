@@ -1,84 +1,179 @@
 {
 	"swampDragon" : {
 		"abilities" : {
-			"strikeAndReturn" :  { "type" : "RETURN_AFTER_STRIKE"},
-			"canFly" : { "type" : "FLYING" }
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 2, 3, 3, 4, 4, 5]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ATTACKS_ALL_ADJACENT"
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
 			}
 		],
-		"advMapAmount" : {"max" : 20, "min" : 12},
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
 		"aiValue" : 364,
 		"attack" : 7,
-		"cost" : { "gold" : 280 },
-		"damage" : {"max" : 6, "min" : 3},
+		"cost" : {
+			"gold" : 280
+		},
+		"damage" : {
+			"max" : 6,
+			"min" : 3
+		},
 		"defense" : 9,
 		"faction" : "neutral",
 		"fightValue" : 357,
 		"graphics" : {
 			"animation" : "battle/forestDragon/swampDragon",
-			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 4,
+				"walk" : 1.3
+			},
 			"iconLarge" : "iconsBig/forestDragon/swampDragon",
 			"iconSmall" : "iconsSmall/forestDragon/swampDragon",
 			"map" : "map/forestDragon/swampDragon",
@@ -86,9 +181,12 @@
 		},
 		"growth" : 7,
 		"hitPoints" : 25,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 3,
-		"name" : { "plural" : "Swamp Dragons", "singular" : "Swamp Dragon" },
+		"name" : {
+			"plural" : "Swamp Dragons",
+			"singular" : "Swamp Dragon"
+		},
 		"sound" : {
 			"attack" : "forestDragon/SWDRATTK",
 			"defend" : "forestDragon/SWDRDFND",

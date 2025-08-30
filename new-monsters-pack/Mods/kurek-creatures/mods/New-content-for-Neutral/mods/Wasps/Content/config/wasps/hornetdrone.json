@@ -1,79 +1,77 @@
 {
-	"hornetdrone":
-	{
-		"name" :
-		{
+	"hornetdrone" : {
+		"name" : {
 			"singular" : "Hornet Drone",
 			"plural" : "Hornet Drones"
 		},
-		"description": "{Hornet Drone}\r\n\r\nThe Hornet Drone is a unique and rare larger wasp, acting as a viceroy within the hive. Its commanding presence inspires nearby swarms, while its tactical prowess bolsters their ferocity in battle.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Bloodlust:} The Hornet Drone can cast the Bloodlust spell on allied wasps, increasing their attack power and unleashing their full potential.\r\n",
+		"description" : "{Hornet Drone}\r\n\r\nThe Hornet Drone is a unique and rare larger wasp, acting as a viceroy within the hive. Its commanding presence inspires nearby swarms, while its tactical prowess bolsters their ferocity in battle.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Bloodlust:} The Hornet Drone can cast the Bloodlust spell on allied wasps, increasing their attack power and unleashing their full potential.\r\n",
 		"faction" : "neutral",
-		"level": 0,
+		"level" : 0,
 		"speed" : 4,
 		"hitPoints" : 40,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 12
 		},
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1500
-		},	
+		},
 		"growth" : 9,
 		"aiValue" : 156,
 		"fightValue" : 130,
 		"doubleWide" : false,
 		"special" : true,
 		"shots" : 24,
-		"abilities" :
-		{
-			"canCast" :
-			{
+		"abilities" : {
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bloodlust",
 				"val" : 1
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "wasps/hornedronesmall2.bmp",
 			"iconLarge" : "wasps/hornedronebig.bmp",
 			"map" : "wasps/hornetdronemap.def",
 			"animation" : "wasps/hornetdrone.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 20.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 20.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"attackClimaxFrame" : 4,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 9,
 					"lowerY" : 9,
@@ -85,8 +83,7 @@
 				"projectile" : "wasps/hornetdroneprojectile.def"
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "waspsounds/cdroneattack.wav",
 			"defend" : "waspsounds/cdronedefend",
 			"killed" : "waspsounds/cdronedeath.wav",

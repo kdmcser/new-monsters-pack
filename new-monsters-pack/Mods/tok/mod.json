@@ -5,24 +5,53 @@
 	"contact" : "http://fior.in",
 	"version" : "1.0.9",
 	"modType" : "Creatures",
-	"changelog" :
-	{
-		"0.1"   : ["Initial release"],
-		"0.2"   : ["Two new creatures added", "Four more heroes added", "Update to vcmi-1.2"],
-		"0.3"   : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
-		"0.31"  : ["Technical boost for vcmi-1.4 repository"],
-		"1.0.0" : ["Mod compilation"],
-		"1.0.1" : ["Update chinese translation"],
-		"1.0.2" : ["Update chinese translation and added the creatures' stackExp"],
-		"1.0.3" : ["Fixed Agatha's Griffins bug"],
-		"1.0.4" : ["Update chinese translation"],
-		"1.0.5" : ["Czech translation by George King"],
-		"1.0.6" : ["Fix for compatibility dependiences"],
-		"1.0.7" : ["New creatures added"],
-		"1.0.8" : ["Added Chimera creature", "Clean some old heroes"],
-		"1.0.9" : ["Fixes dependiences"]
-		
-	}, 
+	"changelog" : {
+		"0.1" : [
+			"Initial release"
+		],
+		"0.2" : [
+			"Two new creatures added",
+			"Four more heroes added",
+			"Update to vcmi-1.2"
+		],
+		"0.3" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"0.31" : [
+			"Technical boost for vcmi-1.4 repository"
+		],
+		"1.0.0" : [
+			"Mod compilation"
+		],
+		"1.0.1" : [
+			"Update chinese translation"
+		],
+		"1.0.2" : [
+			"Update chinese translation and added the creatures' stackExp"
+		],
+		"1.0.3" : [
+			"Fixed Agatha's Griffins bug"
+		],
+		"1.0.4" : [
+			"Update chinese translation"
+		],
+		"1.0.5" : [
+			"Czech translation by George King"
+		],
+		"1.0.6" : [
+			"Fix for compatibility dependiences"
+		],
+		"1.0.7" : [
+			"New creatures added"
+		],
+		"1.0.8" : [
+			"Added Chimera creature",
+			"Clean some old heroes"
+		],
+		"1.0.9" : [
+			"Fixes dependiences"
+		]
+	},
 	"chinese" : {
 		"name" : "彼端之国（Tok）",
 		"description" : "新类型，英雄和图像改进。"
@@ -35,8 +64,7 @@
 		"name" : "The other Kingdom",
 		"description" : "Nové neutrální jednotky, nové rasy, hrdinové a grafická vylepšení vytvořená Fiorinem."
 	},
-	"compatibility":
-	{
-	"min" : "1.6.0"
+	"compatibility" : {
+		"min" : "1.6.0"
 	}
 }

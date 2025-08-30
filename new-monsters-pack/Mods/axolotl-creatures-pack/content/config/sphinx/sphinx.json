@@ -1,119 +1,210 @@
 {
 	"acpsphinx" : {
 		"abilities" : {
-			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
-			"petrify" :
-			{
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"petrify" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "stoneGaze",
 				"val" : 75
 			},
-			"fearless" :
-			{
-					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
-					"description" : "PLACEHOLDER",
-					"val" : 0
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
-			"sandWalker" :
-			{
+			"sandWalker" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "terrain.sand",
 				"propagator" : "HERO"
 			},
-			"canFly" : 
-			{
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" : 
-				{ 
+				"bonus" : {
 					"type" : "DEATH_STARE",
-					"subtype" : "deathStareGorgon" 
+					"subtype" : "deathStareGorgon"
 				},
-				"values" : [ 20, 30, 40, 50, 60, 70, 80, 85, 90, 95 ]
+				"values" : [
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					85,
+					90,
+					95
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"val" : 10,
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"description" : "PLACEHOLDER",
-					"limiters" : [ 
-						"OPPOSITE_SIDE", 
+					"limiters" : [
+						"OPPOSITE_SIDE",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "LIVING"
 						}
 					]
 				},
-				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
-		],	
-		"advMapAmount" : { "max" : 14, "min" : 8 },
+		],
+		"advMapAmount" : {
+			"max" : 14,
+			"min" : 8
+		},
 		"aiValue" : 940,
 		"attack" : 14,
-		"cost" : { "gold" : 750 },
-		"damage" : { "max" : 16, "min" : 13 },
+		"cost" : {
+			"gold" : 750
+		},
+		"damage" : {
+			"max" : 16,
+			"min" : 13
+		},
 		"defense" : 17,
 		"faction" : "neutral",
 		"fightValue" : 940,
 		"graphics" : {
 			"animation" : "battle/sphinx/sphinx",
-			"animationTime" : { "attack" : 0.6, "idle" : 10, "walk" : 1.2 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 10,
+				"walk" : 1.2
+			},
 			"iconLarge" : "iconsBig/sphinx/sphinxlarge",
 			"iconSmall" : "iconsSmall/sphinx/sphinxsmall",
 			"map" : "map/sphinx/mapsphinx",
@@ -121,9 +212,12 @@
 		},
 		"growth" : 3,
 		"hitPoints" : 55,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 5,
-		"name" : { "plural" : "Royal Sphinxes", "singular" : "Royal Sphinx" },
+		"name" : {
+			"plural" : "Royal Sphinxes",
+			"singular" : "Royal Sphinx"
+		},
 		"sound" : {
 			"attack" : "sphinx/sphattk",
 			"defend" : "sphinx/sphdfnd",

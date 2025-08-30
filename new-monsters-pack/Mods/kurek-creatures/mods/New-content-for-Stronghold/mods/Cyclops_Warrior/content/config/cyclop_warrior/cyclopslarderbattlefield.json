@@ -1,7 +1,6 @@
 {
-	"cyclopslarderbattlefield": 
-	{
-		"graphics": "battle/cyclopslarderbattlefield.png",
+	"cyclopslarderbattlefield" : {
+		"graphics" : "battle/cyclopslarderbattlefield.png",
 		"isSpecial" : false
 	}
-}	
+}

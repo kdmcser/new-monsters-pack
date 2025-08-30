@@ -1,16 +1,13 @@
 {
-	"cr_shaman" : 
-	{
-		"name" :
-		{
+	"cr_shaman" : {
+		"name" : {
 			"singular" : "Shaman",
 			"plural" : "Shamans"
 		},
 		"level" : 3,
 		"special" : false,
-		"faction" : "neutral", 
-		"cost" : 
-		{
+		"faction" : "neutral",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -22,91 +19,125 @@
 		"fightValue" : 220,
 		"aiValue" : 200,
 		"growth" : 7,
-		
+
 		"attack" : 5,
 		"defense" : 8,
 		"hitPoints" : 25,
 		"shots" : 0,
 		"speed" : 6,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 5,
 			"max" : 6
 		},
 		"spellPoints" : 0,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 9,
 			"max" : 12
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"mix":{ 
+			"mix" : {
 				"type" : "NONEVIL_ALIGNMENT_MIX"
 			},
-			"airShield": {
+			"airShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "antiMagic",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics" :
-		{
+		"hasDoubleWeek" : false,
+		"graphics" : {
 			"animation" : "creatures/shaman/battle.def",
 			"map" : "creatures/shaman/adventure.def",
 			"iconSmall" : "creatures/shaman/icon.bmp",
 			"iconLarge" : "creatures/shaman/portrait.bmp",
-			"timeBetweenFidgets" : 2.00,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 2.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" : 
-		{
-			"attack": "PSNTATTK.wav",
-			"defend": "PSNTDFND.wav",
-			"killed": "PSNTKILL.wav",
-			"move": "PSNTMOVE.wav",
-			"wince": "PSNTWNCE.wav"
+		"sound" : {
+			"attack" : "PSNTATTK.wav",
+			"defend" : "PSNTDFND.wav",
+			"killed" : "PSNTKILL.wav",
+			"move" : "PSNTMOVE.wav",
+			"wince" : "PSNTWNCE.wav"
 		}
 	}
 }

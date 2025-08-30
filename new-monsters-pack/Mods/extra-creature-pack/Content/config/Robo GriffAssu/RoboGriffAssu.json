@@ -1,13 +1,10 @@
 {
-	"expRoboGriffAssu":
-	{
-		"name" :
-		{
+	"expRoboGriffAssu" : {
+		"name" : {
 			"plural" : "Assault Griffons",
 			"singular" : "Assault Griffon"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 10
 		},
@@ -15,32 +12,32 @@
 		"aiValue" : 854,
 		"attack" : 12,
 		"doubleWide" : true,
-                "cost" :
-		{
+		"cost" : {
 			"gold" : 450
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 10,
 			"min" : 7
 		},
 		"defense" : 14,
 		"fightValue" : 854,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/RoboGriffAssu.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "map/RoboGriffAssu.def",
 			"iconSmall" : "iconsSmall/RoboGriffAssu.bmp",
 			"iconLarge" : "iconsBig/RoboGriffAssu.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 
 		"growth" : 4,
 		"hitPoints" : 35,
 		"level" : 4,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "RGASATTK.wav",
 			"defend" : "RGASDFND.wav",
 			"killed" : "RGASKILL.wav",
@@ -48,41 +45,33 @@
 			"wince" : "RGASWNCE.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-		       "flying" :
-			{
+		"abilities" : {
+			"flying" : {
 				"type" : "FLYING"
 			},
-                    "spellimmunityslow" : 
-			{
+			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "slow"
 			},
-                     "spellimmunityquick" :
-			{
+			"spellimmunityquick" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "quicksand"
 			},
-                     "fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
-                     "nonliving" :
-			{
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-                     "noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-                     "nomorale" :
-			{
+			"nomorale" : {
 				"type" : "NO_MORALE"
 			}
-        }
+		}
 	}
 }

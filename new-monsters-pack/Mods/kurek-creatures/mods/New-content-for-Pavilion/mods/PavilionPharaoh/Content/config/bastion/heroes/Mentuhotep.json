@@ -1,37 +1,32 @@
 {
-	"mentuhotep" :
-	{
+	"mentuhotep" : {
 		"class" : "pharaoh",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Mentuhotep",
 			"biography" : " Deserts always hide treasures, as Mentuhotep firmly believes. He is proven right whenever he discoveres great riches there. Subsequently, he settled in one of the desert cities, where he expanded his wealth.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold pieces per day",
 				"tooltip" : "+350 Gold pieces each day",
 				"name" : "+350 Gold"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "bastion/heroes/Mentuhotep/un32Gold.bmp",
 			"specialtyLarge" : "bastion/heroes/Mentuhotep/un44Gold.bmp",
 			"large" : "bastion/heroes/Mentuhotep/Mentuhotep.bmp",
 			"small" : "bastion/heroes/Mentuhotep/MentuhotepSmall.bmp"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 20,
 				"min" : 12
 			},
-            {
+			{
 				"creature" : "wadjet",
 				"max" : 12,
 				"min" : 7
@@ -42,9 +37,8 @@
 				"min" : 1
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "ballistics"
@@ -52,11 +46,10 @@
 			{
 				"level" : "basic",
 				"skill" : "estates"
-			}		
+			}
 		],
-			
-"specialty": 
-		{
+
+		"specialty" : {
 			"bonuses" : {
 				"gold" : {
 					"subtype" : "resource.gold",

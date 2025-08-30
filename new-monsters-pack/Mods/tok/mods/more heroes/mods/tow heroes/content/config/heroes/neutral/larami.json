@@ -1,7 +1,11 @@
 {
 	"h_larami" : {
 		"army" : [
-			{ "creature" : "cr_tyrannosaurus", "max" : 1, "min" : 1 }
+			{
+				"creature" : "cr_tyrannosaurus",
+				"max" : 1,
+				"min" : 1
+			}
 		],
 		"class" : "hc_explorer",
 		"images" : {
@@ -11,11 +15,17 @@
 			"specialtySmall" : "heroes/neutral/larami_ss.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "intimidation" }
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intimidation"
+			}
 		],
-		"specialty": {
-			"creature": "cr_tyrannosaurus"
+		"specialty" : {
+			"creature" : "cr_tyrannosaurus"
 		},
 		"texts" : {
 			"biography" : "",
@@ -23,7 +33,7 @@
 			"specialty" : {
 				"description" : "{Dinossaur}\n\nIncreases Speed of any Dinossaur by 2 and their Attack and Defense skills by 5% for every 7 level.",
 				"name" : "Dinossaur",
-				"tooltip": "Creature bonus: Dinossaur"
+				"tooltip" : "Creature bonus: Dinossaur"
 			}
 		}
 	}

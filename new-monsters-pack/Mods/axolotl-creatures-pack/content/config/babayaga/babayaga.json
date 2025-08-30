@@ -1,154 +1,218 @@
 {
-	"acpBabaYaga":
-	{
-		"name" :
-		{
+	"acpBabaYaga" : {
+		"name" : {
 			"plural" : "Baba Yagas",
 			"singular" : "Baba Yaga"
 		},
-		"faction" : "neutral",		
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 20
+		"faction" : "neutral",
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
 		},
 		"level" : 4,
 		"doubleWide" : true,
 		"attack" : 13,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 10
+		"damage" : {
+			"min" : 6,
+			"max" : 10
 		},
 		"growth" : 4,
 		"hitPoints" : 30,
 		"speed" : 7,
 		"fightValue" : 670,
 		"aiValue" : 720,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 435
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/babayaga/babaYaga",
 			"iconLarge" : "iconsBig/babayaga/by58x64",
 			"iconSmall" : "iconsSmall/babayaga/by32x32",
 			"map" : "map/babayaga/babaYagaMap",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "babayaga/BYATTK",
 			"defend" : "babayaga/BYDFND",
 			"killed" : "babayaga/BYKILL",
 			"move" : "babayaga/BYMOVE",
 			"wince" : "babayaga/BYWNCE"
-        	},
-		"abilities" :
-		{
-			"moveSwamp" :
-			{
+		},
+		"abilities" : {
+			"moveSwamp" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "swamp"
 			},
-			"infernoImmunity" :
-			{
+			"infernoImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "inferno",
 				"addInfo" : 1
 			},
-			"castDepletion" :
-			{
+			"castDepletion" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "acpDepletion",
 				"val" : 3
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"spellsLength" : 
-			{
+			"spellsLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			},
-			"noCastByDefault" :
-			{
+			"noCastByDefault" : {
 				"type" : "NO_SPELLCAST_BY_DEFAULT"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SUMMON_GUARDIANS",
 					"subtype" : "enchanter"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]			
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			}
 		]
 	}

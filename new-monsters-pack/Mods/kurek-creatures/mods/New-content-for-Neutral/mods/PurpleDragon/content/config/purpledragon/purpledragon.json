@@ -1,130 +1,198 @@
 {
-	"purpledragon": {
-	
-		"description": "{#ff0000|Purple Dragon}\r\n\r\nThe purple dragon is a majestic creature with scales that shimmer like amethyst as it soars high in the skies. It is likely the oldest dragon species the world has ever seen.\r\n\r\n{gold|Special Ability : Its blue fiery breath covers a large area, leaving flames that burn longer than ordinary fire.\r\n\r\n This dragon possesses a unique resistance to magic, protecting it from most spells.}",
-		"name": {
-			"plural": "Purple Dragons",
-			"singular": "Purple Dragon"
+	"purpledragon" : {
+		"description" : "{#ff0000|Purple Dragon}\r\n\r\nThe purple dragon is a majestic creature with scales that shimmer like amethyst as it soars high in the skies. It is likely the oldest dragon species the world has ever seen.\r\n\r\n{gold|Special Ability : Its blue fiery breath covers a large area, leaving flames that burn longer than ordinary fire.\r\n\r\n This dragon possesses a unique resistance to magic, protecting it from most spells.}",
+		"name" : {
+			"plural" : "Purple Dragons",
+			"singular" : "Purple Dragon"
 		},
-		"advMapAmount": {
-			"max": 5,
-			"min": 2
+		"advMapAmount" : {
+			"max" : 5,
+			"min" : 2
 		},
-		"hasDoubleWeek": false,
-		"faction": "neutral",
-		"aiValue": 6525,
-		"attack": 18,
-		"cost": {
-			"gold": 3400,
-			"mercury": 1,
-			"sulfur": 1
+		"hasDoubleWeek" : false,
+		"faction" : "neutral",
+		"aiValue" : 6525,
+		"attack" : 18,
+		"cost" : {
+			"gold" : 3400,
+			"mercury" : 1,
+			"sulfur" : 1
 		},
-		"damage": {
-			"max": 50,
-			"min": 35
+		"damage" : {
+			"max" : 50,
+			"min" : 35
 		},
-		"defense": 18,
-		"fightValue": 5108,
-		"graphics": {
-			"animation": "battle/purpledragon.def",
-			"map": "map/purpledragononmap.def",
-			"iconSmall": "iconsSmall/purpledragonavatarsmall.png",
-			"iconLarge": "iconsBig/purpledragonavatarbig.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime": {
-				"walk": 1.00,
-				"attack": 0.7,
-				"idle": 10
+		"defense" : 18,
+		"fightValue" : 5108,
+		"graphics" : {
+			"animation" : "battle/purpledragon.def",
+			"map" : "map/purpledragononmap.def",
+			"iconSmall" : "iconsSmall/purpledragonavatarsmall.png",
+			"iconLarge" : "iconsBig/purpledragonavatarbig.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"attack" : 0.7,
+				"idle" : 10
 			}
 		},
-		"growth": 1,
-		"doubleWide": true,
-		"hitPoints": 300,
-		"level": 7,
-		"sound": {
-			"attack": "PurpleDragon/breath.wav",
-			"defend": "PurpleDragon/defend.wav",
-			"killed": "PurpleDragon/dragondie.wav",
-			"move": "PurpleDragon/move.wav",
-			"wince": "PurpleDragon/gethit.wav"
+		"growth" : 1,
+		"doubleWide" : true,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" : {
+			"attack" : "PurpleDragon/breath.wav",
+			"defend" : "PurpleDragon/defend.wav",
+			"killed" : "PurpleDragon/dragondie.wav",
+			"move" : "PurpleDragon/move.wav",
+			"wince" : "PurpleDragon/gethit.wav"
 		},
-		"speed": 10,
-		"abilities": {
-			"dragon": {
-				"type": "DRAGON_NATURE"
+		"speed" : 10,
+		"abilities" : {
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
 			},
-			"canFly": {
-				"type": "FLYING",
-				"subtype": "movementFlying"
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
 			},
-			"spellImmunity": {
-				"type": "LEVEL_SPELL_IMMUNITY",
-				"val": 4
+			"spellImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 4
 			},
-			"FireBreath": {
-				"type": "TWO_HEX_ATTACK_BREATH"
+			"FireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"BlueFireBreath": {
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "bluefire",
-                "val": 100
-            }
+			"BlueFireBreath" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "bluefire",
+				"val" : 100
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

@@ -1,9 +1,7 @@
 {
-	"BLUE_FIRE":
-	{
-		"graphics":
-		{
-			"icon":  "iconsBig/Bluefire.bmp"
+	"BLUE_FIRE" : {
+		"graphics" : {
+			"icon" : "iconsBig/Bluefire.bmp"
 		}
 	}
 }

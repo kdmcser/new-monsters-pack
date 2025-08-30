@@ -1,289 +1,263 @@
 {
-	    "agarspet": {
-        "name": {
-            "plural": "Agar's Pets",
-            "singular": "Agar's Pet"
-        },
-        "description": "{#ff0000|Agar's Pet}\n\nAgar's Pets are grotesque, flightless vultures created by the twisted warlock Agar. They could be considered a failed experiment, that was supposed to create cockatrices. These two-meter-tall abominations have bloated bodies, bat-like violet wings, and piercing red eyes capable of paralyzing their prey with a single gaze. \n\n {gold|Special Abilities: Melee attack with beak and claws. Paralysis gaze with 10% chance to occur. 99% magic damage immunity.}\n\nThese annoying creatures are {#40bfff|99% immune to magic damage, but not immune to a good sword blow}. Though they cannot fly, they lurk in the darkness, waiting to strike with their sharp talons and terrifying beaks.",
-        "advMapAmount": {
-            "max": 18,
-            "min": 11
-        },
-        "hasDoubleWeek": false,
-        "faction": "dungeon",
-        "aiValue": 450,
-        "attack": 10,
-        "cost": {
-            "gold": 340
-        },
-        "damage": {
-            "max": 5,
-            "min": 3
-        },
-        "defense": 9,
+	"agarspet" : {
+		"name" : {
+			"plural" : "Agar's Pets",
+			"singular" : "Agar's Pet"
+		},
+		"description" : "{#ff0000|Agar's Pet}\n\nAgar's Pets are grotesque, flightless vultures created by the twisted warlock Agar. They could be considered a failed experiment, that was supposed to create cockatrices. These two-meter-tall abominations have bloated bodies, bat-like violet wings, and piercing red eyes capable of paralyzing their prey with a single gaze. \n\n {gold|Special Abilities: Melee attack with beak and claws. Paralysis gaze with 10% chance to occur. 99% magic damage immunity.}\n\nThese annoying creatures are {#40bfff|99% immune to magic damage, but not immune to a good sword blow}. Though they cannot fly, they lurk in the darkness, waiting to strike with their sharp talons and terrifying beaks.",
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 11
+		},
+		"hasDoubleWeek" : false,
+		"faction" : "dungeon",
+		"aiValue" : 450,
+		"attack" : 10,
+		"cost" : {
+			"gold" : 340
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 9,
 		"fightValue" : 430,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/agarspet.def",
 			"map" : "map/agarspetmap.def",
-			"mapMask" : ["VVV",	"VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "iconssmall/agarspetsmall.png",
 			"iconLarge" : "iconsbig/agarspetlarge2.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
-			},
-			},
-		
+			}
+		},
+
 		"growth" : 6,
 		"doubleWide" : false,
 		"hitPoints" : 36,
 		"level" : 4,
-		"sound" :
-		{
-			"attack": "agarsounds/agarspetattack.wav",
-			"defend": "agarsounds/agarspetdefend.wav",
-			"killed": "agarsounds/agarspetkilled.wav",
-			"move": "agarsounds/agarspetmove.wav",
-			"wince": "agarsounds/agarspetwince.wav",
+		"sound" : {
+			"attack" : "agarsounds/agarspetattack.wav",
+			"defend" : "agarsounds/agarspetdefend.wav",
+			"killed" : "agarsounds/agarspetkilled.wav",
+			"move" : "agarsounds/agarspetmove.wav",
+			"wince" : "agarsounds/agarspetwince.wav",
 			"startMoving" : "agarsounds/agarspetstartmoving.wav",
-            "endMoving" : "agarsounds/agarspetstopmoving.wav"
+			"endMoving" : "agarsounds/agarspetstopmoving.wav"
 		},
 		"speed" : 6,
 		"shots" : 0,
-		"abilities" :
-	{
-			 
-			"spellpower" : 
-			{
+		"abilities" : {
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
-			 
+
 				"val" : 100
 			},
-		"castsParalysis" : {
-		
+			"castsParalysis" : {
 				"addInfo" : [
-				
-				2,
-				
-				0
-					],
-			 
-			"subtype" : "paralysis",
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 10
+					2,
+
+					0
+				],
+
+				"subtype" : "paralysis",
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 10
+			},
+
+			"magicResistance" : {
+				"subtype" : "any",
+
+				"type" : "SPELL_DAMAGE_REDUCTION",
+
+				"val" : 99
+			}
 		},
-		 
-		"magicResistance" : {
-						 
-			"subtype" : "any",
-			 
-						 
-			"type" : "SPELL_DAMAGE_REDUCTION",
-			 
-			"val" : 99
-		},
-		  
-	},
 		"stackExperience" : [
-		{			
-			"bonus" : {
-				"subtype" : "attack",
-				"type" : "PRIMARY_SKILL"
-			},			
-			"values" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
 
-				1,
+					1,
 
-				1,
+					2,
 
-				2,
+					2,
 
-				2,
+					3,
 
-				3,
+					3,
 
-				3,
+					4,
 
-				4,
+					4,
 
-				4,
+					5,
 
-				5,
-
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
-
-				"subtype" : "defence",
-
-				"type" : "PRIMARY_SKILL"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				1,
+			{
+				"bonus" : {
+					"subtype" : "defence",
 
-				1,
+					"type" : "PRIMARY_SKILL"
+				},
 
-				2,
+				"values" : [
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5,
+					4,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"subtype" : "creatureDamageMax",
+					5,
 
-				"type" : "CREATURE_DAMAGE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
 
-				1,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"subtype" : "creatureDamageMin",
+					4,
 
-				"type" : "CREATURE_DAMAGE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
 
-				1,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"type" : "STACK_HEALTH",
+					4,
 
-				"valueType" : "PERCENT_TO_BASE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				5,
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
 
-				10,
+					"valueType" : "PERCENT_TO_BASE"
+				},
 
-				15,
+				"values" : [
+					5,
 
-				20,
+					10,
 
-				25,
+					15,
 
-				30,
+					20,
 
-				35,
+					25,
 
-				40,
+					30,
 
-				45,
+					35,
 
-				50
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					40,
 
-				"type" : "STACKS_SPEED"
+					45,
+
+					50
+				]
 			},
-			 
-			"values" : [
 
-				1,
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
 
-				2,
+				"values" : [
+					1,
 
-				3,
+					2,
 
-				3,
+					3,
 
-				3,
+					3,
 
-				3,
+					3,
 
-				3,
+					3,
 
-				4,
+					3,
 
-				4,
+					4,
 
-				5
-			]
-		},
-	],
+					4,
+
+					5
+				]
+			}
+		]
 	}
 }
-
-

@@ -3,14 +3,23 @@
 		"types" : {
 			"louryEstate" : {
 				"name" : "Loury Estate",
-				"creatures" : [[ "wwickedWitch" ]],
+				"creatures" : [
+					[
+						"wwickedWitch"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "louryEstate.def",
-						"mask" : [ "VVVV", "VVBV", "VVBV", "VVAB" ]
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VVBV",
+							"VVAB"
+						]
 					}
 				}
 			}
 		}
-	}	
+	}
 }

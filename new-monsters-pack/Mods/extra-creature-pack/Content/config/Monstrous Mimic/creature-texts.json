@@ -1,8 +1,6 @@
 {
-	"expMonstrousMimic":
-	{
-		"name" :
-		{
+	"expMonstrousMimic" : {
+		"name" : {
 			"plural" : "Monstrous Mimics",
 			"singular" : "Monstrous Mimic"
 		}

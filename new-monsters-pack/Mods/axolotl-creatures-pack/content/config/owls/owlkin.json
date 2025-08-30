@@ -1,84 +1,154 @@
 {
 	"owlkin" : {
 		"abilities" : {
-			"flier" : 
-			{ 
+			"flier" : {
 				"type" : "FLYING"
 			},
-			"mixer" :
-			{
+			"mixer" : {
 				"type" : "NONEVIL_ALIGNMENT_MIX",
 				"propagator" : "HERO"
 			},
-			"lucky" :
-			{
+			"lucky" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"propagator" : "HERO"
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
-		"upgrades": ["owlkinSage"],	
-		"advMapAmount" : {"max" : 25, "min" : 16},
+		"upgrades" : [
+			"owlkinSage"
+		],
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
 		"aiValue" : 248,
 		"attack" : 6,
-		"cost" : { "gold" : 230 },
-		"damage" : {"max" : 6, "min" : 3},
+		"cost" : {
+			"gold" : 230
+		},
+		"damage" : {
+			"max" : 6,
+			"min" : 3
+		},
 		"defense" : 7,
 		"faction" : "neutral",
 		"fightValue" : 216,
 		"graphics" : {
 			"animation" : "battle/owls/OwlLow",
-			"animationTime" : { "attack" : 0.5, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 0.5,
+				"idle" : 20,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/owls/FaceLowBig2",
 			"iconSmall" : "iconsSmall/owls/FaceLowsmall1",
 			"map" : "map/owls/Adv-Owllow",
@@ -86,9 +156,12 @@
 		},
 		"growth" : 12,
 		"hitPoints" : 20,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 3,
-		"name" : { "plural" : "Owlkins", "singular" : "Owlkin" },
+		"name" : {
+			"plural" : "Owlkins",
+			"singular" : "Owlkin"
+		},
 		"sound" : {
 			"attack" : "owls/owlattack",
 			"defend" : "owls/owldefend",

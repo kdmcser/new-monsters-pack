@@ -1,40 +1,32 @@
 {
-	"mountainDwarf":
-	{
-		"name" :
-		{
+	"mountainDwarf" : {
+		"name" : {
 			"plural" : "Mountain Dwarves",
 			"singular" : "Mountain Dwarf"
 		},
-		"advMapAmount" :
-		{
-
+		"advMapAmount" : {
 			"max" : 24,
 			"min" : 15
 		},
 		"faction" : "neutral",
 		"aiValue" : 207,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 165
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 2
 		},
 		"defense" : 9,
 		"fightValue" : 215,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "Mountain Dwarf/battle/Mountain Dwarf.def",
 			"map" : "Mountain Dwarf/map/Mountain Dwarf.def",
 			"iconSmall" : "Mountain Dwarf/iconsSmall/Mountain Dwarf.bmp",
 			"iconLarge" : "Mountain Dwarf/iconsBig/Mountain Dwarf.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 2,
 				"attack" : 1
@@ -44,33 +36,25 @@
 		"hitPoints" : 20,
 		"level" : 2,
 
-
-		"sound" :
-		{
-			"attack": "OORCATTK.wav",
-			"defend": "OORCDFND.wav",
-			"killed": "DWRFKILL.wav",
-			"move": "DWRFMOVE.wav",
-			"wince": "DWRFWNCE.wav"
+		"sound" : {
+			"attack" : "OORCATTK.wav",
+			"defend" : "OORCDFND.wav",
+			"killed" : "DWRFKILL.wav",
+			"move" : "DWRFMOVE.wav",
+			"wince" : "DWRFWNCE.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"resistance":
-			{
-				"type" : "MAGIC_RESISTANCE", 
-				"val" : 20 	
+		"abilities" : {
+			"resistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
 			},
-			"waterdamagereduction":
-			{
+			"waterdamagereduction" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
-				
-				"val" : 50
 
+				"val" : 50
 			}
 		}
 	}
 }
-
-

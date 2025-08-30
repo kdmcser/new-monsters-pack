@@ -1,63 +1,63 @@
 {
-    "sacredscarab": {
-        "name": {
-            "plural": "Sacred Scarabs",
-            "singular": "Sacred Scarab"
-        },
+	"sacredscarab" : {
+		"name" : {
+			"plural" : "Sacred Scarabs",
+			"singular" : "Sacred Scarab"
+		},
 		"description" : "{#ff0000|Sacred Scarab}\r\n\r\nA golden-shelled creature, stronger than ordinary scarabs, said to be created on altars through incantations over black scarabs.\r\n\r\n{gold|Special Ability : Revered as magical talismans, they are believed to bring luck and protect their owner from harm.}",
-        "advMapAmount": {
-            "max": 50,
-            "min": 20
-        },
-        "faction": "neutral",
-        "aiValue": 70,
-        "attack": 3,
-        "cost": {
-            "gold": 50
-        },
-        "damage": {
-            "max": 4,
-            "min": 1
-        },
-        "defense": 6,
-        "fightValue": 70,
-        "graphics": {
-            "animation": "bastion/battle/creatures/sacredscarab.def",
-            "map": "bastion/map/creatures/sacredscarab.def",
-            "iconSmall": "bastion/iconsSmall/creatures/sacredscarab.png",
-            "iconLarge": "bastion/iconsBig/creatures/sacredscarab.bmp",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "walk": 1.00,
-                "idle": 10.00,
-                "attack": 1.00
-            }
-        },
-        "growth": 20,
-        "hitPoints": 5,
-        "level": 1,
-        "sound": {
-            "attack": "bastion/scarAtt.wav",
-            "defend": "bastion/scarDef.wav",
-            "killed": "bastion/scarDie.wav",
-            "move": "bastion/scarWalk.wav",
-            "wince": "bastion/scarHit.wav"
-        },
-        "speed": 8,
-        "abilities": {
-            "canFly": {
-                "type": "FLYING"
-            },
-            "increaseLuck": {
-                "type": "LUCK",
-                "val": 1
-            }
-        },
-        "stackExperience": [
-
-        ]
-    },
-    "new-pavilion:scarab": {
-        "upgrades": ["sacredscarab"]
-    }
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "neutral",
+		"aiValue" : 70,
+		"attack" : 3,
+		"cost" : {
+			"gold" : 50
+		},
+		"damage" : {
+			"max" : 4,
+			"min" : 1
+		},
+		"defense" : 6,
+		"fightValue" : 70,
+		"graphics" : {
+			"animation" : "bastion/battle/creatures/sacredscarab.def",
+			"map" : "bastion/map/creatures/sacredscarab.def",
+			"iconSmall" : "bastion/iconsSmall/creatures/sacredscarab.png",
+			"iconLarge" : "bastion/iconsBig/creatures/sacredscarab.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"growth" : 20,
+		"hitPoints" : 5,
+		"level" : 1,
+		"sound" : {
+			"attack" : "bastion/scarAtt.wav",
+			"defend" : "bastion/scarDef.wav",
+			"killed" : "bastion/scarDie.wav",
+			"move" : "bastion/scarWalk.wav",
+			"wince" : "bastion/scarHit.wav"
+		},
+		"speed" : 8,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"increaseLuck" : {
+				"type" : "LUCK",
+				"val" : 1
+			}
+		},
+		"stackExperience" : []
+	},
+	"new-pavilion:scarab" : {
+		"upgrades" : [
+			"sacredscarab"
+		]
+	}
 }

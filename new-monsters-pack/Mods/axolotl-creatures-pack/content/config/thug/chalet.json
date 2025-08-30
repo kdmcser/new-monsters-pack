@@ -3,14 +3,23 @@
 		"types" : {
 			"acpChalet" : {
 				"name" : "Chalet",
-				"creatures" : [[ "acpThug" ]],
+				"creatures" : [
+					[
+						"acpThug"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "map/thug/chalet",
-						"mask" : [ "VVV", "VBB", "VBB", "VAV" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBB",
+							"VAV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

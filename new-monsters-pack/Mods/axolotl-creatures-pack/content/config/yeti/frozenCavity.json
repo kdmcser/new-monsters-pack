@@ -3,15 +3,23 @@
 		"types" : {
 			"acpFrozenCavity" : {
 				"name" : "Frozen Cavity",
-				"creatures" : [[ "yeti" ]],
+				"creatures" : [
+					[
+						"yeti"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "map/yeti/frozenCavity",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

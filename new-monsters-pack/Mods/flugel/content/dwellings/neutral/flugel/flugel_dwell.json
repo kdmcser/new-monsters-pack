@@ -1,24 +1,29 @@
 {
-	"core:creatureGeneratorCommon" : 
-    {
-		"types" : 
-        {
-			"fpFlugelDwell" :
-             {
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"fpFlugelDwell" : {
 				"name" : "Celestial Library",
-				"creatures" : [[ "flugel" ]],
-				"sounds": {
-					"ambient": ["LOOPSTAR"]
+				"creatures" : [
+					[
+						"flugel"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPSTAR"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "neutral/flugel/AVGLibFlg.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
-             }
-		}	
+			}
+		}
 	}
 }

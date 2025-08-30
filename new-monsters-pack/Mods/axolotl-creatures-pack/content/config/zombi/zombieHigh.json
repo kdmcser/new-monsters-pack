@@ -1,93 +1,190 @@
 {
 	"zombieHigh" : {
 		"abilities" : {
-			"undead" : { "type" : "UNDEAD" },
-			"unlimitedRetaliation" : { "type" : "UNLIMITED_RETALIATIONS" },
-			"age" :
-			{
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"age" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "age",
 				"val" : 55
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
-					"addInfo" : [2, 0]
+					"addInfo" : [
+						2,
+						0
+					]
 				},
-				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]	
+				"values" : [
+					8,
+					16,
+					24,
+					32,
+					40,
+					48,
+					56,
+					64,
+					72,
+					80
+				]
 			},
 			{
-				"bonus" : 
-				{
+				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
 					//"subtype" : 1,
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
-		"advMapAmount" : {"max" : 22, "min" : 14},
+		"advMapAmount" : {
+			"max" : 22,
+			"min" : 14
+		},
 		"aiValue" : 360,
 		"attack" : 7,
-		"cost" : { "gold" : 315 },
-		"damage" : {"max" : 7, "min" : 3},
+		"cost" : {
+			"gold" : 315
+		},
+		"damage" : {
+			"max" : 7,
+			"min" : 3
+		},
 		"defense" : 9,
 		"faction" : "neutral",
 		"fightValue" : 325,
 		"graphics" : {
 			"animation" : "battle/zombi/czombi",
-			"animationTime" : { "attack" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 6,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/zombi/High-Big2",
 			"iconSmall" : "iconsSmall/zombi/High-small",
 			"map" : "map/zombi/Adv-czombi",
@@ -95,9 +192,12 @@
 		},
 		"growth" : 8,
 		"hitPoints" : 23,
-	        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 3,
-		"name" : { "plural" : "Unforgiven Deads", "singular" : "Unforgiven Dead" },
+		"name" : {
+			"plural" : "Unforgiven Deads",
+			"singular" : "Unforgiven Dead"
+		},
 		"sound" : {
 			"attack" : "zombi/ZOatack",
 			"defend" : "zombi/ZOdefend",

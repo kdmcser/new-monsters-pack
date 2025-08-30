@@ -1,16 +1,13 @@
 {
-	"cr_orangutan" : 
-	{
-		"name" :
-		{
+	"cr_orangutan" : {
+		"name" : {
 			"singular" : "Orangutan",
 			"plural" : "Orangutans"
 		},
 		"level" : 3,
 		"special" : false,
-		"faction" : "fortress", 
-		"cost" : 
-		{
+		"faction" : "fortress",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -22,91 +19,125 @@
 		"fightValue" : 250,
 		"aiValue" : 310,
 		"growth" : 7,
-		
+
 		"attack" : 10,
 		"defense" : 8,
 		"hitPoints" : 30,
 		"shots" : 0,
 		"speed" : 4,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 5,
 			"max" : 8
 		},
 		"spellPoints" : 0,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 7,
 			"max" : 11
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"landKnowledge":{
+			"landKnowledge" : {
 				"type" : "ROUGH_TERRAIN_DISCOUNT",
 				"valueType" : "PERCENT_TO_ALL",
 				"val" : 25
 			},
-			"strongMind" :
-			{
+			"strongMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics" :
-		{
+		"hasDoubleWeek" : false,
+		"graphics" : {
 			"animation" : "creatures/orangutan/battle.def",
 			"map" : "creatures/orangutan/adventure.def",
 			"iconSmall" : "creatures/orangutan/icon.bmp",
 			"iconLarge" : "creatures/orangutan/portrait.bmp",
-			"timeBetweenFidgets" : 2.00,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 2.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound": {
-			"attack": "OGREATTK.wav",
-			"defend": "OGREDFND.wav",
-			"killed": "OGREKILL.wav",
-			"move": "OGREMOVE.wav",
-			"wince": "OGREWNCE.wav"
+		"sound" : {
+			"attack" : "OGREATTK.wav",
+			"defend" : "OGREDFND.wav",
+			"killed" : "OGREKILL.wav",
+			"move" : "OGREMOVE.wav",
+			"wince" : "OGREWNCE.wav"
 		}
 	}
 }

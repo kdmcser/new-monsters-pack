@@ -1,6 +1,6 @@
 {
-	"evillairbattlefield": {
-		"graphics": "battle/evillairbattlefield.png",
+	"evillairbattlefield" : {
+		"graphics" : "battle/evillairbattlefield.png",
 		"isSpecial" : true
 	}
 }

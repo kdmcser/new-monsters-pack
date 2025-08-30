@@ -1,85 +1,177 @@
 {
 	"evilTree" : {
 		"abilities" : {
-			"mindImmunity" : { "type" : "MIND_IMMUNITY" }
+			"mindImmunity" : {
+				"type" : "MIND_IMMUNITY"
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" : 
-				{ 
-					"type" : "HP_REGENERATION" 
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 5,10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "earth"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
-		"advMapAmount" : {"max" : 12, "min" : 5},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
 		"aiValue" : 1372,
 		"attack" : 15,
-		"cost" : { "gold" : 1000 },
-		"damage" : {"max" : 23, "min" : 15},
+		"cost" : {
+			"gold" : 1000
+		},
+		"damage" : {
+			"max" : 23,
+			"min" : 15
+		},
 		"defense" : 14,
 		"faction" : "neutral",
 		"fightValue" : 1206,
 		"graphics" : {
 			"animation" : "battle/evilTree/evilTree",
-			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 4,
+				"walk" : 1.3
+			},
 			"iconLarge" : "iconsBig/evilTree/evilTree",
 			"iconSmall" : "iconsSmall/evilTree/evilTree",
 			"map" : "map/evilTree/evilTree",
@@ -87,9 +179,12 @@
 		},
 		"growth" : 2,
 		"hitPoints" : 75,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 6,
-		"name" : { "plural" : "Evil Trees", "singular" : "Evil Tree" },
+		"name" : {
+			"plural" : "Evil Trees",
+			"singular" : "Evil Tree"
+		},
 		"sound" : {
 			"attack" : "evilTree/EVTRATTK",
 			"defend" : "evilTree/EVTRDFND",
@@ -98,6 +193,8 @@
 			"wince" : "evilTree/EVTRWNCE"
 		},
 		"speed" : 4,
-		"upgrades" : [ "evilTreant" ]
+		"upgrades" : [
+			"evilTreant"
+		]
 	}
 }

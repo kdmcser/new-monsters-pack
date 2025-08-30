@@ -1,81 +1,143 @@
 {
 	"wyrmFish" : {
 		"abilities" : {
-			"dragonNature" : { "type" : "DRAGON_NATURE" },
-			"canFly" :
-			{
+			"dragonNature" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"seaMovement" :
-			{
+			"seaMovement" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"waterImmunity" :
-			{
+			"waterImmunity" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100,
 				"subtype" : "water"
-			}	
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"upgrades": ["dragonFish"],		
-		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"upgrades" : [
+			"dragonFish"
+		],
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 6
+		},
 		"aiValue" : 1740,
 		"attack" : 15,
-		"cost" : { "gold" : 1100 },
-		"damage" : { "max" : 25, "min" : 20 },
+		"cost" : {
+			"gold" : 1100
+		},
+		"damage" : {
+			"max" : 25,
+			"min" : 20
+		},
 		"defense" : 19,
 		"faction" : "neutral",
 		"fightValue" : 1540,
 		"graphics" : {
 			"animation" : "battle/dragonFish/KrakkenHigh",
-			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 4,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/dragonFish/FaceBig3",
 			"iconSmall" : "iconsSmall/dragonFish/FaceSmall3",
 			"map" : "map/dragonFish/KrakkenHighAdv",
@@ -83,9 +145,12 @@
 		},
 		"growth" : 2,
 		"hitPoints" : 110,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 6,
-		"name" : { "plural" : "Wyrmfishes", "singular" : "Wyrmfish" },
+		"name" : {
+			"plural" : "Wyrmfishes",
+			"singular" : "Wyrmfish"
+		},
 		"sound" : {
 			"attack" : "dragonFish/DRAatak",
 			"defend" : "dragonFish/DRAdefend",

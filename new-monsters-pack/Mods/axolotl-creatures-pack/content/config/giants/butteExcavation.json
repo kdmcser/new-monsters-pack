@@ -4,17 +4,27 @@
 			"acpButteExcavation" : {
 				"name" : "Butte Excavation",
 				"guards" : true,
-				"creatures" : [[ "hillGiant" ]],
-				"sounds": {
-					"ambient": ["giants/butteExcavation"]
+				"creatures" : [
+					[
+						"hillGiant"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"giants/butteExcavation"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/giants/butteExcavation",
-						"mask" : [ "VVBV", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVBV",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

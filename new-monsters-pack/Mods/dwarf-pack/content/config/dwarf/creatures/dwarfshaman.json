@@ -1,44 +1,40 @@
 {
-	"raDwarfShaman":
-	{
-		"name" :
-		{
+	"raDwarfShaman" : {
+		"name" : {
 			"plural" : "Dwarfs Shamans",
 			"singular" : "Dwarf Shaman"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 12
 		},
-		"faction": "rampart",
+		"faction" : "rampart",
 		"aiValue" : 1618,
 		"attack" : 10,
 		"hasDoubleWeek" : true,
-         "cost" :
-		{
+		"cost" : {
 			"gold" : 350
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 10,
 			"min" : 6
 		},
 		"defense" : 12,
 		"fightValue" : 1396,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "dwarf/battle/shaman.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "dwarf/map/shamanmap.def",
 			"iconSmall" : "dwarf/iconsSmall/shaman.bmp",
 			"iconLarge" : "dwarf/iconsBig/shaman.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -47,53 +43,58 @@
 					"lowerY" : -14
 				},
 				"attackClimaxFrame" : 8,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 
 		"growth" : 3,
 		"hitPoints" : 15,
-        "level" : 4,
+		"level" : 4,
 		"shots" : 16,
-		"sound" :
-		{
-			"attack": "BDRFATTK.wav",
-			"defend": "BDRFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"shoot": "ENCHSHOT.wav",
-			"move": "BDRFMOVE.wav",
-			"wince": "BDRFWNCE.wav"
+		"sound" : {
+			"attack" : "BDRFATTK.wav",
+			"defend" : "BDRFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"move" : "BDRFMOVE.wav",
+			"wince" : "BDRFWNCE.wav"
 		},
 		"speed" : 6,
-		 "abilities" :
-		{
-			"resistance":
-			{
-				"type" : "MAGIC_RESISTANCE", 
-				"val" : 20 	
+		"abilities" : {
+			"resistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
 			},
-		   "shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noPenalty" : 
-			{
+			"noPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"castsHaste" :
-			{
+			"castsHaste" : {
 				"type" : "ENCHANTER",
 				"subtype" : "haste",
 				"val" : 3,
 				"addInfo" : 3
 			},
-			"castsStoneSkin" :
-			{
+			"castsStoneSkin" : {
 				"type" : "ENCHANTER",
 				"subtype" : "stoneSkin",
 				"val" : 3,

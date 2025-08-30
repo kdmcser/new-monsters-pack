@@ -1,96 +1,186 @@
 {
 	"roper" : {
 		"abilities" : {
-
-			"binds" :
-			{
+			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
 				"val" : 90
 			},
-			"defensiveStance" :
-			{
+			"defensiveStance" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 50
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CHARGE_IMMUNITY"
 				},
-				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" : 
-				{
+				"bonus" : {
 					"type" : "SPELL_IMMUNITY",
 					"subtype" : "slow"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		],
-		"upgrades": ["acidicRoper"],		
-		"advMapAmount" : {"max" : 50, "min" : 20},
+		"upgrades" : [
+			"acidicRoper"
+		],
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
+		},
 		"aiValue" : 82,
 		"attack" : 6,
-		"cost" : { "gold" : 45 },
-		"damage" : {"max" : 2, "min" : 2},
+		"cost" : {
+			"gold" : 45
+		},
+		"damage" : {
+			"max" : 2,
+			"min" : 2
+		},
 		"defense" : 4,
 		"faction" : "neutral",
 		"fightValue" : 94,
 		"graphics" : {
 			"animation" : "battle/roper/Tentaplant-A",
-			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.6,
+				"idle" : 20,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/roper/TentaclePlantFace-Big",
 			"iconSmall" : "iconsSmall/roper/TentaclePlantFace-Small",
 			"map" : "map/roper/Adv-Tentaplant-A",
@@ -98,9 +188,12 @@
 		},
 		"growth" : 42,
 		"hitPoints" : 5,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 1,
-		"name" : { "plural" : "Ropers", "singular" : "Roper" },
+		"name" : {
+			"plural" : "Ropers",
+			"singular" : "Roper"
+		},
 		"sound" : {
 			"attack" : "roper/ROPatak",
 			"defend" : "roper/ROPdefend",

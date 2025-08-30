@@ -1,202 +1,263 @@
 {
 	"hulkBuster" : {
 		"abilities" : {
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			"castsAirShield" :
-			{
+			"castsAirShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "airShield",
 				"val" : 3
 			},
-			"fearless" :
-			{
-					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
-					"description" : "PLACEHOLDER",
-					"val" : 0
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
-			"directDamageImmunity" :
-			{
+			"directDamageImmunity" : {
 				"subtype" : "any",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
-			"hateGiants" :
-			{
+			"hateGiants" : {
 				"type" : "HATE",
 				"subtype" : "giant",
 				"val" : 50
 			},
-			"hateTitans" :
-			{
+			"hateTitans" : {
 				"type" : "HATE",
 				"subtype" : "titan",
 				"val" : 50
 			},
-			"hateDevils" :
-			{
+			"hateDevils" : {
 				"type" : "HATE",
 				"subtype" : "devil",
 				"val" : 50
 			},
-			"hateArchDevils" :
-			{
+			"hateArchDevils" : {
 				"type" : "HATE",
 				"subtype" : "archDevil",
 				"val" : 50
 			},
-			"hateAngels" : 
-			{
+			"hateAngels" : {
 				"type" : "HATE",
 				"subtype" : "angel",
 				"val" : 50
 			},
-			"hateRedDragons" : 
-			{
+			"hateRedDragons" : {
 				"type" : "HATE",
 				"subtype" : "redDragon",
 				"val" : 50
-			},	
-			"hateBlackDragons" : 
-			{
+			},
+			"hateBlackDragons" : {
 				"type" : "HATE",
 				"subtype" : "blackDragon",
 				"val" : 50
-			},	
-			"hatefirebird" : 
-			{
+			},
+			"hatefirebird" : {
 				"type" : "HATE",
 				"subtype" : "firebird",
 				"val" : 50
-			},	
-			"hatephoenix" : 
-			{
+			},
+			"hatephoenix" : {
 				"type" : "HATE",
 				"subtype" : "phoenix",
 				"val" : 50
 			},
-			"hatehydra" : 
-			{
+			"hatehydra" : {
 				"type" : "HATE",
 				"subtype" : "hydra",
 				"val" : 50
-			},	
-			"hatechaoshydra" : 
-			{
+			},
+			"hatechaoshydra" : {
 				"type" : "HATE",
 				"subtype" : "chaosHydra",
 				"val" : 50
 			},
-			"hatebonedragon" : 
-			{
+			"hatebonedragon" : {
 				"type" : "HATE",
 				"subtype" : "boneDragon",
 				"val" : 50
-			},	
-			"hateghostdragon" : 
-			{
+			},
+			"hateghostdragon" : {
 				"type" : "HATE",
 				"subtype" : "ghostDragon",
 				"val" : 50
 			},
-			"hategreendragon" : 
-			{
+			"hategreendragon" : {
 				"type" : "HATE",
 				"subtype" : "greenDragon",
 				"val" : 50
-			},	
-			"hategolddragon" : 
-			{
+			},
+			"hategolddragon" : {
 				"type" : "HATE",
 				"subtype" : "goldDragon",
 				"val" : 50
 			},
-			"hatebehemoth" : 
-			{
+			"hatebehemoth" : {
 				"type" : "HATE",
 				"subtype" : "behemoth",
 				"val" : 50
-			},	
-			"hateancientbehemoth" : 
-			{
+			},
+			"hateancientbehemoth" : {
 				"type" : "HATE",
 				"subtype" : "ancientBehemoth",
 				"val" : 50
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			}
 		],
-		"advMapAmount" : { "max" : 12, "min" : 6 },
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 6
+		},
 		"aiValue" : 4560,
 		"attack" : 32,
-		"cost" : { "gold" : 5400, "mercury" : 4 },
-		"damage" : { "max" : 52, "min" : 37 },
+		"cost" : {
+			"gold" : 5400,
+			"mercury" : 4
+		},
+		"damage" : {
+			"max" : 52,
+			"min" : 37
+		},
 		"defense" : 35,
 		"faction" : "neutral",
 		"fightValue" : 4560,
 		"graphics" : {
 			"animation" : "battle/ironclad/hulkbuster",
-			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 4,
+				"walk" : 1.3
+			},
 			"iconLarge" : "iconsBig/ironclad/hulkbuster-Big02",
 			"iconSmall" : "iconsSmall/ironclad/hulkbuster-Small02",
 			"map" : "map/ironclad/hulkbuster",
@@ -204,9 +265,12 @@
 		},
 		"growth" : 2,
 		"hitPoints" : 240,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 7,
-		"name" : { "plural" : "Hulkbusters", "singular" : "Hulkbuster" },
+		"name" : {
+			"plural" : "Hulkbusters",
+			"singular" : "Hulkbuster"
+		},
 		"sound" : {
 			"attack" : "ironclad/atak-high",
 			"defend" : "ironclad/defend-high",

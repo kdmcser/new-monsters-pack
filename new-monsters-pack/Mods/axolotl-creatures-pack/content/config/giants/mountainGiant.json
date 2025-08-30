@@ -1,107 +1,193 @@
 {
 	"mountainGiant" : {
 		"abilities" : {
-		
-			"sightSeer" :
-			{
+			"sightSeer" : {
 				"type" : "SIGHT_RADIUS",
 				"val" : 6,
 				"valueType" : "ADDITIVE_VALUE",
 				"propagator" : "HERO"
 			},
-			"mindImmunity" :
-			{
+			"mindImmunity" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"enemyDefenceReduction" :
-			{
+			"enemyDefenceReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 35
 			},
-			"stackSpeed" :
-			{
+			"stackSpeed" : {
 				"type" : "STACKS_SPEED",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER",
 				"propagator" : "HERO"
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DEFENSIVE_STANCE"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]			
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{
-				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"bonus" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"subtype" : "damageTypeAll"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
-		],	
-		"advMapAmount" : {"max" : 15, "min" : 8},
+		],
+		"advMapAmount" : {
+			"max" : 15,
+			"min" : 8
+		},
 		"aiValue" : 940,
 		"attack" : 14,
-		"cost" : { "gold" : 520 },
-		"damage" : {"max" : 15, "min" : 12},
+		"cost" : {
+			"gold" : 520
+		},
+		"damage" : {
+			"max" : 15,
+			"min" : 12
+		},
 		"defense" : 18,
 		"faction" : "neutral",
 		"fightValue" : 940,
 		"graphics" : {
 			"animation" : "battle/giants/bgbHigh2run",
-			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 4,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/giants/HGFaceBigHigh",
 			"iconSmall" : "iconsSmall/giants/HGFacesmallHigh",
 			"map" : "map/giants/Adv-bgbHigh",
@@ -109,9 +195,12 @@
 		},
 		"growth" : 3,
 		"hitPoints" : 50,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 5,
-		"name" : { "plural" : "Mountain Giants", "singular" : "Mountain Giant" },
+		"name" : {
+			"plural" : "Mountain Giants",
+			"singular" : "Mountain Giant"
+		},
 		"sound" : {
 			"attack" : "giants/Gatak",
 			"defend" : "giants/Gdefend",

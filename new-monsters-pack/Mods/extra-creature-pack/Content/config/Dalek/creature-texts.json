@@ -1,8 +1,6 @@
 {
-	"expDalek":
-	{
-		"name" :
-		{
+	"expDalek" : {
+		"name" : {
 			"plural" : "Daleks",
 			"singular" : "Dalek"
 		}

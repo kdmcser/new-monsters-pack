@@ -3,14 +3,23 @@
 		"types" : {
 			"acpSparkyMeadow" : {
 				"name" : "Sparky Meadow",
-				"creatures" : [[ "acpWilloWisp" ]],
+				"creatures" : [
+					[
+						"acpWilloWisp"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "map/will-o-wisp/sparkyMeadow",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

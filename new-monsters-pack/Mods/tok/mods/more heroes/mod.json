@@ -1,19 +1,19 @@
 {
-	"name": "More Heroes",
-	"description": "New heroes",
-	"author": "Fiorin",
-	"contact": "https://fior.in",
-	"version": "1.0.0",
-	"modType": "Heroes",
-	"compatibility": {
-		"min": "1.4.0"
+	"name" : "More Heroes",
+	"description" : "New heroes",
+	"author" : "Fiorin",
+	"contact" : "https://fior.in",
+	"version" : "1.0.0",
+	"modType" : "Heroes",
+	"compatibility" : {
+		"min" : "1.4.0"
 	},
-	"depends" : [ 
+	"depends" : [
 		"ruins-town",
 		"new-monsters-pack.tok.more creatures"
 	],
-	"changelog": {
-		"1.0.0": [
+	"changelog" : {
+		"1.0.0" : [
 			"Initial release"
 		]
 	}

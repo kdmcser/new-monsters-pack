@@ -1,84 +1,66 @@
 {
-	"guardiansphinx":
-	{
-		"name" :
-		{
+	"guardiansphinx" : {
+		"name" : {
 			"plural" : "Guardian Sphinxes",
 			"singular" : "Guardian Sphinx"
 		},
 		"description" : "{#ff0000|Guardian Sphinx}\r\n\r\nA magical being with the body of a lion and the head of a pharaoh, guarding temples and ancient sites.\r\n\r\n{gold|Special Ability : It appears as a stone statue but is alive, capable of killing with a gaze. Resistant to earth magic, it is a strong and steadfast defender.}",
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
 		"faction" : "pavilion",
 		"aiValue" : 1210,
 		"attack" : 14,
-		"hasDoubleWeek": true,
-		"cost" :
-		{
+		"hasDoubleWeek" : true,
+		"cost" : {
 			"gold" : 900
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 15
 		},
 		"defense" : 16,
 		"fightValue" : 1000,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "bastion/battle/creatures/Sphinx.def",
 			"map" : "bastion/map/creatures/SphinxMap.def",
 			"iconSmall" : "bastion/iconsSmall/creatures/SphinxSmall.bmp",
 			"iconLarge" : "bastion/iconsBig/creatures/Sphinx.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.20,
-				"idle" : 10.00,
-				"attack" : 1.00,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
-           
 		},
-	    "doubleWide" : true,
-        "growth" : 2,
+		"doubleWide" : true,
+		"growth" : 2,
 		"hitPoints" : 100,
 		"level" : 6,
-        "upgrades":
-		[
+		"upgrades" : [
 			"greatersphinx"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "bastion/sphxAtt.wav",
-			"defend": "bastion/sphxDef.wav",
-			"killed": "bastion/sphxDie.wav",
-			"move": "bastion/sphxWalk.wav",
-			"wince": "bastion/sphxHit.wav"
- 		},
+			"defend" : "bastion/sphxDef.wav",
+			"killed" : "bastion/sphxDie.wav",
+			"move" : "bastion/sphxWalk.wav",
+			"wince" : "bastion/sphxHit.wav"
+		},
 		"speed" : 5,
-		"abilities" :
-		{
-
-            "magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "earth",
 				"val" : 20
 			},
-			"deathStare" : 
-			{ 
-				"subtype" : "deathStareGorgon", 
-				"type" : "DEATH_STARE", 
-				"val" : 20 
+			"deathStare" : {
+				"subtype" : "deathStareGorgon",
+				"type" : "DEATH_STARE",
+				"val" : 20
 			}
-
 		},
-		"stackExperience" :
-		[
-		
-		]	
+		"stackExperience" : []
 	}
 }

@@ -3,14 +3,21 @@
 		"types" : {
 			"acpslimyBurrow" : {
 				"name" : "Slimy Burrow",
-				"creatures" : [[ "tentoslimus" ]],
+				"creatures" : [
+					[
+						"tentoslimus"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "map/tentoslimus/slimyBurrow",
-						"mask" : [ "VV", "BA" ]
+						"mask" : [
+							"VV",
+							"BA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

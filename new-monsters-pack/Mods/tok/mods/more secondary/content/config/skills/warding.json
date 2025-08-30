@@ -6,51 +6,51 @@
 			"might" : 0,
 			"magic" : 3
 		},
-		"basic": {
-			"images": {
-				"small": "skills/warding/wardingSmallBasic.png",
-				"medium": "skills/warding/wardingMediumBasic.png",
-				"large": "skills/warding/wardingLargeBasic.png",
+		"basic" : {
+			"images" : {
+				"small" : "skills/warding/wardingSmallBasic.png",
+				"medium" : "skills/warding/wardingMediumBasic.png",
+				"large" : "skills/warding/wardingLargeBasic.png",
 				"scenarioBonus" : "skills/warding/blank.png"
 			},
-			"description": "{Basic Warding}\n\nCreatures are enchanted with Magic Mirror (25%).",
-			"effects": {
-				"enchanted": {
+			"description" : "{Basic Warding}\n\nCreatures are enchanted with Magic Mirror (25%).",
+			"effects" : {
+				"enchanted" : {
 					"type" : "ENCHANTED",
-					"subtype": "magicMirror",
-					"val": 25
+					"subtype" : "magicMirror",
+					"val" : 25
 				}
 			}
 		},
-		"advanced": {
-			"images": {
-				"small": "skills/warding/wardingSmallAdvanced.png",
-				"medium": "skills/warding/wardingMediumAdvanced.png",
-				"large": "skills/warding/wardingLargeAdvanced.png",
+		"advanced" : {
+			"images" : {
+				"small" : "skills/warding/wardingSmallAdvanced.png",
+				"medium" : "skills/warding/wardingMediumAdvanced.png",
+				"large" : "skills/warding/wardingLargeAdvanced.png",
 				"scenarioBonus" : "skills/warding/blank.png"
 			},
-			"description": "{Advanced Warding}\n\nCreatures are enchanted with Magic Mirror (50%).",
-			"effects": {
-				"enchanted": {
+			"description" : "{Advanced Warding}\n\nCreatures are enchanted with Magic Mirror (50%).",
+			"effects" : {
+				"enchanted" : {
 					"type" : "ENCHANTED",
-					"subtype": "magicMirror",
-					"val": 50
+					"subtype" : "magicMirror",
+					"val" : 50
 				}
 			}
 		},
-		"expert": {
-			"images": {
-				"small": "skills/warding/wardingSmallExpert.png",
-				"medium": "skills/warding/wardingMediumExpert.png",
-				"large": "skills/warding/wardingLargeExpert.png",
+		"expert" : {
+			"images" : {
+				"small" : "skills/warding/wardingSmallExpert.png",
+				"medium" : "skills/warding/wardingMediumExpert.png",
+				"large" : "skills/warding/wardingLargeExpert.png",
 				"scenarioBonus" : "skills/warding/blank.png"
 			},
-			"description": "{Expert Warding}\n\nCreatures are enchanted with Magic Mirror (75%).",
-			"effects": {
-				"enchanted": {
+			"description" : "{Expert Warding}\n\nCreatures are enchanted with Magic Mirror (75%).",
+			"effects" : {
+				"enchanted" : {
 					"type" : "ENCHANTED",
-					"subtype": "magicMirror",
-					"val": 75
+					"subtype" : "magicMirror",
+					"val" : 75
 				}
 			}
 		}

@@ -1,105 +1,100 @@
 {
-	"fungus" : 
-	{
-		"type": "ability",
-		
+	"fungus" : {
+		"type" : "ability",
+
 		"targetType" : "CREATURE",
 		"name" : "Fungus Infection",
-		"school": {"air":false, "earth":false, "fire":false, "water":false},
-		"level": 1,
-		"power": 1,
-		"defaultGainChance": 0, 		
-		"gainChance":
-		{
-			
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"graphics":
-		{
-			"iconImmune":"spells/spores/fungusImmune2",
-			"iconEffect": "spells/spores/fungusEffect3"
- 
-		},		
-		"animation":
-		{
-			"affect":["C0ACID"]
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"graphics" : {
+			"iconImmune" : "spells/spores/fungusImmune2",
+			"iconEffect" : "spells/spores/fungusEffect3"
 		},
-		"sounds": {
-			"cast": "spells/spores/FUNGUS"
+		"animation" : {
+			"affect" : [
+				"C0ACID"
+			]
 		},
-		
-		"levels" : 
-			{
-			
-			"base":{
-				"description": "Fungal Infection.",
-				"cost": 0,
-				"power": 1,
-//				"aiValue": 0,
+		"sounds" : {
+			"cast" : "spells/spores/FUNGUS"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "Fungal Infection.",
+				"cost" : 0,
+				"power" : 1,
+				//				"aiValue": 0,
 				"range" : "0",
-				"targetModifier":{"smart":false},
-				"battleEffects":{
-					"fungusDebuff":{
-						"type":"core:timed",
-						"cumulative":true,						
-						"bonus":{
+				"targetModifier" : {
+					"smart" : false
+				},
+				"battleEffects" : {
+					"fungusDebuff" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
 							"damage" : {
 								"val" : -1,
 								"valueType" : "ADDITIVE_VALUE",
 								"duration" : "N_TURNS",
 								"type" : "CREATURE_DAMAGE",
 								"subtype" : "creatureDamageBoth"
-						},
-	
-						"speed" : {
-							"val" : -1,
-							"type" : "STACKS_SPEED",
-							"valueType" : "BASE_NUMBER",
-							"duration" : "N_TURNS"				
-						},
+							},
+
+							"speed" : {
+								"val" : -1,
+								"type" : "STACKS_SPEED",
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
 							"attack" : {
-							"val" : -1,
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "attack",
-							"valueType" : "ADDITIVE_VALUE",
-							"duration" : "N_TURNS"
-						},
-						"defence" : {
-							"val" : -1,
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "defence",
-							"valueType" : "ADDITIVE_VALUE",
-							"duration" : "N_TURNS"
-						}
+								"val" : -1,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "N_TURNS"
+							},
+							"defence" : {
+								"val" : -1,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "N_TURNS"
+							}
 						}
 					}
 				}
 			},
-			"none":{
+			"none" : {},
+			"basic" : {
+				"range" : "1"
 			},
-			"basic":{
-
-				"range" : "1"			
-			},
-			"advanced":{
-
+			"advanced" : {
 				"range" : "2"
 			},
-			"expert":{
-
-				"range" : "X"				
+			"expert" : {
+				"range" : "X"
 			}
-			},
+		},
 		"targetCondition" : {
 			"allOf" : {},
-			"anyOf" : {},			
+			"anyOf" : {},
 			"noneOf" : {
-				"core:bonus.NON_LIVING": "absolute",
-				"bonus.SIEGE_WEAPON" : "absolute"		
-
+				"core:bonus.NON_LIVING" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute"
 			}
-	},		
+		},
 		"flags" : {
-			"negative": true
+			"negative" : true
 		}
 	}
 }

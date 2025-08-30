@@ -7,18 +7,18 @@
 				"min" : 20
 			},
 			{
-			"creature" : "walkingDead",
-			"max" : 6,
-			"min" : 4
+				"creature" : "walkingDead",
+				"max" : 6,
+				"min" : 4
 			},
 			{
-			"creature" : "wight",
-			"max" : 6,
-			"min" : 4
+				"creature" : "wight",
+				"max" : 6,
+				"min" : 4
 			}
 		],
 		"class" : "necromancer",
-		"spellbook": [
+		"spellbook" : [
 			"antiMagic"
 		],
 		"images" : {
@@ -28,25 +28,31 @@
 			"specialtySmall" : "heroes/necropolis/veles_ss.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "necromancy" },
-			{ "level" : "basic", "skill" : "warding" }
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "warding"
+			}
 		],
-		"specialty": {
-			"bonuses": {
-				"maxWeakness": {
-					"addInfo": 3,
-					"subtype": "antiMagic",
-					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+		"specialty" : {
+			"bonuses" : {
+				"maxWeakness" : {
+					"addInfo" : 3,
+					"subtype" : "antiMagic",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
 		"texts" : {
 			"biography" : "",
-			"name" : "Veles", 
+			"name" : "Veles",
 			"specialty" : {
 				"description" : "Maxed Anti-magic effect",
 				"name" : "Anti-magic",
-				"tooltip": "Anti-magic"
+				"tooltip" : "Anti-magic"
 			}
 		}
 	}

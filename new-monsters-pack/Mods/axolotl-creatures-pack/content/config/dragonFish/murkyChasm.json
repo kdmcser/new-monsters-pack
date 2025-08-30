@@ -4,17 +4,26 @@
 			"acpMurkyChasm" : {
 				"name" : "Murky Chasm",
 				"guards" : true,
-				"creatures" : [[ "wyrmFish" ]],
-				"sounds": {
-					"ambient": ["dragonFish/murkyChasm"]
+				"creatures" : [
+					[
+						"wyrmFish"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dragonFish/murkyChasm"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/dragonFish/murkyChasm",
-						"mask" : [ "VBV", "VAB" ]
+						"mask" : [
+							"VBV",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

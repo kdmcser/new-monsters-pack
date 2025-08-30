@@ -16,51 +16,99 @@
 			//		}
 			//	}
 			//,
-			"cr_shaman_dwelling": {
+			"cr_shaman_dwelling" : {
 				"name" : "Corroboree Spot",
-				"creatures": [["cr_shaman"]],
+				"creatures" : [
+					[
+						"cr_shaman"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPSWOR"],
-					"visit" : ["MILITARY"]
+					"ambient" : [
+						"LOOPSWOR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/shaman",
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
-			"cr_gnome_dwelling": {
+			"cr_gnome_dwelling" : {
 				"name" : "Grass Cabin",
-				"creatures": [["cr_gnome"]],
+				"creatures" : [
+					[
+						"cr_gnome"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPSWOR"],
-					"visit" : ["MILITARY"]
+					"ambient" : [
+						"LOOPSWOR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/gnome",
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
-			"cr_plaguedoctor_dwelling": {
+			"cr_plaguedoctor_dwelling" : {
 				"name" : "Blight Lab",
-				"creatures": [["cr_plaguedoctor"]],
+				"creatures" : [
+					[
+						"cr_plaguedoctor"
+					]
+				],
 				"sounds" : {
-					"ambient" : ["LOOPSWOR"],
-					"visit" : ["MILITARY"]
+					"ambient" : [
+						"LOOPSWOR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/plaguedoctor",
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}	
+		}
 	}
 }

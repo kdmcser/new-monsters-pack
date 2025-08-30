@@ -1,140 +1,207 @@
 {
-	"acpWilloWisp":
-	{
-		"name" :
-		{
+	"acpWilloWisp" : {
+		"name" : {
 			"plural" : "Will-o-wisp",
 			"singular" : "Will-o-wisp"
 		},
-		"faction" : "neutral",		
-		"advMapAmount" :
-		{
-			 "min" : 10,
-			 "max" : 20
+		"faction" : "neutral",
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
 		},
 		"level" : 2,
 		"doubleWide" : false,
 		"attack" : 13,
 		"defense" : 10,
-		"damage" :
-		{
-			 "min" : 6,
-			 "max" : 10
+		"damage" : {
+			"min" : 6,
+			"max" : 10
 		},
 		"growth" : 4,
 		"hitPoints" : 30,
 		"speed" : 7,
 		"fightValue" : 670,
 		"aiValue" : 720,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 435
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/will-o-wisp/will-o-wisp",
 			"iconLarge" : "iconsBig/will-o-wisp/willowisp58x64",
 			"iconSmall" : "iconsSmall/will-o-wisp/willowisp32x32",
 			"map" : "map/will-o-wisp/mapWilloWisp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "will-o-wisp/WOWATAK",
 			"defend" : "will-o-wisp/WOWDEFEND",
 			"killed" : "will-o-wisp/WOWKILL",
 			"move" : "will-o-wisp/WOWMOVE",
 			"wince" : "will-o-wisp/WOWWINCE"
-        	},
-		"abilities" :
-		{
-			"moveSwamp" :
-			{
+		},
+		"abilities" : {
+			"moveSwamp" : {
 				"type" : "NO_TERRAIN_PENALTY",
 				"subtype" : "swamp"
 			},
-			"cloudAttack" :
-			{
+			"cloudAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "inferno",
 				"val" : 1
 			},
-			"infernoImmunity" :
-			{
+			"infernoImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "inferno",
 				"addInfo" : 1
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CHANGES_SPELL_COST_FOR_ENEMY"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 100, 100, 100, 100 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					100,
+					100,
+					100,
+					100
+				]
 			}
 		]
 	}

@@ -1,74 +1,59 @@
 {
-	"desertguard":
-	{
-		"name" :
-		{
+	"desertguard" : {
+		"name" : {
 			"plural" : "Desert Guards",
 			"singular" : "Desert Guard"
 		},
 		"description" : "{#ff0000|Desert Guard}\r\n\r\nThe most experienced among overseers and warriors are granted the honor of serving as the elite Desert Guards.\r\n\r\n{gold|Special Ability : Clad in light armor, they bear shields and long spears, allowing them to effectively repel counterattacks and form impenetrable defensive lines against cavalry.}",
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 20
 		},
 		"faction" : "pavilion",
 		"aiValue" : 101,
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 80
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 1
 		},
 		"defense" : 7,
 		"fightValue" : 111,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "bastion/battle/creatures/Overseer.def",
 			"map" : "bastion/map/creatures/OverseerMap.def",
 			"iconSmall" : "bastion/iconsSmall/creatures/OverseerSmall.bmp",
 			"iconLarge" : "bastion/iconsBig/creatures/Overseer.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.10,
-				"idle" : 10.00,
-				"attack" : 1.00,
+			"animationTime" : {
+				"walk" : 1.1,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
-
 		},
 		"growth" : 15,
 		"hitPoints" : 8,
 		"level" : 1,
 		"horde" : 4,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "bastion/overAtt.wav",
-			"defend": "bastion/wippDef.wav",
-			"killed": "bastion/wippDie.wav",
-			"move": "bastion/wippWalk.wav",
-			"wince": "bastion/wippHit.wav"
- 		},
+			"defend" : "bastion/wippDef.wav",
+			"killed" : "bastion/wippDie.wav",
+			"move" : "bastion/wippWalk.wav",
+			"wince" : "bastion/wippHit.wav"
+		},
 		"speed" : 7,
-		"abilities" :
-		{
-            "ImmuneToCharge" :
-			{
+		"abilities" : {
+			"ImmuneToCharge" : {
 				"type" : "CHARGE_IMMUNITY"
 			},
-            "noRetaliate" :
-			{
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			}
 		},
-		"stackExperience" :
-		[
-
-		]		
+		"stackExperience" : []
 	}
 }

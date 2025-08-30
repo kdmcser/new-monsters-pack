@@ -1,24 +1,20 @@
 {
-	"expBigspider":
-	{
-		"name" :
-		{
+	"expBigspider" : {
+		"name" : {
 			"plural" : "Big Spiders",
 			"singular" : "Big Spider"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 14
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 14
 		},
 		"faction" : "neutral",
 		"level" : 3,
 		"attack" : 8,
 		"defense" : 6,
-		"damage" :
-		{
-			 "min" : 3,
-			 "max" : 5
+		"damage" : {
+			"min" : 3,
+			"max" : 5
 		},
 		"growth" : 7,
 		"hitPoints" : 20,
@@ -26,43 +22,34 @@
 		"fightValue" : 265,
 		"aiValue" : 280,
 		"doubleWide" : true,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 235
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/BigSpider.def",
 			"map" : "map/BigSpiderM.def",
 			"iconSmall" : "iconsSmall/BigSpider.bmp",
 			"iconLarge" : "iconsBig/BigSpider.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"abilities":
-		{
-			"paralize" :
-			{
+		"abilities" : {
+			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
-                        "subtype" : "paralyze",
+				"subtype" : "paralyze",
 				"val" : 20
-			}	
-		},	
-		"sound" :
-		{
-			"attack": "spdrattk.wav",
-			"defend": "spdrdfnd.wav",
-			"killed": "spdrkill.wav",
-			"move": "spdrmove.wav",
-			"wince": "spdrwnce.wav"
+			}
+		},
+		"sound" : {
+			"attack" : "spdrattk.wav",
+			"defend" : "spdrdfnd.wav",
+			"killed" : "spdrkill.wav",
+			"move" : "spdrmove.wav",
+			"wince" : "spdrwnce.wav"
 		}
 	}
 }
-
-
-

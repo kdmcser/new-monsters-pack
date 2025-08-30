@@ -1,41 +1,35 @@
 {
-	"ama'ka" :
-	{
+	"ama'ka" : {
 		"class" : "vizier",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ama'Ka",
 			"biography" : "She has a great talent for finding an oases in the desert. She once even accidentally found a desert geyser called the Holy Source of Life. Nowadays she often goes there with her army, which makes her troops more vital than other troops found in the desert.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases hit points of all units in the army by 2.",
 				"tooltip" : "Hit points + 2",
 				"name" : "Aura of Life"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "bastion/heroes/Ama'Ka/Un32Live.bmp",
 			"specialtyLarge" : "bastion/heroes/Ama'Ka/Un44Live.bmp",
 			"large" : "bastion/heroes/Ama'Ka/Ama'Ka.bmp",
-			"small" : "bastion/heroes/Ama'Ka/Ama'KaSmall.bmp",
+			"small" : "bastion/heroes/Ama'Ka/Ama'KaSmall.bmp"
 		},
-              "spellbook" :
-		[
-			"magicArrow" 
+		"spellbook" : [
+			"magicArrow"
 		],
 
-		"army" :
-		[
-	{
+		"army" : [
+			{
 				"creature" : "whipper",
 				"max" : 20,
 				"min" : 12
 			},
-            {
+			{
 				"creature" : "wadjet",
 				"max" : 12,
 				"min" : 7
@@ -47,8 +41,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,23 +51,19 @@
 				"skill" : "firstAid"
 			}
 		],
-         "specialty":
-		{
-			"bonuses": {
-				"health1": {
+		"specialty" : {
+			"bonuses" : {
+				"health1" : {
 					"type" : "STACK_HEALTH",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				},
-				"health2": {
+				"health2" : {
 					"type" : "STACK_HEALTH",
 					"val" : 4,
 					"valueType" : "PERCENT_TO_BASE"
-				}	
+				}
 			}
 		}
-    }
+	}
 }
-
-
-

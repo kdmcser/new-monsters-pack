@@ -1,9 +1,21 @@
 {
 	"h_melaunchalot" : {
 		"army" : [
-			{ "creature" : "goblin", "max" : 25, "min" : 20 },
-			{ "creature" : "pikeman", "max" : 25, "min" : 20 },
-			{ "creature" : "archer", "max" : 10, "min" : 2 }
+			{
+				"creature" : "goblin",
+				"max" : 25,
+				"min" : 20
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 25,
+				"min" : 20
+			},
+			{
+				"creature" : "archer",
+				"max" : 10,
+				"min" : 2
+			}
 		],
 		"class" : "knight",
 		"images" : {
@@ -13,31 +25,38 @@
 			"specialtySmall" : "heroes/castle/melaunchalot_ss.bmp"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "endurance" },
-			{ "level" : "basic", "skill" : "ballistics" }
+			{
+				"level" : "basic",
+				"skill" : "endurance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
 		],
-		"specialty": {
-			"bonuses": {
-				"life": {
+		"specialty" : {
+			"bonuses" : {
+				"life" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE",
 					"propagator" : "BATTLE_WIDE",
 					"val" : 5,
 					"limiters" : [
-					{
-						"type" : "CREATURE_ALIGNMENT_LIMITER",
-						"alignment" :  "castle"
-					}]
+						{
+							"type" : "CREATURE_ALIGNMENT_LIMITER",
+							"alignment" : "castle"
+						}
+					]
 				}
 			}
 		},
 		"texts" : {
 			"biography" : "to do",
 			"name" : "Melaunchalot",
-			"specialty": {
-				"tooltip": "Secondary Skill Bonus: Endurance",
-				"name": "Endurance",
-				"description": "All your creatures from Castle get a permanent 5% health bonus."
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Endurance",
+				"name" : "Endurance",
+				"description" : "All your creatures from Castle get a permanent 5% health bonus."
 			}
 		}
 	}

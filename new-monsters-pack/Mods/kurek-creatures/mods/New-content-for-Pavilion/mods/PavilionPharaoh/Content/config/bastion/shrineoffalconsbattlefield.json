@@ -1,7 +1,21 @@
 {
-	"shrineoffalconsbattlefield": {
-		"graphics":  "bastion/battle/shrineoffalconsbattlefield.png",
-		"impassableHexes" : [ 8, 25, 26, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183 ],
+	"shrineoffalconsbattlefield" : {
+		"graphics" : "bastion/battle/shrineoffalconsbattlefield.png",
+		"impassableHexes" : [
+			8,
+			25,
+			26,
+			174,
+			175,
+			176,
+			177,
+			178,
+			179,
+			180,
+			181,
+			182,
+			183
+		],
 		"isSpecial" : true
-		}
+	}
 }

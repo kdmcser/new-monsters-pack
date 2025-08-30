@@ -1,37 +1,31 @@
 {
-	"ankh-amon" :
-	{
+	"ankh-amon" : {
 		"class" : "embalmer",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ankh-Amon",
 			"biography" : "In cities of wizards, there is little room for women, especially for women like Ankh-Amon, for whom expanding knowledge is less important than enhancing magical talent. After years of wandering, she found her place among the viziers in the Bracada desert.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "bastion/heroes/Ankh-Amon/un32sorc.bmp",
 			"specialtyLarge" : "bastion/heroes/Ankh-Amon/un44sorc.bmp",
 			"large" : "bastion/heroes/Ankh-Amon/Ankh-Amon.bmp",
 			"small" : "bastion/heroes/Ankh-Amon/Ankh-AmonSmall.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 
-		"army" :
-		[
-		{
+		"army" : [
+			{
 				"creature" : "whipper",
 				"max" : 30,
 				"min" : 20
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,9 +52,8 @@
 				"skill" : "sorcery"
 			}
 		],
-		
- "specialty": 
-			{
+
+		"specialty" : {
 			"bonuses" : {
 				"sorcery" : {
 					"targetSourceType" : "SECONDARY_SKILL",

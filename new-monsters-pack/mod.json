@@ -4,46 +4,121 @@
 	"version" : "1.4.2",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" :
-    {
-		"1.4.2"   : [ "Update for vcmi-1.7 format" ],
-		"1.4.1"   : [ "Fixed guards layout in Royal Treasury (Man at Arms in Lord Hawk Creatures Pack)" ],
-		"1.4.0"   : [ "Updated polish translation (Kurek creatures)" ],
-		"1.3.9"   : [ "Minor fix for Lurkers' bank reward chances in Kurek creatures submod" ],
-		"1.3.8"   : [ "New graphics for Wasps buildings in Kurek creatures submod" ],
-		"1.3.7"   : [ "Updated polish translation", "Changed Sphinx name into Royal Sphinx" ],
-		"1.3.6"   : [ "Missing Dungeon content" ],
-		"1.3.5"   : [ "MAY BREAK SAVES: Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets to kurek-creatures submod" ],
-		"1.3.4"   : [ "Updated Czech translation with Wasp addon." ],
-		"1.3.3"   : [ "Fixed some specialty code in tok heroes submod." ],
-		"1.3.2"   : [ "Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon." ],
-		"1.3.1"   : [ "Fixed dependiencies in tok extras submod" ],
-		"1.3.0"   : [ "Added Chimera creature into tok submod", "Cleaned some old heroes from tok submod" ],
-		"1.2.9"   : [ "Fix for new dwellings"  ],
-		"1.2.8"   : [ "Changed dark-dwarf-at-arms to lord-hawk-creatures-pack", "Added Derodyme, Squire and their dwellings including banks", "Added new spell Stun" ],
-		"1.2.7"   : [ "Fix for Quark Palace"  ],
-		"1.2.6"   : [ "Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extras)"  ],
-		"1.2.5"   : [ "Kurek creatures pack update"  ],
-		"1.2.4"   : [ "Added Ettin creature in Fiorin's tok submod"  ],
-		"1.2.3"   : [ "Fixed bugs in Sphinx, Baba-Yaga and Will-o-wisp configs"  ],
-		"1.2.2"   : [ "Added stack experience bonus system by LeoAllenHan"  ],
-		"1.2.1"   : [ "Updated polish translation"  ],
-		"1.1.9"   : [ "Unlocked new content for Pavilion - New creatures, dwellings, heroes and class Pharaon", "Fixed Murky Chasm typo", "Unlocked ToK heroes submods", "Updated Czech translation"  ],
-		"1.1.8"   : [ "Fix for Marine Serail bank", "Changed wendigo name", "Loxodon is now double wide creature"  ],
-		"1.1.7"   : [ "Fixed problem with broken map generation" ],
-		"1.1.5"   : [ "Vendigo creature unlocked", "Fixed console warnings" ],
-		"1.1.4"   : [ "Mummy updated" ],
-		"1.1.3"   : [ "Partial polish translation by FallainBlack" ],
-		"1.1.2"   : [ "Remove translation files from submods", "Correction of broken axolotl-creatures-pack folder name" ],
-		"1.1.1"   : [ "Fixed existing translations to new mod directories" ],
-		"1.1.0"   : [ "Added axolotl-creatures-pack and ToK submods" ],
-		"1.0.1"   : [ "Czech translation by George King" ],
-		"1.0.0"   : [ "Initial release" ]
-    },
+	"changelog" : {
+		"1.4.2" : [
+			"Update for vcmi-1.7 format"
+		],
+		"1.4.1" : [
+			"Fixed guards layout in Royal Treasury (Man at Arms in Lord Hawk Creatures Pack)"
+		],
+		"1.4.0" : [
+			"Updated polish translation (Kurek creatures)"
+		],
+		"1.3.9" : [
+			"Minor fix for Lurkers' bank reward chances in Kurek creatures submod"
+		],
+		"1.3.8" : [
+			"New graphics for Wasps buildings in Kurek creatures submod"
+		],
+		"1.3.7" : [
+			"Updated polish translation",
+			"Changed Sphinx name into Royal Sphinx"
+		],
+		"1.3.6" : [
+			"Missing Dungeon content"
+		],
+		"1.3.5" : [
+			"MAY BREAK SAVES: Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets to kurek-creatures submod"
+		],
+		"1.3.4" : [
+			"Updated Czech translation with Wasp addon."
+		],
+		"1.3.3" : [
+			"Fixed some specialty code in tok heroes submod."
+		],
+		"1.3.2" : [
+			"Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon."
+		],
+		"1.3.1" : [
+			"Fixed dependiencies in tok extras submod"
+		],
+		"1.3.0" : [
+			"Added Chimera creature into tok submod",
+			"Cleaned some old heroes from tok submod"
+		],
+		"1.2.9" : [
+			"Fix for new dwellings"
+		],
+		"1.2.8" : [
+			"Changed dark-dwarf-at-arms to lord-hawk-creatures-pack",
+			"Added Derodyme, Squire and their dwellings including banks",
+			"Added new spell Stun"
+		],
+		"1.2.7" : [
+			"Fix for Quark Palace"
+		],
+		"1.2.6" : [
+			"Polish translation fixed. Updated polish translation for new content by FallainBlack and Kurek (Kurek creatures pack), fixed wrong description for endurance skill (tok-extras)"
+		],
+		"1.2.5" : [
+			"Kurek creatures pack update"
+		],
+		"1.2.4" : [
+			"Added Ettin creature in Fiorin's tok submod"
+		],
+		"1.2.3" : [
+			"Fixed bugs in Sphinx, Baba-Yaga and Will-o-wisp configs"
+		],
+		"1.2.2" : [
+			"Added stack experience bonus system by LeoAllenHan"
+		],
+		"1.2.1" : [
+			"Updated polish translation"
+		],
+		"1.1.9" : [
+			"Unlocked new content for Pavilion - New creatures, dwellings, heroes and class Pharaon",
+			"Fixed Murky Chasm typo",
+			"Unlocked ToK heroes submods",
+			"Updated Czech translation"
+		],
+		"1.1.8" : [
+			"Fix for Marine Serail bank",
+			"Changed wendigo name",
+			"Loxodon is now double wide creature"
+		],
+		"1.1.7" : [
+			"Fixed problem with broken map generation"
+		],
+		"1.1.5" : [
+			"Vendigo creature unlocked",
+			"Fixed console warnings"
+		],
+		"1.1.4" : [
+			"Mummy updated"
+		],
+		"1.1.3" : [
+			"Partial polish translation by FallainBlack"
+		],
+		"1.1.2" : [
+			"Remove translation files from submods",
+			"Correction of broken axolotl-creatures-pack folder name"
+		],
+		"1.1.1" : [
+			"Fixed existing translations to new mod directories"
+		],
+		"1.1.0" : [
+			"Added axolotl-creatures-pack and ToK submods"
+		],
+		"1.0.1" : [
+			"Czech translation by George King"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
 	"czech" : {
 		"name" : "Balíček nových jednotek",
 		"description" : "Balíček minimodů obsahující nové, převážně neutrální jednotky.",

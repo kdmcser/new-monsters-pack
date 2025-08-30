@@ -5,8 +5,7 @@
 	"modType" : "Creatures",
 	"name" : "New Content for Haven",
 	"version" : "2.0",
-	"depends" :
-	[
+	"depends" : [
 		"haven-town"
 	],
 	"chinese" : {

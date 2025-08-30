@@ -1,94 +1,193 @@
 {
 	"zombieLow" : {
 		"abilities" : {
-			"undead" : { "type" : "UNDEAD" },
-			"unlimitedRetaliation" : { "type" : "UNLIMITED_RETALIATIONS" },
-			"age" :
-			{
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"age" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "age",
 				"val" : 35
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disease",
-					"addInfo" : [2, 0]
+					"addInfo" : [
+						2,
+						0
+					]
 				},
-				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]	
+				"values" : [
+					8,
+					16,
+					24,
+					32,
+					40,
+					48,
+					56,
+					64,
+					72,
+					80
+				]
 			},
 			{
-				"bonus" : 
-				{
+				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
-//					"subtype" : 1,
+					//					"subtype" : 1,
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
-		"upgrades" : [ "zombieHigh" ],
-		"advMapAmount" : {"max" : 25, "min" : 16},
+		"upgrades" : [
+			"zombieHigh"
+		],
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
 		"aiValue" : 325,
 		"attack" : 7,
-		"cost" : { "gold" : 275 },
-		"damage" : {"max" : 7, "min" : 3},
+		"cost" : {
+			"gold" : 275
+		},
+		"damage" : {
+			"max" : 7,
+			"min" : 3
+		},
 		"defense" : 7,
 		"faction" : "neutral",
 		"fightValue" : 275,
 		"graphics" : {
 			"animation" : "battle/zombi/czomlo",
-			"animationTime" : { "attack" : 1.0, "idle" : 6, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 6,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/zombi/Low-Big1",
 			"iconSmall" : "iconsSmall/zombi/Low-small1",
 			"map" : "map/zombi/Adv-czomlo",
@@ -96,9 +195,12 @@
 		},
 		"growth" : 8,
 		"hitPoints" : 23,
-	    "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 3,
-		"name" : { "plural" : "Vengeful Deads", "singular" : "Vengeful Dead" },
+		"name" : {
+			"plural" : "Vengeful Deads",
+			"singular" : "Vengeful Dead"
+		},
 		"sound" : {
 			"attack" : "zombi/ZOatack",
 			"defend" : "zombi/ZOdefend",

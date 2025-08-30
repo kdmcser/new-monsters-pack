@@ -4,18 +4,30 @@
 			"pillarofglances" : {
 				"name" : "Pillar of Glances",
 				"guards" : false,
-				"creatures" : [[ "lurker" ]],
-				  "sounds": {
-                    "ambient": ["lurkersounds/pillarofglancesloop"],
-					"visit": ["lurkersounds/pillarofglancesenter"]
-                },
+				"creatures" : [
+					[
+						"lurker"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"lurkersounds/pillarofglancesloop"
+					],
+					"visit" : [
+						"lurkersounds/pillarofglancesenter"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwelling/pillarofglances.def",
-						"mask" : [ "VVBV", "VBBB", "VVAB" ]
+						"mask" : [
+							"VVBV",
+							"VBBB",
+							"VVAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
-}	
+}

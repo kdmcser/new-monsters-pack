@@ -1,8 +1,8 @@
 {
 	"name" : "Cyclops Warrior",
 	"description" : "New unit - Cyclop Warrior. These cyclopes carry a huge club and are so strong and tough, that even the castle walls are afraid of them.",
-	"author": "Graphics and mod: Kurek",
-	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121",
+	"author" : "Graphics and mod: Kurek",
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121",
 	"version" : "1.00",
 	"modType" : "Creatures",
 	"chinese" : {
@@ -17,16 +17,16 @@
 		"name" : "Cyklop Wojownik",
 		"description" : "„Nowa jednostka - Cyklop Wojownik. Te cyklopy noszą ogromną maczugę i są tak silne i wytrzymałe, że nawet mury zamków się ich boją."
 	},
-	"creatures" :
-	[
-	"config/cyclop_warrior/cyclop_warrior.json"
+	"creatures" : [
+		"config/cyclop_warrior/cyclop_warrior.json"
 	],
-	"objects" : 
-	[  "config/cyclop_warrior/dwellings"   ],
-	"spells" : 
-	[  "config/cyclop_warrior/crushingblow.json"],
-	"battlefields" :
-	[
-	"config/cyclop_warrior/cyclopslarderbattlefield.json"
-	]  		
+	"objects" : [
+		"config/cyclop_warrior/dwellings"
+	],
+	"spells" : [
+		"config/cyclop_warrior/crushingblow.json"
+	],
+	"battlefields" : [
+		"config/cyclop_warrior/cyclopslarderbattlefield.json"
+	]
 }

@@ -1,42 +1,34 @@
 {
-	"aaDerodyme":
-	{
-		"name" :
-		{
+	"aaDerodyme" : {
+		"name" : {
 			"plural" : "Derodymes",
 			"singular" : "Derodyme"
 		},
 		"doubleWide" : true,
-		"advMapAmount" :
-		{
-
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 4
 		},
 		"faction" : "neutral",
 		"aiValue" : 4650,
 		"attack" : 21,
-		"cost" :
-		{
-			"gold" : 2250, 
+		"cost" : {
+			"gold" : 2250,
 			"mercury" : 1
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 45,
 			"min" : 35
 		},
 		"defense" : 16,
 		"fightValue" : 3750,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "Dark elemental/battle/Derodyme.def",
 			"map" : "Dark elemental/map/Derodyme.def",
 			"iconSmall" : "Dark elemental/iconsSmall/Derodyme.bmp",
 			"iconLarge" : "Dark elemental/iconsBig/Derodyme.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 15,
 				"attack" : 1
@@ -46,52 +38,42 @@
 		"hitPoints" : 175,
 		"level" : 7,
 
-
-		"sound" :
-		{
-			"attack": "WALLMISS.wav",
-			"defend": "WELFDFND.wav",
-			"killed": "WGHTKILL.wav",
-			"move": "ZOMBDFND.wav",
-			"wince": "RGRFDFND.wav"
+		"sound" : {
+			"attack" : "WALLMISS.wav",
+			"defend" : "WELFDFND.wav",
+			"killed" : "WGHTKILL.wav",
+			"move" : "ZOMBDFND.wav",
+			"wince" : "RGRFDFND.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"UNDEAD":
-			{
-				"type" : "UNDEAD", 	
+		"abilities" : {
+			"UNDEAD" : {
+				"type" : "UNDEAD"
 			},
-			"KING_3" : // Will be affected by Expert Slayer only
-			{
+			// Will be affected by Expert Slayer only
+			"KING_3" : {
 				"type" : "KING",
 				"val" : 3
 			},
-			"castsforgetfulness" :
-			{
+			"castsforgetfulness" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "forgetfulness",
 				"val" : 2
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
-			},					 	 
-			"Depresion":
-			{
+			},
+			"Depresion" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "sorrow",
-                		"val" : 50,
-				"addInfo" : 2 	
+				"val" : 50,
+				"addInfo" : 2
 			}
 		}
 	}
 }
-
-								

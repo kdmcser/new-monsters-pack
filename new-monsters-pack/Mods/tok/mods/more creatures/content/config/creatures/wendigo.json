@@ -1,16 +1,13 @@
 {
-	"cr_wendigo" : 
-	{
-		"name" :
-		{
+	"cr_wendigo" : {
+		"name" : {
 			"singular" : "Wendigo",
 			"plural" : "Wendigos"
 		},
 		"level" : 5,
 		"special" : false,
-		"faction" : "neutral", 
-		"cost" : 
-		{
+		"faction" : "neutral",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -22,118 +19,159 @@
 		"fightValue" : 752,
 		"aiValue" : 740,
 		"growth" : 3,
-		
+
 		"attack" : 16,
 		"defense" : 6,
 		"hitPoints" : 45,
 		"shots" : 0,
 		"speed" : 9,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 11,
 			"max" : 19
 		},
 		"spellPoints" : 0,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 9,
 			"max" : 12
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"fearful" :
-			{
+			"fearful" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "PLACEHOLDER",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
 				]
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
-				
 			},
-			"defenseReduction":{ 
+			"defenseReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 10
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics" :
-		{
+		"hasDoubleWeek" : false,
+		"graphics" : {
 			"animation" : "creatures/wendigo/battle.def",
 			"map" : "creatures/wendigo/adventure.def",
 			"iconSmall" : "creatures/wendigo/icon.bmp",
 			"iconLarge" : "creatures/wendigo/portrait.bmp",
-			"timeBetweenFidgets" : 2.00,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 2.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" : 
-		{
-			"attack": "BTREATTK.wav",
-			"defend": "BTREDFND.wav",
-			"killed": "BTREKILL.wav",
-			"move": "BTREMOVE.wav",
-			"wince": "BTREWNCE.wav"
+		"sound" : {
+			"attack" : "BTREATTK.wav",
+			"defend" : "BTREDFND.wav",
+			"killed" : "BTREKILL.wav",
+			"move" : "BTREMOVE.wav",
+			"wince" : "BTREWNCE.wav"
 		}
 	}
 }

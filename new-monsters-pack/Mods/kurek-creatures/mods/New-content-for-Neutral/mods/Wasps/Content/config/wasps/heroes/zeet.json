@@ -1,15 +1,12 @@
 {
-	"zeet" :
-	{
-			"spellbook" : 
-			[
-			"summonwaspworker",
-			],
+	"zeet" : {
+		"spellbook" : [
+			"summonwaspworker"
+		],
 		"class" : "hiveruler",
 		"female" : false,
 		"onlyOnMapWithoutWater" : false,
-		"images" :
-		{
+		"images" : {
 			"large" : "wasps/Zeet.png",
 			"small" : "wasps/herosmall4.png",
 			"specialtyLarge" : "wasps/swworkerback5.bmp",
@@ -25,20 +22,20 @@
 				"creature" : "waspworker",
 				"min" : 13,
 				"max" : 15
-			},
+			}
 		],
 		"skills" : [
 			{
 				"skill" : "wisdom",
 				"level" : "advanced"
-			},
+			}
 		],
-		"specialty": {
-			"bonuses": {
-				"maxwaspworker": {
-					"addInfo": 3,
-					"subtype": "summonwaspworker",
-					"type": "SPECIAL_FIXED_VALUE_ENCHANT"
+		"specialty" : {
+			"bonuses" : {
+				"maxwaspworker" : {
+					"addInfo" : 3,
+					"subtype" : "summonwaspworker",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		},
@@ -46,13 +43,12 @@
 			"name" : "Zeet",
 			"biography" : "Zeet is a powerful wasp hero from ancient nests, commanding respect with his sharp mind and mastery over swarms. He specializes in summoning wasp workers, using them to overwhelm enemies in battle. His tactical brilliance ensures his foes are always outsmarted and outnumbered, falling before his relentless, coordinated swarms.",
 			"specialty" : {
-			
-			"description" : "Casts Summon Wasp Worker spell with increased effect.",
-			
-			"name" : "Wasp Worker Summoner",
-			
-			"tooltip" : "{Summon Wasp Workers}\r\n\r\nCasts Summon Wasp Worker spell with increased effect."
-		}
+				"description" : "Casts Summon Wasp Worker spell with increased effect.",
+
+				"name" : "Wasp Worker Summoner",
+
+				"tooltip" : "{Summon Wasp Workers}\r\n\r\nCasts Summon Wasp Worker spell with increased effect."
+			}
 		}
 	}
 }

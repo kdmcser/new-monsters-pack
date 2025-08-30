@@ -1,69 +1,143 @@
 {
 	"tortofroid" : {
 		"abilities" : {
-			"reduceDef" : { "type" : "ENEMY_DEFENCE_REDUCTION", "val" : 20 }
+			"reduceDef" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
 			}
 		],
-		"advMapAmount" : {"max" : 30, "min" : 25},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 25
+		},
 		"aiValue" : 191,
 		"attack" : 5,
-		"cost" : { "gold" : 110 },
-		"damage" : {"max" : 4, "min" : 2},
+		"cost" : {
+			"gold" : 110
+		},
+		"damage" : {
+			"max" : 4,
+			"min" : 2
+		},
 		"defense" : 6,
 		"faction" : "neutral",
 		"fightValue" : 196,
 		"graphics" : {
 			"animation" : "battle/tortofroid/tortofroid",
-			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.8 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 4,
+				"walk" : 1.8
+			},
 			"iconLarge" : "iconsBig/tortofroid/tortofroid",
 			"iconSmall" : "iconsSmall/tortofroid/tortofroid",
 			"map" : "map/tortofroid/tortofroid",
@@ -71,9 +145,12 @@
 		},
 		"growth" : 8,
 		"hitPoints" : 16,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 2,
-		"name" : { "plural" : "Tortofroids", "singular" : "Tortofroid" },
+		"name" : {
+			"plural" : "Tortofroids",
+			"singular" : "Tortofroid"
+		},
 		"sound" : {
 			"attack" : "tortofroid/attack",
 			"defend" : "tortofroid/defend",
@@ -82,6 +159,8 @@
 			"wince" : "tortofroid/wince"
 		},
 		"speed" : 5,
-		"upgrades" : [ "vileTortofroid" ]
+		"upgrades" : [
+			"vileTortofroid"
+		]
 	}
 }

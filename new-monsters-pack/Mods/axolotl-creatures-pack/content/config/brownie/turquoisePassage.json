@@ -4,17 +4,27 @@
 			"acpTurquoisePassage" : {
 				"name" : "Turquoise Passage",
 				"guards" : true,
-				"creatures" : [[ "acpBrownie" ]],
-				"sounds": {
-					"ambient": ["brownie/turquoisePassage"]
+				"creatures" : [
+					[
+						"acpBrownie"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"brownie/turquoisePassage"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/brownie/turquoisePassage",
-						"mask" : [ "VVV", "VBV", "VAV" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

@@ -1,40 +1,32 @@
 {
-	"darkElemental":
-	{
-		"name" :
-		{
+	"darkElemental" : {
+		"name" : {
 			"plural" : "Dark Elementals",
 			"singular" : "Dark Elemental"
 		},
-		"advMapAmount" :
-		{
-
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 4
 		},
 		"faction" : "neutral",
 		"aiValue" : 2150,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1450
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 30,
 			"min" : 20
 		},
 		"defense" : 12,
 		"fightValue" : 1850,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "Dark elemental/battle/Dark elemental.def",
 			"map" : "Dark elemental/map/Dark elemental.def",
 			"iconSmall" : "Dark elemental/iconsSmall/Dark elemental.bmp",
 			"iconLarge" : "Dark elemental/iconsBig/Dark elemental.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 5,
 				"attack" : 1
@@ -44,50 +36,41 @@
 		"hitPoints" : 90,
 		"level" : 6,
 
-
-		"sound" :
-		{
-			"attack": "EFRTATTK.wav",
-			"defend": "EFRTDFND.wav",
-			"killed": "EFRTKILL.wav",
-			"move": "EFRTMOVE.wav",
-			"wince": "EFRTWNCE.wav"
+		"sound" : {
+			"attack" : "EFRTATTK.wav",
+			"defend" : "EFRTDFND.wav",
+			"killed" : "EFRTKILL.wav",
+			"move" : "EFRTMOVE.wav",
+			"wince" : "EFRTWNCE.wav"
 		},
 		"speed" : 11,
-		"abilities" :
-		{
-			"non-living":
-			{
+		"abilities" : {
+			"non-living" : {
 				"type" : "NON_LIVING"
 			},
-			"mindImmunity":
-			{
-				"type" : "MIND_IMMUNITY"	
+			"mindImmunity" : {
+				"type" : "MIND_IMMUNITY"
 			},
-			"flying":
-			{
-				"type" : "FLYING",
+			"flying" : {
+				"type" : "FLYING"
 			},
-			"fear":
-			{
-					"type" : "FEARFUL",
-					"val" : 10,
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"description" : "PLACEHOLDER",
-					"limiters" : [ 
-						"OPPOSITE_SIDE", 
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIVING"
-						}
-					]			},
-			"noRetaliation":
-			{
+			"fear" : {
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			}
 		}
 	}
 }
-
-

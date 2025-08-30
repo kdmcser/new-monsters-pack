@@ -1,69 +1,67 @@
 {
-	"horus": {
-		"name": {
-			"plural": "Horuses",
-			"singular": "Horus"
+	"horus" : {
+		"name" : {
+			"plural" : "Horuses",
+			"singular" : "Horus"
 		},
 		"description" : "{#ff0000|Horus}\r\n\r\nThe Horus from the Falcon Clan are desert-dwelling, winged humanoids with falcon heads, perfectly adapted to survive in harsh conditions.\r\n\r\n{gold|Special Ability : Resistant to magical damage, they can deliver lethal strikes with their magical gaze, which can fatally injure their enemies.\r\n\r\n In battle, they wield battle picks, using their agility and speed to overcome their foes.}",
-		"advMapAmount": {
-			"max": 16,
-			"min": 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
-		"faction": "pavilion",
-		"aiValue": 942,
-		"attack": 12,
-		"hasDoubleWeek": false,
-		"cost": {
-			"gold": 550
+		"faction" : "pavilion",
+		"aiValue" : 942,
+		"attack" : 12,
+		"hasDoubleWeek" : false,
+		"cost" : {
+			"gold" : 550
 		},
-		"spellPoints": 0,
-		"damage": {
-			"max": 16,
-			"min": 12
+		"spellPoints" : 0,
+		"damage" : {
+			"max" : 16,
+			"min" : 12
 		},
-		"defense": 6,
-		"fightValue": 780,
-		"graphics": {
-			"animation": "bastion/battle/creatures/horus.def",
-			"map": "bastion/map/creatures/horusMap.def",
-			"iconSmall": "bastion/iconsSmall/creatures/horusSmall.bmp",
-			"iconLarge": "bastion/iconsBig/creatures/Horus.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime": {
-				"walk": 1.20,
-				"idle": 10.00,
-				"attack": 1.00
+		"defense" : 6,
+		"fightValue" : 780,
+		"graphics" : {
+			"animation" : "bastion/battle/creatures/horus.def",
+			"map" : "bastion/map/creatures/horusMap.def",
+			"iconSmall" : "bastion/iconsSmall/creatures/horusSmall.bmp",
+			"iconLarge" : "bastion/iconsBig/creatures/Horus.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"doubleWide": true,
-		"growth": 3,
-		"hitPoints": 60,
-		"level": 5,
-		"upgrades": [
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"upgrades" : [
 			"divinehorus"
 		],
-		"sound": {
-			"attack": "bastion/Horus_attack.wav",
-			"defend": "bastion/Horus_defend.wav",
-			"killed": "bastion/Horus_killed.wav",
-			"move": "bastion/Horus_move.wav",
-			"wince": "bastion/Horus_wince.wav"
+		"sound" : {
+			"attack" : "bastion/Horus_attack.wav",
+			"defend" : "bastion/Horus_defend.wav",
+			"killed" : "bastion/Horus_killed.wav",
+			"move" : "bastion/Horus_move.wav",
+			"wince" : "bastion/Horus_wince.wav"
 		},
-		"speed": 12,
-		"abilities": {
-			"magicResistance": {
-				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype": "any",
-				"val": 100
+		"speed" : 12,
+		"abilities" : {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 100
 			},
-			"deathStare": {
-				"subtype": "deathStareGorgon",
-				"type": "DEATH_STARE",
-				"val": 20
+			"deathStare" : {
+				"subtype" : "deathStareGorgon",
+				"type" : "DEATH_STARE",
+				"val" : 20
 			}
 		},
-		"stackExperience": [
-
-		]
+		"stackExperience" : []
 	}
 }

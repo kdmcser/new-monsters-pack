@@ -5,23 +5,44 @@
 	"version" : "1.3.5",
 	"contact" : "",
 	"modType" : "Creatures",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
-	"changelog" :
-    {
-		"1.3.5" : [ "Polish translation by FallainBlack" ],
-		"1.3.4" : [ "Czech translation by George King" ],
-		"1.3.3" : [ "Updated russian translation" ],
-		"1.3.2" : [ "Russian translation by Anton Sergeew" ],
-		"1.3.1" : [ "Update to vcmi-1.4 format" ],
-		"1.3"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.2"   : [ "Update to vcmi-1.3", "Small fixes" ],
-		"1.1"   : [ "Update to vcmi-1.2" ],
-		"1.0"   : [ "4 new creatures", "All adventure map buildings", "some ambient sounds added" ],
-		"0.995"   : [ "Older release" ]
-    },
+	"changelog" : {
+		"1.3.5" : [
+			"Polish translation by FallainBlack"
+		],
+		"1.3.4" : [
+			"Czech translation by George King"
+		],
+		"1.3.3" : [
+			"Updated russian translation"
+		],
+		"1.3.2" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.3.1" : [
+			"Update to vcmi-1.4 format"
+		],
+		"1.3" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.2" : [
+			"Update to vcmi-1.3",
+			"Small fixes"
+		],
+		"1.1" : [
+			"Update to vcmi-1.2"
+		],
+		"1.0" : [
+			"4 new creatures",
+			"All adventure map buildings",
+			"some ambient sounds added"
+		],
+		"0.995" : [
+			"Older release"
+		]
+	},
 	"chinese" : {
 		"name" : "生物模组包（Axolotl）",
 		"description" : "由Gilu整理的Axolotl的生物模组包，添加了 43 个中立生物。"
@@ -35,15 +56,14 @@
 		"description" : "Пакет существ Axolotl. Мод добавляет 43 существа)."
 	},
 	"czech" : {
-		"name": "Balíček jednotek (Axolotl)",
-		"description": "Balíček bytostí Axolotl od Gilu. Mod přidává 43 bytostí."
+		"name" : "Balíček jednotek (Axolotl)",
+		"description" : "Balíček bytostí Axolotl od Gilu. Mod přidává 43 bytostí."
 	},
 	"polish" : {
-		"name": "Jednostki Axolotla",
-		"description": "Zbiór 43 neutralnych jednostek stworzonych przez Axolotla"
+		"name" : "Jednostki Axolotla",
+		"description" : "Zbiór 43 neutralnych jednostek stworzonych przez Axolotla"
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/zombi/zombieLow",
 		"config/zombi/zombieHigh",
 		"config/yeti/yeti",
@@ -75,21 +95,20 @@
 		"config/ironclad/ironclad",
 		"config/ironclad/hulkbuster",
 		"config/giants/hillGiant",
-		"config/giants/mountainGiant",	
+		"config/giants/mountainGiant",
 		"config/forestDragon/forestDragon",
 		"config/forestDragon/swampDragon",
 		"config/evilTree/evilTree",
-		"config/evilTree/evilTreant",	
+		"config/evilTree/evilTreant",
 		"config/cockatrice/cocktatriceHigh",
 		"config/centamonth/centamonthHunter",
 		"config/centamonth/centamonthThrower",
 		"config/babayaga/babayaga",
 		"config/drowner/drowner",
 		"config/brownie/brownie",
-		"config/will-o-wisp/will-o-wisp"	
-	],	
-	"objects" : 
-	[ 
+		"config/will-o-wisp/will-o-wisp"
+	],
+	"objects" : [
 		"config/zombi/shatteredGravestone",
 		"config/yeti/frozenCavity",
 		"config/tentoslimus/slimyBurrow",
@@ -118,8 +137,7 @@
 		"config/thug/chalet",
 		"config/will-o-wisp/sparkyMeadow"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/drowner/paraFungus",
 		"config/drowner/fungus",
 		"config/brownie/degradation",

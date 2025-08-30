@@ -1,143 +1,190 @@
 {
-	"waspworker":
-	{
-		"name" :
-		{
+	"waspworker" : {
+		"name" : {
 			"singular" : "Wasp Worker",
 			"plural" : "Wasp Workers"
 		},
-		"description": "{Wasp Worker}\r\n\r\nWorker Wasps are the lowest rank in the wasp hierarchy, tasked with gathering resources and constructing the hive. Though not particularly strong, their perseverance and determination make them a challenging opponent.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Worker Wasp uses its ability to fly, making it harder to hit in combat.\r\n{gold|Venomous Sting (15% chance after attack):} After each attack, the Worker Wasp has a chance to poison the enemy, dealing additional damage over time.\r\n{gold|Strike and Return:} After attacking, the Worker Wasp can quickly retreat to a safer distance, avoiding retaliation.\r\n",
+		"description" : "{Wasp Worker}\r\n\r\nWorker Wasps are the lowest rank in the wasp hierarchy, tasked with gathering resources and constructing the hive. Though not particularly strong, their perseverance and determination make them a challenging opponent.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Worker Wasp uses its ability to fly, making it harder to hit in combat.\r\n{gold|Venomous Sting (15% chance after attack):} After each attack, the Worker Wasp has a chance to poison the enemy, dealing additional damage over time.\r\n{gold|Strike and Return:} After attacking, the Worker Wasp can quickly retreat to a safer distance, avoiding retaliation.\r\n",
 		"faction" : "neutral",
 		"level" : 2,
-		"cost" : { "gold" : 130 },
+		"cost" : {
+			"gold" : 130
+		},
 		"speed" : 9,
 		"hitPoints" : 15,
 		"attack" : 5,
 		"defense" : 5,
 		"doubleWide" : false,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 2,
 			"max" : 3
 		},
 		"fightValue" : 137,
 		"aiValue" : 140,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 15,
 			"max" : 20
 		},
 		"growth" : 10,
-		"hasDoubleWeek": true,
-		"abilities" :
-		{
-			"venom" :
-			{
+		"hasDoubleWeek" : true,
+		"abilities" : {
+			"venom" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
 				"val" : 15
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 600
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
-			},	
-			"returnafterstrike" :			
-			{
+			},
+			"returnafterstrike" : {
 				"type" : "RETURN_AFTER_STRIKE"
-			}		
-			
+			}
 		},
-		"upgrades" :
-		[
-        "waspsentry"
+		"upgrades" : [
+			"waspsentry"
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "wasps/workerportraitsmall.png",
 			"iconLarge" : "wasps/workerportraitbig2.png",
 			"map" : "wasps/waspworkermap.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "wasps/waspworker.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.20,
-				"idle" : 15.00,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 15.0,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "waspsounds/workerattack.wav",
-			"defend": "waspsounds/workerdefend.wav",
-			"killed": "waspsounds/workerdeath.wav",
-			"move": "waspsounds/workermove.wav",
+		"sound" : {
+			"attack" : "waspsounds/workerattack.wav",
+			"defend" : "waspsounds/workerdefend.wav",
+			"killed" : "waspsounds/workerdeath.wav",
+			"move" : "waspsounds/workermove.wav",
 			"startMoving" : "waspsounds/workerstartmove.wav",
 			"endMoving" : "waspsounds/workerstopmove.wav",
-			"wince": "waspsounds/workerwince.wav"
+			"wince" : "waspsounds/workerwince.wav"
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
 }
-
-

@@ -13,7 +13,9 @@
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 		"animation" : {
-			"affect" :[ "wasps/spsymbiosisqueen.def" ]
+			"affect" : [
+				"wasps/spsymbiosisqueen.def"
+			]
 		},
 		"flags" : {
 			"rising" : true,
@@ -21,10 +23,10 @@
 		},
 		"targetCondition" : {
 			"anyOf" : {
-				"creature.waspqueen" : "absolute",
+				"creature.waspqueen" : "absolute"
 			}
 		},
-		"canCastWithoutSkip": true,
+		"canCastWithoutSkip" : true,
 		"graphics" : {
 			"iconBook" : "wasps/nullqueen.png",
 			"iconEffect" : "wasps/cureQueen_iconEffect.png",
@@ -32,7 +34,7 @@
 			"iconScroll" : "wasps/nullqueen.png"
 		},
 		"sounds" : {
-			"cast" :"waspsounds/symbiosisqueen.wav"
+			"cast" : "waspsounds/symbiosisqueen.wav"
 		},
 		"targetType" : "CREATURE",
 		"levels" : {
@@ -44,21 +46,23 @@
 				"description" : "{Symbiosis}\r\n\r\nAllows Drones to heal Queen (permanent).",
 				"battleEffects" : {
 					"heal" : {
-						"type" :"core:heal",
-						"healLevel" :"heal",
-						"healPower" :"permanent",
+						"type" : "core:heal",
+						"healLevel" : "heal",
+						"healPower" : "permanent",
 						"minFullUnits" : 0
 					},
 					"cure" : {
-						"type" :"core:dispel",
+						"type" : "core:dispel",
 						"indirect" : true,
-						"optional" :true,
-						"dispelNegative" :true,
-						"dispelNeutral" :false,
-						"dispelPositive" :false
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
 					}
 				},
-				"targetModifier" : { "smart" :true }
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
 			"none" : {},
 			"basic" : {},

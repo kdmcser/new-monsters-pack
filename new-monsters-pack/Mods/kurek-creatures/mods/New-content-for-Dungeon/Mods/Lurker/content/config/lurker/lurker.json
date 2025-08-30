@@ -1,559 +1,506 @@
 {
-	    "lurker": {
-        "name": {
-            "plural": "Lurkers",
-            "singular": "Lurker"
-        },
-        "description": "{#ff0000|Lurker}\n\nLurkers are rare types of beholders, which were created by the twisted warlock Agar. Their familiar look might be deceiving, because they have been credited with different magic ingredients in order to gain different abilities from other types of evil eyes. \n\n{gold|Special Ability: Ranged magic missile attack. Flight. Casts negative spell after every attack.}\n\nUnlike regular beholders, these aberrations can fly thanks to their antigravitational magic aura.\nWhen lurkers attack, they shoot a dark magic energy bolt, which randomly casts a harmful spell on an enemy. The possible spells include: {#00aaff|Curse, Disrupting Ray, Slow, Sorrow, Weakness, Forgetfulness, Misfortune}, {#40bfff|Magic Leech, Cowardice, and Cancellation}.",
-        "advMapAmount": {
-            "max": 18,
-            "min": 12
-        },
-        "hasDoubleWeek": false,
-        "faction": "dungeon",
-        "aiValue": 295,
-        "attack": 9,
-        "cost": {
-            "gold": 310
-        },
-        "damage": {
-            "max": 5,
-            "min": 3
-        },
-        "defense": 8,
+	"lurker" : {
+		"name" : {
+			"plural" : "Lurkers",
+			"singular" : "Lurker"
+		},
+		"description" : "{#ff0000|Lurker}\n\nLurkers are rare types of beholders, which were created by the twisted warlock Agar. Their familiar look might be deceiving, because they have been credited with different magic ingredients in order to gain different abilities from other types of evil eyes. \n\n{gold|Special Ability: Ranged magic missile attack. Flight. Casts negative spell after every attack.}\n\nUnlike regular beholders, these aberrations can fly thanks to their antigravitational magic aura.\nWhen lurkers attack, they shoot a dark magic energy bolt, which randomly casts a harmful spell on an enemy. The possible spells include: {#00aaff|Curse, Disrupting Ray, Slow, Sorrow, Weakness, Forgetfulness, Misfortune}, {#40bfff|Magic Leech, Cowardice, and Cancellation}.",
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"hasDoubleWeek" : false,
+		"faction" : "dungeon",
+		"aiValue" : 295,
+		"attack" : 9,
+		"cost" : {
+			"gold" : 310
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 8,
 		"fightValue" : 300,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/lurker.def",
 			"map" : "map/lurkermap.def",
-			"mapMask" : ["VVV",	"VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "iconssmall/lurkersmall.png",
 			"iconLarge" : "iconsbig/lurkerbig.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
 			"missile" : {
-			 
-			"attackClimaxFrame" : 5,
-			 
-			"frameAngles" : [
-				 
-				90,
-				 
-				72,
-				 
-				45,
-				 
-				27,
-				 
-				0,
-				 
-				-27,
-				 
-				-45,
-				 
-				-72,
-				 
-				-90,
-				 
-				0,
-				 
-				0,
-				 
-				0
-			],
-			 
-			"offset" : {
-				"lowerX" : 9,
-				"lowerY" : -60,
-				"middleX" : 14,
-				"middleY" : -70,
-				"upperX" : 14,
-				"upperY" : -73
-			},
-			 
-			"projectile" : "battle/lurkermissile.def"
-		},
+				"attackClimaxFrame" : 5,
+
+				"frameAngles" : [
+					90,
+
+					72,
+
+					45,
+
+					27,
+
+					0,
+
+					-27,
+
+					-45,
+
+					-72,
+
+					-90,
+
+					0,
+
+					0,
+
+					0
+				],
+
+				"offset" : {
+					"lowerX" : 9,
+					"lowerY" : -60,
+					"middleX" : 14,
+					"middleY" : -70,
+					"upperX" : 14,
+					"upperY" : -73
+				},
+
+				"projectile" : "battle/lurkermissile.def"
+			}
 		},
 		"growth" : 6,
 		"doubleWide" : false,
 		"hitPoints" : 22,
 		"level" : 4,
-		"sound" :
-		{
-			"attack": "lurkersounds/lurkerattack.wav",
-			"defend": "lurkersounds/lurkerdefend.wav",
-			"killed": "lurkersounds/lurkerkilled.wav",
-			"move": "lurkersounds/lurkermove.wav",
-			"wince": "lurkersounds/lurkerwince.wav",
+		"sound" : {
+			"attack" : "lurkersounds/lurkerattack.wav",
+			"defend" : "lurkersounds/lurkerdefend.wav",
+			"killed" : "lurkersounds/lurkerkilled.wav",
+			"move" : "lurkersounds/lurkermove.wav",
+			"wince" : "lurkersounds/lurkerwince.wav",
 			"startMoving" : "lurkersounds/lurkerstartmoving.wav",
-            "endMoving" : "lurkersounds/lurkerstopmoving.wav"
+			"endMoving" : "lurkersounds/lurkerstopmoving.wav"
 		},
 		"speed" : 6,
 		"shots" : 15,
-		"abilities" :
-	{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"powerAttack" : 
-			{
+			"powerAttack" : {
 				"subtype" : "hexingGaze",
 				"type" : "SPELL_LIKE_ATTACK",
 				"val" : 0
 			},
-			"shooter" : 
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		 
 
-		"castsMagicLeech" : {
-		
+			"castsMagicLeech" : {
 				"addInfo" : [
-				
-				1,
-				
-				0
-					],
-			 
-			"subtype" : "magicLeech",
-			 
-			"type" : "SPELL_BEFORE_ATTACK",
-			 
-			"val" : 15
+					1,
+
+					0
+				],
+
+				"subtype" : "magicLeech",
+
+				"type" : "SPELL_BEFORE_ATTACK",
+
+				"val" : 15
+			},
+
+			"castsCurse" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "curse",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 8
+			},
+
+			"castsDisruptingRay" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "disruptingRay",
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 5
+			},
+
+			"castsForgetfullness" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "forgetfulness",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 11
+			},
+
+			"castsCancellation" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "cancellation",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 16
+			},
+
+			"castsMisfortune" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "misfortune",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 5
+			},
+
+			"castsCowardice" : {
+				"addInfo" : [
+					2,
+
+					0
+				],
+
+				"subtype" : "cowardice",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 16
+			},
+
+			"castsSlow" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "slow",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 8
+			},
+
+			"castsSorrow" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "sorrow",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 11
+			},
+
+			"castsWeakness" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "weakness",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 5
+			},
+
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+
+				"val" : 500
+			}
 		},
-		 
-		"castsCurse" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "curse",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 8
-		},
-		  
-		 
-		"castsDisruptingRay" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "disruptingRay",
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 5
-		},
-		 
-		"castsForgetfullness" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "forgetfulness",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 11
-		},
-		 
-		"castsCancellation" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "cancellation",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 16
-		},
-		 
-		"castsMisfortune" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "misfortune",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 5
-		},
-		 
-		"castsCowardice" : {
-			 
-			"addInfo" : [
-				 
-				2,
-				 
-				0
-			],
-			 
-			"subtype" : "cowardice",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 16
-		},
-		 
-		"castsSlow" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "slow",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 8
-		},
-		 
-		"castsSorrow" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "sorrow",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 11
-		},
-		 
-		"castsWeakness" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "weakness",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 5
-		},
-		 
-		"spellpower" : {
-			 
-			"type" : "CREATURE_SPELL_POWER",
-			 
-			"val" : 500
-		}
-	},
 		"stackExperience" : [
-		{			
-			"bonus" : {
-				"subtype" : "attack",
-				"type" : "PRIMARY_SKILL"
-			},			
-			"values" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
 
-				1,
+					1,
 
-				1,
+					2,
 
-				2,
+					2,
 
-				2,
+					3,
 
-				3,
+					3,
 
-				3,
+					4,
 
-				4,
+					4,
 
-				4,
+					5,
 
-				5,
-
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
-
-				"subtype" : "defence",
-
-				"type" : "PRIMARY_SKILL"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				1,
+			{
+				"bonus" : {
+					"subtype" : "defence",
 
-				1,
+					"type" : "PRIMARY_SKILL"
+				},
 
-				2,
+				"values" : [
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5,
+					4,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"subtype" : "creatureDamageMax",
+					5,
 
-				"type" : "CREATURE_DAMAGE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
 
-				1,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"subtype" : "creatureDamageMin",
+					4,
 
-				"type" : "CREATURE_DAMAGE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
 
-				1,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"type" : "STACK_HEALTH",
+					4,
 
-				"valueType" : "PERCENT_TO_BASE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				5,
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
 
-				10,
+					"valueType" : "PERCENT_TO_BASE"
+				},
 
-				15,
+				"values" : [
+					5,
 
-				20,
+					10,
 
-				25,
+					15,
 
-				30,
+					20,
 
-				35,
+					25,
 
-				40,
+					30,
 
-				45,
+					35,
 
-				50
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					40,
 
-				"type" : "STACKS_SPEED"
+					45,
+
+					50
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
 
-				0,
+				"values" : [
+					0,
 
-				0,
+					0,
 
-				1,
+					0,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1
-			]
-		},
-		{
-			 
-			"bonus" : {
+					1,
 
-				"type" : "SHOTS",
-
-				"valueType" : "BASE_NUMBER"
+					1
+				]
 			},
-			 
-			"values" : [
+			{
+				"bonus" : {
+					"type" : "SHOTS",
 
-				1,
+					"valueType" : "BASE_NUMBER"
+				},
 
-				1,
+				"values" : [
+					1,
 
-				1,
+					1,
 
-				2,
+					1,
 
-				2,
+					2,
 
-				2,
+					2,
 
-				3,
+					2,
 
-				3,
+					3,
 
-				3,
+					3,
 
-				4
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					3,
 
-				"type" : "NO_WALL_PENALTY"
+					4
+				]
 			},
-			 
-			"values" : [
 
-				false,
+			{
+				"bonus" : {
+					"type" : "NO_WALL_PENALTY"
+				},
 
-				false,
+				"values" : [
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				true,
+					false,
 
-				true,
+					true,
 
-				true,
+					true,
 
-				true
-			]
-		}
-	],
+					true,
+
+					true
+				]
+			}
+		]
 	}
 }
-
-

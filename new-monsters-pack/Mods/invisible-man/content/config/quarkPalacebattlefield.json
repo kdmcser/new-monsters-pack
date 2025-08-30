@@ -1,6 +1,6 @@
 {
-	"quarkPalacebattlefield": {
-		"graphics":  "quarkPalacebattlefield.png",
-		"isSpecial" : true,
-		}
+	"quarkPalacebattlefield" : {
+		"graphics" : "quarkPalacebattlefield.png",
+		"isSpecial" : true
+	}
 }

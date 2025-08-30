@@ -1,135 +1,179 @@
 {
-	"cr_tyrannosaurus": {
-		"name": {
-			"singular": "Tyrannosaurus",
-			"plural": "Tyrannosaurus"
+	"cr_tyrannosaurus" : {
+		"name" : {
+			"singular" : "Tyrannosaurus",
+			"plural" : "Tyrannosaurus"
 		},
-		"level": 7,
-		"special": false,
-		"faction": "neutral",
-		"cost": {
-			"wood": 0,
-			"mercury": 0,
-			"ore": 0,
-			"sulfur": 0,
-			"crystal": 0,
-			"gems": 0,
-			"gold": 1800
+		"level" : 7,
+		"special" : false,
+		"faction" : "neutral",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 1800
 		},
-		"fightValue": 3230,
-		"aiValue": 4000,
-		"growth": 2,
-		"attack": 24,
-		"defense": 14,
-		"hitPoints": 150,
-		"shots": 0,
-		"speed": 8,
-		"damage": {
-			"min": 25,
-			"max": 50
+		"fightValue" : 3230,
+		"aiValue" : 4000,
+		"growth" : 2,
+		"attack" : 24,
+		"defense" : 14,
+		"hitPoints" : 150,
+		"shots" : 0,
+		"speed" : 8,
+		"damage" : {
+			"min" : 25,
+			"max" : 50
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 5,
-			"min": 3
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 5,
+			"min" : 3
 		},
-		"doubleWide": true,
-		"abilities": {
-			"fearful" :
-			{
+		"doubleWide" : true,
+		"abilities" : {
+			"fearful" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "PLACEHOLDER",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
 				]
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
-				
 			},
-			"defensive":
-			{
-				"type": "BATTLE_NO_FLEEING"
+			"defensive" : {
+				"type" : "BATTLE_NO_FLEEING"
 			},
-			"KING3" :
-		   	{
-			   "type" : "KING",
-			   "val" : 3, 
-			   "valueType" : "ADDITIVE_VALUE"
-		   	}
+			"KING3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
 			}
 		],
-		"hasDoubleWeek": false,
-		"graphics": {
+		"hasDoubleWeek" : false,
+		"graphics" : {
 			"animation" : "creatures/tyrannosaurus/battle.def",
 			"map" : "creatures/tyrannosaurus/adventure.def",
 			"iconSmall" : "creatures/tyrannosaurus/icon.bmp",
 			"iconLarge" : "creatures/tyrannosaurus/portrait.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1.0
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound": {
-			"attack": "HYDRATTK.wav",
-			"defend": "HYDRDFND.wav",
-			"killed": "HYDRKILL.wav",
-			"move": "HYDRMOVE.wav",
-			"wince": "HYDRWNCE.wav"
+		"sound" : {
+			"attack" : "HYDRATTK.wav",
+			"defend" : "HYDRDFND.wav",
+			"killed" : "HYDRKILL.wav",
+			"move" : "HYDRMOVE.wav",
+			"wince" : "HYDRWNCE.wav"
 		}
 	}
 }

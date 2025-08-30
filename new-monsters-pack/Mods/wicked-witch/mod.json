@@ -6,35 +6,34 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Creatures",
 	"name" : "Wicked Witch",
-	"version" : "1.1",	
-	"compatibility" :
-	{
+	"version" : "1.1",
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"changelog" :
-    {
-		"1.0"   : [ "Initial release" ],
-		"1.1"   : [ "Conversion to vcmi-1.2 format" ]
-    },
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		],
+		"1.1" : [
+			"Conversion to vcmi-1.2 format"
+		]
+	},
 	"chinese" : {
 		"name" : "邪恶女巫",
 		"description" : "新要塞生物：邪恶女巫，这些生物仅能在野外巢穴里购买。"
 	},
-	"objects" :
-    [ 
+	"objects" : [
 		"config/louryEstate"
-    ],
-	"heroes" :
-    [ 
+	],
+	"heroes" : [
 		"config/elfaba.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/wickedWitch.json",
 		"config/kraven.json"
 	],
 	"czech" : {
-		"name": "Zlé čarodějnice",
-		"description": "Nová jednotka pro Pevnost: Zlá čarodějnice. Tato jednotka může být najata pouze v externím obydlí."
+		"name" : "Zlé čarodějnice",
+		"description" : "Nová jednotka pro Pevnost: Zlá čarodějnice. Tato jednotka může být najata pouze v externím obydlí."
 	}
 }

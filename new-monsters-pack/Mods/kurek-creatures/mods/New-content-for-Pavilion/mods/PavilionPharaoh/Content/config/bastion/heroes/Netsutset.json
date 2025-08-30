@@ -1,35 +1,29 @@
 {
-	"netsutset" :
-	{
+	"netsutset" : {
 		"class" : "vizier",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Netsutset",
 			"biography" : "They say that it was Netsutset who brought the ammuts to the cities. The first ammuts were summoned from some kind of terrifying realm via a dark ritual ordered by Netsutset and performed by crocodile priests. Despite their wild nature, he managed to tame and train these otherworldly beings.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defence of any Ammuts or Sun Ammuts for each level attained after 5th level.",
 				"tooltip" : "Creature Bonus: Ammuts",
 				"name" : "Ammuts"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "bastion/heroes/Netsutset/un32Ammu.bmp",
 			"specialtyLarge" : "bastion/heroes/Netsutset/un44Ammu.bmp",
 			"large" : "bastion/heroes/Netsutset/Netsutset.bmp",
 			"small" : "bastion/heroes/Netsutset/NetsutsetSmall.bmp"
 		},
-              "spellbook" :
-		[
-			"magicArrow" 
+		"spellbook" : [
+			"magicArrow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 30,
@@ -47,8 +41,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,11 +51,9 @@
 				"skill" : "offence"
 			}
 		],
-		
-	
+
 		"specialty" : {
 			"creature" : "ammut"
 		}
 	}
 }
-

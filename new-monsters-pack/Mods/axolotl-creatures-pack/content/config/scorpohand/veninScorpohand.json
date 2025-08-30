@@ -1,99 +1,189 @@
 {
 	"veninScorpohand" : {
 		"abilities" : {
-			"castAge" :
-			{
+			"castAge" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "age",
 				"val" : 20,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			},
-			"castPoison" :
-			{
+			"castPoison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
 				"val" : 20,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			},
-			"castWeakness" :
-			{
+			"castWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "weakness",
 				"val" : 60,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
-					"addInfo" : [1, 0] 
+					"addInfo" : [
+						1,
+						0
+					]
 				},
-				"values" : [ 0, 0, 10, 20, 30, 40, 50, 60, 70, 80 ]				
+				"values" : [
+					0,
+					0,
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			}
-		],	
-		"advMapAmount" : {"max" : 16, "min" : 10},
+		],
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
 		"aiValue" : 742,
 		"attack" : 11,
-		"cost" : { "gold" : 390 },
-		"damage" : {"max" : 9, "min" : 8},
+		"cost" : {
+			"gold" : 390
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 8
+		},
 		"defense" : 7,
 		"faction" : "neutral",
 		"fightValue" : 680,
 		"doubleWide" : true,
 		"graphics" : {
 			"animation" : "battle/scorpohand/hand",
-			"animationTime" : { "attack" : 0.6, "idle" : 15, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 15,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/scorpohand/bigScorpohandUpg",
 			"iconSmall" : "iconsSmall/scorpohand/smallScorpohandUpg",
 			"map" : "map/scorpohand/AvHand",
@@ -102,7 +192,10 @@
 		"growth" : 9,
 		"hitPoints" : 50,
 		"level" : 4,
-		"name" : { "plural" : "Venin Scorpohands", "singular" : "Venin Scorpohand" },
+		"name" : {
+			"plural" : "Venin Scorpohands",
+			"singular" : "Venin Scorpohand"
+		},
 		"sound" : {
 			"attack" : "scorpohand/scorpattack",
 			"defend" : "scorpohand/scorpdefend",

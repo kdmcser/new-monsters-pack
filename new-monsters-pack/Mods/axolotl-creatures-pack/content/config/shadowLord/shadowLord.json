@@ -1,119 +1,218 @@
 {
 	"shadowLord" : {
 		"abilities" : {
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"castsClone" :
-			{
+			"castsClone" : {
 				"type" : "ENCHANTER",
 				"subtype" : "clone",
 				"val" : 3,
 				"addInfo" : 1
 			},
-			"clonePower" :
-			{
+			"clonePower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 500
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"noLuck" :
-			{
+			"noLuck" : {
 				"type" : "NO_LUCK"
-			}			
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "fire"
 				},
-				"values" : [ 0, 0, 100, 100, 100, 100, 100, 100, 100, 100 ]
+				"values" : [
+					0,
+					0,
+					100,
+					100,
+					100,
+					100,
+					100,
+					100,
+					100,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "earth"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 100, 100, 100, 100 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					100,
+					100,
+					100,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
-					
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "misfortune", 
-					"addInfo" : [ 1,0]
+					"subtype" : "misfortune",
+					"addInfo" : [
+						1,
+						0
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3
+				]
 			}
-		],	
-		"advMapAmount" : { "max" : 5, "min" : 3 },
+		],
+		"advMapAmount" : {
+			"max" : 5,
+			"min" : 3
+		},
 		"aiValue" : 14000,
 		"attack" : 29,
-		"cost" : { "gold" : 6000, "mercury" : 4 },
-		"damage" : { "max" : 52, "min" : 37 },
+		"cost" : {
+			"gold" : 6000,
+			"mercury" : 4
+		},
+		"damage" : {
+			"max" : 52,
+			"min" : 37
+		},
 		"defense" : 34,
 		"faction" : "neutral",
 		"fightValue" : 12750,
 		"graphics" : {
 			"animation" : "battle/shadowLord/shadowLord",
-			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 4,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/shadowLord/Face58x64",
 			"iconSmall" : "iconsSmall/shadowLord/Face32x32",
 			"map" : "map/shadowLord/Adv-ShadowLord",
@@ -121,9 +220,12 @@
 		},
 		"growth" : 1,
 		"hitPoints" : 375,
-	        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 8, //like WoG Creatures
-		"name" : { "plural" : "Shadow Lords", "singular" : "Shadow Lord" },
+		"name" : {
+			"plural" : "Shadow Lords",
+			"singular" : "Shadow Lord"
+		},
 		"sound" : {
 			"attack" : "shadowLord/slatack",
 			"defend" : "shadowLord/sldefend",

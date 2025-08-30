@@ -1,49 +1,45 @@
 {
-	"expCyberDead":
-	{
-		"name" :
-		{
+	"expCyberDead" : {
+		"name" : {
 			"plural" : "Cyber Deads",
 			"singular" : "Cyber Dead"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 18
 		},
 		"faction" : "neutral",
 		"aiValue" : 175,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 135
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 145,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/CyberDead.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "map/CyberDead.def",
 			"iconSmall" : "iconsSmall/CyberDead.bmp",
 			"iconLarge" : "iconsBig/CyberDead.bmp",
 			"timeBetweenFidgets" : 1
 		},
-            "hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"growth" : 8,
-		"hitPoints" : 20,	
+		"hitPoints" : 20,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"expCyberZombie"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "CBDEATTK.wav",
 			"defend" : "CBDEDFND.wav",
 			"killed" : "CBDEKILL.wav",
@@ -51,19 +47,14 @@
 			"wince" : "CBDEWNCE.wav"
 		},
 		"speed" : 4,
- "abilities" :
- {
-   	      "nonliving":
-		{	
-			"type" : "NON_LIVING"
-		},    
-			"deathCloundImmunity"	:
-			{
+		"abilities" : {
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"deathCloundImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "deathCloud"
 			}
-
 		}
-
 	}
 }

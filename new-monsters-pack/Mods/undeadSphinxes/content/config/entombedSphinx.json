@@ -1,142 +1,208 @@
 {
-	"entombedSphinx": 
-	{
-		"name": 
-		{
-			"plural": "Entombed Sphinxes",
-			"singular": "Entombed Sphinx"
+	"entombedSphinx" : {
+		"name" : {
+			"plural" : "Entombed Sphinxes",
+			"singular" : "Entombed Sphinx"
 		},
-		"advMapAmount": 
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
-		"faction": "neutral",
-		"aiValue": 1438,
-		"attack": 16,
-		"cost": 
-		{
-			"gold": 1000
+		"faction" : "neutral",
+		"aiValue" : 1438,
+		"attack" : 16,
+		"cost" : {
+			"gold" : 1000
 		},
-		"damage": 
-		{
+		"damage" : {
 			"max" : 19,
 			"min" : 15
 		},
-		"defense": 17,
-		"fightValue": 1255,
-		"graphics": 
-		{
-			"animation": "hauntedSphinx",
-			"map": "hauntedSphinxMap",
-			"iconSmall": "hauntedSphinxS",
-			"iconLarge": "hauntedSphinxL",
-			"timeBetweenFidgets": 1,
-			"animationTime": 
-			{
-				"walk": 0.6,
-				"attack": 1,
-				"idle": 10
+		"defense" : 17,
+		"fightValue" : 1255,
+		"graphics" : {
+			"animation" : "hauntedSphinx",
+			"map" : "hauntedSphinxMap",
+			"iconSmall" : "hauntedSphinxS",
+			"iconLarge" : "hauntedSphinxL",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.6,
+				"attack" : 1,
+				"idle" : 10
 			}
 		},
-		"doubleWide": true,
-		"growth": 2,
-		"hitPoints": 80,
-		"level": 6,
-		"upgrades": 
-		[
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades" : [
 			"ashenSphinx"
 		],
-		"sound": 
-		{
-			"attack": "NSPHATTK",
-			"defend": "NSPHDFND",
-			"killed": "NSPHDEAD",
-			"move": "NSPHMOVE",
-			"wince": "NSPHWNCE"
+		"sound" : {
+			"attack" : "NSPHATTK",
+			"defend" : "NSPHDFND",
+			"killed" : "NSPHDEAD",
+			"move" : "NSPHMOVE",
+			"wince" : "NSPHWNCE"
 		},
-		"speed": 8,
-		"abilities": 
-		{
-			"canFly" :
-			{
+		"speed" : 8,
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"isUndead" :
-			{
+			"isUndead" : {
 				"type" : "UNDEAD"
 			},
-			"transmutation" :
-			{
+			"transmutation" : {
 				"type" : "TRANSMUTATION",
 				"addInfo" : "creature.madMummy",
 				"subtype" : "transmutationPerUnit",
 				"val" : 10
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "TWO_HEX_ATTACK_BREATH"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 30, 40, 40, 40 ]
-			}			
+				"values" : [
+					0,
+					0,
+					20,
+					20,
+					30,
+					30,
+					30,
+					40,
+					40,
+					40
+				]
+			}
 		]
-	}	
+	}
 }

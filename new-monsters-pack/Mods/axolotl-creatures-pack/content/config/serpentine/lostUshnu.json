@@ -3,15 +3,23 @@
 		"types" : {
 			"acpLostUshnu" : {
 				"name" : "Lost Ushnu",
-				"creatures" : [[ "serpentine" ]],
+				"creatures" : [
+					[
+						"serpentine"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "map/serpentine/lostUshnu",
-						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

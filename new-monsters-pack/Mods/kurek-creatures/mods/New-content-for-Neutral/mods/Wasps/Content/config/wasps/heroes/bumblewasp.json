@@ -1,11 +1,9 @@
 {
-	"bumblewasp" :
-	{
+	"bumblewasp" : {
 		"class" : "hiveruler",
 		"female" : false,
 		"onlyOnMapWithoutWater" : false,
-		"images" :
-		{
+		"images" : {
 			"large" : "wasps/Bumblewasp.png",
 			"small" : "wasps/herosmall5.png",
 			"specialtyLarge" : "wasps/honeyspec.bmp",
@@ -38,29 +36,25 @@
 				"level" : "basic"
 			}
 		],
-		"specialty" : {		 
-		"bonuses" : {
-			 
-			"health1" : {
-				
-				"type" : "STACK_HEALTH",
-				 
-				"val" : 1,
-				 
-				"valueType" : "BASE_NUMBER"
-			},
-			 
-			"health2" : {
-				 
-				"type" : "STACK_HEALTH",
-				 
-				"val" : 4,
-				
-				"valueType" : "PERCENT_TO_BASE"
+		"specialty" : {
+			"bonuses" : {
+				"health1" : {
+					"type" : "STACK_HEALTH",
+
+					"val" : 1,
+
+					"valueType" : "BASE_NUMBER"
+				},
+
+				"health2" : {
+					"type" : "STACK_HEALTH",
+
+					"val" : 4,
+
+					"valueType" : "PERCENT_TO_BASE"
+				}
 			}
-		}
-	},
-    
+		},
 
 		"texts" : {
 			"name" : "Bumblewasp",

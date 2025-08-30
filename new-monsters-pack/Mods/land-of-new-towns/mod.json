@@ -4,22 +4,20 @@
 	"author" : "Land Of New Town Team",
 	"version" : "1.0.0",
 	"contact" : "",
-	"changelog" :
-	{
-		"1.0.0"   : [ "Port by Fabrice TIERCELIN" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Port by Fabrice TIERCELIN"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
 	"modType" : "Creatures",
-	"creatures" :
-	[
+	"creatures" : [
 		"config/creatures/cheyenne"
 	],
-		
-    "objects" :
-    [ 
+
+	"objects" : [
 		"config/objects/cheyenneHut.json"
-    ]
+	]
 }

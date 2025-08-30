@@ -1,102 +1,185 @@
 {
 	"acpThug" : {
 		"abilities" : {
-			"visionsHeroes" :
-			{
+			"visionsHeroes" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsHeroes",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			},
-			"visionsTowns" :
-			{
+			"visionsTowns" : {
 				"type" : "VISIONS",
 				"subtype" : "visionsTowns",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"				
+				"propagator" : "HERO"
 			},
-			"blockMagic" :
-			{
+			"blockMagic" : {
 				"type" : "BLOCK_MAGIC_ABOVE",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "poison",
-					"addInfo" : [1, 0] 
+					"addInfo" : [
+						1,
+						0
+					]
 				},
-				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]				
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
-		],	
-		"advMapAmount" : {"max" : 20, "min" : 12},
+		],
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
 		"aiValue" : 268,
 		"attack" : 10,
-		"cost" : { "gold" : 210 },
-		"damage" : {"max" : 6, "min" : 2},
+		"cost" : {
+			"gold" : 210
+		},
+		"damage" : {
+			"max" : 6,
+			"min" : 2
+		},
 		"defense" : 5,
 		"faction" : "neutral",
 		"fightValue" : 269,
 		"graphics" : {
 			"animation" : "battle/thug/RogueH",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.5 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.5
+			},
 			"iconLarge" : "iconsBig/thug/thug58x64",
 			"iconSmall" : "iconsSmall/thug/thug32x32",
 			"map" : "map/thug/AvThug",
@@ -104,9 +187,12 @@
 		},
 		"growth" : 15,
 		"hitPoints" : 20,
-        "doubleWide" : false,
+		"doubleWide" : false,
 		"level" : 3,
-		"name" : { "plural" : "Thugs", "singular" : "Thug" },
+		"name" : {
+			"plural" : "Thugs",
+			"singular" : "Thug"
+		},
 		"sound" : {
 			"attack" : "thug/thugattack",
 			"defend" : "thug/thugdefend",

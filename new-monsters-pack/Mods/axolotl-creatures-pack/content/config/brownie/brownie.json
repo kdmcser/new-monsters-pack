@@ -1,53 +1,43 @@
 {
-	"acpBrownie":
-	{
-		"name" :
-		{
+	"acpBrownie" : {
+		"name" : {
 			"plural" : "Brownies",
 			"singular" : "Brownie"
 		},
-		"advMapAmount" :
-		{
-
+		"advMapAmount" : {
 			"max" : 18,
 			"min" : 10
 		},
 		"faction" : "neutral",
 		"aiValue" : 365,
 		"attack" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 240
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 7,
 			"min" : 3
 		},
 		"defense" : 9,
 		"fightValue" : 330,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/brownie/Browniev4.def",
 			"map" : "map/brownie/BrownieAdv.def",
 			"iconSmall" : "iconssmall/brownie/stumpRider32x32",
 			"iconLarge" : "iconsbig/brownie/stumpRider58x64",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
-	    "doubleWide" : true,
+		"doubleWide" : true,
 		"growth" : 7,
 		"hitPoints" : 35,
 		"level" : 3,
 
-
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "brownie/SRATTACK",
 			"defend" : "brownie/SRDEFEND",
 			"killed" : "brownie/SRDIE",
@@ -55,89 +45,165 @@
 			"wince" : "brownie/SRWINCE"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-			"unlucky" :
-			{
-				"propagator": "BATTLE_WIDE",
+		"abilities" : {
+			"unlucky" : {
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "LUCK", 
-				"val" : -1 
-			},		
-			"degradation" : 
-			{
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+				"type" : "LUCK",
+				"val" : -1
+			},
+			"degradation" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "degradation",
 				"val" : 50
-			}			
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]			
+				"values" : [
+					4,
+					8,
+					12,
+					16,
+					20,
+					24,
+					28,
+					32,
+					36,
+					40
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "earth"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					100
+				]
 			}
 		]
 	}
 }
-
-

@@ -1,81 +1,144 @@
 {
-	"lostsoul" : 
-	{
-		"name" : { "singular" : "Lost Soul", "plural" : "Lost Souls" },
-		
+	"lostsoul" : {
+		"name" : {
+			"singular" : "Lost Soul",
+			"plural" : "Lost Souls"
+		},
+
 		"level" : 1,
-		
-		"faction" : "neutral", 
-		
-		"cost" : { "gold" : 120 },
-		
+
+		"faction" : "neutral",
+
+		"cost" : {
+			"gold" : 120
+		},
+
 		"fightValue" : 80,
-		
+
 		"aiValue" : 70,
-		
+
 		"growth" : 20,
-	
+
 		"attack" : 1,
-		
+
 		"defense" : 3,
-		
+
 		"hitPoints" : 5,
-		
+
 		"speed" : 10,
-		
-		"damage" : { "min" : 1,"max" : 2},
-		"advMapAmount" : { "min" : 20,"max" : 30},
 
-		"abilities" :{ "canFly" : { "type" : "FLYING", "subtype" : "movementFlying" } },
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
 
-		"stackExperience" :
-		[
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
+		},
+
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
 
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "doom/battle/lsbattle.def",
 
 			"map" : "doom/map/AMdls.def",
@@ -86,20 +149,23 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 1.00, "idle" : 10.00, "attack" : 1.00 }
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
 		},
 
-		"sound" : 
-		{
-			"attack": "doom/lostSoul/attack.wav",
-			
-			"defend": "doom/lostSoul/defend.wav",
+		"sound" : {
+			"attack" : "doom/lostSoul/attack.wav",
 
-			"killed": "doom/lostSoul/kill.wav",
+			"defend" : "doom/lostSoul/defend.wav",
 
-			"move": "doom/lostSoul/move.wav",
+			"killed" : "doom/lostSoul/kill.wav",
 
-			"wince": "doom/lostSoul/wince.wav"
+			"move" : "doom/lostSoul/move.wav",
+
+			"wince" : "doom/lostSoul/wince.wav"
 		}
 	}
 }

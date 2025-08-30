@@ -1,6 +1,6 @@
 {
-	"blacklairbattlefield": {
-		"graphics": "battle/blacklairbattlefield1.png",
-		"isSpecial": true
+	"blacklairbattlefield" : {
+		"graphics" : "battle/blacklairbattlefield1.png",
+		"isSpecial" : true
 	}
 }

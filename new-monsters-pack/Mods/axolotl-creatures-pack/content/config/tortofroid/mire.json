@@ -3,15 +3,23 @@
 		"types" : {
 			"acpMire" : {
 				"name" : "Mire",
-				"creatures" : [[ "tortofroid" ]],
+				"creatures" : [
+					[
+						"tortofroid"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "map/tortofroid/mire",
-						"mask" : [ "VVVV", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

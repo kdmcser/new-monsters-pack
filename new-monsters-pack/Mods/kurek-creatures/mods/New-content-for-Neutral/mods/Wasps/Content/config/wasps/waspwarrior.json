@@ -1,156 +1,203 @@
 {
-	"waspwarrior":
-	{
-		"name" :
-		{
+	"waspwarrior" : {
+		"name" : {
 			"singular" : "Wasp Warrior",
 			"plural" : "Wasp Warriors"
-		},"description": "{Wasp Warrior}\r\n\r\nThe Wasp Warrior is a fearsome combatant, bred for battle and fiercely protective of the hive. Its deadly precision and tactical cunning make it a dangerous adversary on the battlefield.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Wasp Warrior’s aerial agility allows it to outmaneuver opponents with ease.\r\n{gold|Venomous Sting (33% chance before and after attack):} Its venomous sting can poison enemies after striking, inflicting poisoning over time.\r\n{gold|Bloodlust:} The Wasp Warrior can cast Bloodlust on itself, boosting its Attack skill and ferocity.\r\n{gold|Berserk:} When casting Berserk, the Wasp Warrior heals and forces itself into a berserk, causing itself to attack the nearest target—friend or foe—without hesitation.\r\n{gold|Strike and Return:} It strikes swiftly and retreats, leaving enemies struggling to counter its assault.\r\n", "faction" : "neutral",
+		},
+		"description" : "{Wasp Warrior}\r\n\r\nThe Wasp Warrior is a fearsome combatant, bred for battle and fiercely protective of the hive. Its deadly precision and tactical cunning make it a dangerous adversary on the battlefield.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Wasp Warrior’s aerial agility allows it to outmaneuver opponents with ease.\r\n{gold|Venomous Sting (33% chance before and after attack):} Its venomous sting can poison enemies after striking, inflicting poisoning over time.\r\n{gold|Bloodlust:} The Wasp Warrior can cast Bloodlust on itself, boosting its Attack skill and ferocity.\r\n{gold|Berserk:} When casting Berserk, the Wasp Warrior heals and forces itself into a berserk, causing itself to attack the nearest target—friend or foe—without hesitation.\r\n{gold|Strike and Return:} It strikes swiftly and retreats, leaving enemies struggling to counter its assault.\r\n",
+		"faction" : "neutral",
 		"level" : 5,
-		"cost" : { "gold" : 550 },
+		"cost" : {
+			"gold" : 550
+		},
 		"speed" : 14,
 		"hitPoints" : 35,
 		"attack" : 13,
 		"defense" : 13,
 		"doubleWide" : false,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 7,
 			"max" : 12
 		},
 		"fightValue" : 700,
 		"aiValue" : 700,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 8,
 			"max" : 16
 		},
 		"growth" : 5,
-		"hasDoubleWeek": false,
-		"abilities" :
-		{
-			"venom" :
-			{
+		"hasDoubleWeek" : false,
+		"abilities" : {
+			"venom" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
 				"val" : 33
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 800
 			},
-			"enchantpower" :
-			{
+			"enchantpower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 2
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"flying" :
-			{
+			"flying" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
-			},	
-			"castsbloodlust" :
-			{
+			},
+			"castsbloodlust" : {
 				"type" : "SPELLCASTER",
 				"val" : 0,
 				"addInfo" : 70,
 				"subtype" : "selfbloodlust"
-			},	
-			"castsberserk" :
-			{
+			},
+			"castsberserk" : {
 				"type" : "HEALER",
 				//"val" : 1,
 				//"addInfo" : 3,
 				"subtype" : "selfberserk"
-			},	
-			"returnafterstrike" :			
-			{
+			},
+			"returnafterstrike" : {
 				"type" : "RETURN_AFTER_STRIKE"
-			}		
-			
+			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "wasps/hornetportraitsmall.png",
 			"iconLarge" : "wasps/hornetportraitbig2.png",
 			"map" : "wasps/waspwarriormap.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "wasps/waspwarrior.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
-				"idle" : 15.00,
-				"attack" : 1.20
+			"animationTime" : {
+				"walk" : 1.3,
+				"idle" : 15.0,
+				"attack" : 1.2
 			}
 		},
-		"sound" :
-		{
-			"attack": "waspsounds/hornetattack.wav",
-			"defend": "waspsounds/hornetdefend.wav",
-			"killed": "waspsounds/hornetdeath.wav",
-			"move": "waspsounds/hornetmove.wav",
+		"sound" : {
+			"attack" : "waspsounds/hornetattack.wav",
+			"defend" : "waspsounds/hornetdefend.wav",
+			"killed" : "waspsounds/hornetdeath.wav",
+			"move" : "waspsounds/hornetmove.wav",
 			"startMoving" : "waspsounds/hornetstartmove.wav",
 			"endMoving" : "waspsounds/hornetstopmove.wav",
-			"wince": "waspsounds/hornetwince.wav"
+			"wince" : "waspsounds/hornetwince.wav"
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
 }
-
-

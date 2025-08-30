@@ -1,40 +1,33 @@
 {
-	"acpDrowner":
-	{
-		"name" :
-		{
+	"acpDrowner" : {
+		"name" : {
 			"plural" : "Moss Thralls",
 			"singular" : "Moss Thrall"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 18,
 			"min" : 10
 		},
 		"faction" : "neutral",
 		"aiValue" : 365,
 		"attack" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 240
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 7,
 			"min" : 3
 		},
 		"defense" : 9,
 		"fightValue" : 330,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/drowner/DrownerV2",
 			"map" : "map/drowner/DrownerAdv",
 			"iconSmall" : "iconssmall/drowner/Drownersmol",
 			"iconLarge" : "iconsbig/drowner/Drownerbig",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"idle" : 10,
 				"attack" : 1
 			}
@@ -43,9 +36,7 @@
 		"hitPoints" : 35,
 		"level" : 3,
 
-
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "drowner/DOATTACK",
 			"defend" : "drowner/DODEFEND",
 			"killed" : "drowner/DODIE",
@@ -53,117 +44,208 @@
 			"wince" : "drowner/DOWINCE"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-			"immuneToMind" : 
-			{
+		"abilities" : {
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
-			},					
-			"fungus" : 
-			{
+			},
+			"fungus" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "fungus",
 				"val" : 100
 			},
-			"paraFungus" : 
-			{
+			"paraFungus" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "paraFungus",
 				"val" : 20
-			},			
-			"spellDuration" : 
-			{
+			},
+			"spellDuration" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			},
-			"parafungusImmunity" : 
-			{
+			"parafungusImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "paraFungus",
 				"addInfo" : 1
-			}		
+			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "bless" 
+					"subtype" : "bless"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]			
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "water"
 				},
-				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					100,
+					100,
+					100,
+					100,
+					100,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}
 }
-
-

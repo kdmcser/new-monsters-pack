@@ -1,49 +1,51 @@
 {
-	"h_lamount": {
-		"army": [
+	"h_lamount" : {
+		"army" : [
 			{
-				"creature": "cr_orangutan",
-				"max": 4,
-				"min": 3
+				"creature" : "cr_orangutan",
+				"max" : 4,
+				"min" : 3
 			},
 			{
-				"creature": "cr_orangutan",
-				"max": 4,
-				"min": 3
+				"creature" : "cr_orangutan",
+				"max" : 4,
+				"min" : 3
 			},
 			{
-				"creature": "cr_orangutan",
-				"max": 4,
-				"min": 3
+				"creature" : "cr_orangutan",
+				"max" : 4,
+				"min" : 3
 			}
 		],
-		"class": "beastmaster",
-		"images": {
-			"large": "heroes/fortress/lamount_l.png",
-			"small": "heroes/fortress/lamount_s.png",
-			"specialtyLarge": "heroes/fortress/lamount_sl.png",
-			"specialtySmall": "heroes/fortress/lamount_ss.png"
+		"class" : "beastmaster",
+		"images" : {
+			"large" : "heroes/fortress/lamount_l.png",
+			"small" : "heroes/fortress/lamount_s.png",
+			"specialtyLarge" : "heroes/fortress/lamount_sl.png",
+			"specialtySmall" : "heroes/fortress/lamount_ss.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "intelligence"
+				"level" : "basic",
+				"skill" : "intelligence"
 			},
 			{
-				"level": "basic",
-				"skill": "pathfinding"
+				"level" : "basic",
+				"skill" : "pathfinding"
 			}
 		],
-		"specialty": {
+		"specialty" : {
 			"bonuses" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence",
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature":  "cr_orangutan", 
-						"includeUpgrades" : false
-					} ],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cr_orangutan",
+							"includeUpgrades" : false
+						}
+					],
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 10,
@@ -54,30 +56,34 @@
 					"type" : "STACK_HEALTH",
 					"val" : 25,
 					"valueType" : "PERCENT_TO_BASE",
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature":  "cr_orangutan", 
-						"includeUpgrades" : true
-					} ],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cr_orangutan",
+							"includeUpgrades" : true
+						}
+					]
 				},
 				"speed" : {
 					"type" : "STACKS_SPEED",
 					"val" : 1,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature":  "cr_orangutan", 
-						"includeUpgrades" : true
-					} ],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cr_orangutan",
+							"includeUpgrades" : true
+						}
+					]
 				}
 			}
 		},
-		"texts": {
-			"biography": "",
+		"texts" : {
+			"biography" : "",
 			"name" : "Lamount",
-			"specialty": {
-				"description": "Increases Speed of any Orangutan by 1, and their Defense skills by 1 for each level attained after 3rd level. Additionally, Orangutans get a permanent 25% Health bonus.",
-				"name": "Orangutan",
-				"tooltip": "Creature bonus: Orangutan"
+			"specialty" : {
+				"description" : "Increases Speed of any Orangutan by 1, and their Defense skills by 1 for each level attained after 3rd level. Additionally, Orangutans get a permanent 25% Health bonus.",
+				"name" : "Orangutan",
+				"tooltip" : "Creature bonus: Orangutan"
 			}
 		}
 	}

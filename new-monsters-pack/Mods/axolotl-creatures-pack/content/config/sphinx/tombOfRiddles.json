@@ -3,15 +3,22 @@
 		"types" : {
 			"acpTombOfRiddles" : {
 				"name" : "Tomb of Riddles",
-				"creatures" : [[ "acpsphinx" ]],
+				"creatures" : [
+					[
+						"acpsphinx"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "map/sphinx/tombOfRiddles",
-						"mask" : [ "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

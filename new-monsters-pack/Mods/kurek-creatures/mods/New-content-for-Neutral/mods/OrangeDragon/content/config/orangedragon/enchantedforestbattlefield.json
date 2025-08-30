@@ -1,6 +1,6 @@
 {
-	"enchantedforestbattlefield": {
-		"graphics":  "battle/enchantedforestbattlefield.png",
-		"isSpecial" : true,
-		}
+	"enchantedforestbattlefield" : {
+		"graphics" : "battle/enchantedforestbattlefield.png",
+		"isSpecial" : true
+	}
 }

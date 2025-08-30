@@ -1,56 +1,51 @@
 {
-	"flugel":
-	{
-		"advMapAmount" :
-		{
+	"flugel" : {
+		"advMapAmount" : {
 			"max" : 3,
 			"min" : 1
 		},
 		"faction" : "neutral",
-		"level" : 7,		
-		"growth" : 1,		
-		"cost" :
-		{
+		"level" : 7,
+		"growth" : 1,
+		"cost" : {
 			"gold" : 16000,
 			"gems" : 13
-		},	
-		"name" :
-		{
+		},
+		"name" : {
 			"plural" : "Flugels",
 			"singular" : "Flugel"
-		},			
-		
+		},
+
 		"aiValue" : 42580,
 		"fightValue" : 33760,
 
 		"hitPoints" : 700,
 		"attack" : 42,
-		"defense" : 33,		
+		"defense" : 33,
 		"speed" : 19,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 75,
 			"min" : 50
 		},
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "neutral/flugel/CFlugel.def",
 			"map" : "neutral/flugel/AVWflgl.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "neutral/flugel/CPrSfgl.bmp",
 			"iconLarge" : "neutral/flugel/CPrLfgl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
 			}
 		},
 		"doubleWide" : true,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "FLGLATTK.wav",
 			"defend" : "FLGLDFND.wav",
 			"killed" : "FLGLKILL.wav",
@@ -58,85 +53,124 @@
 			"wince" : "FLGLWNCE.wav"
 		},
 
-		"abilities" :
-		{
-			
-			"flight":
-			{
-				"type": "FLYING"
+		"abilities" : {
+			"flight" : {
+				"type" : "FLYING"
 			},
 
-			"slayer":
-			{
-				"type": "KING",
+			"slayer" : {
+				"type" : "KING",
 				"val" : 2
 			},
-			
-			"immuneToMind" : 
-			{
+
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"threeHeads" : 
-			{
+			"threeHeads" : {
 				"type" : "THREE_HEADED_ATTACK"
 			},
-			"castsLightningBolt" :
-			{
+			"castsLightningBolt" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "lightningBolt",
 				"val" : 2
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
 			}
-			
 		},
 
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-
 	}
 }

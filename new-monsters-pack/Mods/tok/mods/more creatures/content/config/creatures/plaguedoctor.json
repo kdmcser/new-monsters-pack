@@ -1,16 +1,13 @@
 {
-	"cr_plaguedoctor" : 
-	{
-		"name" :
-		{
+	"cr_plaguedoctor" : {
+		"name" : {
 			"singular" : "Plague Doctor",
 			"plural" : "Plague Doctor"
 		},
 		"level" : 4,
 		"special" : false,
-		"faction" : "neutral", 
-		"cost" : 
-		{
+		"faction" : "neutral",
+		"cost" : {
 			"wood" : 0,
 			"mercury" : 0,
 			"ore" : 0,
@@ -22,120 +19,159 @@
 		"fightValue" : 410,
 		"aiValue" : 320,
 		"growth" : 5,
-		
+
 		"attack" : 10,
 		"defense" : 7,
 		"hitPoints" : 28,
 		"shots" : 0,
 		"speed" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 5,
 			"max" : 8
 		},
 		"spellPoints" : 50,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 10,
 			"max" : 20
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 400
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 2
 			},
-			"cure" :
-			{
+			"cure" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 3
 			},
-			"plague" :
-			{
+			"plague" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "deathRipple",
 				"val" : 3
 			},
-			"immunity" :
-			{
+			"immunity" : {
 				"subtype" : "deathRipple",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
-		"hasDoubleWeek": true,
-		"graphics" :
-		{
+		"hasDoubleWeek" : true,
+		"graphics" : {
 			"animation" : "creatures/plaguedoctor/battle.def",
 			"map" : "creatures/plaguedoctor/adventure.def",
 			"iconSmall" : "creatures/plaguedoctor/icon.bmp",
 			"iconLarge" : "creatures/plaguedoctor/portrait.bmp",
-			"timeBetweenFidgets" : 1.00,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" : 
-		{
-			"attack": "BTREATTK.wav",
-			"defend": "BTREDFND.wav",
-			"killed": "BTREKILL.wav",
-			"move": "BTREMOVE.wav",
-			"wince": "BTREWNCE.wav"
+		"sound" : {
+			"attack" : "BTREATTK.wav",
+			"defend" : "BTREDFND.wav",
+			"killed" : "BTREKILL.wav",
+			"move" : "BTREMOVE.wav",
+			"wince" : "BTREWNCE.wav"
 		}
 	}
 }

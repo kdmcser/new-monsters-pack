@@ -1,8 +1,6 @@
 {
-	"expTRex":
-	{
-		"name" :
-		{
+	"expTRex" : {
+		"name" : {
 			"plural" : "T-Rexes",
 			"singular" : "T-Rex"
 		}

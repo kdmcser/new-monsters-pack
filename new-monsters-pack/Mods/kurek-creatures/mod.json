@@ -1,28 +1,55 @@
 {
 	"name" : "Kurek Creatures",
 	"description" : "New units with dwellings.",
-	"author": "Graphics and mod: Kurek",
-	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
+	"author" : "Graphics and mod: Kurek",
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "2.8",
 	"modType" : "Creatures",
-	"changelog" :
-	{
-		"1.00" : ["Initial release"],
-		"1.01" : ["small update for vcmi-1.2"],
-		"1.02" : ["small fix for bonus morale"],
-		"1.03" : ["small update for vcmi-1.4"],
-		"2.0"  : ["Bloodeyed Cyclops, Cyclop Warrior, Purple Dragon, Black Gorgon added, Marine Serail changed to a bank"],
-		"2.1"  : ["Added Neutral creature and dwelling: Eagle and Eagle Nest."],
-		"2.2"  : ["Czech translation by George King"],
-		"2.21" : ["Some syntax fixes"],
-		"2.3"  : ["Added Neutral creature, dwelling and bank: Wild Griffin, Griffin Cliffs, Griffin Nest."],
-		"2.4"  : ["Added Neutral creature, dwelling and spell: Orange Dragon, Enchanted Forest, Fire ring."],
-		"2.5"  : ["Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon."],
-		"2.6"  : ["Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets."],
-		"2.7"  : ["New graphics for Wasps buildings"],
-		"2.8"  : ["Fix reward appear chance for Lurkers' bank Evil Lair."]
+	"changelog" : {
+		"1.00" : [
+			"Initial release"
+		],
+		"1.01" : [
+			"small update for vcmi-1.2"
+		],
+		"1.02" : [
+			"small fix for bonus morale"
+		],
+		"1.03" : [
+			"small update for vcmi-1.4"
+		],
+		"2.0" : [
+			"Bloodeyed Cyclops, Cyclop Warrior, Purple Dragon, Black Gorgon added, Marine Serail changed to a bank"
+		],
+		"2.1" : [
+			"Added Neutral creature and dwelling: Eagle and Eagle Nest."
+		],
+		"2.2" : [
+			"Czech translation by George King"
+		],
+		"2.21" : [
+			"Some syntax fixes"
+		],
+		"2.3" : [
+			"Added Neutral creature, dwelling and bank: Wild Griffin, Griffin Cliffs, Griffin Nest."
+		],
+		"2.4" : [
+			"Added Neutral creature, dwelling and spell: Orange Dragon, Enchanted Forest, Fire ring."
+		],
+		"2.5" : [
+			"Added Neutral creatures, dwelling, bank, artifacts and spells: Wasps addon."
+		],
+		"2.6" : [
+			"Added neutral creatures, dwellings, bank and spell. Lurkers, Terrible Eyes and Agar's Pets."
+		],
+		"2.7" : [
+			"New graphics for Wasps buildings"
+		],
+		"2.8" : [
+			"Fix reward appear chance for Lurkers' bank Evil Lair."
+		]
 	},
 	"chinese" : {
 		"name" : "生物模组包（Kurek）",
@@ -32,8 +59,7 @@
 		"name" : "Balíček jednotek (Kurek)",
 		"description" : "Nové jednotky s obydlími."
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.4.0"
 	}
 }

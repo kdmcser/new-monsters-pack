@@ -1,36 +1,46 @@
 {
-  "name": "More Tok Heroes",
-  "description": "Add more heroes based on TOK additions",
-  "author": "Fiorin",
-  "contact": "http://fior.in",
-  "version": "1.4",
-  "modType": "Heroes",
-  "keepDisabled": true,
-  "depends": [
-    "ruins-town",
-    "new-monsters-pack.tok.more creatures",
-    "new-monsters-pack.tok.more secondary",
-    "new-monsters-pack.tok.more heroes.neutral classes"
-  ],
-  "changelog": {
-    "1.0": ["Initial release"],
-    "1.1": ["Bugbear adjust"],
-    "1.2": ["Chimera added"],
-	"1.3": ["Fixed some specialy code"],
-	"1.4": ["Fix for melaunchalot hero"]
-  },
-  "heroes": [
-    "config/heroes/castle/melaunchalot.json",
+	"name" : "More Tok Heroes",
+	"description" : "Add more heroes based on TOK additions",
+	"author" : "Fiorin",
+	"contact" : "http://fior.in",
+	"version" : "1.4",
+	"modType" : "Heroes",
+	"keepDisabled" : true,
+	"depends" : [
+		"ruins-town",
+		"new-monsters-pack.tok.more creatures",
+		"new-monsters-pack.tok.more secondary",
+		"new-monsters-pack.tok.more heroes.neutral classes"
+	],
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		],
+		"1.1" : [
+			"Bugbear adjust"
+		],
+		"1.2" : [
+			"Chimera added"
+		],
+		"1.3" : [
+			"Fixed some specialy code"
+		],
+		"1.4" : [
+			"Fix for melaunchalot hero"
+		]
+	},
+	"heroes" : [
+		"config/heroes/castle/melaunchalot.json",
 
-    "config/heroes/stronghold/gromm.json",
+		"config/heroes/stronghold/gromm.json",
 
-    "config/heroes/ruins/birog.json",
-    "config/heroes/ruins/mabon.json",
-    "config/heroes/ruins/boudicca.json",
+		"config/heroes/ruins/birog.json",
+		"config/heroes/ruins/mabon.json",
+		"config/heroes/ruins/boudicca.json",
 
-    "config/heroes/necropolis/lorme.json",
-    "config/heroes/necropolis/veles.json",
+		"config/heroes/necropolis/lorme.json",
+		"config/heroes/necropolis/veles.json",
 
-    "config/heroes/neutral/ann.json"
-  ]
+		"config/heroes/neutral/ann.json"
+	]
 }

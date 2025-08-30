@@ -1,106 +1,198 @@
 {
 	"stoneCollossus" : {
 		"abilities" : {
-			"nonLiving" : { "type" : "NON_LIVING" },
-			"noMorale" :
-			{
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"noMorale" : {
 				"type" : "NO_MORALE"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"creatureSpellPower" : 
-			{
+			"creatureSpellPower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 500
 			},
-			"spellCaster" :
-			{
+			"spellCaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "earthquake",
 				"val" : 1,
 				"addInfo" : 100
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "BLOCKS_RETALIATION"
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 54, 58, 62, 66, 70, 74, 78, 82, 86, 90 ]
+				"values" : [
+					54,
+					58,
+					62,
+					66,
+					70,
+					74,
+					78,
+					82,
+					86,
+					90
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
-		"upgrades": ["stoneLord"],		
-		"advMapAmount" : { "max" : 4, "min" : 2 },
+		"upgrades" : [
+			"stoneLord"
+		],
+		"advMapAmount" : {
+			"max" : 4,
+			"min" : 2
+		},
 		"aiValue" : 27540,
 		"attack" : 42,
-		"cost" : { "gold" : 13500, "crystal" : 7 },
-		"damage" : { "max" : 65, "min" : 55 },
+		"cost" : {
+			"gold" : 13500,
+			"crystal" : 7
+		},
+		"damage" : {
+			"max" : 65,
+			"min" : 55
+		},
 		"defense" : 44,
 		"faction" : "neutral",
 		"fightValue" : 25760,
 		"graphics" : {
 			"animation" : "battle/stoneLord/Ismalow",
-			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"animationTime" : {
+				"attack" : 0.6,
+				"idle" : 4,
+				"walk" : 2.3
+			},
 			"iconLarge" : "iconsBig/stoneLord/Facelow-High",
 			"iconSmall" : "iconsSmall/stoneLord/Facelow-small",
 			"map" : "map/stoneLord/Adv-Ismalow",
@@ -108,9 +200,12 @@
 		},
 		"growth" : 1,
 		"hitPoints" : 750,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 10, //like Azure Dragons!!!
-		"name" : { "plural" : "Stone Collossi", "singular" : "Stone Collossus" },
+		"name" : {
+			"plural" : "Stone Collossi",
+			"singular" : "Stone Collossus"
+		},
 		"sound" : {
 			"attack" : "stoneLord/ismatack",
 			"defend" : "stoneLord/ismdefend",

@@ -4,17 +4,28 @@
 			"acpRustyHabitation" : {
 				"name" : "Rusty Habitation",
 				"guards" : true,
-				"creatures" : [[ "centamonthHunter" ]],
-				"sounds": {
-					"ambient": ["centamonth/rustyHabitation"]
+				"creatures" : [
+					[
+						"centamonthHunter"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"centamonth/rustyHabitation"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "map/centamonth/rustyHabitation",
-						"mask" : [ "VVVV", "VVBB", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

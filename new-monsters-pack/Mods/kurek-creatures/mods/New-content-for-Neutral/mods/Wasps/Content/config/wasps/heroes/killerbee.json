@@ -1,15 +1,12 @@
 {
-	"killerbee" :
-	{
-			"spellbook" : 
-			[
+	"killerbee" : {
+		"spellbook" : [
 			"jump"
-			],
+		],
 		"class" : "hiveruler",
 		"female" : false,
 		"onlyOnMapWithoutWater" : false,
-		"images" :
-		{
+		"images" : {
 			"large" : "wasps/Killerbee.png",
 			"small" : "wasps/herosmall3.png",
 			"specialtyLarge" : "wasps/jumpspecbig.png",

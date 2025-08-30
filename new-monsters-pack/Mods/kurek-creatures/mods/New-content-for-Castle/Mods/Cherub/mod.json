@@ -1,14 +1,17 @@
 {
 	"name" : "Cherub",
 	"description" : "New unit - Cherub. The cherubim are the second highest rank in the angelic hierarchy, following the Seraphim. Cherubim are regarded in traditional angelology as angels of the second highest order of the ninefold celestial hierarchy.",
-	"author": "Kurek",
-	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121",
+	"author" : "Kurek",
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121",
 	"version" : "2.0",
 	"modType" : "Creatures",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ],
-		"2.0"   : [ "new moving sounds, new dwelling look, new portraits, creature description added" ]
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		],
+		"2.0" : [
+			"new moving sounds, new dwelling look, new portraits, creature description added"
+		]
 	},
 	"chinese" : {
 		"name" : "基路伯",
@@ -22,18 +25,16 @@
 		"name" : "Cherubin",
 		"description" : "Nowa jednostka - Cherub. Cherubini zajmują drugie miejsce w hierarchii anielskiej, zaraz po Serafinach. W tradycyjnej angelologii cherubini są uważani za anioły drugiego najwyższego rzędu w dziewięciostopniowej hierarchii niebiańskiej."
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/cherub/cherub.json"
 	],
-	"objects" : 
-	[  "config/cherub/dwellings" ],
-	"spells" : 
-	[
+	"objects" : [
+		"config/cherub/dwellings"
+	],
+	"spells" : [
 		"config/cherub/cherubpowerbondspells.json"
 	],
-	"battlefields" :
-	[
+	"battlefields" : [
 		"config/cherub/altarofpropheciesbattlefield.json"
 	]
 }
