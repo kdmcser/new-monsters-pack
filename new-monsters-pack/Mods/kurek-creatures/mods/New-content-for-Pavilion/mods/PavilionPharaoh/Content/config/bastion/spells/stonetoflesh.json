@@ -211,13 +211,13 @@
 
 		"targetCondition" : {
 			"anyOf" : {
-					"spell.stoneGaze" : "absolute",
-					"spell.turntostone" : "absolute"
+				"spell.stoneGaze" : "absolute",
+				"spell.turntostone" : "absolute"
 			},
 			"noneOf" : {
-					"bonus.SIEGE_WEAPON" : "absolute",
-					"core:creature.infernalTroglodyte" : "absolute",
-					"core:creature.troglodyte" : "absolute"
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"core:creature.infernalTroglodyte" : "absolute",
+				"core:creature.troglodyte" : "absolute"
 			}
 		},
 		"targetType" : "CREATURE",

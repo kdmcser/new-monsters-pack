@@ -1,45 +1,41 @@
 {
-	"kurekcyclopswarrior":
-	{
-		"name" :
-		{
+	"kurekcyclopswarrior" : {
+		"name" : {
 			"plural" : "Cyclops Warriors",
 			"singular" : "Cyclops Warrior"
 		},
 		"description" : "{green|Cyclops Warrior}\r\n\r\nFearless combatants who have abandoned throwing boulders in favor of melee combat with massive clubs.\r\n\r\n{gold|Special Abilities:}\r\n Each of their strikes not only deals tremendous damage but also has a chance to stun the enemy, immobilizing them for one turn.\r\n\r\n Although they lack ranged attacks, they make up for it with exceptional resilience and devastating strength, making them unmatched in close-quarters battles. Their sheer brutality makes them a key unit for breaking through enemy lines.",
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 7,
 			"min" : 3
 		},
-		"hasDoubleWeek": true,
-		"faction": "stronghold",
+		"hasDoubleWeek" : true,
+		"faction" : "stronghold",
 		"aiValue" : 1400,
 		"attack" : 18,
-		"cost" :
-		{
-			"gold" : 1000,
+		"cost" : {
+			"gold" : 1000
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 17
 		},
 		"defense" : 16,
-		"shots" :  0,
-		"fightValue" : 	1400,
+		"shots" : 0,
+		"fightValue" : 1400,
 		"spellPoints" : 2,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/cyclop_warrior.def",
 			"map" : "map/cyclop_warrior_on_map.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "iconsSmall/cyclops_warrior_avatar_small.png",
 			"iconLarge" : "iconsBig/cyclops_warrior_avatar_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
+			"animationTime" : {
+				"walk" : 1.3,
 				"attack" : 1,
 				"idle" : 6.5
 			}
@@ -48,25 +44,23 @@
 		"doubleWide" : false,
 		"hitPoints" : 70,
 		"level" : 6,
-		"sound" :
-		{
-			"attack": "cyclops_warrior/cyclops_warrior_attack_sound.wav",
-			"defend": "CYCLDFND.wav",
-			"killed": "CYCLKILL.wav",
-			"move": "CYCLMOVE.wav",
-			"wince": "CYCLWNCE.wav",
+		"sound" : {
+			"attack" : "cyclops_warrior/cyclops_warrior_attack_sound.wav",
+			"defend" : "CYCLDFND.wav",
+			"killed" : "CYCLKILL.wav",
+			"move" : "CYCLMOVE.wav",
+			"wince" : "CYCLWNCE.wav",
 			"startMoving" : "cyclops_warrior/CYCLSTARTMOVE2.wav",
-            "endMoving" : "cyclops_warrior/CYCLENDMOVE2.wav"
+			"endMoving" : "cyclops_warrior/CYCLENDMOVE2.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
+		"abilities" : {
 			"Crushing Blow" : {
 				"subtype" : "crushingblow",
 				"type" : "SPELL_AFTER_ATTACK",
-				"val": 27,
+				"val" : 27,
 				"icon" : "spells/bonuscrushingblow1.png",
-				"description" : "{Sundering Blow}\n 27% chance for Stun."	
+				"description" : "{Sundering Blow}\n 27% chance for Stun."
 				//"range" : "ONLY_MELEE_FIGHT"
 			}
 			//"Crushing Blow2" :
@@ -75,64 +69,131 @@
 			//	"subtype" : "crushingblow",
 			//	"val" : 1
 			//},
-
 		},
-		"stackExperience" :
-		[
-
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
+					"subtype" : "damageTypeAll"
 				},
-				"values" : [ 2, 5, 7, 10, 12, 15, 17, 20, 22, 25]
+				"values" : [
+					2,
+					5,
+					7,
+					10,
+					12,
+					15,
+					17,
+					20,
+					22,
+					25
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [ 0, 0, 10, 15, 20, 25, 30, 35, 40, 50]
+				"values" : [
+					0,
+					0,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					50
+				]
 			}
 		]
 	}

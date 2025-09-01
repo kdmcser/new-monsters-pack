@@ -1,14 +1,11 @@
 {
-	"blackgorgon":
-	{
+	"blackgorgon" : {
 		"description" : "{green|Black Gorgon}\r\n\r\nThe sturdy Black Demigorgons attack with their acidic breath.\r\n\r\n{gold|Special Abilities:}\r\n The Black Gorgon has a death stare with a 10% chance per attack of killing 1 creature in a troop outright per 10 Black Gorgons.\r\n\r\nIt can also change its enemies to stone with their cursed gaze and is immune to poison and acid damage.",
-		"name" :
-		{
+		"name" : {
 			"plural" : "Black Gorgons",
 			"singular" : "Black Gorgon"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 5,
 			"max" : 10
 		},
@@ -19,154 +16,222 @@
 		"defense" : 18,
 		"growth" : 3,
 		"level" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1550
 		},
-		"damage" :
-		{
+		"damage" : {
 			"min" : 12,
 			"max" : 17
 		},
 		"speed" : 7,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/blackgorgon.def",
 			"map" : "map/blackgorgononmap.def",
 			"mapMask" : [
-			"VVV",
-			"VAV"
-						],
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "iconsSmall/smallblackgorgonavatar.png",
 			"iconLarge" : "iconsBig/avatarblackgorgon.png",
 			"timeBetweenFidgets" : 3,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 2.5,
 				"attack" : 2.5,
-				"idle" : 2,
+				"idle" : 2
 			}
 		},
 		"hitPoints" : 75,
 		"doubleWide" : true,
-		"abilities":
-		{
-			"deathStare" : 
-			{
+		"abilities" : {
+			"deathStare" : {
 				"type" : "DEATH_STARE",
 				"subtype" : "deathStareGorgon",
 				"val" : 10
 			},
-			"petrify" :
-			{
+			"petrify" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "stoneGaze",
 				"val" : 10
 			},
-			"acidImmunity" :
-			{
+			"acidImmunity" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "acidBreathDamage",
+				"subtype" : "acidBreathDamage"
 			},
-			"poisonImmunity" :
-			{
+			"poisonImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "poison"
 			},
-			"powerAttack" : 
-			{
+			"powerAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "powerbondblackgorgonsBreath",
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "iconsBig/bonusblackgorgonsbreath.png"		
+				"icon" : "iconsBig/bonusblackgorgonsbreath.png"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"val" : 10,
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"description" : "PLACEHOLDER",
-					"limiters" : [ 
-						"OPPOSITE_SIDE", 
+					"limiters" : [
+						"OPPOSITE_SIDE",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "LIVING"
 						}
 					]
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]	
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DEATH_STARE",
 					"subtype" : "deathStareGorgon"
 				},
-				"values" : [ 13, 16, 19, 22, 25, 28, 31, 34, 37, 40 ]
+				"values" : [
+					13,
+					16,
+					19,
+					22,
+					25,
+					28,
+					31,
+					34,
+					37,
+					40
+				]
 			}
 		],
-		"sound" :
-		{
-			"attack": "battlegorgon/BGORATTK1.wav",
-			"defend": "battlegorgon/BGORDFND1.wav",
-			"killed": "battlegorgon/BGORKILL1.wav",
-			"move": "battlegorgon/BGORMOVE1.wav",
-			"wince": "battlegorgon/BGORWNCE1.wav",
+		"sound" : {
+			"attack" : "battlegorgon/BGORATTK1.wav",
+			"defend" : "battlegorgon/BGORDFND1.wav",
+			"killed" : "battlegorgon/BGORKILL1.wav",
+			"move" : "battlegorgon/BGORMOVE1.wav",
+			"wince" : "battlegorgon/BGORWNCE1.wav",
 			"startMoving" : "battlegorgon/BGORSTARTMOVE1.wav",
-            "endMoving" : "battlegorgon/BGORENDMOVE1.wav"
+			"endMoving" : "battlegorgon/BGORENDMOVE1.wav"
 		}
 	}
-}		
+}

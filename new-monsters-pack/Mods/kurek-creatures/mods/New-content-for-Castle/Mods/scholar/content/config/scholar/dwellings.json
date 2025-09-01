@@ -2,21 +2,33 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"monasterylibrary" : {
-				"battleground": "new-monsters-pack.kurek-creatures.new-content-for-castle.scholar:monasterylibrarybattlefield",
+				"battleground" : "new-monsters-pack.kurek-creatures.new-content-for-castle.scholar:monasterylibrarybattlefield",
 				"name" : "Monastery Library",
 				"guards" : true,
-				"creatures" : [[ "crscholar" ]],
-				  "sounds": {
-                    "ambient": ["battle1/monasterylibrary"],
-					"visit": ["battle1/monasterylibraryvisit"]
-                },
+				"creatures" : [
+					[
+						"crscholar"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"battle1/monasterylibrary"
+					],
+					"visit" : [
+						"battle1/monasterylibraryvisit"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwelling/monasterylibrary.def",
-						"mask" : [ "VVV", "VBV", "ABV" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"ABV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
-}	
+}

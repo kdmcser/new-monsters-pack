@@ -199,8 +199,8 @@
 			},
 			{
 				"bonus" : {
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "any"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "any"
 				},
 				"values" : [
 					4,

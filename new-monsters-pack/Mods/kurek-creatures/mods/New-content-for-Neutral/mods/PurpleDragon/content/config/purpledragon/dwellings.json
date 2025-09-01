@@ -2,19 +2,34 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"purpleTower" : {
-				"battleground": "new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon:purpletowerbattlefield",
+				"battleground" : "new-monsters-pack.kurek-creatures.new-content-for-neutral.purpledragon:purpletowerbattlefield",
 				"name" : "Purple Tower",
 				"guards" : true,
-				"creatures" : [[ "purpledragon" ]],
-				"sounds": {	"ambient": ["PurpleDragon/loop"],
-				"visit": ["PurpleDragon/visit"]},
+				"creatures" : [
+					[
+						"purpledragon"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"PurpleDragon/loop"
+					],
+					"visit" : [
+						"PurpleDragon/visit"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwelling/purpletower.def",
-						"mask" : [ "VVV", "VVV", "VBV", "VAV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBV",
+							"VAV"
+						]
 					}
 				}
 			}
 		}
-	}		
-}	
+	}
+}

@@ -37,10 +37,9 @@
 		]
 	},
 	"modType" : "Creatures",
-	"conflicts" :
-    [
-        "new-monsters-pack.kurek-creatures.new-content-for-castle.squires"
-    ],	
+	"conflicts" : [
+		"new-monsters-pack.kurek-creatures.new-content-for-castle.squires"
+	],
 	"compatibility" : {
 		"min" : "1.6.0"
 	},

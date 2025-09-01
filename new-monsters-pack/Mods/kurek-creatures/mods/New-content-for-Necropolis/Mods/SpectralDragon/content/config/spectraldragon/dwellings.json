@@ -2,21 +2,34 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"ghastlyvault" : {
-				"battleground": "new-monsters-pack.kurek-creatures.new-content-for-necropolis.spectraldragon:ghastlyvaultbattlefield",
+				"battleground" : "new-monsters-pack.kurek-creatures.new-content-for-necropolis.spectraldragon:ghastlyvaultbattlefield",
 				"name" : "Ghastly Vault",
 				"guards" : true,
-				"creatures" : [[ "spectraldragon" ]],
-				  "sounds": {
-                    "ambient": ["spectraldragonsounds/ghastlyvaultloop"],
-					"visit": ["spectraldragonsounds/ghastlyvaultvisit"]
-                },
+				"creatures" : [
+					[
+						"spectraldragon"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"spectraldragonsounds/ghastlyvaultloop"
+					],
+					"visit" : [
+						"spectraldragonsounds/ghastlyvaultvisit"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwelling/ghastlyvault.def",
-						"mask" : [ "VVVV", "VBBV","VBAV", "VVVV" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBAV",
+							"VVVV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
-}	
+}
