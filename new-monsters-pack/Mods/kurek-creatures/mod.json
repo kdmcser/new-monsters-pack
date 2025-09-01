@@ -49,6 +49,9 @@
 		],
 		"2.8" : [
 			"Fix reward appear chance for Lurkers' bank Evil Lair."
+		],
+		"2.9"  : [
+			"Spectral Dragon added."
 		]
 	},
 	"chinese" : {

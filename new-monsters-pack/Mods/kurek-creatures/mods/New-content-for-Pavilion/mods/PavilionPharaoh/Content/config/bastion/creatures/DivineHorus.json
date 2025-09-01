@@ -1,11 +1,14 @@
 {
-	"divinehorus" : {
-		"name" : {
+	"divinehorus":
+	{
+		"name" :
+		{
 			"plural" : "Divine Horuses",
 			"singular" : "Divine Horus"
 		},
-		"description" : "{#ff0000|Divine Horus}\r\n\r\nDivine Horus from the higher caste are powerful beings who surpass their ordinary kin not only in physical strength but also in mastery of magic. \r\n\r\n{gold|Special Ability : Gifted with exceptional abilities, they can cast spells that enhance their attacks and control the battlefield, making them even more formidable opponents.}\r\n\r\n Their divine nature allows them to be not only magnificent warriors wielding knopeshes but also sages capable of predicting enemy movements and invoking powerful forces that shape the fate of battles.",
-		"advMapAmount" : {
+		"description" : "{green|Divine Horus}\r\n\r\nDivine Horus from the higher caste are powerful beings who surpass their ordinary kin not only in physical strength but also in mastery of magic. \r\n\r\n{gold|Special Ability:}\r\n Gifted with exceptional abilities, they can cast spells that enhance their attacks and control the battlefield, making them even more formidable opponents.\r\n\r\n Their divine nature allows them to be not only magnificent warriors wielding knopeshes but also sages capable of predicting enemy movements and invoking powerful forces that shape the fate of battles.",
+		"advMapAmount" :
+		{
 			"max" : 16,
 			"min" : 8
 		},
@@ -13,70 +16,91 @@
 		"aiValue" : 1101,
 		"attack" : 15,
 		"spellPoints" : 1,
-		"hasDoubleWeek" : false,
-		"cost" : {
+		"hasDoubleWeek": false,
+		"cost" :
+		{
 			"gold" : 750
 		},
-		"damage" : {
+		"damage" :
+		{
 			"max" : 20,
 			"min" : 14
 		},
 		"defense" : 8,
 		"fightValue" : 851,
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "bastion/battle/creatures/divinehorus.def",
 			"map" : "bastion/map/creatures/DivinehorusMap.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "bastion/iconsSmall/creatures/DivinehorusSmall.bmp",
 			"iconLarge" : "bastion/iconsBig/creatures/DivineHorus.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.2,
-				"idle" : 10.0,
-				"attack" : 1.0
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00,
 			}
+           
 		},
-		"doubleWide" : true,
-		"growth" : 3,
+	    "doubleWide" : true,
+        "growth" : 3,
 		"hitPoints" : 60,
 		"level" : 5,
-		"upgrades" : [],
-		"sound" : {
+        "upgrades":
+		[
+		],
+		"sound" :
+		{
 			"attack" : "bastion/Horus_attack.wav",
-			"defend" : "bastion/Horus_defend.wav",
-			"killed" : "bastion/Horus_killed.wav",
-			"move" : "bastion/Horus_move.wav",
-			"wince" : "bastion/Horus_wince.wav"
-		},
+			"defend": "bastion/Horus_defend.wav",
+			"killed": "bastion/Horus_killed.wav",
+			"move": "bastion/Horus_move.wav",
+			"wince": "bastion/Horus_wince.wav"
+ 		},
 		"speed" : 12,
-		"abilities" : {
-			"magicResistance" : {
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "any",
-				"val" : 100
+		"abilities" :
+		{
+			"magicResistance": 
+			
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"subtype": "any",
+				"val": 100
 			},
-
-			"deathStare" : {
-				"subtype" : "deathStareGorgon",
-				"type" : "DEATH_STARE",
-				"val" : 20
+			
+			"deathStare" : 
+			{ 
+				"subtype" : "deathStareGorgon", 
+				"type" : "DEATH_STARE", 
+				"val" : 20 
 			},
-			"RANDOMSPELLCASTER" : {
-				"type" : "RANDOM_SPELLCASTER",
-				"val" : 1
-				//"spells": ["Haste", "Slow", "bless"]
+			"RANDOMSPELLCASTER" : 
+			{ 
+				"type" : "RANDOM_SPELLCASTER", 
+		        "val": 1,
+				"icon" : "bastion/iconsBig/bonusrandomboosthorus.png"
+		        //"spells": ["Haste", "Slow", "bless"]
 			},
-			"ADDITIONALATTACK" : {
+			"ADDITIONALATTACK" : 
+			{ 
 				"type" : "ADDITIONAL_ATTACK"
 			},
-			"spellpoints" : {
+			"spellpoints" :
+			{
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"spellsLength" : {
+			"spellsLength" : 
+			{
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			}
 		},
-		"stackExperience" : []
+		"stackExperience" :
+		[
+	
+		]	
 	}
 }

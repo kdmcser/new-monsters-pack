@@ -1,0 +1,6 @@
+{
+	"monasterylibrarybattlefield": {
+		"graphics": "battle/monasterylibrarybattlefield.png",
+		"isSpecial" : true
+	}
+}

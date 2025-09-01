@@ -1,0 +1,512 @@
+{
+	"lecturer":
+{
+	 
+	"abilities" : {
+		 
+		
+		"powerAttack" : {
+			 
+			"subtype" : "holyblastscholar",
+			 
+			"type" : "SPELL_LIKE_ATTACK",
+			 
+			"val" : 0,
+			"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
+			"icon" : "iconsBig/holyblast2.png"
+		},
+		 
+		"shooter" : {
+			 
+			"type" : "SHOOTER"
+		},
+		
+		"giveswisdom1" : {
+			
+            "type": "NONE",
+			"icon" : "iconsBig/wisdombonus.png",
+			"description" : "{Shares Expert Wisdom}\nExpert Wisdom allows your hero to learn fifth level spells."	
+        },
+		
+		"givesscholar" : {
+			
+			"propagator" : "HERO",
+			"type" : "LEARN_MEETING_SPELL_LIMIT",
+			"val" : 4,
+			"valueType" : "BASE_NUMBER",
+			"description" : "{Expert Scholar}\nExpert Scholar lets heroes trade any spells up to level 4 between their spell books.",
+			"icon" : "iconsBig/scholarbonus.png"
+		},
+		"givesscholar1" : {
+			
+			"type" : "NONE",
+			"description" : "{Expert Scholar}\nExpert Scholar lets heroes trade any spells up to level 4 between their spell books.",
+			"icon" : "iconsBig/scholarbonus.png"
+		},
+		"giveswisdom" : {
+			
+			"propagator" : "HERO",
+			"type" : "MAX_LEARNABLE_SPELL_LEVEL",
+			"val" : 3,
+			"valueType" : "BASE_NUMBER"
+
+		},
+
+
+		"noMeleePenalty" : {
+
+			"type" : "NO_MELEE_PENALTY"
+		}
+	},
+	 
+	"advMapAmount" : {
+		 
+		"max" : 12,
+		 
+		"min" : 8
+	},
+	
+	"aiValue" : 751,
+	 
+	"attack" : 12,
+	 
+	"cost" : {
+		 
+		"crystal" : 0,
+		 
+		"gems" : 0,
+		 
+		"gold" : 1200,
+		 
+		"mercury" : 0,
+		 
+		"ore" : 0,
+		 
+		"sulfur" : 0,
+		 
+		"wood" : 0
+	},
+	 
+	"damage" : {
+		 
+		"max" : 12,
+		 
+		"min" : 10
+	},
+	 
+	"defense" : 10,
+	 
+	"description" : "{green|Lecturer}\r\n\r\nLecturers share their great knowledge of past, present and future, often spread their wisdom as court sages to lords and heroes.\r\nScholars and lecturers train themselves to control and project their personal energistic forces, which they deliver as ranged blasts.\r\nWhile scholars suffer the normal penalty for ranged unit hand-to-hand attack damage (50%), the better trained lecturers do not.\r\n\r\n{gold|Special Abilities:}\r\n All Lecturers grant their hero mastery of the Scholar’s art at the Expert level, a discipline passed down through generations of learned wanderers. With this gift, their hero can instantly share and exchange spells with any visiting ally, spreading hard-won knowledge as swiftly as spoken words.\r\nLecturers bestow upon their hero the skill of Expert Wisdom, the culmination of countless years spent studying magic.  This skill allows their hero to comprehend and cast even the most complex of spells, drawing upon the deepest wells of magical knowledge.",
+	 
+	"faction" : "castle",
+	 
+	"fightValue" : 1200,
+	 
+
+	"graphics" : {
+		 
+		"animation" : "battle/lecturer.def",
+		 
+		"animationTime" : {
+			 
+			"attack" : 1,
+			 
+			"idle" : 10,
+			 
+			"walk" : 1
+		},
+		
+		"map" : "map/lecturermap.def",
+        "iconSmall": "iconsSmall/lecturerportraitsmall.png",
+        "iconLarge": "iconsBig/lecturerportraitbig.png",
+		 
+		"mapMask" : [
+			 
+			"VV",
+			
+			"VA"
+		],
+		 
+		"missile" : {
+			 
+			"attackClimaxFrame" : 8,
+			 
+			"frameAngles" : [
+				 
+				90,
+				 
+				72,
+				 
+				45,
+				 
+				27,
+				 
+				0,
+				 
+				-27,
+				 
+				-45,
+				 
+				-72,
+				 
+				-90,
+				 
+				0,
+				 
+				0,
+				 
+				0
+			],
+			 
+			"offset" : {
+				 
+				"lowerX" : 31,
+				 
+				"lowerY" : 11,
+				 
+				"middleX" : 61,
+				 
+				"middleY" : -49,
+				 
+				"upperX" : 38,
+				 
+				"upperY" : -95
+			},
+			 
+			"projectile" : "CPRZEAX.DEF"
+		},
+		 
+		"timeBetweenFidgets" : 1
+	},
+	 
+	"growth" : 3,
+	 
+	"hitPoints" : 30,
+	 
+	"horde" : 0,
+	 
+	"level" : 5,
+	 
+	"name" : {
+		 
+		"plural" : "Lecturers",
+		 
+		"singular" : "Lecturer"
+	},
+	 
+	"shots" : 24,
+	 
+	"sound" : {
+		 
+		"attack" : "ZELTATTK.wav",
+		 
+		"defend" : "ZELTDFND.wav",
+		 
+		"killed" : "ZELTKILL.wav",
+		 
+		"move" : "ZELTMOVE.wav",
+		 
+		"shoot" : "ZELTSHOT.wav",
+		 
+		"wince" : "ZELTWNCE.wav"
+	},
+	 
+	"speed" : 7,
+	 
+	"stackExperience" : [
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "attack",
+				 
+				"type" : "PRIMARY_SKILL"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				8
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "defence",
+				 
+				"type" : "PRIMARY_SKILL"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				3,
+				 
+				4,
+				 
+				4,
+				 
+				6,
+				 
+				6,
+				 
+				7,
+				 
+				8
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "creatureDamageMax",
+				 
+				"type" : "CREATURE_DAMAGE"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				7
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "creatureDamageMin",
+				 
+				"type" : "CREATURE_DAMAGE"
+			},
+			 
+			"values" : [
+				 
+				0,
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				6,
+				 
+				7
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "STACK_HEALTH",
+				 
+				"valueType" : "PERCENT_TO_BASE"
+			},
+			 
+			"values" : [
+				 
+				5,
+				 
+				10,
+				 
+				15,
+				 
+				20,
+				 
+				25,
+				 
+				30,
+				 
+				35,
+				 
+				40,
+				 
+				45,
+				 
+				50
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "STACKS_SPEED"
+			},
+			 
+			"values" : [
+				 
+				0,
+				 
+				0,
+				 
+				0,
+				 
+				1,
+				 
+				1,
+				 
+				1,
+				 
+				1,
+				 
+				1,
+				 
+				1,
+				 
+				2
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "any",
+				 
+				"type" : "SPELL_DAMAGE_REDUCTION"
+			},
+			 
+			"values" : [
+				 
+				3,
+				 
+				6,
+				 
+				9,
+				 
+				12,
+				 
+				15,
+				 
+				21,
+				 
+				24,
+				 
+				27,
+				 
+				30,
+				 
+				33
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "MIND_IMMUNITY"
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "HP_REGENERATION"
+			},
+			 
+			"values" : [
+				 
+				0,
+				 
+				0,
+				 
+				0,
+				 
+				0,
+				 
+				50,
+				 
+				50,
+				 
+				50,
+				 
+				50,
+				 
+				50,
+				 
+				50
+			]
+		}
+	]
+}
+}
+
+

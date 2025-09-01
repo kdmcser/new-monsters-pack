@@ -1,0 +1,23 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"squiresguild" : {
+				"name" : "Squire's Guild",
+				"creatures" : [ 
+					[ "csquire" ]
+				
+				],
+				"sounds": {
+					"ambient": ["squiressounds/squiregulidloop.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "squires/dwelling/squireguild.def",
+                        
+						"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
+                    }
+				}
+			}
+		}		
+	}
+}

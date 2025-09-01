@@ -1,0 +1,628 @@
+{
+	"spectraldragon":
+	{
+	 
+	"abilities" : {
+		 
+		"KING_1" : {
+			 
+			"type" : "KING",
+			 
+			"val" : 0
+		},
+		 
+		"curse" : {
+			 
+			"subtype" : "curse",
+			 
+			"type" : "SPELL_BEFORE_ATTACK",
+			 
+			"val" : 100,
+			
+			"addInfo" : [ 2, 2 ],
+			"icon" : "iconsbig/bonuscurse2.png",
+			"description" : "{Casts Advanced Curse}\nCurses target after attack, -1 DMG, min damage for 3 turns."
+
+		},
+		 
+		"canFly" : {
+			 
+			"type" : "FLYING"
+		},
+		 
+		"decreaseMorale" : {
+			 
+			"limiters" : [
+				 
+				"OPPOSITE_SIDE"
+			],
+			 
+			"propagationUpdater" : "BONUS_OWNER_UPDATER",
+			 
+			"propagator" : "BATTLE_WIDE",
+			 
+			"stacking" : "Undead Dragons",
+			 
+			"type" : "MORALE",
+			 
+			"val" : -1
+		},
+		"decreaseMoraleicon" : { 
+			"type" : "NONE",
+			"description" : "{Sorrowing Presence}\nThis creature decreases all enemy stacks' Morale by -1.",
+			"icon" : "iconsbig/bonusnegativemorale.png"
+		},
+		"dragon" : {
+			 
+			"type" : "DRAGON_NATURE"
+		},
+		
+		"curseEnchant" : {
+			 
+			"type" : "CREATURE_ENCHANT_POWER",
+			
+			"val" : 3
+		},
+		
+		"dragonbreathspellattack" : {
+			 
+			"type" : "SPELLCASTER",
+			"subtype" : "dragonbreathspell",
+			"val" : 1,
+			"description" : "{Casts Dragon Breath}\nDarkness magic fire orb hits the target and damages nearby units.",
+			"icon" : "iconsbig/bonusdragonbreath.png"
+		},
+		
+		"casts" : {
+			 
+			"type" : "CASTS",
+			
+			"val" : 1
+		},
+		
+		"dragonbreathpower" : {
+			 
+			"type" : "CREATURE_SPELL_POWER",
+			
+			"val" : 400
+		},
+		 
+		"powerAttack" : {
+			 
+			"subtype" : "soulflayingbreath",
+			 
+			"type" : "SPELL_LIKE_ATTACK",
+			 
+			"val" : 0,
+			"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
+			"icon" : "iconsbig/bonussoulflayingbreath.png"
+		},
+		 
+		"undead" : {
+			 
+			"type" : "UNDEAD"
+		}
+	},
+	 
+	"advMapAmount" : {
+		 
+		"max" : 8,
+		 
+		"min" : 3
+	},
+	 
+	"aiValue" : 4695,
+	 
+	"attack" : 18,
+	 
+	"cost" : {
+		 
+		"crystal" : 0,
+		 
+		"gems" : 0,
+		 
+		"gold" : 3000,
+		 
+		"mercury" : 1,
+		 
+		"ore" : 0,
+		 
+		"sulfur" : 0,
+		 
+		"wood" : 0
+	},
+	 
+	"damage" : {
+		 
+		"max" : 50,
+		 
+		"min" : 25
+	},
+	 
+	"defense" : 15,
+	 
+	"description" : "{green|Spectral Dragon}\r\n\r\nNo single type of dragon gives up its bones to form a Spectral Dragon. Instead, these fell beasts are composed of the bones of every breed of dragon, cunningly arranged into a single skeleton and infused with unlife by the sacrifice of a high-ranking Necromancer's soul.\r\n\r\n{gold|Special Abilities:}\r\n Undead. Decreases enemy morale by -1. Casts Advanced Curse 100% before attack. Can cast dragon breath dark magic damage  Dragon.\r\nUnlike the majority of dragons, Bone Dragons, Ghost Dragons and Spectral Dragons don't have long breath attack, i.e. they damage only the troops directly attacked by them. \r\nSpectral dragons have the ability to damage the body by dragon breath dark magic spell, or attack soul of their prey with Advanced Curse before every attack.",
+	 
+	"doubleWide" : true,
+	 
+	"faction" : "necropolis",
+	 
+	"fightValue" : 3227,
+	 
+	 
+	"graphics" : {
+		
+		"iconLarge" : "iconsBig/spectraldragoniconbig.png",
+		
+		"iconSmall" : "iconsSmall/spectraldragoniconsmall.png",
+		
+		"animation" : "battle/spectraldragon.def",
+		 
+		"animationTime" : {
+			 
+			"attack" : 1,
+			 
+			"idle" : 10,
+			 
+			"walk" : 0.75
+		},
+		
+		"map" : "map/spectraldragonmap.def",
+		
+		"mapMask" : [
+			 
+			"VVV",
+			
+			"VAV"
+		],
+		 
+		"timeBetweenFidgets" : 1
+	},
+	 
+	"growth" : 1,
+	 
+	"hitPoints" : 220,
+	 
+	"horde" : 0,
+	 
+	"level" : 7,
+	 
+	"name" : {
+		 
+		"plural" : "Spectral Dragons",
+		 
+		"singular" : "Spectral Dragon"
+	},
+	 
+	"sound" : {
+		 
+		"attack" : "spectraldragonsounds/spectraldragonattack.wav",
+		 
+		"defend" : "spectraldragonsounds/spectraldragondefend.wav",
+		 
+		"killed" : "spectraldragonsounds/spectraldragonkilled.wav",
+		 
+		"move" : "spectraldragonsounds/spectraldragonmove.wav",
+		
+		"startMoving" : "spectraldragonsounds/spectraldragonstartmove.wav",
+		
+		"endMoving" : "spectraldragonsounds/spectraldragonstopmove.wav",
+		 
+		"wince" : "spectraldragonsounds/spectraldragonhit.wav"
+	},
+	 
+	"speed" : 14,
+	 
+	"stackExperience" : [
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "attack",
+				 
+				"type" : "PRIMARY_SKILL"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				8,
+				 
+				9,
+				 
+				10
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "defence",
+				 
+				"type" : "PRIMARY_SKILL"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				8,
+				 
+				9,
+				 
+				10
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "creatureDamageMax",
+				 
+				"type" : "CREATURE_DAMAGE"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				8,
+				 
+				9,
+				 
+				10
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "creatureDamageMin",
+				 
+				"type" : "CREATURE_DAMAGE"
+			},
+			 
+			"values" : [
+				 
+				1,
+				 
+				2,
+				 
+				3,
+				 
+				4,
+				 
+				5,
+				 
+				6,
+				 
+				7,
+				 
+				8,
+				 
+				9,
+				 
+				10
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "STACK_HEALTH",
+				 
+				"valueType" : "PERCENT_TO_BASE"
+			},
+			 
+			"values" : [
+				 
+				5,
+				 
+				10,
+				 
+				15,
+				 
+				20,
+				 
+				25,
+				 
+				30,
+				 
+				35,
+				 
+				40,
+				 
+				45,
+				 
+				50
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"type" : "STACKS_SPEED"
+			},
+			 
+			"values" : [
+				 
+				0,
+				 
+				0,
+				 
+				0,
+				 
+				1,
+				 
+				1,
+				 
+				2,
+				 
+				2,
+				 
+				2,
+				 
+				2,
+				 
+				3
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "fire",
+				 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "air",
+				 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "earth",
+				 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"subtype" : "water",
+				 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
+			 
+			"values" : [
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				false,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true,
+				 
+				true
+			]
+		},
+		 
+		{
+			 
+			"bonus" : {
+				 
+				"addInfo" : [
+					 
+					3,
+					 
+					2
+				],
+				 
+				"subtype" : "curse",
+				 
+				"type" : "SPELL_BEFORE_ATTACK"
+			},
+			 
+			"values" : [
+				 
+				0,
+				 
+				0,
+				 
+				0,
+				 
+				5,
+				 
+				5,
+				 
+				5,
+				 
+				10,
+				 
+				10,
+				 
+				15,
+				 
+				20
+			]
+		}
+	]
+	}
+}

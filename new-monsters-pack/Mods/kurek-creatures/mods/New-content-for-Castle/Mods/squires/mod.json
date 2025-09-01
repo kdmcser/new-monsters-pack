@@ -1,0 +1,50 @@
+{
+	"name" : "Squires",
+	"description" : "Mod which adds 2 new units, Squire and Man at arms including their dwellings and creature banks. Also adds new spell Stun. This mod is a modified version of Man at Arms Hawk mod, it changes a few things in these units, castle faction added plus new dwelling.",
+	"author" : 	"Mod: Kurek and Lord Hawk. Graphics: Alex-ander, FCst1, Andruids, Lord Hawk.",
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+	"changelog" : {
+			
+			"1.0"   : [ "First release" ]
+    },
+	"modType" : "Creatures",	
+	"compatibility":
+	{
+		"min" : "1.6.0"
+	},
+	
+	"conflicts" :
+    [
+        "new-monsters-pack.lord-hawk-creatures-pack.man at arms"
+    ],
+	
+	"creatures" :
+	[
+		"config/squires/squire.json",
+		"config/squires/manatarms.json"
+	],
+
+	"spells" :
+	[
+		"config/squires/stun.json"
+	],
+
+	"objects" : 
+	[ 
+		"config/squires/dwellings.json",
+		"config/squires/royaltreasury.json"  
+	],
+	"battlefields" :
+	[
+		"config/squires/royaltreasurybattlefield.json"
+	],
+	
+	"polish" : {
+		"name": "Giermkowie",
+		"description": "Mod, który dodaje 2 nowe jednostki: giermka i zbrojnego, wraz z ich siedzibami i bankami stworzeń. Dodaje również nowe zaklęcie Ogłuszenie. Ten mod to zmodyfikowana wersja moda Lorda Hawka MAN AT ARMS, nowa wersja zmienia kilka rzeczy w tych jednostkach, przypisuje im frakcję zamku i nową siedzibę."
+	}
+	
+}

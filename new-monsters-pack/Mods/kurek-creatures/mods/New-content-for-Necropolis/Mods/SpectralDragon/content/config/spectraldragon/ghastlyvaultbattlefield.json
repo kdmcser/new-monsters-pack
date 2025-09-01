@@ -1,0 +1,6 @@
+{
+	"ghastlyvaultbattlefield": {
+		"graphics": "battle/ghastlyvaultbattlefield.png",
+		"isSpecial" : true
+	}
+}

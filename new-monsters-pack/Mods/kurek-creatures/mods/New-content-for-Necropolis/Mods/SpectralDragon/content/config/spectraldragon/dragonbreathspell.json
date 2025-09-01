@@ -1,0 +1,244 @@
+{
+	"dragonbreathspell":
+	{
+	 
+	"animation" : {
+		 
+		"hit" : [
+			 
+			"spells/dragonexplosion.def"
+		],
+		 
+		"projectile" : [
+			 
+			{
+				 
+				"defName" : "spells/dragonboltj.def",
+				 
+				"minimumAngle" : 0
+			},
+			 
+			{
+				 
+				"defName" : "spells/dragonbolth.def",
+				 
+				"minimumAngle" : 0.6
+			},
+			 
+			{
+				 
+				"defName" : "spells/dragonboltg.def",
+				 
+				"minimumAngle" : 0.9
+			},
+			 
+			{
+				 
+				"defName" : "spells/dragonboltf.def",
+				 
+				"minimumAngle" : 1.2
+			},
+			 
+			{
+				 
+				"defName" : "spells/dragonbolte.def",
+				 
+				"minimumAngle" : 1.5
+			}
+		]
+	},
+	 
+	"flags" : {
+		 
+		"damage" : true,
+		 
+		"negative" : true
+	},
+	 
+	"gainChance" : {
+		 
+		"castle" : 0,
+		 
+		"conflux" : 0,
+		 
+		"dungeon" : 10,
+		 
+		"fortress" : 7,
+		 
+		"inferno" : 10,
+		 
+		"necropolis" : 10,
+		 
+		"rampart" : 0,
+		 
+		"stronghold" : 3,
+		 
+		"tower" : 2
+	},
+	 
+	"graphics" : {
+		
+		"iconImmune" : "spells/dragonbreathimmunity.png",
+		"iconScenarioBonus" : "spells/spellScenariodragonbreath.png",
+		"iconEffect" : "spells/spellEffectdragonbreath.png",
+		"iconBook" : "spells/spellBookdragonbreath.png",
+		"iconScroll" : "spells/spellScrolldragonbreath.png"
+
+	},
+	 
+ 
+	"level" : 5,
+	 
+	"levels" : {
+		 
+		"advanced" : {
+			 
+//			"aiValue" : 70,
+			 
+			"battleEffects" : {
+				 
+				"directDamage" : {
+					 
+					"type" : "core:damage"
+				}
+			},
+			 
+			"cost" : 40,
+			 
+			"description" : "{Advanced Dragon Breath}\n\nThe caster exhales a cloud of toxic vapors that target a single monster and damages all nearby creatures.\n\n",
+			 
+			"power" : 180,
+			 
+			"range" : "0,1",
+			 
+			"targetModifier" : {
+				 
+				"smart" : true
+			}
+		},
+		 
+		"base" : {
+			 
+			"battleEffects" : {
+				 
+				"directDamage" : {
+					 
+					"type" : "core:damage"
+				}
+			},
+			 
+			"range" : "0,1",
+			 
+			"targetModifier" : {
+				 
+				"smart" : true
+			}
+		},
+		 
+		"basic" : {
+			 
+//			"aiValue" : 70,
+			 
+			"battleEffects" : {
+				 
+				"directDamage" : {
+					 
+					"type" : "core:damage"
+				}
+			},
+			 
+			"cost" : 45,
+			 
+			"description" : "{Basic Dragon Breath}\n\nThe caster exhales a cloud of toxic vapors that target a single monster and damages all nearby creatures.\n",
+			 
+			"power" : 100,
+			 
+			"range" : "0,1",
+			 
+			"targetModifier" : {
+				 
+				"smart" : true
+			}
+		},
+		 
+		"expert" : {
+			 
+//			"aiValue" : 70,
+			 
+			"battleEffects" : {
+				 
+				"directDamage" : {
+					 
+					"type" : "core:damage"
+				}
+			},
+			 
+			"cost" : 35,
+			 
+			"description" : "{Expert Dragon Breath}\n\nThe caster exhales a cloud of toxic vapors that target a single monster and damages all nearby creatures.\n\nThe caster exhales a cloud of toxic vapors that target a single monster and damages all nearby creatures.\n",
+			 
+			"power" : 250,
+			 
+			"range" : "0,1",
+			 
+			"targetModifier" : {
+				 
+				"smart" : true
+			}
+		},
+		 
+		"none" : {
+			 
+//			"aiValue" : 70,
+			 
+			"battleEffects" : {
+				 
+				"directDamage" : {
+					 
+					"type" : "core:damage"
+				}
+			},
+			 
+			"cost" : 45,
+			 
+			"description" : "{Dragon Breath}\n\nThe caster exhales a cloud of toxic vapors that target a single monster and damages all nearby creatures.\n",
+			 
+			"power" : 100,
+			 
+			"range" : "0,1",
+			 
+			"targetModifier" : {
+				 
+				"smart" : true
+			}
+		}
+	},
+	 
+	"name" : "Dragon Breath",
+	 
+	"power" : 75,
+	 
+	"school" : {
+		 
+		"air" : false,
+		 
+		"earth" : false,
+		 
+		"fire" : true,
+		 
+		"water" : false
+	},
+	 
+	"sounds" : {
+		 
+		"cast" : "spectraldragonsounds/dragonbreath"
+	},
+	 
+	"targetCondition" : {
+	},
+	 
+	"targetType" : "CREATURE",
+	 
+	"type" : "combat"
+}
+}

@@ -1,37 +1,48 @@
 {
-	"kurekCherub" : {
-		"name" : {
+	"kurekCherub":
+	{
+		"name" :
+		{
 			"plural" : "Cherubim",
 			"singular" : "Cherub"
 		},
-		"description" : "{#ff0000|Cherub}\r\n\r\nCherubim in the are high in the hierarchy celestial beings who serve as guardians and protectors of divine holiness. Described as having many wings and great power and speed, they often appear in the visions of prophets, symbolizing glory and holy presence. With their great offensive and defensive power and flying ability, Cherubs are among the mightiest and fastest creatures among celestials. \n\n{gold|They do 150% damage when attacking devils and strengthen morale of allied units.}\n\n {#00aaff|Cherubim can 3 times resurrect allied units fallen on the battlefield, provided they were not undead in life.}",
-
-		"advMapAmount" : {
+		"description" : "{green|Cherub}\r\n\r\nCherubim in the are high in the hierarchy celestial beings who serve as guardians and protectors of divine holiness. Described as having many wings and great power and speed, they often appear in the visions of prophets, symbolizing glory and holy presence. With their great offensive and defensive power and flying ability, Cherubs are among the mightiest and fastest creatures among celestials. \n\n{gold|They do 150% damage when attacking devils and strengthen morale of allied units.}\n\n {#00aaff|Cherubim can 3 times resurrect allied units fallen on the battlefield, provided they were not undead in life.}",
+		
+		"advMapAmount" :
+		{
 			"max" : 2,
 			"min" : 1
 		},
-		"hasDoubleWeek" : true,
-		"faction" : "castle",
+		"hasDoubleWeek": true,
+		"faction": "castle",
 		"aiValue" : 12000,
 		"attack" : 30,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 8000,
 			"gems" : 3
 		},
-		"damage" : {
+		"damage" :
+		{
 			"max" : 50,
 			"min" : 50
 		},
 		"defense" : 35,
 		"fightValue" : 12000,
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "battle/cherub.def",
 			"map" : "map/cherub_on_map.def",
+			"mapMask" : [
+			"VVV",
+			"VAV"
+						],
 			"iconSmall" : "iconssmall/cherubavatarsmall.png",
 			"iconLarge" : "iconsbig/cherubavatarbig.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.3,
+			"animationTime" :
+			{
+				"walk" : 1.30,
 				"attack" : 1,
 				"idle" : 10
 			}
@@ -40,289 +51,195 @@
 		"doubleWide" : true,
 		"hitPoints" : 300,
 		"level" : 7,
-		"sound" : {
-			"attack" : "battle1/AAGLATTK1.wav",
-			"defend" : "battle1/AAGLDFND1.wav",
-			"killed" : "battle1/AAGLKILL1.wav",
-			"move" : "battle1/AAGLMOVE1.wav",
-			"wince" : "battle1/AAGLWNCE1.wav",
+		"sound" :
+		{
+			"attack": "battle1/AAGLATTK1.wav",
+			"defend": "battle1/AAGLDFND1.wav",
+			"killed": "battle1/AAGLKILL1.wav",
+			"move": "battle1/AAGLMOVE1.wav",
+			"wince": "battle1/AAGLWNCE1.wav",
 			"startMoving" : "battle1/AAGLSTARTMOVE1.wav",
-			"endMoving" : "battle1/AAGLENDMOVE1.wav"
+            "endMoving" : "battle1/AAGLENDMOVE1.wav"
 		},
 		"speed" : 21,
-		"abilities" : {
-			"canFly" : {
+		"abilities" :
+		{
+			"canFly" : 
+			{
 				"type" : "FLYING"
 			},
-			"resurrection100hp" : {
+			"resurrection100hp" : 
+			{
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "resurrection",
 				"val" : 100
 			},
-			"resurrects" : {
+			"resurrects" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "resurrection",
-				"val" : 3
+				"val" : 3,
+				"icon" : "iconsbig/bonusresurrect3.png"
 			},
-			"spellpoints" : {
+			"spellpoints" :
+			{
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"hateDevils" : {
+			"hateDevils" :
+			{
 				"type" : "HATE",
 				"subtype" : "devil",
 				"val" : 50
 			},
-			"hateArchDevils" : {
+			"hateArchDevils" :
+			{
 				"type" : "HATE",
 				"subtype" : "archDevil",
 				"val" : 50
 			},
-			"const_raises_morale" : {
-				"propagator" : "HERO",
-				"stacking" : "Angels",
+			"const_raises_morale" : 
+			{
 				"type" : "MORALE",
-				"val" : 1
+				"val" : 1,
+				"propagator" : "ARMY",
+				"description" : "@creatures.core.angel.bonus.raisesMorale",
+				"stacking" : "Angels",
+				"icon" : "iconsbig/bonusmoraleangel.png"
 			},
-			"KING_2" : {
+
+			
+			"KING_2" : 
+			{
 				"type" : "KING",
 				"val" : 2
 			},
 			"powerAttack" : {
 				"subtype" : "holyBlade",
 				"type" : "SPELL_LIKE_ATTACK",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
+				"icon" : "iconsbig/bonusholyblade.png"
 			}
 		},
 		"stackExperience" : [
-			{
-				"bonus" : {
-					"subtype" : "attack",
+		{
 
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+			"bonus" : {
+
+				"subtype" : "attack",
+
+				"type" : "PRIMARY_SKILL"
+			},
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "defence",
+
+				"type" : "PRIMARY_SKILL"
+			},
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "creatureDamageMax",
+				"type" : "CREATURE_DAMAGE"
+			},
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+		},
+
+		{
+
+			"bonus" : {
+
+				"subtype" : "creatureDamageMin",
+				"type" : "CREATURE_DAMAGE"
+			},
+			"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+		},
+
+		{
+			"bonus" : {
+
+				"type" : "STACK_HEALTH",
+				"valueType" : "PERCENT_TO_BASE"
+			},
+			"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+		},
+
+		{
+			"bonus" : {
+
+				"type" : "STACKS_SPEED"
+			},
+			"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
+		},
+
+		{
+			"bonus" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+			},
+			"values" : [ false, false, false, false, true, true, true, true, true, true
+			]
+		},
+
+		{
+			"bonus" : {
+
+				"type" : "MIND_IMMUNITY"
+			},
+			"values" : [ false, false, false, false, false, false, false, true, true, true ]
+		},
+
+		{
+
+			"bonus" : {
+				"subtype" : "armageddon",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"values" : [ false, false, true, true, true, true, true, true, true, true ]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "CASTS"
+			},
+			"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+		},
+
+		{
+
+			"bonus" : {
+
+				"type" : "MAGIC_RESISTANCE"
 			},
 
-			{
-				"bonus" : {
-					"subtype" : "defence",
+			"values" : [ 0, 0, 0, 0, 0, 10, 20, 30, 40, 50 ]
+		},
 
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+		{
+
+			"bonus" : {
+
+				"subtype" : "water",
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY"
 			},
-
-			{
-				"bonus" : {
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
-			},
-
-			{
-				"bonus" : {
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "PERCENT_TO_BASE"
-				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					2,
-					2,
-					2,
-					2,
-					3
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
-					"description" : "PLACEHOLDER",
-					"val" : 0
-				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "MIND_IMMUNITY"
-				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true
-				]
-			},
-
-			{
-				"bonus" : {
-					"subtype" : "armageddon",
-					"type" : "SPELL_IMMUNITY"
-				},
-				"values" : [
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "CASTS"
-				},
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1
-				]
-			},
-
-			{
-				"bonus" : {
-					"type" : "MAGIC_RESISTANCE"
-				},
-
-				"values" : [
-					0,
-					0,
-					0,
-					0,
-					0,
-					10,
-					20,
-					30,
-					40,
-					50
-				]
-			},
-
-			{
-				"bonus" : {
-					"subtype" : "water",
-					"type" : "NEGATIVE_EFFECTS_IMMUNITY"
-				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true
-				]
-			}
-		]
+			"values" : [ false, false, false, false, false, false, true, true, true, true ]
+		}
+	]
 	}
 }
+
+

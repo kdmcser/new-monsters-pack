@@ -1,298 +1,250 @@
 {
-	"orangedragon" : {
-		"name" : {
-			"plural" : "Orange Dragons",
-			"singular" : "Orange Dragon"
+	"orangedragon": {
+		"name": {
+			"plural": "Orange Dragons",
+			"singular": "Orange Dragon"
 		},
-		"advMapAmount" : {
-			"max" : 2,
-			"min" : 1
+		"advMapAmount": {
+			"max": 2,
+			"min": 1
 		},
-		"hasDoubleWeek" : false,
-		"faction" : "neutral",
+		"hasDoubleWeek": false,
+		"faction": "neutral",
 		"excludeFromRandomization" : true,
-		"description" : "{#ff0000|Orange Dragon}\r\n\r\nAny forest under the protection of an orange dragon is a calm and magical place, one best left alone if you're wise. Like the sprite, this creature is born magically, spawned by the forces of Nature from a clear pool of water.\r\n\r\n{gold|Special Ability : Orange dragons are almost completely immune to magical attacks, reflecting spells back at the caster (70%, similar to the Magic Mirror spell). \r\n\r\nThey can also cast spells such as Confusion, Fire Ring, Fireball, Lightning Bolt, Ice Bolt, Ice Ring, Inferno, Meteor Shower, Chain Lightning and Magic Arrow.}",
-		"aiValue" : 35501,
-		"attack" : 20,
-		"cost" : {
-			"gold" : 14000,
-			"gems" : 13
+		"description" : "{green|Orange Dragon}\r\n\r\nAny forest under the protection of an orange dragon is a calm and magical place, one best left alone if you're wise. Like the sprite, this creature is born magically, spawned by the forces of Nature from a clear pool of water.\r\n\r\n{gold|Special Abilities:}\r\n Orange dragons are almost completely immune to magical attacks, reflecting spells back at the caster (70%, similar to the Magic Mirror spell). \r\n\r\nThey can also cast spells such as Confusion, Fire Ring, Fireball, Lightning Bolt, Ice Bolt, Ice Ring, Inferno, Meteor Shower, Chain Lightning and Magic Arrow.",
+		"aiValue": 35501,
+		"attack": 20,
+		"cost": {
+			"gold": 14000,
+			"gems": 13,
 		},
-		"damage" : {
-			"max" : 30,
-			"min" : 20
+		"damage": {
+			"max": 30,
+			"min": 20
 		},
-		"defense" : 30,
-		"fightValue" : 20000,
-		"graphics" : {
-			"animation" : "battle/orangedragon.def",
-			"map" : "map/orangedragononmap.def",
-			"iconSmall" : "iconsSmall/orangedragonavatarsmall.png",
-			"iconLarge" : "iconsBig/orangedragonavatarbig.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.0,
-				"attack" : 0.7,
-				"idle" : 10
+		"defense": 30,
+		"fightValue": 20000,
+		"graphics": {
+			"animation": "battle/orangedragon.def",
+			"map": "map/orangedragononmap.def",
+			"iconSmall": "iconsSmall/orangedragonavatarsmall.png",
+			"iconLarge": "iconsBig/orangedragonavatarbig.bmp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"walk": 1.00,
+				"attack": 0.7,
+				"idle": 10
 			}
 		},
-		"growth" : 1,
-		"doubleWide" : true,
-		"hitPoints" : 500,
-		"level" : 8,
-		"sound" : {
-			"attack" : "OrangeDragon/orangedragonmelee.wav",
-			"defend" : "OrangeDragon/defend.wav",
-			"killed" : "OrangeDragon/orangedragondie.wav",
-			"move" : "OrangeDragon/fly.wav",
-			"wince" : "OrangeDragon/orangedragongethit.wav"
+		"growth": 1,
+		"doubleWide": true,
+		"hitPoints": 500,
+		"level": 8,
+		"sound": {
+			"attack": "OrangeDragon/orangedragonmelee.wav",
+			"defend": "OrangeDragon/defend.wav",
+			"killed": "OrangeDragon/orangedragondie.wav",
+			"move": "OrangeDragon/fly.wav",
+			"wince": "OrangeDragon/orangedragongethit.wav"
 		},
-		"speed" : 10,
-		"abilities" : {
-			"dragon" : {
-				"type" : "DRAGON_NATURE"
+		"speed": 10,
+		"abilities": {
+			"dragon": {
+				"type": "DRAGON_NATURE"
 			},
-			"canFly" : {
-				"type" : "FLYING",
-				"subtype" : "movementFlying"
+			"canFly": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
 			},
-			"spellpower" : {
+			"spellpower" :
+			{
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 700
 			},
-			"mirror" : {
+			"mirror" :
+			{
 				"type" : "MAGIC_MIRROR",
-				"val" : 70
+				"val" : 70,
+				"icon" : "spells/bonusmagicmirror2.png"
 			},
-			"powerAttack" : {
+			"powerAttack" :
+			{
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "enchantedStrike",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
+				"icon" : "spells/bonuspowerattackfdr.png"
 			},
-			"castsMagicArrow" : {
+			"castsMagicArrow" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "magicArrow",
 				"addInfo" : 22,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusmagicarrow2.png"
 			},
-			"castsIceBolt" : {
+			"castsIceBolt" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "iceBolt",
 				"addInfo" : 22,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusicebolt2.png"
 			},
-			"castsLightningBolt" : {
+			"castsLightningBolt" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "lightningBolt",
 				"addInfo" : 22,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonuslightningbolt2.png"
 			},
-			"castsChainLightning" : {
+			"castsChainLightning" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "chainLightning",
 				"addInfo" : 5,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonuschainlightning2.png"
 			},
-			"castsFrostRing" : {
+			"castsFrostRing" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "frostRing",
 				"addInfo" : 10,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusfrostring2.png"
 			},
-			"castsFireball" : {
+			"castsFireball" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "fireball",
 				"addInfo" : 21,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusfireball2.png"
 			},
-			"castsInferno" : {
+			"castsInferno" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "inferno",
 				"addInfo" : 5,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusinferno2.png"
 			},
-			"castsMeteorShower" : {
+			"castsMeteorShower" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "meteorShower",
 				"addInfo" : 5,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusmeteorshower2.png"
 			},
-			"castsConfusion" : {
+			"castsConfusion" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "confusiondragon",
 				"addInfo" : 21,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusconfusion2.png"
 			},
-			"castsFireRing" : {
+			"castsFireRing" :
+			{
 				"type" : "SPELLCASTER",
 				"subtype" : "fireRing",
 				"addInfo" : 10,
-				"val" : 2
+				"val" : 2,
+				"icon" : "spells/bonusfirering2.png"
 			},
-			"casts" : {
+			"casts" :
+			{
 				"type" : "CASTS",
 				"val" : 7
 			},
-			"king" : {
-				"type" : "KING",
-				"val" : 0
-			}
-		},
-		"stackExperience" : [
+			"king" :
 			{
-				"bonus" : {
+			"type" : "KING",
+				"val" :0
+			},
+		},
+"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
-			},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageBoth"
+					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9,
-					10
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					2,
-					2,
-					2,
-					2,
-					3
-				]
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "ENCHANTED",
 					"subtype" : "magicMirror"
 				},
-				"values" : [
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3,
-					3,
-					3
-				]
+				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "clone",
-					"addInfo" : [
-						3,
-						0
-					]
+					"addInfo" : [3, 0]
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
-				"values" : [
-					false,
-					false,
-					false,
-					false,
-					true,
-					true,
-					true,
-					true,
-					true,
-					true
-				]
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
 		]
 	},
-	"core:fairieDragon" : {
-		"upgrades" : [
-			"orangedragon"
-		]
-	}
+    "core:fairieDragon": {
+        "upgrades": ["orangedragon"]
+    }
 }

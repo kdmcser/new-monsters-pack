@@ -210,32 +210,15 @@
 		},
 
 		"targetCondition" : {
-			"anyOf" : [
-				{
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusSourceType" : "SPELL_EFFECT",
-					"bonusSourceID" : "stonegaze"
-				},
-				{
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusSourceType" : "SPELL_EFFECT",
-					"bonusSourceID" : "turntostone"
-				}
-			],
-			"noneOf" : [
-				{
-					"type" : "bonus.SIEGE_WEAPON",
-					"value" : "absolute"
-				},
-				{
-					"type" : "core:creature.infernaltroglodyte",
-					"value" : "absolute"
-				},
-				{
-					"type" : "core:creature.troglodyte",
-					"value" : "absolute"
-				}
-			]
+			"anyOf" : {
+					"spell.stoneGaze" : "absolute",
+					"spell.turntostone" : "absolute"
+			},
+			"noneOf" : {
+					"bonus.SIEGE_WEAPON" : "absolute",
+					"core:creature.infernalTroglodyte" : "absolute",
+					"core:creature.troglodyte" : "absolute"
+			}
 		},
 		"targetType" : "CREATURE",
 

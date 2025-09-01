@@ -1,0 +1,27 @@
+{
+	"core:cure" : {
+		"graphics" : {
+			"iconImmune" : "IconsBig/imm_cure.png"
+		}
+	},
+	"core:resurrect" : {
+		"graphics" : {
+			"iconImmune" : "IconsBig/imm_resurrection.png"
+		}
+	},
+	"core:sacrifice" : {
+		"graphics" : {
+			"iconImmune" : "IconsBig/imm_animatedead.png"
+		}
+	},
+	"core:animateDead" : {
+		"graphics" : {
+			"iconImmune" : "IconsBig/imm_animatedead.png"
+		}
+	},
+	"core:firstAid" : {
+		"graphics" : {
+			"iconImmune" : "IconsBig/imm_firstaid.png"
+		}
+	}
+}

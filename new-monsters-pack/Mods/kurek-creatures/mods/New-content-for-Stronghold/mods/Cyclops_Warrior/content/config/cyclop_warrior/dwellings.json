@@ -7,7 +7,7 @@
 				"guards" : true,
 				"creatures" : [
 					[
-						"kurekCyclopsWarrior"
+						"kurekcyclopswarrior"
 					]
 				],
 				"sounds" : {

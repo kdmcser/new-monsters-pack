@@ -1,43 +1,53 @@
 {
-	"anubisblademaster" : {
-		"name" : {
+	"anubisblademaster":
+	{
+		
+		"name" :
+		{
 			"plural" : "Anubian Blademasters",
 			"singular" : "Anubian Blademaster"
 		},
-		"description" : "{#ff0000|Anubian Blademaster}\r\n\r\nThe pinnacle of Anubian power. Trained in battle, they bring doom to their enemies. Ja'Bak, the supreme pharaoh, descends from them. \r\n\r\n{gold|Special Ability : They draw their strength from a fascination with the afterlife, which imbues their knopeshes with the power of death. They can throw their knopeshes at foes twice.}",
-		"advMapAmount" : {
+		"description" : "{green|Anubian Blademaster}\r\n\r\nThe pinnacle of Anubian power. Trained in battle, they bring doom to their enemies. Ja'Bak, the supreme pharaoh, descends from them. \r\n\r\n{gold|Special Abilities:}\r\n They draw their strength from a fascination with the afterlife, which imbues their knopeshes with the power of death. They can throw their knopeshes at foes twice.",		
+		"advMapAmount" :
+		{
 			"max" : 8,
 			"min" : 3
 		},
 		"faction" : "pavilion",
 		"aiValue" : 4050,
 		"attack" : 30,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 4000,
-			"gems" : 2
+            "gems" : 2
 		},
-		"damage" : {
+		"damage" :
+		{
 			"max" : 45,
 			"min" : 40
 		},
 		"defense" : 20,
 		"fightValue" : 3850,
-		"hasDoubleWeek" : false,
-		"graphics" : {
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
 			"animation" : "bastion/battle/creatures/AnubisWarrior.def",
 			"map" : "bastion/map/creatures/AnubisWarriorMap.def",
 			"iconSmall" : "bastion/iconsSmall/creatures/AnubisWarriorSmall.bmp",
 			"iconLarge" : "bastion/iconsBig/creatures/AnubisWarrior.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.0,
-				"idle" : 10.0,
-				"attack" : 1.0
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
 			},
-			"missile" : {
+               "missile" :
+			{
 				"projectile" : "bastion/battle/creatures/projectile/shot281.def",
 				"attackClimaxFrame" : 7,
-				"offset" : {
+				"offset" :
+				{
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -45,62 +55,67 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [
-					90,
-					72,
-					45,
-					27,
-					0,
-					-27,
-					-45,
-					-72,
-					-90,
-					0,
-					0,
-					0
-				]
-			}
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}	
+	
 		},
-		"growth" : 1,
+        "growth" : 1,
 		"hitPoints" : 250,
 		"level" : 7,
-
-		"sound" : {
+        
+   
+		"sound" :
+		{
 			"attack" : "bastion/anubAtt.wav",
-			"defend" : "bastion/anubDef.wav",
-			"killed" : "bastion/anubDie.wav",
-			"move" : "DEVLMOVE.wav",
-			"wince" : "bastion/anubHit.wav",
-			"shoot" : "bastion/anubShoot.wav",
-			"startMoving" : "bastion/anubTel.wav",
-			"endMoving" : "bastion/anubTel.wav"
-		},
+			"defend": "bastion/anubDef.wav",
+			"killed": "bastion/anubDie.wav",
+			"move": "DEVLMOVE.wav",
+			"wince": "bastion/anubHit.wav",
+            "shoot" : "bastion/anubShoot.wav",
+			"startMoving": "bastion/anubTel.wav",
+			"endMoving": "bastion/anubTel.wav"
+ 		},
 		"speed" : 13,
-		"shots" : 2,
-		"abilities" : {
-			"canShoot" : {
+        "shots" : 2,
+		"abilities" :
+		{
+			"canShoot" :
+			{
 				"type" : "SHOOTER"
 			},
-			"teleports" : {
+			    "teleports" :
+			{
 				"type" : "FLYING",
-				"subtype" : "movementTeleporting"
+				"subtype" : "movementTeleporting",
+				"description" : "{Teleport}\nTeleports when moving\n(ignores obstacles)",
+				"icon" : "bastion/iconsBig/bonusflyteleport.png"
 			},
-			"immuneToMind" : {
+            "immuneToMind" : 
+			{
 				"type" : "MIND_IMMUNITY"
 			},
 
-			"regenerate" : {
+            "regenerate" : 
+			{
 				"type" : "HP_REGENERATION",
 				"val" : 200
 			},
-			"deathCloud" : {
+            "deathCloud" :
+			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "deathCloud"
+				"subtype" : "deathCloud",
+				"description" : "{Death Cloud Attack}\nThrows blades of dark magic, damages the target and adjacent non-undead units.",
+				"icon" : "bastion/iconsBig/bonusdeathcloud.png"
 			},
-			"noPenalty" : {
+            "noPenalty" :
+			{
 				"type" : "NO_MELEE_PENALTY"
-			}
+			},
+
 		},
-		"stackExperience" : []
+		"stackExperience" :
+		[
+		
+		]
 	}
 }

@@ -1,187 +1,142 @@
 {
-	"waspsentry" : {
-		"name" : {
+	"waspsentry":
+	{
+		"name" :
+		{
 			"singular" : "Wasp Sentry",
 			"plural" : "Wasp Sentries"
 		},
-		"description" : "{Wasp Sentry}\r\n\r\nThe Wasp Sentry is a vigilant defender of the hive, always ready to protect its territory. Stronger and more aggressive than the Worker Wasp, it poses a significant threat to any intruder.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Wasp Sentry's mobility makes it difficult to corner or strike effectively.\r\n{gold|Venomous Sting (25% chance after attack):} Its sting has an increased chance to poison enemies, dealing damage over time.\r\n{gold|Strike and Return:} The Wasp Sentry attacks swiftly and retreats, minimizing the risk of being surrounded.\r\n",
+		"description": "{green|Wasp Sentry}\r\n\r\nThe Wasp Sentry is a vigilant defender of the hive, always ready to protect its territory. Stronger and more aggressive than the Worker Wasp, it poses a significant threat to any intruder.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} The Wasp Sentry's mobility makes it difficult to corner or strike effectively.\r\n{gold|Venomous Sting (25% chance after attack):} Its sting has an increased chance to poison enemies, dealing damage over time.\r\n{gold|Strike and Return:} The Wasp Sentry attacks swiftly and retreats, minimizing the risk of being surrounded.\r\n" ,
 		"faction" : "neutral",
 		"level" : 4,
-		"cost" : {
-			"gold" : 350
-		},
+		"cost" : { "gold" : 350 },
 		"speed" : 13,
 		"hitPoints" : 20,
 		"attack" : 7,
 		"defense" : 7,
 		"doubleWide" : false,
-		"damage" : {
+		"damage" :
+		{
 			"min" : 3,
 			"max" : 6
 		},
 		"fightValue" : 518,
 		"aiValue" : 560,
-		"advMapAmount" : {
+		"advMapAmount" :
+		{
 			"min" : 11,
 			"max" : 18
 		},
 		"growth" : 7,
-		"hasDoubleWeek" : false,
-		"abilities" : {
-			"venom" : {
+		"hasDoubleWeek": false,
+		"abilities" :
+		{
+			"venom" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
-				"val" : 25
+				"val" : 25,
+				"icon" : "wasps/bonuspoisonwasp.png",
+				"description" : "{Venomous Sting}\nTarget loses 10% max HP per round. 25% chance, 3 rounds."
 			},
-			"spellpower" : {
+			"spellpower" :
+			{
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 700
 			},
-			"spellpoints" : {
+			"spellpoints" :
+			{
 				"type" : "CASTS",
 				"val" : 5
 			},
-			"flying" : {
+			"flying" :
+			{
 				"type" : "FLYING",
-				"subtype" : "movementFlying"
-			},
-			"returnafterstrike" : {
-				"type" : "RETURN_AFTER_STRIKE"
-			}
+				"subtype" : "movementFlying",
+				"icon" : "wasps/e_flywasp.png"
+			},	
+			"returnafterstrike" :			
+			{
+				"type" : "RETURN_AFTER_STRIKE",
+				"icon" : "wasps/bonusattackandreturnwasp.png"
+			}					
 		},
-		"graphics" : {
+		"graphics" :
+		{
 			"iconSmall" : "wasps/sentryportraitsmall.png",
 			"iconLarge" : "wasps/sentryportraitbig2.png",
 			"map" : "wasps/waspsentrymap.def",
-			"mapMask" : [
-				"VVV",
-				"VAV"
-			],
+			"mapMask" : [ "VVV", "VAV"],
 			"animation" : "wasps/waspsentry.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.2,
-				"idle" : 15.0,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 15.00,
 				"attack" : 1
 			}
 		},
-		"sound" : {
-			"attack" : "waspsounds/waspattack.wav",
-			"defend" : "waspsounds/waspdefend.wav",
-			"killed" : "waspsounds/waspdeath.wav",
-			"move" : "waspsounds/waspmove.wav",
+		"sound" :
+		{
+			"attack": "waspsounds/waspattack.wav",
+			"defend": "waspsounds/waspdefend.wav",
+			"killed": "waspsounds/waspdeath.wav",
+			"move": "waspsounds/waspmove.wav",
 			"startMoving" : "waspsounds/waspstartmove.wav",
 			"endMoving" : "waspsounds/waspstopmove.wav",
-			"wince" : "waspsounds/waspwince.wav"
+			"wince": "waspsounds/waspwince.wav"
 		},
-		"stackExperience" : [
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7,
-					8
-				]
-			},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					4
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			}
 		]
 	}
 }
+
+

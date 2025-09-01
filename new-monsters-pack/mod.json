@@ -1,13 +1,18 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.2",
+	"version" : "1.4.3",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.3" : [
+			"New Kurek creatures: Spectral Dragon, Squire, Man at arms, Scholar, Lecturer",
+			"New Kurek Creatures: Custom icons for new creature abilities",
+			"Invisible Man submod: custom creature icons by Kurek"
+		],
 		"1.4.2" : [
 			"Update for vcmi-1.7 format"
 		],
