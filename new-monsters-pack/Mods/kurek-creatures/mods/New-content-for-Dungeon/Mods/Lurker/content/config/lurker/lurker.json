@@ -100,7 +100,8 @@
 			"powerAttack" : {
 				"subtype" : "hexingGaze",
 				"type" : "SPELL_LIKE_ATTACK",
-				"val" : 0
+				"val" : 0,
+				"hidden" : true
 			},
 			"shooter" : {
 				"type" : "SHOOTER"

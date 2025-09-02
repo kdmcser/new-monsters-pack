@@ -196,7 +196,8 @@
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "fieryeye",
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "spell/bonusfieryeye.png"
+				"icon" : "spell/bonusfieryeye.png",
+				"hidden" : true
 			},
 			"twohexattackcyclopseye" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",

@@ -101,7 +101,8 @@
 				"type" : "SPELL_LIKE_ATTACK",
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "iconsbig/bonusholyblade.png"
+				"icon" : "iconsbig/bonusholyblade.png",
+				"hidden" : true
 			}
 		},
 		"stackExperience" : [

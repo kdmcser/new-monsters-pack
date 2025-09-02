@@ -1,13 +1,16 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.5",
+	"version" : "1.4.6",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.6" : [
+			"Some unwanted creature ability icons were hidden"
+		],
 		"1.4.5" : [
 			"Fix for dwelling masks (with few exceptions in Extra Creature Pack submod)"
 		],

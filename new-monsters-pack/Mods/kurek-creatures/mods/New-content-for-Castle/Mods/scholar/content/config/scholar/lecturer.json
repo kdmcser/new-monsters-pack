@@ -8,7 +8,8 @@
 
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "iconsBig/holyblast2.png"
+				"icon" : "iconsBig/holyblast2.png",
+				"hidden" : true
 			},
 
 			"shooter" : {

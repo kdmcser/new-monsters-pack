@@ -70,7 +70,8 @@
 				"subtype" : "enchantedStrike",
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "spells/bonuspowerattackfdr.png"
+				"icon" : "spells/bonuspowerattackfdr.png",
+				"hidden" : true
 			},
 			"castsMagicArrow" : {
 				"type" : "SPELLCASTER",

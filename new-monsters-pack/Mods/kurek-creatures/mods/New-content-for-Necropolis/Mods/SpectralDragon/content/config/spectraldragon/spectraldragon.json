@@ -83,7 +83,8 @@
 
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
-				"icon" : "iconsbig/bonussoulflayingbreath.png"
+				"icon" : "iconsbig/bonussoulflayingbreath.png",
+				"hidden" : true
 			},
 
 			"undead" : {
