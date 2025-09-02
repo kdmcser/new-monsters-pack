@@ -21,8 +21,8 @@
 					"default" : {
 						"animation" : "dwelling/pillarofglances.def",
 						"mask" : [
-							"VVBV",
-							"VBBB",
+							"VVVV",
+							"VVBB",
 							"VVAB"
 						]
 					}

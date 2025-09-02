@@ -23,8 +23,8 @@
 						"animation" : "dwelling/Cyclop_Larder.def",
 						"mask" : [
 							"VVV",
-							"BBB",
-							"BAB"
+							"VBB",
+							"VAB"
 						]
 					}
 				}

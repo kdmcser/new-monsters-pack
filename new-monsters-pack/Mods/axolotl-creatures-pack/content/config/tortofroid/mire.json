@@ -14,8 +14,8 @@
 						"animation" : "map/tortofroid/mire",
 						"mask" : [
 							"VVVV",
-							"VBBB",
-							"VBAB"
+							"VVBB",
+							"VVAB"
 						]
 					}
 				}

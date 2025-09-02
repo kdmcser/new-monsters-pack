@@ -13,9 +13,9 @@
 					"default" : {
 						"animation" : "map/serpentine/lostUshnu",
 						"mask" : [
-							"VVVV",
-							"VBBB",
-							"VBAB"
+							"VVV",
+							"VVB",
+							"VBA"
 						]
 					}
 				}

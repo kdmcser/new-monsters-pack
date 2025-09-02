@@ -19,8 +19,8 @@
 						"animation" : "map/ironclad/roughcastPlant",
 						"mask" : [
 							"VVVV",
-							"VBBB",
-							"VABB"
+							"VVBB",
+							"VVAB"
 						]
 					}
 				}

@@ -19,9 +19,9 @@
 						"animation" : "map/centamonth/rustyHabitation",
 						"mask" : [
 							"VVVV",
+							"VVVV",
 							"VVBB",
-							"VBBB",
-							"VBAB"
+							"VVAB"
 						]
 					}
 				}

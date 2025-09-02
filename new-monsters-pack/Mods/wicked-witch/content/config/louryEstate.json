@@ -13,7 +13,7 @@
 						"animation" : "louryEstate.def",
 						"mask" : [
 							"VVVV",
-							"VVBV",
+							"VVVV",
 							"VVBV",
 							"VVAB"
 						]

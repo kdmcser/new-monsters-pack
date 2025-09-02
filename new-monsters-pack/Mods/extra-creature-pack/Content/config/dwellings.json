@@ -35,7 +35,7 @@
 						"mask" : [
 							"VVVV",
 							"VVBV",
-							"VABB"
+							"VVAB"
 						]
 					}
 				}
@@ -201,9 +201,9 @@
 						"mask" : [
 							"VVVV",
 							"VVVV",
+							"VVVV",
 							"VVBV",
-							"VBBV",
-							"VBAB"
+							"VVAB"
 						]
 					}
 				}
@@ -251,9 +251,9 @@
 						"animation" : "map/dwellings/Lvl7b.def",
 						"mask" : [
 							"VVVV",
-							"VBBV",
-							"VBBB",
-							"VBAB"
+							"VVVV",
+							"VVBB",
+							"VVAB"
 						]
 					}
 				}
@@ -277,9 +277,9 @@
 						"mask" : [
 							"VVVVV",
 							"VVVVV",
-							"VVBBV",
-							"VVBBB",
-							"VVBAB"
+							"VVVVV",
+							"VVVBB",
+							"VVVAB"
 						]
 					}
 				}

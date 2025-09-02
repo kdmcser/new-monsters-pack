@@ -18,8 +18,8 @@
 					"default" : {
 						"animation" : "map/kappa/forsakenPond",
 						"mask" : [
-							"VBBV",
-							"VBAB"
+							"VVBV",
+							"VVAB"
 						]
 					}
 				}

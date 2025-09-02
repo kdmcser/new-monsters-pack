@@ -18,9 +18,9 @@
 					"default" : {
 						"animation" : "map/giants/butteExcavation",
 						"mask" : [
+							"VVVV",
 							"VVBV",
-							"VBBB",
-							"VBAB"
+							"VVAB"
 						]
 					}
 				}

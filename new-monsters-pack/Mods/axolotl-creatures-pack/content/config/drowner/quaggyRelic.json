@@ -19,9 +19,9 @@
 						"animation" : "map/drowner/quaggyRelic",
 						"mask" : [
 							"VVV",
+							"VVV",
 							"VBV",
-							"VBV",
-							"VAV"
+							"VAB"
 						]
 					}
 				}

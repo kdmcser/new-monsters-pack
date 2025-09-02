@@ -12,7 +12,7 @@
 					"default" : {
 						"animation" : "dwarf/map/dwellings/dwellings-1.def",
 						"mask" : [
-							"VBV",
+							"VVV",
 							"VBB",
 							"VBA"
 						]

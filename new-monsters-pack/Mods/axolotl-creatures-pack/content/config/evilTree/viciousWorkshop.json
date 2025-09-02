@@ -16,7 +16,7 @@
 				"guards" : true,
 				"base" : {
 					"mask" : [
-						"VVB",
+						"VVV",
 						"VBB",
 						"VAB"
 					]
