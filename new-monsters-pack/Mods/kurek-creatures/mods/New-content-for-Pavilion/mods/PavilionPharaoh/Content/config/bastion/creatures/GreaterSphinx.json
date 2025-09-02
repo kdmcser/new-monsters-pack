@@ -1,101 +1,84 @@
 {
-	"greatersphinx":
-	{
-		"name" :
-		{
+	"greatersphinx" : {
+		"name" : {
 			"plural" : "Greater Sphinxes",
 			"singular" : "Greater Sphinx"
 		},
 		"description" : "{green|Greater Sphinx}\r\n\r\nThe most powerful type of sphinx, capable of killing with its gaze and turning foes to stone with incantations.\r\n\r\n Even more resistant to earth magic, it surpasses other sphinxes in threat and might. It guards the most sacred and significant sites.",
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 5
 		},
 		"faction" : "pavilion",
 		"aiValue" : 1610,
 		"attack" : 15,
-		"hasDoubleWeek": true,
-		"cost" :
-		{
+		"hasDoubleWeek" : true,
+		"cost" : {
 			"gold" : 1100
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 22,
 			"min" : 18
 		},
 		"defense" : 17,
 		"fightValue" : 1400,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "bastion/battle/creatures/ElderSphinx.def",
 			"map" : "bastion/map/creatures/ElderSphinxMap.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "bastion/iconsSmall/creatures/ElderSphinxSmall.bmp",
 			"iconLarge" : "bastion/iconsBig/creatures/ElderSphinx.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.20,
-				"idle" : 10.00,
-				"attack" : 1.00,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
-	
 		},
-	    "doubleWide" : true,
-        "growth" : 2,
+		"doubleWide" : true,
+		"growth" : 2,
 		"hitPoints" : 110,
 		"level" : 6,
-        "horde" : 1,
-   
-		"sound" :
-		{
+		"horde" : 1,
+
+		"sound" : {
 			"attack" : "bastion/sphxAtt.wav",
-			"defend": "bastion/sphxDef.wav",
-			"killed": "bastion/sphxDie.wav",
-			"move": "bastion/sphxWalk.wav",
-			"wince": "bastion/sphxHit.wav"
- 		},
+			"defend" : "bastion/sphxDef.wav",
+			"killed" : "bastion/sphxDie.wav",
+			"move" : "bastion/sphxWalk.wav",
+			"wince" : "bastion/sphxHit.wav"
+		},
 		"speed" : 7,
-		"abilities" :
-		{
-            "magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "earth",
 				"val" : 40
 			},
-            "spellsLength" : 
-			{
+			"spellsLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 10
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castpetrify" :
-			{
+			"castpetrify" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "turntostone",
 				"val" : 1,
 				"icon" : "bastion/iconsBig/bonusturntostone.png",
-				"description" : "{Casts Turn to Stone}\nCasts a spell: target is immobile and takes half damage. Ends when attacked or dispelled."	
+				"description" : "{Casts Turn to Stone}\nCasts a spell: target is immobile and takes half damage. Ends when attacked or dispelled."
 			},
-			"deathStare" : 
-			{ 
-				"subtype" : "deathStareGorgon", 
-				"type" : "DEATH_STARE", 
-				"val" : 40 
+			"deathStare" : {
+				"subtype" : "deathStareGorgon",
+				"type" : "DEATH_STARE",
+				"val" : 40
 			}
-
-
 		},
-		"stackExperience" :
-		[
-	
-		]	
+		"stackExperience" : []
 	}
 }

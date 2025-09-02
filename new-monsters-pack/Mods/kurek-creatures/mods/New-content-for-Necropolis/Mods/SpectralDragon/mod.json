@@ -1,35 +1,32 @@
 {
 	"name" : "Spectral Dragon",
 	"description" : "New unit - Spectral Dragon. No single type of dragon gives up its bones to form a Spectral Dragon. Instead, these fell beasts are composed of the bones of every breed of dragon, cunningly arranged into a single skeleton and infused with unlife by the sacrifice of a high-ranking Necromancer's soul.",
-	"author": "Kurek",
+	"author" : "Kurek",
 	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0",
 	"modType" : "Creatures",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ],
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
 	"polish" : {
 		"name" : "Widmowy Smok",
 		"description" : "Nowa jednostka - Widmowy Smok. Smok Widmowy nie powstaje z kości jednego rodzaju smoka. Te upadłe istoty są złożone z kości wszystkich znanych ras smoków, misternie połączonych w jeden szkielet i ożywionych poprzez ofiarę z duszy potężnego nekromanty."
 	},
-	"creatures" :
-	[
+	"creatures" : [
 		"config/spectraldragon/spectraldragon.json"
 	],
-	"objects" : 
-	[  
-		"config/spectraldragon/dwellings" 
+	"objects" : [
+		"config/spectraldragon/dwellings"
 	],
-	"spells" : 
-	[  
-		"config/spectraldragon/spectraldragonpowerbondspells" ,
-		"config/spectraldragon/dragonbreathspell" 
+	"spells" : [
+		"config/spectraldragon/spectraldragonpowerbondspells",
+		"config/spectraldragon/dragonbreathspell"
 	],
-	"battlefields" :
-	[
+	"battlefields" : [
 		"config/spectraldragon/ghastlyvaultbattlefield.json"
 	]
 }

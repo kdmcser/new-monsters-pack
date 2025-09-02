@@ -4,9 +4,9 @@
 			"chimerologistslab" : {
 				"name" : "Chimerologist's Lab",
 				"battleground" : "chimerologistlabbattlefield",
-				"onGuardedMessage" : "This laboratory is the birthplace for countless horrid experiments. Its remote location was chosen for both safety and secrecy.", 
-				"description": "This laboratory is the birthplace for countless horrid experiments. Its remote location was chosen for both safety and secrecy.", 
-//				"guards" : true,
+				"onGuardedMessage" : "This laboratory is the birthplace for countless horrid experiments. Its remote location was chosen for both safety and secrecy.",
+				"description" : "This laboratory is the birthplace for countless horrid experiments. Its remote location was chosen for both safety and secrecy.",
+				//				"guards" : true,
 				"guards" : [
 					{
 						"amount" : 15,
@@ -18,20 +18,34 @@
 					}
 				],
 				"creatures" : [
-					[ "agarspet" ],
-					[ "terribleeye" ]
+					[
+						"agarspet"
+					],
+					[
+						"terribleeye"
+					]
 				],
-				  "sounds": {
-                    "ambient": ["agarsounds/chimerologistslabloop.wav"],
-					"visit": ["agarsounds/chimerologistslabenter.wav"]
-                },
+				"sounds" : {
+					"ambient" : [
+						"agarsounds/chimerologistslabloop.wav"
+					],
+					"visit" : [
+						"agarsounds/chimerologistslabenter.wav"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "dwelling/chimerologistslab.def",
-						"mask" : [ "VVVVVVV", "VVVVVVV", "VVVVBBV", "VVVVABV", "VVVVVVV"]
+						"mask" : [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVBBV",
+							"VVVVABV",
+							"VVVVVVV"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
-}	
+}

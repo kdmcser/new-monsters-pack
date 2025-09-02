@@ -1,592 +1,526 @@
 {
-	    "terribleeye": {
-        "name": {
-            "plural": "Terrible Eyes",
-            "singular": "Terrible Eye"
-        },
-         "description": "{green|Terrible Eye}\r\n\r\nTerrible Eyes are the most powerful and terrifying beholders of the twisted warlock Agar. These massive, two-meter floating aberrations resemble grotesque brain-head with horns, a gaping maw, and a single, glowing magical eye of terror.  \r\n\r\n{gold|Special Abilities:}\r\n Ranged magic beam attack. Flight. Casts randomly spells after attack. Unlimited shots. Free attack-they can shoot even if they are surrounded. Short attack range (10).\r\n\r\nUnlike lesser beholders, Terrible Eyes unleash devastating spells upon attacking. Their magic beam may inflict {#40bfff|Charm, Fear,} {#00aaff|Berserk, Fireball, or Dispel Magic}, making them unpredictable and deadly foes. They dwell in the deepest underground caverns, waiting for their next victim.",
-		"advMapAmount": {
-            "max": 15,
-            "min": 7
-        },
-        "hasDoubleWeek": false,
-        "faction": "dungeon",
-        "aiValue": 1000,
-        "attack": 15,
-        "cost": {
-            "gold": 650
-        },
-        "damage": {
-            "max": 9,
-            "min": 6
-        },
-        "defense": 11,
+	"terribleeye" : {
+		"name" : {
+			"plural" : "Terrible Eyes",
+			"singular" : "Terrible Eye"
+		},
+		"description" : "{green|Terrible Eye}\r\n\r\nTerrible Eyes are the most powerful and terrifying beholders of the twisted warlock Agar. These massive, two-meter floating aberrations resemble grotesque brain-head with horns, a gaping maw, and a single, glowing magical eye of terror.  \r\n\r\n{gold|Special Abilities:}\r\n Ranged magic beam attack. Flight. Casts randomly spells after attack. Unlimited shots. Free attack-they can shoot even if they are surrounded. Short attack range (10).\r\n\r\nUnlike lesser beholders, Terrible Eyes unleash devastating spells upon attacking. Their magic beam may inflict {#40bfff|Charm, Fear,} {#00aaff|Berserk, Fireball, or Dispel Magic}, making them unpredictable and deadly foes. They dwell in the deepest underground caverns, waiting for their next victim.",
+		"advMapAmount" : {
+			"max" : 15,
+			"min" : 7
+		},
+		"hasDoubleWeek" : false,
+		"faction" : "dungeon",
+		"aiValue" : 1000,
+		"attack" : 15,
+		"cost" : {
+			"gold" : 650
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 6
+		},
+		"defense" : 11,
 		"fightValue" : 800,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "battle/terribleeye.def",
 			"map" : "map/terribleeyemap.def",
-			"mapMask" : ["VVV",	"VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "iconssmall/terribleeyesmall.png",
 			"iconLarge" : "iconsbig/terribleeyeportraitlarge1.png",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1.2,
 				"idle" : 10
 			},
-					"missile" : 
+			"missile" : {
+				"attackClimaxFrame" : 6,
+
+				"frameAngles" : [
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0,
+
+					0
+				],
+
+				"offset" : {
+					"lowerX" : 7,
+
+					"lowerY" : -75,
+
+					"middleX" : 13,
+
+					"middleY" : -77,
+
+					"upperX" : 15,
+
+					"upperY" : -80
+				},
+
+				"ray" : [
 					{
-			 
-			"attackClimaxFrame" : 6,
-			 
-			"frameAngles" : [
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0,
-				 
-				0
-			],
-			 
-			"offset" : {
-				 
-				"lowerX" : 7,
-				 
-				"lowerY" : -75,
-				 
-				"middleX" : 13,
-				 
-				"middleY" : -77,
-				 
-				"upperX" : 15,
-				 
-				"upperY" : -80
-			},
-			 
-			"ray" : [
-				 
-				{
-					 
-					"end" : [
-						 
-						190,
-						 
-						138,
-						 
-						255,
-						 
-						255
-					],
-					 
-					"start" : [
-						 
-						240,
-						 
-						160,
-						 
-						160,
-						 
-						240
-					]
-				},
-				 
-				{
-					 
-					"end" : [
-						 
-						255,
-						 
-						164,
-						 
-						241,
-						 
-						240
-					],
-					 
-					"start" : [
-						 
-						245,
-						 
-						170,
-						 
-						170,
-						 
-						240
-					]
-				},
-				 
-				{
-					 
-					"end" : [
-						 
-						190,
-						 
-						138,
-						 
-						255,
-						 
-						240
-					],
-					 
-					"start" : [
-						 
-						240,
-						 
-						160,
-						 
-						160,
-						 
-						240
-					]
-				},
-				 
-				{
-					 
-					"end" : [
-						 
-						255,
-						 
-						164,
-						 
-						241,
-						 
-						240
-					],
-					 
-					"start" : [
-						 
-						245,
-						 
-						170,
-						 
-						170,
-						 
-						255
-					]
-				},
-				 
-				{
-					 
-					"end" : [
-						 
-						160,
-						 
-						160,
-						 
-						160,
-						 
-						240
-					],
-					 
-					"start" : [
-						 
-						160,
-						 
-						160,
-						 
-						160,
-						 
-						255
-					]
-				}
-			]
-		}
+						"end" : [
+							190,
+
+							138,
+
+							255,
+
+							255
+						],
+
+						"start" : [
+							240,
+
+							160,
+
+							160,
+
+							240
+						]
+					},
+
+					{
+						"end" : [
+							255,
+
+							164,
+
+							241,
+
+							240
+						],
+
+						"start" : [
+							245,
+
+							170,
+
+							170,
+
+							240
+						]
+					},
+
+					{
+						"end" : [
+							190,
+
+							138,
+
+							255,
+
+							240
+						],
+
+						"start" : [
+							240,
+
+							160,
+
+							160,
+
+							240
+						]
+					},
+
+					{
+						"end" : [
+							255,
+
+							164,
+
+							241,
+
+							240
+						],
+
+						"start" : [
+							245,
+
+							170,
+
+							170,
+
+							255
+						]
+					},
+
+					{
+						"end" : [
+							160,
+
+							160,
+
+							160,
+
+							240
+						],
+
+						"start" : [
+							160,
+
+							160,
+
+							160,
+
+							255
+						]
+					}
+				]
+			}
 		},
 		"growth" : 5,
 		"doubleWide" : false,
 		"hitPoints" : 30,
 		"level" : 5,
-		"sound" :
-		{
-			"attack": "agarsounds/terribleeyeattack.wav",
-			"defend": "agarsounds/terribleeyedefend.wav",
-			"killed": "agarsounds/terribleeyekilled.wav",
-			"move": "agarsounds/terribleeyemove.wav",
-			"wince": "agarsounds/terribleeyewince.wav",
+		"sound" : {
+			"attack" : "agarsounds/terribleeyeattack.wav",
+			"defend" : "agarsounds/terribleeyedefend.wav",
+			"killed" : "agarsounds/terribleeyekilled.wav",
+			"move" : "agarsounds/terribleeyemove.wav",
+			"wince" : "agarsounds/terribleeyewince.wav",
 			"startMoving" : "agarsounds/terribleeyestartwalk.wav",
-            "endMoving" : "agarsounds/terribleeyestopmoving.wav"
+			"endMoving" : "agarsounds/terribleeyestopmoving.wav"
 		},
 		"speed" : 8,
 		"shots" : 99,
-		"abilities" :
-	{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"freeShooting" : 
-			{
+			"freeShooting" : {
 				"type" : "FREE_SHOOTING"
 			},
-			"limitedRange" : 
-			{
+			"limitedRange" : {
 				"type" : "LIMITED_SHOOTING_RANGE",
 				"val" : 10,
 				"addInfo" : 6
 			},
-			"powerAttack" : 
-			{
+			"powerAttack" : {
 				"subtype" : "terribleGaze",
 				"type" : "SPELL_LIKE_ATTACK",
 				"val" : 0,
 				"description" : "{Power Attack}\nAttack is magic-based, can be enhanced by Power Bond skill.",
 				"icon" : "iconsbig/bonusterriblegaze.png"
 			},
-			"shooter" : 
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		 
-			"spellpower" : 
-			{
-			 
+
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
-			 
+
 				"val" : 500
 			},
-		"castsCharm" : {
-		
+			"castsCharm" : {
 				"addInfo" : [
-				
-				1,
-				
-				0
-					],
-			 
-			"subtype" : "charm",
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 "turns" : 3,
-			"val" : 15,
-			"icon" : "iconsbig/bonuscharmeye.png",
-			"description" : "{Casts Charm}\n15% chance to cast, no attacks for 3 turns, hypnosis for 1 turn or until hit"
-		},
-		 
-		"castsFear" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "fearnew",
-			 
-			"turns" : 3,
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 8,
-			"icon" : "iconsbig/bonusfeareye.png",
-			"description" : "{Casts Fear}\n8% chance to cast fear on target after attack, preventing attacks, -25% speed"
-		},
-		  
-		 
-		"castsBerserk" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "berserk",
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 6,
-			"icon" : "iconsbig/bonusberserkeye.png",
-			"description" : "{Casts Berserk}\n6% chance to cast berserk after attack, target will attack the nearest unit, ally or enemy."
-			
-		},
-		 
-		"castsFireball" : {
-			 
-			"addInfo" : [
-				 
-				1,
-				 
-				0
-			],
-			 
-			"subtype" : "fireball",
-			 
-			 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 6,
-			"icon" : "iconsbig/bonusfireballeye.png",
-			"description" : "{Casts Fireball}\n6% chance of blowing up target with spontaneous combustion. 7-hex explosion."
+					1,
 
-		},
-		 
-		"castsDispel" : {
-			 
-			"addInfo" : [
-				 
-				2,
-				 
-				0
-			],
-			 
-			"subtype" : "dispel",
-			 
- 
-			"type" : "SPELL_AFTER_ATTACK",
-			 
-			"val" : 12,
-			"icon" : "iconsbig/bonusdispeleye.png",
-			"description" : "{Casts Advanced Dispel}\n12% chance of dispelling all magic effects from target."
+					0
+				],
 
-		}
-		 
-	},
+				"subtype" : "charm",
+
+				"type" : "SPELL_AFTER_ATTACK",
+				"turns" : 3,
+				"val" : 15,
+				"icon" : "iconsbig/bonuscharmeye.png",
+				"description" : "{Casts Charm}\n15% chance to cast, no attacks for 3 turns, hypnosis for 1 turn or until hit"
+			},
+
+			"castsFear" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "fearnew",
+
+				"turns" : 3,
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 8,
+				"icon" : "iconsbig/bonusfeareye.png",
+				"description" : "{Casts Fear}\n8% chance to cast fear on target after attack, preventing attacks, -25% speed"
+			},
+
+			"castsBerserk" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "berserk",
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 6,
+				"icon" : "iconsbig/bonusberserkeye.png",
+				"description" : "{Casts Berserk}\n6% chance to cast berserk after attack, target will attack the nearest unit, ally or enemy."
+			},
+
+			"castsFireball" : {
+				"addInfo" : [
+					1,
+
+					0
+				],
+
+				"subtype" : "fireball",
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 6,
+				"icon" : "iconsbig/bonusfireballeye.png",
+				"description" : "{Casts Fireball}\n6% chance of blowing up target with spontaneous combustion. 7-hex explosion."
+			},
+
+			"castsDispel" : {
+				"addInfo" : [
+					2,
+
+					0
+				],
+
+				"subtype" : "dispel",
+
+				"type" : "SPELL_AFTER_ATTACK",
+
+				"val" : 12,
+				"icon" : "iconsbig/bonusdispeleye.png",
+				"description" : "{Casts Advanced Dispel}\n12% chance of dispelling all magic effects from target."
+			}
+		},
 		"stackExperience" : [
-		{			
-			"bonus" : {
-				"subtype" : "attack",
-				"type" : "PRIMARY_SKILL"
-			},			
-			"values" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					0,
 
-				0,
+					0,
 
-				0,
+					1,
 
-				1,
+					1,
 
-				1,
+					2,
 
-				2,
+					2,
 
-				2,
+					3,
 
-				3,
+					3,
 
-				3,
+					4,
 
-				4,
-
-				4
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
-
-				"subtype" : "defence",
-
-				"type" : "PRIMARY_SKILL"
+					4
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "defence",
 
-				0,
+					"type" : "PRIMARY_SKILL"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				1,
+					0,
 
-				2,
+					1,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					3,
 
-				"subtype" : "creatureDamageMax",
+					4,
 
-				"type" : "CREATURE_DAMAGE"
+					4
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
 
-				0,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					0,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"subtype" : "creatureDamageMin",
+					4,
 
-				"type" : "CREATURE_DAMAGE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
 
-				0,
+					"type" : "CREATURE_DAMAGE"
+				},
 
-				1,
+				"values" : [
+					0,
 
-				2,
+					0,
 
-				2,
+					1,
 
-				3,
+					2,
 
-				3,
+					2,
 
-				4,
+					3,
 
-				4,
+					3,
 
-				5
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					4,
 
-				"type" : "STACK_HEALTH",
+					4,
 
-				"valueType" : "PERCENT_TO_BASE"
+					5
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
 
-				0,
+					"valueType" : "PERCENT_TO_BASE"
+				},
 
-				10,
+				"values" : [
+					0,
 
-				15,
+					0,
 
-				20,
+					10,
 
-				25,
+					15,
 
-				30,
+					20,
 
-				35,
+					25,
 
-				40,
+					30,
 
-				45
-			]
-		},
-		 
-		{
-			 
-			"bonus" : {
+					35,
 
-				"type" : "STACKS_SPEED"
+					40,
+
+					45
+				]
 			},
-			 
-			"values" : [
 
-				0,
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
 
-				0,
+				"values" : [
+					0,
 
-				0,
+					0,
 
-				1,
+					0,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1,
+					1,
 
-				1
-			]
-		},
-		{
-			 
-			"bonus" : {
+					1,
 
-				"type" : "NO_WALL_PENALTY"
+					1
+				]
 			},
-			 
-			"values" : [
+			{
+				"bonus" : {
+					"type" : "NO_WALL_PENALTY"
+				},
 
-				false,
+				"values" : [
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				false,
+					false,
 
-				true,
+					true,
 
-				true,
+					true,
 
-				true,
+					true,
 
-				true
-			]
-		}
-	]
+					true
+				]
+			}
+		]
 	}
 }
-
-
