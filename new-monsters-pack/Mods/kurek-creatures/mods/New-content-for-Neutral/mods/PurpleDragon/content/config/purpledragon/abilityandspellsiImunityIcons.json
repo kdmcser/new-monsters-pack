@@ -4,7 +4,7 @@
 			"iconImmune" : "IconsBig/imm_cure.png"
 		}
 	},
-	"core:resurrect" : {
+	"core:resurrection" : {
 		"graphics" : {
 			"iconImmune" : "IconsBig/imm_resurrection.png"
 		}

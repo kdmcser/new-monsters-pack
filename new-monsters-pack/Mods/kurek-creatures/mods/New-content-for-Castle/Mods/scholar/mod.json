@@ -1,34 +1,37 @@
 {
 	"name" : "Scholar",
 	"description" : "New units - Scholar and Lecturer. Scholars have devoted much of their time to the study of things past, giving them much insight into events to come. Did you know they can also fight? The mod also adds 1 castle hero, Xanthor the Cleric.",
-	"author" : "Kurek",
-	"contact" : "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
+	"author": "Kurek",
+	"contact": "http://www.forum.acidcave.net/profile.php?UID=4121  or  https://discord.com/channels/298106089885401090/298110850420441094",
 	"version" : "1.0",
 	"modType" : "Creatures",
-	"changelog" : {
-		"1.0" : [
-			"Initial release"
-		]
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+		
 	},
 	"polish" : {
 		"name" : "Uczony",
 		"description" : "Nowe jednostki – Uczony i Wykładowca. Uczeni poświęcili wiele czasu na badanie przeszłości, co dało im wgląd w przyszłe wydarzenia. Czy wiesz, że potrafią też walczyć? Mod dodaje także 1 bohatera zamku, Kleryka Xanthora."
 	},
-	"creatures" : [
+	"creatures" :
+	[
 		"config/scholar/crscholar.json",
-		"config/scholar/lecturer.json"
+		"config/scholar/lecturer.json",
 	],
-	"objects" : [
-		"config/scholar/dwellings"
-	],
-	"spells" : [
+	"objects" : 
+	[  "config/scholar/dwellings" ],
+	"spells" : 
+	[
 		"config/scholar/scholarpowerbondspells.json",
 		"config/scholar/scholarlightglobe.json"
 	],
-	"battlefields" : [
+	"battlefields" :
+	[
 		"config/scholar/monasterylibrarybattlefield.json"
 	],
-	"heroes" : [
+	"heroes" :
+	[
 		"config/scholar/xanthor.json"
 	]
 }

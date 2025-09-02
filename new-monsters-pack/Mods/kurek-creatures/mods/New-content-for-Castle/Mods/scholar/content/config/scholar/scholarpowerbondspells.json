@@ -1,20 +1,16 @@
 {
-	"holyblastscholar" : {
-		"type" : "ability",
-
+	"holyblastscholar" : 
+	{
+		"type": "ability",
+		
 		"targetType" : "NO_TARGET",
 		"name" : "Holy Blast",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
-		},
-		"level" : 1,
-		"power" : 1,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
-		"graphics" : {},
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+        "level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 		
+		"gainChance":		{},
+		"graphics":		{},		
 
 		"animation" : {
 			"hit" : [
@@ -24,26 +20,26 @@
 		"sounds" : {
 			"cast" : "MAGICBLT"
 		},
-
-		"levels" : {
-			"base" : {
-				"description" : "",
-				"cost" : 0,
-				"power" : 10,
-
+		
+		"levels" : 
+			{
+			
+			"base":{
+				"description": "",
+				"cost": 0,
+				"power": 10,
+				
 				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				}
-			},
-
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+				"targetModifier":{"smart":true}
+					},
+					
+			"none":{},
+			"basic":{},
+			"advanced":{},
+			"expert":{}
 		},
 		"flags" : {
-			"offensive" : true
+			"offensive": true
 		}
 	}
 }

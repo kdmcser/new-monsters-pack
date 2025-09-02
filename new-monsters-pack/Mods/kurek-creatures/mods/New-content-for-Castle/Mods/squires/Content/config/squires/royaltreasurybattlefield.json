@@ -1,6 +1,6 @@
 {
-	"royaltreasurybattlefield" : {
-		"graphics" : "squires/battle/royaltreasurybattlefield.png",
+	"royaltreasurybattlefield": {
+		"graphics": "squires/battle/royaltreasurybattlefield.png",
 		"isSpecial" : true
 	}
 }

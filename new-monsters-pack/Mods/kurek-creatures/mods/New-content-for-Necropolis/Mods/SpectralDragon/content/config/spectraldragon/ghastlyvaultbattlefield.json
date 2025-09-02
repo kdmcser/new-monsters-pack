@@ -1,6 +1,6 @@
 {
-	"ghastlyvaultbattlefield" : {
-		"graphics" : "battle/ghastlyvaultbattlefield.png",
+	"ghastlyvaultbattlefield": {
+		"graphics": "battle/ghastlyvaultbattlefield.png",
 		"isSpecial" : true
 	}
 }

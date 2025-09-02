@@ -1,13 +1,16 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.3",
+	"version" : "1.4.4",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.4" : [
+			"Fix for Lecturer/Scholar icons"
+		],
 		"1.4.3" : [
 			"New Kurek creatures: Spectral Dragon, Squire, Man at arms, Scholar, Lecturer",
 			"New Kurek Creatures: Custom icons for new creature abilities",

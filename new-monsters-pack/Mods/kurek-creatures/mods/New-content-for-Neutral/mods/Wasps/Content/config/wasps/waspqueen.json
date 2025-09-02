@@ -1,97 +1,113 @@
 {
-	"waspqueen" : {
-		"name" : {
+	"waspqueen":
+	{
+		"name" :
+		{
 			"singular" : "Wasp Queen",
 			"plural" : "Wasp Queen" //there can be only one!
 		},
-		"description" : "{green|Wasp Queen}\r\n\r\nThe Wasp Queen is a rare and powerful entity, the heart and mind of the entire colony. Her unmatched abilities, including summoning wasps, laying eggs, and commanding her army, make her one of the most formidable foes in the realm.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} Like other wasps, the Queen can fly, evading most attacks, though her true strength lies in defense and summoning guardians.\r\n{gold|Two Additional Retaliations:} The Queen is able to bite and sting while defending herself.\r\n{gold|Strike and Return:} Even though she isn't the fastest type of wasp, her majesty is still able to return to the hive after every strike.\r\n{gold|Venomous Sting 30 percent chance after attack:} Her attacks have a high chance to poison enemies, causing damage over time.\r\n{gold|Armor Piercing 20 percent chance:} The Queen can bypass enemy defenses, dealing enhanced damage.\r\n{gold|Egg Laying:} She can summon Worker Wasps, Sentry Wasps, and Warrior Wasps to bolster the hive's forces.\r\n{gold|Summoning Guards Drones at Battle Start:} At the start of combat, the Queen is surrounded by drones acting as her personal guardians.\r\n{gold|Bloodlust, Swarm, and Berserk before attack:} The Queen can enhance herself or disrupt foes with these spells, ensuring her dominance in battle. \r\n{gold|Mind Spell Immunity:} The Queen is immune to all mind-affecting spells, ensuring her hivemind commands cannot be disrupted.\r\n{gold|Poison Immunity:} The Queen is immune to poison, it is her natural protection. \r\n{gold|Acid Immunity:} The Queen is immune to acid, her chitinous armor is fully resistant to that.\r\n",
+		"description": "{green|Wasp Queen}\r\n\r\nThe Wasp Queen is a rare and powerful entity, the heart and mind of the entire colony. Her unmatched abilities, including summoning wasps, laying eggs, and commanding her army, make her one of the most formidable foes in the realm.\r\n\r\n{gold|Special Abilities:}\r\n{gold|Flight:} Like other wasps, the Queen can fly, evading most attacks, though her true strength lies in defense and summoning guardians.\r\n{gold|Two Additional Retaliations:} The Queen is able to bite and sting while defending herself.\r\n{gold|Strike and Return:} Even though she isn't the fastest type of wasp, her majesty is still able to return to the hive after every strike.\r\n{gold|Venomous Sting 30 percent chance after attack:} Her attacks have a high chance to poison enemies, causing damage over time.\r\n{gold|Armor Piercing 20 percent chance:} The Queen can bypass enemy defenses, dealing enhanced damage.\r\n{gold|Egg Laying:} She can summon Worker Wasps, Sentry Wasps, and Warrior Wasps to bolster the hive's forces.\r\n{gold|Summoning Guards Drones at Battle Start:} At the start of combat, the Queen is surrounded by drones acting as her personal guardians.\r\n{gold|Bloodlust, Swarm, and Berserk before attack:} The Queen can enhance herself or disrupt foes with these spells, ensuring her dominance in battle. \r\n{gold|Mind Spell Immunity:} The Queen is immune to all mind-affecting spells, ensuring her hivemind commands cannot be disrupted.\r\n{gold|Poison Immunity:} The Queen is immune to poison, it is her natural protection. \r\n{gold|Acid Immunity:} The Queen is immune to acid, her chitinous armor is fully resistant to that.\r\n",
 		"faction" : "neutral",
 		"level" : 99,
-		"cost" : {
-			"gold" : 100000
-		},
+		"cost" : { "gold" : 100000 },
 		"speed" : 6,
 		"hitPoints" : 65000,
 		"attack" : 100,
 		"defense" : 100,
 		"doubleWide" : true,
-		"damage" : {
+		"damage" :
+		{
 			"min" : 150,
 			"max" : 200
 		},
 		"fightValue" : 500000,
 		"aiValue" : 1000000,
 		"special" : true,
-		"advMapAmount" : {
+		"advMapAmount" :
+		{
 			"min" : 1,
 			"max" : 1
 		},
 		"growth" : 1,
-		"hasDoubleWeek" : false,
-		"abilities" : {
-			"venom" : {
+		"hasDoubleWeek": false,
+		"abilities" :
+		{
+			"venom" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
 				"val" : 30,
 				"icon" : "wasps/bonuspoisonwasp.png",
 				"description" : "{Venomous Sting}\nTarget loses 10% max HP per round. 30% chance, 3 rounds."
 			},
-			"mindimmunity" : {
-				"type" : "MIND_IMMUNITY"
+			"mindimmunity" :
+			{
+				"type" : "MIND_IMMUNITY",
 			},
-			"spellpower" : {
+			"spellpower" :
+			{
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 2000
 			},
-			"enchantpower" : {
+			"enchantpower" :
+			{
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 2
 			},
-			"spellpoints" : {
+			"spellpoints" :
+			{
 				"type" : "CASTS",
 				"val" : 30
 			},
-			"flying" : {
+			"flying" :
+			{
 				"type" : "FLYING",
 				"subtype" : "movementFlying",
 				"icon" : "wasps/e_flywasp.png"
-			},
-			"stings" : {
+			},	
+			"stings" :
+			{
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 30,
 				"icon" : "wasps/bonusqueenrdef.png"
-			},
-			"castsbloodlust" : {
+			},	
+			"castsbloodlust" :
+			{
 				"type" : "SPELLCASTER",
 				"val" : 3,
 				"addInfo" : 70,
 				"subtype" : "selfbloodlust",
 				"icon" : "wasps/bonusbloodlustwaspqueen.png",
 				"description" : "{Bloodlustful}\nCasts bloodlust on itself. +100 dmg, 2 rounds."
-			},
-			"castsberserk" : {
+			},	
+			"castsberserk" :
+			{
 				"type" : "SPELLCASTER",
 				"val" : 1,
 				"addInfo" : 30,
 				"subtype" : "berserk",
 				"icon" : "wasps/bonusberserk.png"
-			},
-			"poisonImmunity" : {
+			},	
+			"poisonImmunity" :
+			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "poison"
+				"subtype" : "poison",
 			},
-			"acidImmunity" : {
+			"acidImmunity" :
+			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "acidBreathDamage"
+				"subtype" : "acidBreathDamage",
 			},
-			"summonguardianswaspdrones" : {
+			"summonguardianswaspdrones" :			
+			{
 				"type" : "SUMMON_GUARDIANS",
 				"subtype" : "waspdrone",
 				"val" : 15000,
 				"icon" : "wasps/bonusqueensymbiosis.png",
 				"description" : "{Symbiosis with Drones}\nDrones copulate with the queen at the start of turn, healing her."
-			},
-			"castswaspswarmability" : {
+			},		
+			"castswaspswarmability" :
+			{
 				"type" : "ENCHANTER",
 				"val" : 2,
 				"addInfo" : 3,
@@ -99,7 +115,8 @@
 				"icon" : "wasps/bonusadvancedwaspswarmability.png",
 				"description" : "{Casts Advanced Wasp Swarm}\nCasts before action, deals dmg, 1 turn -50% speed, 3 rounds cooldown before next cast."
 			},
-			"summonwasps1" : {
+			"summonwasps1" :
+			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
@@ -107,7 +124,8 @@
 				"icon" : "wasps/bonusexpertsummon1.png",
 				"description" : "{Expert Summon Wasp Workers}\n Can cast before action, 3 rounds cooldown before next cast."
 			},
-			"summonwasps2" : {
+			"summonwasps2" :
+			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
@@ -115,7 +133,8 @@
 				"icon" : "wasps/bonusexpertsummon2.png",
 				"description" : "{Expert Summon Wasp Sentries}\n Can cast before action, 3 rounds cooldown before next cast."
 			},
-			"summonwasps3" : {
+			"summonwasps3" :
+			{
 				"type" : "ENCHANTER",
 				"val" : 3,
 				"addInfo" : 3,
@@ -123,150 +142,95 @@
 				"icon" : "wasps/bonusexpertsummon3.png",
 				"description" : "{Expert Summon Wasp Warriors}\n Can cast before action, 3 rounds cooldown before next cast."
 			},
-			"returnafterstrike" : {
+			"returnafterstrike" :			
+			{
 				"type" : "RETURN_AFTER_STRIKE",
 				"icon" : "wasps/bonusattackandreturnwasp.png"
 			},
-			"additionalretaliation" : {
+			"additionalretaliation" :
+			{
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 2,
 				"icon" : "wasps/e_retail11.png",
 				"description" : "{Additional Retaliations}\n 2 additional retaliations"
 			}
 		},
-		"graphics" : {
+		"graphics" :
+		{
 			"iconSmall" : "wasps/queenunitportsmall.png",
 			"iconLarge" : "wasps/queenunitportbig2.png",
 			"map" : "wasps/unitwaspqueenmap.def",
-			"mapMask" : [
-				"VVV",
-				"VAV"
-			],
+			"mapMask" : [ "VVV", "VAV"],
 			"animation" : "wasps/unitwaspqueen.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1.3,
-				"idle" : 15.0,
-				"attack" : 1.2
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 15.00,
+				"attack" : 1.20
 			}
 		},
-		"sound" : {
-			"attack" : "waspsounds/queenattack.wav",
-			"defend" : "waspsounds/queendefend.wav",
-			"killed" : "waspsounds/queendeath.wav",
-			"move" : "waspsounds/queenmove.wav",
+		"sound" :
+		{
+			"attack": "waspsounds/queenattack.wav",
+			"defend": "waspsounds/queendefend.wav",
+			"killed": "waspsounds/queendeath.wav",
+			"move": "waspsounds/queenmove.wav",
 			"startMoving" : "waspsounds/queenstartmove.wav",
 			"endMoving" : "waspsounds/queenstopmove.wav",
-			"wince" : "waspsounds/queenwince.wav"
+			"wince": "waspsounds/queenwince.wav"
 		},
-		"stackExperience" : [
+		"stackExperience" :
+		[
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					6,
-					7,
-					8
-				]
-			},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					4
-				]
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [
-					0,
-					0,
-					0,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1
-				]
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			}
 		]
 	}
 }
+
+
