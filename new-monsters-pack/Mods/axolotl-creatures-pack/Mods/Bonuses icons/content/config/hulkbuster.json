@@ -7,7 +7,6 @@
 			"hateKings" : {
 				"icon" : "bonuses/e_hate.png",
 				"description" : "{Slayer-born}\nThis unit does 50% more damage to all units marked as KING."
-
 			}
 		}
 	}

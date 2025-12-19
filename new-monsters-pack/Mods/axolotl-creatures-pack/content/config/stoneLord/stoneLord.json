@@ -19,7 +19,10 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "earthquake",
 				"val" : 3,
-				"addInfo" : [1, 2]
+				"addInfo" : [
+					1,
+					2
+				]
 			}
 		},
 		"stackExperience" : [

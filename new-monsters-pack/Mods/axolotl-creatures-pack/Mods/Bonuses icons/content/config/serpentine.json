@@ -100,7 +100,10 @@
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "implosion",
-					"addInfo" : [1, 2],
+					"addInfo" : [
+						1,
+						2
+					],
 					"icon" : "bonuses/implosionattack.png"
 				},
 				"values" : [

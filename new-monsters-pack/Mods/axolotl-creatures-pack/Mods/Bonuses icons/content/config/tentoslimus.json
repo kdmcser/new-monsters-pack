@@ -101,7 +101,10 @@
 			},
 			{
 				"bonus" : {
-					"addInfo" : [1, 2],
+					"addInfo" : [
+						1,
+						2
+					],
 					"subtype" : "weakness",
 					"type" : "SPELL_AFTER_ATTACK",
 					"icon" : "bonuses/weaknessattack.png"

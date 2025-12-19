@@ -20,7 +20,7 @@
 			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon"
-			}			
+			}
 		},
 		"stackExperience" : [
 			{
