@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:tortofroid" : {
+		"abilities" : {
+			"reduceDef" : {
+				"icon" : "bonuses/e_rdef_tortofroid.png"
+			}
+		}
+	}
+}

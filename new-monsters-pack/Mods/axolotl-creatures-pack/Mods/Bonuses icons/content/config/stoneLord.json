@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:stoneLord" : {
+		"abilities" : {
+			"spellCaster" : {
+				"icon" : "bonuses/earthquake3.png"
+			}
+		}
+	}
+}

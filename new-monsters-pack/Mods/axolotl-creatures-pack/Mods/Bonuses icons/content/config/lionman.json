@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:lionman" : {
+		"abilities" : {
+			"castsQuicksand" : {
+				"icon" : "bonuses/quicksand3.png"
+			},
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_lionman.png"
+			}
+		}
+	}
+}

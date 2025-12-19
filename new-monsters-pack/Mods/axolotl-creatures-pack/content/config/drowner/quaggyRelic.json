@@ -24,7 +24,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/quaggyRelic.def"
 			}
 		}
 	}

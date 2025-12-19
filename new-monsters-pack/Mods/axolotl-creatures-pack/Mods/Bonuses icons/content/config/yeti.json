@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:yeti" : {
+		"abilities" : {
+			"frostRingspellcaster" : {
+				"icon" : "bonuses/turntostone2.png"
+			},
+			"descreaseLuck" : {
+				"icon" : "bonuses/misfortuneaura.png"
+			}
+		}
+	}
+}

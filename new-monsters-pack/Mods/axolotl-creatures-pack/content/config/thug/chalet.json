@@ -18,7 +18,8 @@
 							"VAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/chalet.def"
 			}
 		}
 	}

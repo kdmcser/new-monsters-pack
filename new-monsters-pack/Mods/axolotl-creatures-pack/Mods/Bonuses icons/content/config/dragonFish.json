@@ -1,0 +1,18 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:dragonFish" : {
+		"abilities" : {
+			"dragonNature" : {
+				"icon" : "bonuses/e_dragon-like5.png"
+			},
+			"canFly" : {
+				"icon" : "bonuses/e_fly5.png"
+			},
+			"freeShipBoarding" : {
+				"icon" : "bonuses/freeshipboarding.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}			
+		}
+	}
+}

@@ -1,13 +1,16 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.6",
+	"version" : "1.4.7",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.7" : [
+			"Additional icons for creatures abilities by Kurek for Axolotl creatures submod"
+		],
 		"1.4.6" : [
 			"Some unwanted creature ability icons were hidden"
 		],

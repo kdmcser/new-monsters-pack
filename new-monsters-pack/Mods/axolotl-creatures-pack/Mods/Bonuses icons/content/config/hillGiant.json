@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:hillGiant" : {
+		"abilities" : {
+			"sightSeer" : {
+				"icon" : "bonuses/sightradiusbonus.png"
+			},
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_hillgiant.png"
+			}
+		}
+	}
+}

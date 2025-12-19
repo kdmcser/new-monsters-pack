@@ -1,0 +1,10 @@
+{
+	"basepath" : "neutral/flugel/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "dw01"
+		}
+	]
+}

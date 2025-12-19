@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:owlkin" : {
+		"abilities" : {
+			"mixer" : {
+				"icon" : "bonuses/owlkin_nonevil.png"
+			}
+		}
+	}
+}

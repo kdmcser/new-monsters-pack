@@ -1,0 +1,153 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:forestDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ATTACKS_ALL_ADJACENT"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ADDITIONAL_RETALIATION",
+					"icon" : "bonuses/e_retail1_forestdragon.png"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
+			}
+		]
+	}
+}

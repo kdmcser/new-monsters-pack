@@ -21,89 +21,9 @@
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
-			"hateGiants" : {
-				"type" : "HATE",
-				"subtype" : "giant",
-				"val" : 50
-			},
-			"hateTitans" : {
-				"type" : "HATE",
-				"subtype" : "titan",
-				"val" : 50
-			},
-			"hateDevils" : {
-				"type" : "HATE",
-				"subtype" : "devil",
-				"val" : 50
-			},
-			"hateArchDevils" : {
-				"type" : "HATE",
-				"subtype" : "archDevil",
-				"val" : 50
-			},
-			"hateAngels" : {
-				"type" : "HATE",
-				"subtype" : "angel",
-				"val" : 50
-			},
-			"hateRedDragons" : {
-				"type" : "HATE",
-				"subtype" : "redDragon",
-				"val" : 50
-			},
-			"hateBlackDragons" : {
-				"type" : "HATE",
-				"subtype" : "blackDragon",
-				"val" : 50
-			},
-			"hatefirebird" : {
-				"type" : "HATE",
-				"subtype" : "firebird",
-				"val" : 50
-			},
-			"hatephoenix" : {
-				"type" : "HATE",
-				"subtype" : "phoenix",
-				"val" : 50
-			},
-			"hatehydra" : {
-				"type" : "HATE",
-				"subtype" : "hydra",
-				"val" : 50
-			},
-			"hatechaoshydra" : {
-				"type" : "HATE",
-				"subtype" : "chaosHydra",
-				"val" : 50
-			},
-			"hatebonedragon" : {
-				"type" : "HATE",
-				"subtype" : "boneDragon",
-				"val" : 50
-			},
-			"hateghostdragon" : {
-				"type" : "HATE",
-				"subtype" : "ghostDragon",
-				"val" : 50
-			},
-			"hategreendragon" : {
-				"type" : "HATE",
-				"subtype" : "greenDragon",
-				"val" : 50
-			},
-			"hategolddragon" : {
-				"type" : "HATE",
-				"subtype" : "goldDragon",
-				"val" : 50
-			},
-			"hatebehemoth" : {
-				"type" : "HATE",
-				"subtype" : "behemoth",
-				"val" : 50
-			},
-			"hateancientbehemoth" : {
-				"type" : "HATE",
-				"subtype" : "ancientBehemoth",
+			"hateKings" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "KING",
 				"val" : 50
 			}
 		},

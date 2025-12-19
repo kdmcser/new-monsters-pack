@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:roper" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "bonuses/sticky.png"
+			}
+		}
+	}
+}

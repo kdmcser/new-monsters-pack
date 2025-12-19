@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:owlkinSage" : {
+		"abilities" : {
+			"mixer" : {
+				"icon" : "bonuses/owlkin_nonevil.png"
+			},
+			"addRetaliation" : {
+				"icon" : "bonuses/e_retail1_owlkinsage.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:stoneCollossus" : {
+		"abilities" : {
+			"spellCaster" : {
+				"icon" : "bonuses/earthquake1.png"
+			}
+		}
+	}
+}

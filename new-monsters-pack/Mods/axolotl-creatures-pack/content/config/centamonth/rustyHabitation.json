@@ -24,7 +24,9 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "icons/flagports/rustyHabitation.def"
+
 			}
 		}
 	}

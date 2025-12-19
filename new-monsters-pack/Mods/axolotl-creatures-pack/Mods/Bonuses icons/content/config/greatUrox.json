@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:greatUrox" : {
+		"abilities" : {
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_greaturox.png"
+			},
+			"JOUSTING" : {
+				"icon" : "bonuses/e_champ_greaturox.png"
+			}
+		}
+	}
+}

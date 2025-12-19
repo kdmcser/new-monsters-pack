@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:ironclad" : {
+		"abilities" : {
+			"castsAirShield" : {
+				"icon" : "bonuses/enchantedairshield.png"
+			}
+		}
+	}
+}

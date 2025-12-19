@@ -22,7 +22,9 @@
 					"ambient" : [
 						"objects/carpetSeller"
 					]
-				}
+				},
+				"kingdomOverviewImage" : "objects/flagports/dw01.def"
+
 			}
 		}
 	}

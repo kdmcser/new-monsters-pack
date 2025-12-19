@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:sellsword" : {
+		"abilities" : {
+			"generateGold" : {
+				"icon" : "bonuses/gold2.png"
+			},
+			"surrenderDiscount" : {
+				"icon" : "bonuses/surrenderdiscount.png"
+			}
+		}
+	}
+}

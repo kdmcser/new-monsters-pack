@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:acidicRoper" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "bonuses/sticky.png"
+			},
+			"acidBreath" : {
+				"icon" : "bonuses/acidattack.png"
+			}
+		}
+	}
+}

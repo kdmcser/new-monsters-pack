@@ -1,0 +1,15 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:mountainGiant" : {
+		"abilities" : {
+			"sightSeer" : {
+				"icon" : "bonuses/sightradiusbonus.png"
+			},
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_mountaingiant.png"
+			},
+			"stackSpeed" : {
+				"icon" : "bonuses/speedbonusforallunits.png"
+			}
+		}
+	}
+}

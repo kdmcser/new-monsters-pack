@@ -1,0 +1,18 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:wyrmFish" : {
+		"abilities" : {
+			"dragonNature" : {
+				"icon" : "bonuses/e_dragon-like5.png"
+			},
+			"canFly" : {
+				"icon" : "bonuses/e_fly5.png"
+			},
+			"seaMovement" : {
+				"icon" : "bonuses/wyrmfishbonus.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}			
+		}
+	}
+}

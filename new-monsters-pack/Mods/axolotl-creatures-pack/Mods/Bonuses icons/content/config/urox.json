@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:urox" : {
+		"abilities" : {
+			"enemyDefenceReduction" : {
+				"icon" : "bonuses/e_rdef_urox.png"
+			},
+			"jousting" : {
+				"icon" : "bonuses/e_champ_urox.png"
+			}
+		}
+	}
+}

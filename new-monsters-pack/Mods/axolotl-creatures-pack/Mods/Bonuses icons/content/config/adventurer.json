@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:adventurer" : {
+		"abilities" : {
+			"generateGold" : {
+				"icon" : "bonuses/gold3.png"
+			},
+			"surrenderDiscount" : {
+				"icon" : "bonuses/surrenderdiscount.png"
+			}
+		}
+	}
+}

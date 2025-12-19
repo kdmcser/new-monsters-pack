@@ -1,0 +1,12 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:scorpohand" : {
+		"abilities" : {
+			"castPoison" : {
+				"icon" : "bonuses/poison.png"
+			},
+			"castWeakness" : {
+				"icon" : "bonuses/weaknessattack.png"
+			}
+		}
+	}
+}

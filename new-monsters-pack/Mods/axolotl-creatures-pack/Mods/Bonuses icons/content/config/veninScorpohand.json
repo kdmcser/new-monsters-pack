@@ -1,0 +1,15 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:veninScorpohand" : {
+		"abilities" : {
+			"castAge" : {
+				"icon" : "bonuses/ageattack.png"
+			},
+			"castPoison" : {
+				"icon" : "bonuses/poison.png"
+			},
+			"castWeakness" : {
+				"icon" : "bonuses/weaknessattack.png"
+			}
+		}
+	}
+}

@@ -16,7 +16,11 @@
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "water",
 				"val" : 100
-			}
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}			
 		},
 		"stackExperience" : [
 			{

@@ -1,0 +1,9 @@
+{
+	"new-monsters-pack.axolotl-creatures-pack:acpsphinx" : {
+		"abilities" : {
+			"petrify" : {
+				"icon" : "bonuses/sphinxpetrify.png"
+			}
+		}
+	}
+}
