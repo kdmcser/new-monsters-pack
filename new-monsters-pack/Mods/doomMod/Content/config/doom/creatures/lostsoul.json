@@ -44,7 +44,7 @@
 			"blow" : {
 				"type" : "DISINTEGRATE",
 				"icon" : "doom/iconsbig/lostSoulDetonation.png"
-			}			
+			}
 		},
 
 		"stackExperience" : [

@@ -66,8 +66,7 @@
 				"subtype" : "boneDragon",
 				"icon" : "iconsBig/turnintobonedragon.png"
 			},
-			"twoHexAttackBreath" :
-			{
+			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
 				"icon" : "iconsBig/e_breath_silver.png"
 			}

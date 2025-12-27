@@ -73,7 +73,10 @@
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "sorrow",
 				"val" : 50,
-				"addInfo" : [2, 0],
+				"addInfo" : [
+					2,
+					0
+				],
 				"icon" : "Dark Elemental/iconsBig/sorrowattack.png"
 			}
 		}

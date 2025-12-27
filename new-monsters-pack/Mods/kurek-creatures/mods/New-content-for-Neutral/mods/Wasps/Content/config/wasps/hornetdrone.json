@@ -29,7 +29,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "bloodlust",
 				"val" : 1,
-				"icon" : "wasps/bloodlust0.png",
+				"icon" : "wasps/bloodlust0.png"
 			},
 			"castsAmount" : {
 				"type" : "CASTS",

@@ -92,14 +92,20 @@
 				"type" : "ENCHANTER",
 				"subtype" : "haste",
 				"val" : 3,
-				"addInfo" : [3, 2],
+				"addInfo" : [
+					3,
+					2
+				],
 				"icon" : "dwarf/iconsBig/stoneskin3.png"
 			},
 			"castsStoneSkin" : {
 				"type" : "ENCHANTER",
 				"subtype" : "stoneSkin",
 				"val" : 3,
-				"addInfo" : [3, 2],
+				"addInfo" : [
+					3,
+					2
+				],
 				"icon" : "dwarf/iconsBig/stoneskin3.png"
 			}
 		}

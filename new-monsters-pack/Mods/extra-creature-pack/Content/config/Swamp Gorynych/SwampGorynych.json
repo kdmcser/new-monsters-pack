@@ -62,7 +62,7 @@
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon",
 				"icon" : "iconsBig/turnintobonedragon.png"
-			},			
+			},
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			}

@@ -49,7 +49,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "stun",
 				"val" : 20,
-				"addInfo" : [3, 2],
+				"addInfo" : [
+					3,
+					2
+				],
 				"icon" : "Man at Arms/iconsBig/stunbonus2.png"
 			},
 			"immuneToStun" : {
