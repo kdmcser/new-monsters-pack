@@ -8,9 +8,9 @@
 				"val" : 4
 			},
 			"poison" : {
-				//"limiters": [
+				//"limiters" : [
 				//	{
-				//		"type": "CREATURES_ONLY"
+				//		"type" : "CREATURES_ONLY"
 				//	}
 				//],
 				"type" : "SPELL_AFTER_ATTACK",

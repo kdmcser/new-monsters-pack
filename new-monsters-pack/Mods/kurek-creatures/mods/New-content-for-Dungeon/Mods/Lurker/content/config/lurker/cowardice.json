@@ -31,18 +31,18 @@
 				"description" : "{Cowardice}\nWeaker creatures lose their courage when facing foes. Affected unit cannot retaliate and is immune to few buffing spells.",
 				"cost" : 9,
 				"power" : 15,
-				//               "aiValue": 20,
+				//               "aiValue" : 20,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-					//                    "clearTarget": false
+					//                    "clearTarget" : false
 				}
 			},
 			"none" : {
 				"description" : "{Cowardice}\nAffected unit cannot retaliate and is immune to Slayer and Counterstrike.",
 				"cost" : 9,
 				"power" : 15,
-				//                "aiValue": 20,
+				//                "aiValue" : 20,
 				"effects" : {
 					"noRetaliation" : {
 						"type" : "NO_RETALIATION",
@@ -64,7 +64,7 @@
 				"description" : "{Basic Cowardice}\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust and Mirth.",
 				"cost" : 8,
 				"power" : 18,
-				//                "aiValue": 20,
+				//                "aiValue" : 20,
 				"effects" : {
 					"noRetaliation" : {
 						"type" : "NO_RETALIATION",
@@ -96,7 +96,7 @@
 				"description" : "{Advanced Cowardice}\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
 				"cost" : 7,
 				"power" : 20,
-				//                "aiValue": 20,
+				//                "aiValue" : 20,
 				"effects" : {
 					"noRetaliation" : {
 						"type" : "NO_RETALIATION",
@@ -138,7 +138,7 @@
 				"description" : "{Expert Cowardice}\nAll affected enemy units cannot retaliate and are immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
 				"cost" : 6,
 				"power" : 25,
-				//                "aiValue": 20,
+				//                "aiValue" : 20,
 				"range" : "X",
 				"targetModifier" : {
 					"smart" : true
@@ -194,9 +194,9 @@
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
-				//               "bonus.FEARLESS": "normal",
+				//               "bonus.FEARLESS" : "normal",
 				"bonus.UNDEAD" : "absolute"
-				//                "bonus.WATER_IMMUNITY": "normal"
+				//                "bonus.WATER_IMMUNITY" : "normal"
 			}
 		}
 	},

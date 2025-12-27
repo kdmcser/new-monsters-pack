@@ -46,7 +46,8 @@
 		"speed" : 8,
 		"abilities" : {
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly_levitate.png"
 			},
 			"undead" : {
 				"type" : "UNDEAD"
@@ -54,7 +55,8 @@
 			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
-				"val" : 40
+				"val" : 40,
+				"icon" : "iconsBig/sticky.png"
 			}
 		}
 	}

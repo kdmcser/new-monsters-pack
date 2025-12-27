@@ -54,7 +54,8 @@
 			},
 			"canFly" : {
 				"type" : "FLYING",
-				"subtype" : "movementFlying"
+				"subtype" : "movementFlying",
+				"icon" : "bonuses/e_fly2.png"
 			},
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
@@ -285,7 +286,8 @@
 					"addInfo" : [
 						3,
 						0
-					]
+					],
+					"icon" : "bonuses/clone3.png"
 				},
 				"values" : [
 					5,

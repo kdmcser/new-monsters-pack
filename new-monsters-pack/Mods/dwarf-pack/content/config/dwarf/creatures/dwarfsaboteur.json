@@ -84,7 +84,8 @@
 			},
 			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "fireball"
+				"subtype" : "fireball",
+				"icon" : "dwarf/iconsBig/fireballattack.png"
 			}
 		}
 	}

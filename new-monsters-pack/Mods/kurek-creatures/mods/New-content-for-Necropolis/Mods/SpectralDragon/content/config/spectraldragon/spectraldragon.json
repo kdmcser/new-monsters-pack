@@ -23,7 +23,8 @@
 			},
 
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly2.png"
 			},
 
 			"decreaseMorale" : {

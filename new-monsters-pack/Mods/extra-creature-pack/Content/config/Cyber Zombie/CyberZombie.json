@@ -46,12 +46,14 @@
 		"speed" : 5,
 		"abilities" : {
 			"nonliving" : {
-				"type" : "NON_LIVING"
+				"type" : "NON_LIVING",
+				"icon" : "iconsBig/cyberabo2.png"
 			},
 			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "blind",
-				"val" : 20
+				"val" : 20,
+				"icon" : "iconsBig/blindattack.png"
 			},
 			"deathCloundImmunity" : {
 				"type" : "SPELL_IMMUNITY",

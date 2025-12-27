@@ -50,7 +50,8 @@
 				"type" : "DRAGON_NATURE"
 			},
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly_levitate.png"
 			},
 			"waterImmunity" : {
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
@@ -59,6 +60,16 @@
 			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 40
+			},
+			"skeletons" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon",
+				"icon" : "iconsBig/turnintobonedragon.png"
+			},
+			"twoHexAttackBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "iconsBig/e_breath_silver.png"
 			}
 		}
 	}

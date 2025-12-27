@@ -50,7 +50,8 @@
 		"speed" : 9,
 		"abilities" : {
 			"nonliving" : {
-				"type" : "NON_LIVING"
+				"type" : "MECHANICAL",
+				"icon" : "iconsBig/cyberabo2.png"
 			},
 			"nomorale" : {
 				"type" : "NO_MORALE"

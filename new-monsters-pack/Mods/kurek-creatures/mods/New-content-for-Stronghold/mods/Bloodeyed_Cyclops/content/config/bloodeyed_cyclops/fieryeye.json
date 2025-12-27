@@ -25,7 +25,7 @@
 				"description" : "Base level of Fiery Eye ability.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -35,7 +35,7 @@
 				"description" : "No special skills at this level.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -45,7 +45,7 @@
 				"description" : "Basic level of Fiery Eye ability.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -55,7 +55,7 @@
 				"description" : "Advanced level of Fiery Eye ability.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -65,7 +65,7 @@
 				"description" : "Expert level of Fiery Eye ability.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true

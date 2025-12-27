@@ -37,12 +37,14 @@
 		"doubleWide" : false,
 		"abilities" : {
 			"mix" : {
-				"type" : "NONEVIL_ALIGNMENT_MIX"
+				"type" : "NONEVIL_ALIGNMENT_MIX",
+				"icon" : "bonuses/shaman_nonevil.png"
 			},
 			"airShield" : {
 				"type" : "ENCHANTED",
 				"subtype" : "antiMagic",
-				"val" : 2
+				"val" : 2,
+				"icon" : "bonuses/enchantedantimagic.png"
 			}
 		},
 		"stackExperience" : [

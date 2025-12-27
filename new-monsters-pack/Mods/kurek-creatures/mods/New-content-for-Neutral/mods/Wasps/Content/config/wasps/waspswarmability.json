@@ -31,7 +31,7 @@
 			"allOf" : {},
 			"anyOf" : {},
 			"noneOf" : {
-				//				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal",
+				//				"core:bonus.DIRECT_DAMAGE_IMMUNITY" : "normal",
 				"core:bonus.NON_LIVING" : "normal",
 				"core:bonus.UNDEAD" : "normal"
 			}
@@ -57,7 +57,7 @@
 
 		"levels" : {
 			"base" : {
-				//				"aiValue": 5,
+				//				"aiValue" : 5,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true

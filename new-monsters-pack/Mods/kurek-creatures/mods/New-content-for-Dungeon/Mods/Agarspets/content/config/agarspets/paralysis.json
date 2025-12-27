@@ -35,7 +35,7 @@
 				"description" : "{Paralysis}\nParalyzes the target, reducing its attack power and preventing movement.",
 				"cost" : 18,
 				"power" : 15,
-				//        "aiValue": 15,
+				//        "aiValue" : 15,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true

@@ -245,8 +245,8 @@
 			{
 				"bonus" : {
 					"subtype" : "walkingDead",
-
-					"type" : "HATE"
+					"type" : "HATE",
+					"icon" : "squires/bonuses/hate_manatarmsxwalkingdead.png"
 				},
 
 				"values" : [
@@ -275,8 +275,8 @@
 			{
 				"bonus" : {
 					"subtype" : "zombie",
-
-					"type" : "HATE"
+					"type" : "HATE",
+					"icon" : "squires/bonuses/hate_manatarmsxzombie.png"
 				},
 
 				"values" : [

@@ -1,9 +1,9 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			//"cr_wendigo_dwelling": {
+			//"cr_wendigo_dwelling" : {
 			//	"name" : "Cavern of Sorrow",
-			//	"creatures": [["cr_wendigo"]],
+			//	"creatures" : [["cr_wendigo"]],
 			//	"sounds" : {
 			//		"ambient" : ["LOOPSWOR"],
 			//		"visit" : ["MILITARY"]

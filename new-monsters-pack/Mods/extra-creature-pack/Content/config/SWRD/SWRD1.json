@@ -45,7 +45,8 @@
 		"speed" : 7,
 		"abilities" : {
 			"flying" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly_levitate.png"
 			},
 			"nonliving" : {
 				"type" : "NON_LIVING"

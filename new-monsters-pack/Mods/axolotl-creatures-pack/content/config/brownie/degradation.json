@@ -32,7 +32,7 @@
 				"description" : "Makes machines and objects animated by magic brittle and more prone to breaking.",
 				"cost" : 0,
 				"power" : 1,
-				//				"aiValue": 0,
+				//				"aiValue" : 0,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true

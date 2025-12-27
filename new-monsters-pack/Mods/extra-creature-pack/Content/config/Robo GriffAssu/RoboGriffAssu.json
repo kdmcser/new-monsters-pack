@@ -64,7 +64,8 @@
 				"val" : 0
 			},
 			"nonliving" : {
-				"type" : "NON_LIVING"
+				"type" : "NON_LIVING",
+				"icon" : "iconsBig/cyberabo2.png"
 			},
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"

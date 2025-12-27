@@ -52,17 +52,20 @@
 			},
 			"teleport" : {
 				"type" : "FLYING",
-				"subtype" : "movementTeleporting"
+				"subtype" : "movementTeleporting",
+				"icon" : "bonuses/e_teleport.png"
 			},
 			"castCurse" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "curse",
-				"val" : 50
+				"val" : 50,
+				"icon" : "bonuses/curseattack.png"
 			},
 			"berserkEnchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "berserk",
-				"val" : 3
+				"val" : 3,
+				"icon" : "bonuses/enchantedberserk.png"
 			}
 		},
 		"stackExperience" : [

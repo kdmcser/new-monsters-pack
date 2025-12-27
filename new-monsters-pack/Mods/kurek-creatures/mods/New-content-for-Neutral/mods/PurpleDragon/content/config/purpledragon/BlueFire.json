@@ -40,7 +40,7 @@
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-				//                "aiValue": 70,
+				//                "aiValue" : 70,
 				"description" : "Deals 100 fire damage over 2 turns.",
 				"targetModifier" : {
 					"smart" : true
@@ -50,7 +50,7 @@
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-				//               "aiValue": 70,
+				//               "aiValue" : 70,
 				"description" : "Deals 100 fire damage over 2 turns.",
 				"battleEffects" : {
 					"curse" : {
@@ -72,7 +72,7 @@
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-				//                "aiValue": 70,
+				//                "aiValue" : 70,
 				"description" : "Deals 100 fire damage over 2 turns.",
 				"battleEffects" : {
 					"curse" : {
@@ -94,7 +94,7 @@
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-				//               "aiValue": 70,
+				//               "aiValue" : 70,
 				"description" : "Deals 100 fire damage over 2 turns.",
 				"battleEffects" : {
 					"curse" : {
@@ -116,7 +116,7 @@
 				"cost" : 0,
 				"range" : "0",
 				"power" : 10,
-				//               "aiValue": 70,
+				//               "aiValue" : 70,
 				"description" : "Deals 100 fire damage over 2 turns.",
 				"battleEffects" : {
 					"curse" : {

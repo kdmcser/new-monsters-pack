@@ -32,7 +32,7 @@
 				"description" : "Base level of Red Paralysis ability.",
 				"cost" : 0,
 				"power" : 1,
-				//			"aiValue": 70,
+				//			"aiValue" : 70,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -61,7 +61,7 @@
 				"description" : "No special skills at this level.",
 				"cost" : 0,
 				"power" : 0,
-				//			"aiValue": 0,
+				//			"aiValue" : 0,
 				"range" : "0", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -71,7 +71,7 @@
 				"description" : "Basic level of Red Paralysis ability.",
 				"cost" : 0,
 				"power" : 5,
-				//			"aiValue": 10,
+				//			"aiValue" : 10,
 				"range" : "1", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -81,7 +81,7 @@
 				"description" : "Advanced level of Red Paralysis ability.",
 				"cost" : 0,
 				"power" : 10,
-				//			"aiValue": 20,
+				//			"aiValue" : 20,
 				"range" : "2", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true
@@ -91,7 +91,7 @@
 				"description" : "Expert level of Red Paralysis ability.",
 				"cost" : 0,
 				"power" : 15,
-				//			"aiValue": 30,
+				//			"aiValue" : 30,
 				"range" : "3", // Adjusted to a string
 				"targetModifier" : {
 					"smart" : true

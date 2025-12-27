@@ -46,13 +46,15 @@
 		"speed" : 11,
 		"abilities" : {
 			"non-living" : {
-				"type" : "NON_LIVING"
+				"type" : "NON_LIVING",
+				"icon" : "Dark Elemental/iconsBig/NonLivingelemental.png"
 			},
 			"mindImmunity" : {
 				"type" : "MIND_IMMUNITY"
 			},
 			"flying" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "Dark Elemental/iconsBig/e_fly3.png"
 			},
 			"fear" : {
 				"type" : "FEARFUL",
@@ -66,7 +68,8 @@
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
-				]
+				],
+				"icon" : "Dark Elemental/iconsBig/fear0.png"
 			},
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"

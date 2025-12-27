@@ -47,14 +47,22 @@
 		"speed" : 9,
 		"abilities" : {
 			"dragon" : {
-				"type" : "DRAGON_NATURE"
+				"type" : "DRAGON_NATURE",
+				"icon" : "iconsBig/hydra_swampgorynych.png"
 			},
 			"attackAll" : {
-				"type" : "ATTACKS_ALL_ADJACENT"
+				"type" : "ATTACKS_ALL_ADJACENT",
+				"icon" : "iconsBig/e_dragon-like7.png"
 			},
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly2.png"
 			},
+			"skeletons" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon",
+				"icon" : "iconsBig/turnintobonedragon.png"
+			},			
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			}

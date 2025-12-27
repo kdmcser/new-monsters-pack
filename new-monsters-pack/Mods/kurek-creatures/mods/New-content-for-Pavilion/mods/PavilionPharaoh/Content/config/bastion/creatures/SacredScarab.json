@@ -46,7 +46,8 @@
 		"speed" : 8,
 		"abilities" : {
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "bastion/iconsBig/e_fly7.png"
 			},
 			"increaseLuck" : {
 				"type" : "LUCK",

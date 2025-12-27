@@ -38,17 +38,20 @@
 			"hatePixie" : {
 				"type" : "HATE",
 				"subtype" : "pixie",
-				"val" : 50
+				"val" : 50,
+				"icon" : "bonuses/hatekoboldxpixie.png"
 			},
 			"hateSprite" : {
 				"type" : "HATE",
 				"subtype" : "sprite",
-				"val" : 50
+				"val" : 50,
+				"icon" : "bonuses/hatekoboldxsprite.png"
 			},
 			"hateGnome" : {
 				"type" : "HATE",
 				"subtype" : "cr_gnome",
-				"val" : 50
+				"val" : 50,
+				"icon" : "bonuses/hatekoboldxgnome.png"
 			},
 			"return" : {
 				"type" : "RETURN_AFTER_STRIKE"
@@ -64,7 +67,8 @@
 			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "landMine",
-				"val" : 1
+				"val" : 1,
+				"icon" : "bonuses/landmine0.png"
 			}
 		},
 		"stackExperience" : [

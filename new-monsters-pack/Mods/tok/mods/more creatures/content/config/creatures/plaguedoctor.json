@@ -47,12 +47,14 @@
 			"cure" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
-				"val" : 3
+				"val" : 3,
+				"icon" : "bonuses/cure3.png"
 			},
 			"plague" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "deathRipple",
-				"val" : 3
+				"val" : 3,
+				"icon" : "bonuses/deathRipple0.png"
 			},
 			"immunity" : {
 				"subtype" : "deathRipple",

@@ -40,7 +40,11 @@
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
-			}
+			},
+			"blow" : {
+				"type" : "DISINTEGRATE",
+				"icon" : "doom/iconsbig/lostSoulDetonation.png"
+			}			
 		},
 
 		"stackExperience" : [

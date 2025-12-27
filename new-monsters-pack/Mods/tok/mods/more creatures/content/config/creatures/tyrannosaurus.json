@@ -56,7 +56,8 @@
 				"val" : 0
 			},
 			"defensive" : {
-				"type" : "BATTLE_NO_FLEEING"
+				"type" : "BATTLE_NO_FLEEING",
+				"icon" : "bonuses/battleNoFleeingTyrannosaurus.png"
 			},
 			"KING3" : {
 				"type" : "KING",

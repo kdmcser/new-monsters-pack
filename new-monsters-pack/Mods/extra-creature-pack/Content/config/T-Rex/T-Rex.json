@@ -44,7 +44,8 @@
 		"abilities" : {
 			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 30
+				"val" : 30,
+				"icon" : "iconsBig/e_rdef_trex.png"
 			},
 			"fearless" : {
 				"type" : "FEARFUL",

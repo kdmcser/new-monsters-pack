@@ -41,7 +41,8 @@
 			"paralize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "paralyze",
-				"val" : 20
+				"val" : 20,
+				"icon" : "iconsBig/paralysisattack.png"
 			}
 		},
 		"sound" : {

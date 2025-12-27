@@ -5,7 +5,8 @@
 				"type" : "SHOOTER"
 			},
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "creatures/big/e_fly9.png"
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
@@ -13,7 +14,8 @@
 			"spellAfterAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "magicCarpet",
-				"val" : 1
+				"val" : 1,
+				"icon" : "creatures/big/magiccarpetattack.png"
 			}
 		},
 		"stackExperience" : [

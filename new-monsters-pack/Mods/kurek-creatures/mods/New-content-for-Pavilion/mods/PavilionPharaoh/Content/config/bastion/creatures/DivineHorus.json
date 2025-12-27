@@ -68,7 +68,7 @@
 				"type" : "RANDOM_SPELLCASTER",
 				"val" : 1,
 				"icon" : "bastion/iconsBig/bonusrandomboosthorus.png"
-				//"spells": ["Haste", "Slow", "bless"]
+				//"spells" : ["Haste", "Slow", "bless"]
 			},
 			"ADDITIONALATTACK" : {
 				"type" : "ADDITIONAL_ATTACK"

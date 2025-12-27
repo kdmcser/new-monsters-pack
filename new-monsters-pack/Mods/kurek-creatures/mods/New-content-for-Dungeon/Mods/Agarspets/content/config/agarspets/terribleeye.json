@@ -210,7 +210,8 @@
 		"shots" : 99,
 		"abilities" : {
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsbig/e_fly_levitate.png"
 			},
 			"freeShooting" : {
 				"type" : "FREE_SHOOTING"

@@ -51,6 +51,10 @@
 			"flying" : {
 				"type" : "FLYING"
 			},
+			"nonliving" : {
+				"type" : "NON_LIVING",
+				"icon" : "iconsBig/cyberabo2.png"
+			},			
 			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "slow"

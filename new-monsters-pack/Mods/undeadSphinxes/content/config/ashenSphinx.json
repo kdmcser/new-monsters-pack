@@ -46,7 +46,8 @@
 		"speed" : 9,
 		"abilities" : {
 			"canFly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "bonuses/e_fly2.png"
 			},
 			"isUndead" : {
 				"type" : "UNDEAD"
@@ -55,7 +56,8 @@
 				"type" : "TRANSMUTATION",
 				"addInfo" : "creature.madMummy",
 				"subtype" : "transmutationPerUnit",
-				"val" : 20
+				"val" : 20,
+				"icon" : "bonuses/e_sgtype_madmummy.png"
 			}
 		},
 		"stackExperience" : [
@@ -168,7 +170,8 @@
 			},
 			{
 				"bonus" : {
-					"type" : "TWO_HEX_ATTACK_BREATH"
+					"type" : "TWO_HEX_ATTACK_BREATH",
+					"icon" : "bonuses/e_breath_undeadsphinx2.png"
 				},
 				"values" : [
 					false,

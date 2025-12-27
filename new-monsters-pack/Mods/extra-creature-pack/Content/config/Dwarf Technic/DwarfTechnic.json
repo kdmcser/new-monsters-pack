@@ -50,7 +50,8 @@
 				"val" : 30
 			},
 			"flamethrower" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "iconsBig/e_breath_dwarftechnic.png"
 			},
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"

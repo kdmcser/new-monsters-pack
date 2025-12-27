@@ -404,8 +404,8 @@
 					],
 
 					"subtype" : "earthquake",
-
-					"type" : "SPELL_BEFORE_ATTACK"
+					"type" : "SPELL_BEFORE_ATTACK",
+					"icon" : "spell/earthquake3.png"
 				},
 
 				"values" : [

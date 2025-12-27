@@ -58,7 +58,8 @@
 			},
 			"defenseReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 10
+				"val" : 10,
+				"icon" : "bonuses/e_rdef_wendigoshaman.png"
 			}
 		},
 		"stackExperience" : [

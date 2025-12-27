@@ -35,7 +35,7 @@
 		"level" : 2,
 		"levels" : {
 			"advanced" : {
-				//			"aiValue": 50,
+				//			"aiValue" : 50,
 				"cost" : 8,
 				"description" : "{Advanced Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
 				"effects" : {
@@ -64,7 +64,7 @@
 				}
 			},
 			"basic" : {
-				//			"aiValue": 50,
+				//			"aiValue" : 50,
 				"cost" : 10,
 				"description" : "{Basic Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
 				"effects" : {
@@ -93,7 +93,7 @@
 				}
 			},
 			"expert" : {
-				//			"aiValue": 50,
+				//			"aiValue" : 50,
 				"cost" : 6,
 				"description" : "{Expert Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
 				"effects" : {
@@ -122,7 +122,7 @@
 				}
 			},
 			"none" : {
-				//			"aiValue": 50,
+				//			"aiValue" : 50,
 				"cost" : 12,
 				"description" : "{Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
 				"effects" : {

@@ -137,8 +137,7 @@
 	]
 
 	// Allow overriding individual frames in file
-	//    "images" :
-	//    [
+	//    "images" : 	//    [
 	//        {
 	//            // Group of this image. Optional, default = 0
 	//            "group" : 0,

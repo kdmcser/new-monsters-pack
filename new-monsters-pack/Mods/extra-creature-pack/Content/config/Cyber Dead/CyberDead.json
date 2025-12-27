@@ -49,7 +49,8 @@
 		"speed" : 4,
 		"abilities" : {
 			"nonliving" : {
-				"type" : "NON_LIVING"
+				"type" : "NON_LIVING",
+				"icon" : "iconsBig/cyberabo2.png"
 			},
 			"deathCloundImmunity" : {
 				"type" : "SPELL_IMMUNITY",

@@ -36,7 +36,8 @@
 		"doubleWide" : true,
 		"abilities" : {
 			"threeHeads" : {
-				"type" : "THREE_HEADED_ATTACK"
+				"type" : "THREE_HEADED_ATTACK",
+				"icon" : "bonuses/cerberus_chimera.png"
 			}
 		},
 		"hasDoubleWeek" : false,

@@ -63,8 +63,7 @@
 				"description" : "{Sundering Blow}\n 27% chance for Stun."
 				//"range" : "ONLY_MELEE_FIGHT"
 			}
-			//"Crushing Blow2" :
-			//{
+			//"Crushing Blow2" : //{
 			//	"type" : "SPELLCASTER",
 			//	"subtype" : "crushingblow",
 			//	"val" : 1

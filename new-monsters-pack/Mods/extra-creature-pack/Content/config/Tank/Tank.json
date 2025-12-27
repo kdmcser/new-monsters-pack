@@ -53,7 +53,9 @@
 			"castWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "weakness",
-				"val" : 60
+				"val" : 60,
+				"addInfo" : [1, 2],
+				"icon" : "iconsBig/weaknessattack.png"
 			}
 		}
 	}

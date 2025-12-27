@@ -76,7 +76,8 @@
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
-				"val" : 1
+				"val" : 1,
+				"icon" : "neutral/flugel/thunderbird.png"
 			}
 		},
 

@@ -58,7 +58,8 @@
 			},
 			"canFly" : {
 				"type" : "FLYING",
-				"subtype" : "movementFlying"
+				"subtype" : "movementFlying",
+				"icon" : "iconsBig/e_fly2.png"
 			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",

@@ -59,7 +59,7 @@
 		},
 		"levels" : {
 			"base" : {
-				//			"aiValue": 80,
+				//			"aiValue" : 80,
 				"cost" : 20,
 				"description" : "{Berserk}\n\nThe targeted unit will randomly attack the nearest unit, be it friend or foe.\nAdditionally, heals the targeted unit slightly.\n",
 				"battleEffects" : {

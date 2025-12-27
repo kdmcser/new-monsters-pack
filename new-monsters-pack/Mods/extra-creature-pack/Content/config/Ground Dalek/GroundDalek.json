@@ -73,14 +73,16 @@
 				"type" : "SHOOTER"
 			},
 			"nonliving" : {
-				"type" : "NON_LIVING"
+				"type" : "MECHANICAL"
 			},
 			"fly" : {
-				"type" : "FLYING"
+				"type" : "FLYING",
+				"icon" : "iconsBig/e_fly6.png"
 			},
 			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
-				"val" : 100
+				"val" : 100,
+				"icon" : "iconsBig/drainlife_grounddalek.png"
 			}
 		}
 	}

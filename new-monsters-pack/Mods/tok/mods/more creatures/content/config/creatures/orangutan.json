@@ -39,7 +39,8 @@
 			"landKnowledge" : {
 				"type" : "ROUGH_TERRAIN_DISCOUNT",
 				"valueType" : "PERCENT_TO_ALL",
-				"val" : 25
+				"val" : 25,
+				"icon" : "bonuses/pathfinding1.png"
 			},
 			"strongMind" : {
 				"type" : "MIND_IMMUNITY"

@@ -58,7 +58,8 @@
 			"castsforgetfulness" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "forgetfulness",
-				"val" : 2
+				"val" : 2,
+				"icon" : "Dark Elemental/iconsBig/forgetfulness2.png"
 			},
 			"castsCount" : {
 				"type" : "CASTS",
@@ -72,7 +73,8 @@
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "sorrow",
 				"val" : 50,
-				"addInfo" : 2
+				"addInfo" : [2, 0],
+				"icon" : "Dark Elemental/iconsBig/sorrowattack.png"
 			}
 		}
 	}
