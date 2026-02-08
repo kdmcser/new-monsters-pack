@@ -625,7 +625,7 @@
 	"skill.new-monsters-pack.tok.more secondary.endurance.name" : "耐力",
 	"skill.new-monsters-pack.tok.more secondary.fame.description.advanced" : "{中级声望术}\n\n英雄驻守的城镇1级生物产量+4，2级生物产量+2，3级生物产量+1。",
 	"skill.new-monsters-pack.tok.more secondary.fame.description.basic" : "{初级声望术}\n\n英雄驻守的城镇1级生物产量+2，2级生物产量+1。",
-	"skill.new-monsters-pack.tok.more secondary.fame.description.expert" : "{高级级声望术}\n\n英雄驻守的城镇所有生物产量增加25%。",
+	"skill.new-monsters-pack.tok.more secondary.fame.description.expert" : "{高级声望术}\n\n英雄驻守的城镇所有生物产量增加25%。",
 	"skill.new-monsters-pack.tok.more secondary.fame.name" : "声望术",
 	"skill.new-monsters-pack.tok.more secondary.warding.description.advanced" : "{中级守护术}\n\n所有生物获得魔法神镜魔法，反射概率为50%。",
 	"skill.new-monsters-pack.tok.more secondary.warding.description.basic" : "{初级守护术}\n\n所有生物获得魔法神镜魔法，反射概率为25%。",
